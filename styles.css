@@ -256,10 +256,12 @@ body {
 }
 
 .brand-name {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.05rem;
-  letter-spacing: 0.06em;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 1.18rem;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  text-transform: none;
 }
 
 .brand-sub {
@@ -778,10 +780,11 @@ body {
 }
 
 .footer-brand-title {
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
   font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  text-transform: none;
 }
 
 .footer-brand-desc {
