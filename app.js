@@ -1,29 +1,40 @@
 /**
  * CrimaDezignz® | Haute-Couture Avant-Garde Trademark Atelier
- * Clean Hero 3D Crucible & Darkroom Exhibition Engine
- * - 3D Gyroscope Physics & Dynamic Specular Matrix
+ * Core 3D Gallery Engine:
+ * - 10 Switchable 3D Visual Gallery Modes
+ * - 3D Gyroscope Emblem Crucible (Hero Centerpiece)
  * - Custom Magnetic Cursor with Inertia Damping
- * - Dynamic Darkroom Spotlight Exhibition (Pure Visual Focus, No Categories)
+ * - Monolithic Brutalist Architecture (Strict Zero Border Radius)
  * - Dual Language System (EN default / RO)
  * - Obsidian / Alabaster Dual Theme
  */
 
 // =============================================================================
-// 1. Dual Language Dictionary (EN default, RO toggle)
+// 1. 3D Presentation Gallery Modes Definition
+// =============================================================================
+const GALLERY_3D_MODES = [
+  { id: "tilt", name: "3D Spatial Tilt", sub: "Monolithic Parallax", badge: "3D SPATIAL TILT", num: "01" },
+  { id: "carousel", name: "3D Cylinder Ring", sub: "Orbital Revolver", badge: "3D CYLINDER RING", num: "02" },
+  { id: "coverflow", name: "3D Coverflow", sub: "Infinite Deep Stack", badge: "3D COVERFLOW", num: "03" },
+  { id: "spiral", name: "3D Helix Spiral", sub: "Ascending Column", badge: "3D HELIX SPIRAL", num: "04" },
+  { id: "stack", name: "3D Quantum Deck", sub: "Physics Stack Swipe", badge: "3D QUANTUM DECK", num: "05" },
+  { id: "matrix", name: "3D Hypercube Matrix", sub: "Z-Plane Constellation", badge: "3D HYPERCUBE MATRIX", num: "06" },
+  { id: "tunnel", name: "3D Void Tunnel", sub: "Endless Warp Corridor", badge: "3D VOID TUNNEL", num: "07" },
+  { id: "spherical", name: "3D Sphere Galaxy", sub: "Geodesic Orbital Dome", badge: "3D SPHERE GALAXY", num: "08" },
+  { id: "kinetic", name: "3D Kinetic Wall", sub: "Velocity Parallax Planes", badge: "3D KINETIC WALL", num: "09" },
+  { id: "hologram", name: "3D Hologram Deck", sub: "Chromatic RGB Refraction", badge: "3D HOLOGRAM DECK", num: "10" }
+];
+
+// =============================================================================
+// 2. Dual Language Dictionary (EN default, RO toggle)
 // =============================================================================
 const TRANSLATIONS = {
   en: {
     nav: {
-      sub: "TRADEMARK ATELIER",
-      crucible: "3D Crucible",
       exhibition: "Exhibition",
       profile: "99designs Profile ↗"
     },
     works: {
-      tag: "CURATED EXHIBITION",
-      title: "Visual Works Exhibition",
-      desc: "Hover any work to trigger darkroom spotlight focus and optical coordinate analysis.",
-      search_placeholder: "Search exhibition (e.g. warrior, lion, hawk, racing)...",
       load_more: "LOAD MORE WORKS",
       no_results: "No marks match your search criteria."
     },
@@ -35,16 +46,10 @@ const TRANSLATIONS = {
   },
   ro: {
     nav: {
-      sub: "ATELIER DE MĂRCI",
-      crucible: "Creuzet 3D",
       exhibition: "Expoziție",
       profile: "Profil 99designs ↗"
     },
     works: {
-      tag: "EXPOZIȚIE CURATĂ",
-      title: "Expoziția Lucrărilor Vizuale",
-      desc: "Treci cursorul peste orice lucrare pentru a activa focalizarea darkroom și analiza coordonatelor optice.",
-      search_placeholder: "Caută în expoziție (ex: warrior, lion, hawk, racing)...",
       load_more: "ÎNCARCĂ MAI MULTE LUCRĂRI",
       no_results: "Nicio lucrare nu corespunde căutării."
     },
@@ -57,20 +62,24 @@ const TRANSLATIONS = {
 };
 
 // =============================================================================
-// 2. Application Core Class
+// 3. Application Core Class
 // =============================================================================
 class AvantGardeAtelierApp {
   constructor() {
     this.currentLang = localStorage.getItem("crimadezignz_lang") || "en";
     this.currentTheme = localStorage.getItem("crimadezignz_theme") || "dark";
+    this.current3DMode = localStorage.getItem("crimadezignz_3d_mode") || "tilt";
     this.isAudioEnabled = false;
     this.portfolioItems = window.CRIMA_PORTFOLIO || [];
     
     // Exhibition State
-    this.searchQuery = "";
     this.itemsPerPage = 24;
     this.displayedCount = 0;
-    this.filteredItems = [];
+    this.filteredItems = this.portfolioItems;
+
+    // 3D Navigation Index for spatial presentation modes
+    this.active3DIndex = 0;
+    this.carouselAngle = 0;
 
     // Synthesized Audio Context
     this.audioCtx = null;
@@ -85,6 +94,7 @@ class AvantGardeAtelierApp {
     this.setupAmbientCanvas();
     this.setup3DCrucible();
     this.setupExhibition();
+    this.setup3DGalleryEngine();
     this.setupModal();
     this.setupAudio();
   }
@@ -155,22 +165,6 @@ class AvantGardeAtelierApp {
         el.textContent = val;
       }
     });
-
-    document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
-      const keyPath = el.getAttribute("data-i18n-placeholder").split(".");
-      let val = langData;
-      for (const k of keyPath) {
-        if (val && val[k] !== undefined) {
-          val = val[k];
-        } else {
-          val = null;
-          break;
-        }
-      }
-      if (val !== null) {
-        el.setAttribute("placeholder", val);
-      }
-    });
   }
 
   // ===========================================================================
@@ -238,11 +232,10 @@ class AvantGardeAtelierApp {
       const normX = (e.clientX - cardCenterX) / (rect.width / 2);
       const normY = (e.clientY - cardCenterY) / (rect.height / 2);
 
-      // Max tilt angles: ±22 deg
-      targetX = -normY * 22;
-      targetY = normX * 22;
+      // Max tilt angles: ±20 deg
+      targetX = -normY * 20;
+      targetY = normX * 20;
 
-      // Specular highlight coordinate percentage
       const lightX = ((e.clientX - rect.left) / rect.width) * 100;
       const lightY = ((e.clientY - rect.top) / rect.height) * 100;
       card.style.setProperty("--light-x", `${lightX}%`);
@@ -254,7 +247,6 @@ class AvantGardeAtelierApp {
       targetY = 0;
     });
 
-    // Smooth inertia render loop
     const animateCrucible = () => {
       currentX += (targetX - currentX) * 0.12;
       currentY += (targetY - currentY) * 0.12;
@@ -280,7 +272,7 @@ class AvantGardeAtelierApp {
 
     let width, height;
     let particles = [];
-    const particleCount = 26;
+    const particleCount = 24;
     let mouse = { x: -1000, y: -1000 };
 
     const resize = () => {
@@ -365,21 +357,189 @@ class AvantGardeAtelierApp {
   }
 
   // ===========================================================================
-  // The Darkroom Exhibition (Pure Visual Focus, No Categories)
+  // 10 3D Presentation Galleries Engine
   // ===========================================================================
-  setupExhibition() {
-    this.filterExhibition();
+  setup3DGalleryEngine() {
+    const wrap = document.querySelector(".gallery-3d-dropdown-wrap");
+    const dropdownBtn = document.getElementById("gallery3DDropdownBtn");
+    const prevBtn = document.getElementById("galleryPrevBtn");
+    const nextBtn = document.getElementById("galleryNextBtn");
 
-    // Search input
-    const searchInput = document.getElementById("archiveSearchInput");
-    if (searchInput) {
-      searchInput.addEventListener("input", (e) => {
-        this.searchQuery = e.target.value.toLowerCase().trim();
-        this.filterExhibition();
+    // Toggle 3D Mode Dropdown
+    if (dropdownBtn && wrap) {
+      dropdownBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        wrap.classList.toggle("open");
+        this.playMicroTone(540, 0.03);
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!wrap.contains(e.target)) {
+          wrap.classList.remove("open");
+        }
       });
     }
 
-    // Load More Button
+    // Dropdown Items Click
+    document.querySelectorAll(".gallery-3d-item").forEach(item => {
+      item.addEventListener("click", () => {
+        const mode = item.getAttribute("data-mode");
+        this.switch3DMode(mode);
+        wrap.classList.remove("open");
+        this.playMicroTone(740, 0.04);
+      });
+    });
+
+    // Toolbar Prev / Next Navigation
+    if (prevBtn) {
+      prevBtn.addEventListener("click", () => this.navigate3D(-1));
+    }
+    if (nextBtn) {
+      nextBtn.addEventListener("click", () => this.navigate3D(1));
+    }
+
+    // Apply stored mode
+    this.switch3DMode(this.current3DMode, false);
+  }
+
+  switch3DMode(modeId, animate = true) {
+    const modeConfig = GALLERY_3D_MODES.find(m => m.id === modeId) || GALLERY_3D_MODES[0];
+    this.current3DMode = modeConfig.id;
+    localStorage.setItem("crimadezignz_3d_mode", this.current3DMode);
+
+    // Update Header 3D Button Label
+    const modeLabel = document.getElementById("current3DModeLabel");
+    if (modeLabel) modeLabel.textContent = modeConfig.name;
+
+    // Update Dropdown Active States
+    document.querySelectorAll(".gallery-3d-item").forEach(el => {
+      el.classList.toggle("active", el.getAttribute("data-mode") === this.current3DMode);
+    });
+
+    // Update Toolbar Badges
+    const badge = document.getElementById("toolbarModeBadge");
+    const counter = document.getElementById("toolbarCounter");
+    if (badge) badge.textContent = modeConfig.badge;
+    if (counter) counter.textContent = `MODE ${modeConfig.num} / 10`;
+
+    // Update Exhibition Grid Classes
+    const grid = document.getElementById("portfolioGrid");
+    if (grid) {
+      grid.className = `exhibition-grid mode-${this.current3DMode}`;
+      this.active3DIndex = 0;
+      this.carouselAngle = 0;
+      this.apply3DModeTransforms();
+    }
+  }
+
+  navigate3D(direction) {
+    const cards = document.querySelectorAll(".exhibition-item");
+    if (cards.length === 0) return;
+
+    this.active3DIndex = (this.active3DIndex + direction + cards.length) % cards.length;
+    this.carouselAngle += direction * (360 / Math.min(cards.length, 12));
+    this.apply3DModeTransforms();
+    this.playMicroTone(440 + this.active3DIndex * 15, 0.03);
+  }
+
+  apply3DModeTransforms() {
+    const grid = document.getElementById("portfolioGrid");
+    const cards = Array.from(document.querySelectorAll(".exhibition-item"));
+    if (!grid || cards.length === 0) return;
+
+    const total = cards.length;
+    const mode = this.current3DMode;
+
+    cards.forEach((card, i) => {
+      // Reset generic styles
+      card.style.transform = "";
+      card.style.opacity = "";
+      card.style.zIndex = "";
+
+      if (mode === "carousel") {
+        const ringCount = Math.min(total, 12);
+        if (i < ringCount) {
+          const angle = (i * (360 / ringCount)) - this.carouselAngle;
+          const rad = (angle * Math.PI) / 180;
+          const zDepth = 520;
+          card.style.transform = `rotateY(${angle}deg) translateZ(${zDepth}px)`;
+          card.style.opacity = Math.cos(rad) > -0.2 ? "1" : "0.2";
+          card.style.zIndex = Math.round((Math.cos(rad) + 1) * 50);
+        } else {
+          card.style.display = "none";
+        }
+      } else if (mode === "coverflow") {
+        const diff = i - this.active3DIndex;
+        if (Math.abs(diff) > 4) {
+          card.style.opacity = "0";
+          card.style.pointerEvents = "none";
+        } else if (diff === 0) {
+          card.style.transform = `scale(1.12) translateZ(80px)`;
+          card.style.zIndex = "100";
+          card.style.opacity = "1";
+        } else if (diff < 0) {
+          card.style.transform = `translateX(${diff * 180 - 60}px) rotateY(48deg) translateZ(-80px)`;
+          card.style.zIndex = `${50 + diff}`;
+          card.style.opacity = `${Math.max(0.3, 1 + diff * 0.2)}`;
+        } else {
+          card.style.transform = `translateX(${diff * 180 + 60}px) rotateY(-48deg) translateZ(-80px)`;
+          card.style.zIndex = `${50 - diff}`;
+          card.style.opacity = `${Math.max(0.3, 1 - diff * 0.2)}`;
+        }
+      } else if (mode === "spiral") {
+        const rel = (i - this.active3DIndex);
+        const angle = rel * 32;
+        const yOffset = rel * 38;
+        card.style.transform = `translateY(${yOffset}px) rotateY(${angle}deg) translateZ(360px)`;
+        card.style.opacity = Math.abs(rel) <= 5 ? "1" : "0.15";
+        card.style.zIndex = `${100 - Math.abs(rel)}`;
+      } else if (mode === "stack") {
+        const diff = (i - this.active3DIndex + total) % total;
+        if (diff === 0) {
+          card.style.transform = `translateZ(60px) rotate(0deg) scale(1)`;
+          card.style.zIndex = "100";
+          card.style.opacity = "1";
+        } else if (diff <= 4) {
+          const rot = diff % 2 === 0 ? diff * 3 : -diff * 3;
+          card.style.transform = `translateY(${diff * 14}px) translateZ(${60 - diff * 20}px) rotate(${rot}deg) scale(${1 - diff * 0.04})`;
+          card.style.zIndex = `${100 - diff}`;
+          card.style.opacity = `${1 - diff * 0.15}`;
+        } else {
+          card.style.opacity = "0";
+          card.style.pointerEvents = "none";
+        }
+      } else if (mode === "tunnel") {
+        const diff = (i - this.active3DIndex + total) % total;
+        if (diff < 8) {
+          const zPos = -diff * 180;
+          const xSide = diff % 2 === 0 ? -120 : 120;
+          card.style.transform = `translateX(${xSide}px) translateZ(${zPos}px) rotateY(${xSide > 0 ? -25 : 25}deg)`;
+          card.style.opacity = `${1 - diff * 0.12}`;
+          card.style.zIndex = `${100 - diff}`;
+        } else {
+          card.style.opacity = "0";
+        }
+      } else if (mode === "spherical") {
+        const phi = Math.acos(-1 + (2 * i) / Math.min(total, 16));
+        const theta = Math.sqrt(Math.min(total, 16) * Math.PI) * phi + this.carouselAngle * 0.02;
+        const xRot = (phi * 180) / Math.PI - 90;
+        const yRot = (theta * 180) / Math.PI;
+        if (i < 16) {
+          card.style.transform = `rotateY(${yRot}deg) rotateX(${xRot}deg) translateZ(480px)`;
+          card.style.opacity = "0.9";
+        } else {
+          card.style.display = "none";
+        }
+      }
+    });
+  }
+
+  // ===========================================================================
+  // The Darkroom Exhibition (Pure Visual Focus)
+  // ===========================================================================
+  setupExhibition() {
+    this.renderExhibition(true);
+
     const loadMoreBtn = document.getElementById("loadMoreBtn");
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener("click", () => {
@@ -387,16 +547,31 @@ class AvantGardeAtelierApp {
         this.playMicroTone(420, 0.03);
       });
     }
-  }
 
-  filterExhibition() {
-    this.filteredItems = this.portfolioItems.filter(item => {
-      if (!this.searchQuery) return true;
-      const text = (item.title + " " + (item.description || "")).toLowerCase();
-      return text.includes(this.searchQuery);
-    });
+    // Drag interaction for 3D modes
+    const grid = document.getElementById("portfolioGrid");
+    if (grid) {
+      let isDown = false;
+      let startX = 0;
 
-    this.renderExhibition(true);
+      grid.addEventListener("mousedown", (e) => {
+        isDown = true;
+        startX = e.clientX;
+      });
+
+      window.addEventListener("mouseup", () => {
+        isDown = false;
+      });
+
+      grid.addEventListener("mousemove", (e) => {
+        if (!isDown) return;
+        const delta = e.clientX - startX;
+        if (Math.abs(delta) > 50) {
+          this.navigate3D(delta > 0 ? -1 : 1);
+          startX = e.clientX;
+        }
+      });
+    }
   }
 
   renderExhibition(reset = false) {
@@ -407,17 +582,6 @@ class AvantGardeAtelierApp {
     if (reset) {
       grid.innerHTML = "";
       this.displayedCount = 0;
-    }
-
-    if (this.filteredItems.length === 0) {
-      const emptyMsg = (TRANSLATIONS[this.currentLang] || TRANSLATIONS.en).works.no_results;
-      grid.innerHTML = `
-        <div style="grid-column: 1/-1; text-align: center; padding: 80px 20px; color: var(--text-tertiary); font-family: var(--font-mono);">
-          ${emptyMsg}
-        </div>
-      `;
-      if (loadMoreBtn) loadMoreBtn.style.display = "none";
-      return;
     }
 
     this.renderNextBatch();
@@ -442,6 +606,7 @@ class AvantGardeAtelierApp {
       card.setAttribute("tabindex", "0");
       card.setAttribute("role", "button");
       card.setAttribute("aria-label", `Inspect Mark: ${item.title}`);
+      card.setAttribute("data-index", overallIndex);
 
       card.innerHTML = `
         <div class="exhibition-thumb-wrap">
@@ -472,6 +637,8 @@ class AvantGardeAtelierApp {
     if (this.refreshMagneticTargets) {
       this.refreshMagneticTargets();
     }
+
+    this.apply3DModeTransforms();
   }
 
   // ===========================================================================
@@ -520,7 +687,7 @@ class AvantGardeAtelierApp {
   }
 
   // ===========================================================================
-  // Optional Sonic Feedback Micro-Synthesizer
+  // Sonic Feedback Micro-Synthesizer
   // ===========================================================================
   setupAudio() {
     const btn = document.getElementById("audioToggleBtn");

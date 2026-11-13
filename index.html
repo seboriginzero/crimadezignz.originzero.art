@@ -24,7 +24,7 @@
   <!-- Interactive Ambient Fluid Canvas -->
   <canvas id="ambientCanvas" aria-hidden="true"></canvas>
 
-  <!-- Avant-Garde Floating Navigation Bar -->
+  <!-- Avant-Garde Floating Navigation Bar (Sharp Monolithic Architecture) -->
   <header class="site-nav" role="banner">
     <a href="#" class="nav-brand" aria-label="CrimaDezignz Atelier">
       <div class="nav-emblem-wrap">
@@ -44,6 +44,89 @@
     </nav>
 
     <div class="nav-actions">
+      <!-- Tactile 3D Gallery Dropdown Button -->
+      <div class="gallery-3d-dropdown-wrap">
+        <button class="btn-3d-mode magnetic-target" id="gallery3DDropdownBtn" aria-haspopup="true" aria-expanded="false" title="Select 3D Presentation Gallery">
+          <span class="btn-3d-cube-icon">❖</span>
+          <span id="current3DModeLabel">3D Tilt Grid</span>
+          <span class="dropdown-chevron">▾</span>
+        </button>
+        
+        <!-- 10 Top Latest 3D Gallery Modes -->
+        <div class="gallery-3d-menu" id="gallery3DMenu" role="menu">
+          <button class="gallery-3d-item active magnetic-target" data-mode="tilt" role="menuitem">
+            <span class="mode-number">01</span>
+            <div class="mode-info">
+              <strong>3D Spatial Tilt</strong>
+              <small>Monolithic Parallax</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="carousel" role="menuitem">
+            <span class="mode-number">02</span>
+            <div class="mode-info">
+              <strong>3D Cylinder Ring</strong>
+              <small>Orbital Revolver</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="coverflow" role="menuitem">
+            <span class="mode-number">03</span>
+            <div class="mode-info">
+              <strong>3D Coverflow</strong>
+              <small>Infinite Deep Stack</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="spiral" role="menuitem">
+            <span class="mode-number">04</span>
+            <div class="mode-info">
+              <strong>3D Helix Spiral</strong>
+              <small>Ascending Column</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="stack" role="menuitem">
+            <span class="mode-number">05</span>
+            <div class="mode-info">
+              <strong>3D Quantum Deck</strong>
+              <small>Physics Stack Swipe</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="matrix" role="menuitem">
+            <span class="mode-number">06</span>
+            <div class="mode-info">
+              <strong>3D Hypercube Matrix</strong>
+              <small>Z-Plane Constellation</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="tunnel" role="menuitem">
+            <span class="mode-number">07</span>
+            <div class="mode-info">
+              <strong>3D Void Tunnel</strong>
+              <small>Endless Warp Corridor</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="spherical" role="menuitem">
+            <span class="mode-number">08</span>
+            <div class="mode-info">
+              <strong>3D Sphere Galaxy</strong>
+              <small>Geodesic Orbital Dome</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="kinetic" role="menuitem">
+            <span class="mode-number">09</span>
+            <div class="mode-info">
+              <strong>3D Kinetic Wall</strong>
+              <small>Velocity Parallax Planes</small>
+            </div>
+          </button>
+          <button class="gallery-3d-item magnetic-target" data-mode="hologram" role="menuitem">
+            <span class="mode-number">10</span>
+            <div class="mode-info">
+              <strong>3D Hologram Deck</strong>
+              <small>Chromatic RGB Refraction</small>
+            </div>
+          </button>
+        </div>
+      </div>
+
       <!-- Language Switcher -->
       <button class="pill-btn lang-btn magnetic-target" id="langToggleBtn" aria-label="Switch Language" title="Toggle Language (EN / RO)">
         <span id="langIndicator">RO</span>
@@ -72,7 +155,7 @@
     <section class="hero-section" id="hero">
       <div class="hero-aurora-glow"></div>
       
-      <!-- 3D Gyroscope Emblem Crucible Card (Spacious Landscape Layout) -->
+      <!-- 3D Gyroscope Emblem Crucible Card (Spacious Landscape Layout, Sharp Brutalist Edges) -->
       <div class="crucible-stage-wrap" id="crucibleWrap">
         <div class="crucible-3d-card" id="crucibleCard">
           <div class="card-specular-light" id="cardLight"></div>
@@ -100,14 +183,24 @@
       </div>
     </section>
 
-    <!-- The Darkroom Exhibition (Visual Works Gallery) -->
+    <!-- The Darkroom Exhibition (Visual Works Gallery with 10 Switchable 3D Modes) -->
     <section class="section-wrapper exhibition-section container" id="exhibition">
-      <!-- Asymmetrical Avant-Garde Grid (Pure Artwork Focus) -->
-      <div class="exhibition-grid" id="portfolioGrid">
+      <!-- 3D Gallery Interactive Toolbar -->
+      <div class="gallery-3d-toolbar" id="gallery3DToolbar">
+        <button class="toolbar-nav-btn magnetic-target" id="galleryPrevBtn" aria-label="Previous 3D Slide">◀ PREV</button>
+        <div class="toolbar-status">
+          <span class="toolbar-mode-badge" id="toolbarModeBadge">3D SPATIAL TILT</span>
+          <span class="toolbar-counter" id="toolbarCounter">MODE 01 / 10</span>
+        </div>
+        <button class="toolbar-nav-btn magnetic-target" id="galleryNextBtn" aria-label="Next 3D Slide">NEXT ▶</button>
+      </div>
+
+      <!-- Asymmetrical Avant-Garde Grid (Pure Artwork Focus, 10 3D Modes) -->
+      <div class="exhibition-grid mode-tilt" id="portfolioGrid">
         <!-- Rendered dynamically by app.js -->
       </div>
 
-      <div class="archive-load-more">
+      <div class="archive-load-more" id="loadMoreWrap">
         <button id="loadMoreBtn" class="btn-avant-garde magnetic-target" data-i18n="works.load_more">
           <span>LOAD MORE WORKS</span>
         </button>
@@ -115,7 +208,7 @@
     </section>
   </main>
 
-  <!-- High-Fidelity Detail Modal Dialog -->
+  <!-- High-Fidelity Detail Modal Dialog (Sharp Architectural Edges) -->
   <div class="modal-overlay" id="designModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="modal-dialog">
       <button class="modal-close-btn magnetic-target" id="modalCloseBtn" aria-label="Close Dialog">✕</button>
@@ -181,7 +274,7 @@
             <ul class="footer-ul mono-ul">
               <li>OriginZero Proxmox Edge</li>
               <li>Dynamic 3D Gyroscope Physics</li>
-              <li>Darkroom Spotlight Lighting</li>
+              <li>10 Switchable 3D Visual Galleries</li>
               <li>HTTP/2 & TLS 1.3 Certified</li>
             </ul>
           </div>
