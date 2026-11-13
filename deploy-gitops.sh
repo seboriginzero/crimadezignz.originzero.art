@@ -59,3 +59,4 @@ else
   echo "❌ [ERROR] Container healthcheck failed (Status: $STATUS)!"
   exit 1
 fi
+

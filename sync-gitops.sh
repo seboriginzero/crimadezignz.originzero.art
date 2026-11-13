@@ -29,3 +29,4 @@ if [[ "$ENV_MODE" == "MAC_LOCAL_DEVELOPMENT" ]]; then
 else
   exec ./deploy-gitops.sh
 fi
+

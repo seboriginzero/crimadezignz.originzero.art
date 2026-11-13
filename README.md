@@ -38,3 +38,4 @@ git push origin main
 # Deploy atomic pe VM1 Proxmox
 ssh antigravity@192.168.57.51 "cd /home/antigravity/tenants/crimadezignz && ./deploy-gitops.sh"
 ```
+
