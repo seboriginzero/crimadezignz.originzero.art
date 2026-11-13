@@ -1,10 +1,9 @@
 /**
  * CrimaDezignz® | Haute-Couture Avant-Garde Trademark Atelier
- * Core Application Engine:
- * - 3D Gyroscope Physics & Specular Matrix
+ * Clean Hero 3D Crucible & Darkroom Exhibition Engine
+ * - 3D Gyroscope Physics & Dynamic Specular Matrix
  * - Custom Magnetic Cursor with Inertia Damping
- * - Dynamic Darkroom Spotlight Exhibition
- * - Interactive Optical Geometry Lab
+ * - Dynamic Darkroom Spotlight Exhibition (Pure Visual Focus, No Categories)
  * - Dual Language System (EN default / RO)
  * - Obsidian / Alabaster Dual Theme
  */
@@ -16,51 +15,17 @@ const TRANSLATIONS = {
   en: {
     nav: {
       sub: "TRADEMARK ATELIER",
-      exhibition: "Exhibition",
       crucible: "3D Crucible",
-      studio: "Geometry Lab",
+      exhibition: "Exhibition",
       profile: "99designs Profile ↗"
-    },
-    hero: {
-      kicker: "AVANT-GARDE IDENTITY ATELIER",
-      badge_pro: "99DESIGNS TOP TIER CREATOR",
-      title_p1: "CRIMA",
-      title_p2: "DEZIGNZ",
-      sub_accent: "RADICAL FORM. UNCOMPROMISING PRECISION.",
-      subtitle: "Surgically crafted brand marks, menacing monograms, and architectural emblems designed to dominate the visual landscape.",
-      explore: "EXPLORE EXHIBITION",
-      launch_3d: "3D CRUCIBLE"
-    },
-    crucible: {
-      tag: "SPATIAL EMBLEM CRUCIBLE",
-      title: "Interactive 3D Identity Matrix",
-      desc: "Manipulate the primary CrimaDezignz® crest in real-time 3D space. Move your cursor to trigger parallax depth, specular highlights, and chromatic aura fields."
     },
     works: {
       tag: "CURATED EXHIBITION",
       title: "Visual Works Exhibition",
       desc: "Hover any work to trigger darkroom spotlight focus and optical coordinate analysis.",
-      btn_all: "All Works",
-      btn_celebrated: "Most Celebrated",
-      btn_monogram: "Monograms",
-      btn_tactical: "Tactical & Crests",
-      btn_wordmark: "Wordmarks",
-      btn_dynamic: "Dynamic & Sport",
       search_placeholder: "Search exhibition (e.g. warrior, lion, hawk, racing)...",
       load_more: "LOAD MORE WORKS",
       no_results: "No marks match your search criteria."
-    },
-    studio: {
-      tag: "OPTICAL GEOMETRY LAB",
-      title: "Mathematical Construction",
-      desc: "Examine the underlying Fibonacci radii, safe clear-zones, and chromatic adaptability of the mark.",
-      controls_overlays: "Geometric Overlays",
-      opt_axis: "Cartesian Axis",
-      opt_golden: "Golden Ratio Circles",
-      opt_safezone: "Safe Clearance Zone",
-      controls_surface: "Substrate Surface",
-      controls_scale: "Optical Scale Test",
-      color_dna: "Color Spectrum"
     },
     footer: {
       about: "Haute-couture trademark architecture and visual identities created for international clients and competitions on 99designs.",
@@ -71,51 +36,17 @@ const TRANSLATIONS = {
   ro: {
     nav: {
       sub: "ATELIER DE MĂRCI",
-      exhibition: "Expoziție",
       crucible: "Creuzet 3D",
-      studio: "Laborator Geometrie",
+      exhibition: "Expoziție",
       profile: "Profil 99designs ↗"
-    },
-    hero: {
-      kicker: "ATELIER AVANT-GARDE DE IDENTITATE",
-      badge_pro: "CREATOR DE TOP 99DESIGNS",
-      title_p1: "CRIMA",
-      title_p2: "DEZIGNZ",
-      sub_accent: "FORMĂ RADICALĂ. PRECIZIE FĂRĂ COMPROMIS.",
-      subtitle: "Mărci tăiate chirurgical, monograme impunătoare și embleme arhitecturale forjate pentru a domina spațiul vizual.",
-      explore: "EXPLOREAZĂ EXPOZIȚIA",
-      launch_3d: "CREUZET 3D"
-    },
-    crucible: {
-      tag: "CREUZET SPAȚIAL AL EMBLEMEI",
-      title: "Matrice 3D Interactivă a Identității",
-      desc: "Manipulează blazonul principal CrimaDezignz® în spațiu 3D în timp real. Mișcă cursorul pentru adâncime de paralaxă, reflexii speculare și câmpuri de aură cromatică."
     },
     works: {
       tag: "EXPOZIȚIE CURATĂ",
       title: "Expoziția Lucrărilor Vizuale",
       desc: "Treci cursorul peste orice lucrare pentru a activa focalizarea darkroom și analiza coordonatelor optice.",
-      btn_all: "Toate Lucrările",
-      btn_celebrated: "Cele Mai Apreciate",
-      btn_monogram: "Monograme",
-      btn_tactical: "Tactic & Blazoane",
-      btn_wordmark: "Wordmarks",
-      btn_dynamic: "Dinamice & Sport",
       search_placeholder: "Caută în expoziție (ex: warrior, lion, hawk, racing)...",
       load_more: "ÎNCARCĂ MAI MULTE LUCRĂRI",
       no_results: "Nicio lucrare nu corespunde căutării."
-    },
-    studio: {
-      tag: "LABORATOR GEOMETRIE OPTICĂ",
-      title: "Construcție Matematică",
-      desc: "Examinează razele Fibonacci, zonele de siguranță și adaptabilitatea cromatică a siglei pe diverse fundaluri.",
-      controls_overlays: "Straturi Geometrice",
-      opt_axis: "Axe Carteziene",
-      opt_golden: "Cercuri Proporția de Aur",
-      opt_safezone: "Zonă de Siguranță",
-      controls_surface: "Suprafață Substrat",
-      controls_scale: "Test Scara Optică",
-      color_dna: "Spectru Cromatic"
     },
     footer: {
       about: "Arhitectură de identitate haute-couture și mărci vizuale create pentru clienți și competiții internaționale pe 99designs.",
@@ -136,9 +67,8 @@ class AvantGardeAtelierApp {
     this.portfolioItems = window.CRIMA_PORTFOLIO || [];
     
     // Exhibition State
-    this.activeCategory = "all";
     this.searchQuery = "";
-    this.itemsPerPage = 20;
+    this.itemsPerPage = 24;
     this.displayedCount = 0;
     this.filteredItems = [];
 
@@ -155,7 +85,6 @@ class AvantGardeAtelierApp {
     this.setupAmbientCanvas();
     this.setup3DCrucible();
     this.setupExhibition();
-    this.setupStudioControls();
     this.setupModal();
     this.setupAudio();
   }
@@ -273,7 +202,6 @@ class AvantGardeAtelierApp {
     };
     requestAnimationFrame(updateRing);
 
-    // Magnetic attachment & cursor enlargement
     const attachMagnetic = () => {
       document.querySelectorAll(".magnetic-target").forEach(target => {
         target.addEventListener("mouseenter", () => {
@@ -289,12 +217,11 @@ class AvantGardeAtelierApp {
   }
 
   // ===========================================================================
-  // 3D Gyroscope Emblem Crucible
+  // 3D Gyroscope Emblem Crucible (Hero Centerpiece)
   // ===========================================================================
   setup3DCrucible() {
     const wrap = document.getElementById("crucibleWrap");
     const card = document.getElementById("crucibleCard");
-    const cardLight = document.getElementById("cardLight");
     const hudCoords = document.getElementById("hudCoords");
     if (!wrap || !card) return;
 
@@ -302,7 +229,6 @@ class AvantGardeAtelierApp {
     let currentY = 0;
     let targetX = 0;
     let targetY = 0;
-    let isHovered = false;
 
     wrap.addEventListener("mousemove", (e) => {
       const rect = card.getBoundingClientRect();
@@ -321,14 +247,11 @@ class AvantGardeAtelierApp {
       const lightY = ((e.clientY - rect.top) / rect.height) * 100;
       card.style.setProperty("--light-x", `${lightX}%`);
       card.style.setProperty("--light-y", `${lightY}%`);
-
-      isHovered = true;
     });
 
     wrap.addEventListener("mouseleave", () => {
       targetX = 0;
       targetY = 0;
-      isHovered = false;
     });
 
     // Smooth inertia render loop
@@ -442,21 +365,10 @@ class AvantGardeAtelierApp {
   }
 
   // ===========================================================================
-  // The Darkroom Exhibition (Visual Works Grid & Darkroom Spotlight)
+  // The Darkroom Exhibition (Pure Visual Focus, No Categories)
   // ===========================================================================
   setupExhibition() {
     this.filterExhibition();
-
-    // Category button filters
-    document.querySelectorAll(".filter-btn").forEach(btn => {
-      btn.addEventListener("click", () => {
-        document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        this.activeCategory = btn.getAttribute("data-category") || "all";
-        this.filterExhibition();
-        this.playMicroTone(480, 0.03);
-      });
-    });
 
     // Search input
     const searchInput = document.getElementById("archiveSearchInput");
@@ -479,20 +391,9 @@ class AvantGardeAtelierApp {
 
   filterExhibition() {
     this.filteredItems = this.portfolioItems.filter(item => {
-      let catMatch = true;
-      if (this.activeCategory === "celebrated") {
-        catMatch = item.likes >= 50;
-      } else if (this.activeCategory !== "all") {
-        catMatch = item.category === this.activeCategory;
-      }
-
-      let searchMatch = true;
-      if (this.searchQuery) {
-        const text = (item.title + " " + item.description).toLowerCase();
-        searchMatch = text.includes(this.searchQuery);
-      }
-
-      return catMatch && searchMatch;
+      if (!this.searchQuery) return true;
+      const text = (item.title + " " + (item.description || "")).toLowerCase();
+      return text.includes(this.searchQuery);
     });
 
     this.renderExhibition(true);
@@ -575,51 +476,6 @@ class AvantGardeAtelierApp {
   }
 
   // ===========================================================================
-  // Interactive Optical Geometry Lab
-  // ===========================================================================
-  setupStudioControls() {
-    // Layer toggles
-    document.querySelectorAll(".tool-chip").forEach(chip => {
-      chip.addEventListener("click", () => {
-        chip.classList.toggle("active");
-        const layerId = chip.getAttribute("data-layer");
-        const layer = document.getElementById(layerId);
-        if (layer) {
-          layer.style.display = chip.classList.contains("active") ? "block" : "none";
-        }
-        this.playMicroTone(620, 0.03);
-      });
-    });
-
-    // Substrate background swatches
-    const viewport = document.getElementById("studioViewport");
-    document.querySelectorAll(".swatch-btn").forEach(swatch => {
-      swatch.addEventListener("click", () => {
-        document.querySelectorAll(".swatch-btn").forEach(s => s.classList.remove("active"));
-        swatch.classList.add("active");
-        const bg = swatch.getAttribute("data-bg");
-        if (viewport) {
-          viewport.style.backgroundColor = bg;
-        }
-        this.playMicroTone(540, 0.03);
-      });
-    });
-
-    // Optical Scale slider
-    const slider = document.getElementById("studioScaleSlider");
-    const logo = document.getElementById("studioLogo");
-    const sliderVal = document.getElementById("sliderValue");
-    if (slider && logo) {
-      slider.addEventListener("input", (e) => {
-        const val = e.target.value;
-        logo.style.width = `${val}px`;
-        logo.style.height = `${val}px`;
-        if (sliderVal) sliderVal.textContent = `${val}px`;
-      });
-    }
-  }
-
-  // ===========================================================================
   // High-Fidelity Detail Modal Dialog
   // ===========================================================================
   setupModal() {
@@ -646,7 +502,7 @@ class AvantGardeAtelierApp {
     document.getElementById("modalImage").src = item.image;
     document.getElementById("modalImage").alt = item.title;
     document.getElementById("modalTitle").textContent = item.title;
-    document.getElementById("modalCategory").textContent = item.category.toUpperCase() + " MARK";
+    document.getElementById("modalCategory").textContent = (item.category || "TRADEMARK").toUpperCase() + " MARK";
     document.getElementById("modalLikes").textContent = `★ ${item.likes} Likes`;
     document.getElementById("modalId").textContent = `#${item.id}`;
     document.getElementById("modalDate").textContent = item.createdAt ? item.createdAt.slice(0, 10) : "Archive Entry";
