@@ -666,7 +666,7 @@ body {
   color: var(--accent-gold-light);
 }
 
-/* Light Theme Hero Crucible & Bear Shadow Depth */
+/* Light Theme Hero Crucible & Bear Shadow Depth (Clean, No Inner Frame) */
 [data-theme="light"] .crucible-3d-card {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.14);
@@ -674,18 +674,6 @@ body {
               14px 28px 55px -4px rgba(0, 0, 0, 0.22),
               28px 60px 110px -8px rgba(0, 0, 0, 0.3),
               0 0 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-[data-theme="light"] .crucible-3d-card::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  pointer-events: none;
-  z-index: 12;
 }
 
 [data-theme="light"] .crucible-hud {
@@ -703,8 +691,8 @@ body {
 }
 
 [data-theme="light"] .crucible-image {
-  border: 2px solid #0a0a0c;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+  border: none;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
 /* ==========================================================================
@@ -759,11 +747,11 @@ body {
   letter-spacing: 0.08em;
 }
 
-/* Light Theme Toolbar Depth */
+/* Light Theme Toolbar (Clean, No Heavy Shadow on First Page) */
 [data-theme="light"] .gallery-3d-toolbar {
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.14);
-  box-shadow: var(--shadow-bear);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: none;
 }
 
 [data-theme="light"] .toolbar-nav-btn {
@@ -861,41 +849,6 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
-}
-
-/* Light Theme Exhibition Cards - Bear Picture Architectural Depth */
-[data-theme="light"] .exhibition-item {
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  box-shadow: var(--shadow-bear);
-}
-
-[data-theme="light"] .exhibition-item::before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  right: 8px;
-  bottom: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  pointer-events: none;
-  z-index: 5;
-}
-
-[data-theme="light"] .exhibition-item:hover {
-  box-shadow: var(--shadow-bear-hover) !important;
-  border-color: rgba(0, 0, 0, 0.25);
-  transform: translateY(-8px) scale(1.02);
-}
-
-[data-theme="light"] .exhibition-floating-bar {
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.85) 65%, transparent 100%);
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-[data-theme="light"] .exhibition-title {
-  color: #0a0a0c;
-  font-weight: 800;
 }
 
 /* --------------------------------------------------------------------------
@@ -1242,17 +1195,22 @@ body {
 .modal-image-wrapper {
   width: 100%;
   overflow: hidden;
-  background: #000;
+  background: transparent;
   margin-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 
 .modal-image-display {
   width: 100%;
-  max-height: 520px;
+  max-height: 560px;
   object-fit: contain;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  display: block;
 }
 
 .modal-header-row {
@@ -1320,7 +1278,7 @@ body {
   color: var(--accent-gold);
 }
 
-/* Light Theme Modal & Bear Depth Styling */
+/* Light Theme Modal & Bear Depth Styling (Only Modal Has Bear Shadow, No Inner Frame) */
 [data-theme="light"] .modal-dialog {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.14);
@@ -1330,21 +1288,15 @@ body {
               0 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-[data-theme="light"] .modal-dialog::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  pointer-events: none;
-  z-index: 10;
+[data-theme="light"] .modal-image-wrapper {
+  background: transparent;
+  border: none;
 }
 
-[data-theme="light"] .modal-image-wrapper {
-  background: #f0eee7;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+[data-theme="light"] .modal-image-display {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 [data-theme="light"] .modal-close-btn {
