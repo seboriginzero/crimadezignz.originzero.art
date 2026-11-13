@@ -477,140 +477,12 @@ body {
   color: var(--accent-gold-light);
 }
 
-/* Infinite Kinetic Marquee */
-.kinetic-marquee-wrap {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  margin-top: 30px;
-  overflow: hidden;
-  padding: 18px 0;
-  background: var(--bg-secondary);
-  border-top: 1px solid var(--border-subtle);
-  border-bottom: 1px solid var(--border-subtle);
-  user-select: none;
-}
-
-.kinetic-marquee-track {
-  display: flex;
-  white-space: nowrap;
-  gap: 28px;
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--text-tertiary);
-  animation: marqueeLoop 24s linear infinite;
-}
-
-.kinetic-marquee-track:hover {
-  animation-play-state: paused;
-}
-
-.kinetic-marquee-track span {
-  display: inline-flex;
-  align-items: center;
-}
-
-.marquee-bullet {
-  color: var(--accent-gold);
-  font-size: 0.75rem;
-}
-
-@keyframes marqueeLoop {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
-}
-
 /* ==========================================================================
    The Darkroom Exhibition (Visual Works Grid & Darkroom Spotlight)
    ========================================================================== */
 .section-wrapper {
-  padding: 80px 0;
-  border-top: 1px solid var(--border-subtle);
+  padding: 20px 0 80px;
   position: relative;
-}
-
-.section-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--accent-gold);
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.section-tag::before {
-  content: "";
-  width: 20px;
-  height: 2px;
-  background: var(--accent-gold);
-}
-
-.section-title-monumental {
-  font-family: var(--font-display);
-  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  margin-bottom: 14px;
-  max-width: 860px;
-}
-
-.section-desc-clean {
-  font-size: 1.05rem;
-  color: var(--text-secondary);
-  max-width: 680px;
-  line-height: 1.6;
-}
-
-.exhibition-header-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: 32px;
-  margin-bottom: 48px;
-  flex-wrap: wrap;
-}
-
-.archive-search-box {
-  position: relative;
-  min-width: 300px;
-}
-
-.archive-search-input {
-  width: 100%;
-  padding: 12px 20px 12px 42px;
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border-medium);
-  border-radius: 999px;
-  color: var(--text-primary);
-  font-size: 0.88rem;
-  outline: none;
-  transition: var(--transition-quick);
-}
-
-.archive-search-input:focus {
-  border-color: var(--accent-gold);
-  box-shadow: 0 0 15px rgba(197, 160, 89, 0.25);
-}
-
-.archive-search-icon {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--accent-gold);
-  pointer-events: none;
-  font-size: 0.8rem;
 }
 
 /* Asymmetric Avant-Garde Visual Grid */
@@ -695,8 +567,6 @@ body {
   -webkit-backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
   transform: translateY(0);
   transition: transform 0.3s ease;
 }
@@ -708,22 +578,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.spec-pill {
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 0.72rem;
-  font-family: var(--font-mono);
-  font-weight: 700;
-  text-transform: uppercase;
-  background: rgba(197, 160, 89, 0.16);
-  color: var(--accent-gold-light);
-  border: 1px solid rgba(197, 160, 89, 0.35);
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  flex-shrink: 0;
+  width: 100%;
 }
 
 .btn-avant-garde {

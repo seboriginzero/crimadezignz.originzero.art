@@ -448,7 +448,6 @@ class AvantGardeAtelierApp {
           <img src="${item.image}" alt="${item.title}" class="exhibition-thumb" loading="lazy">
           <div class="exhibition-floating-bar">
             <span class="exhibition-title">${item.title}</span>
-            <span class="spec-pill">★ ${item.likes}</span>
           </div>
         </div>
       `;
@@ -503,7 +502,6 @@ class AvantGardeAtelierApp {
     document.getElementById("modalImage").alt = item.title;
     document.getElementById("modalTitle").textContent = item.title;
     document.getElementById("modalCategory").textContent = (item.category || "TRADEMARK").toUpperCase() + " MARK";
-    document.getElementById("modalLikes").textContent = `★ ${item.likes} Likes`;
     document.getElementById("modalId").textContent = `#${item.id}`;
     document.getElementById("modalDate").textContent = item.createdAt ? item.createdAt.slice(0, 10) : "Archive Entry";
     document.getElementById("modalSourceLink").href = item.url;
