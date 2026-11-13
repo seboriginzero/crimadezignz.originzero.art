@@ -1,149 +1,148 @@
 /**
- * CrimaDezignz® | Modern Visual Identity Atelier
- * Clean Visual-First Showcase: Dual Language (EN/RO), Dual Theme, Interactive Canvas,
- * Geometry Studio, High-Density Visual Portfolio & Detail Modal.
+ * CrimaDezignz® | Haute-Couture Avant-Garde Trademark Atelier
+ * Core Application Engine:
+ * - 3D Gyroscope Physics & Specular Matrix
+ * - Custom Magnetic Cursor with Inertia Damping
+ * - Dynamic Darkroom Spotlight Exhibition
+ * - Interactive Optical Geometry Lab
+ * - Dual Language System (EN default / RO)
+ * - Obsidian / Alabaster Dual Theme
  */
 
 // =============================================================================
-// 1. Dual Language Dictionary (EN default, RO toggle) - Pure Design Focus
+// 1. Dual Language Dictionary (EN default, RO toggle)
 // =============================================================================
 const TRANSLATIONS = {
   en: {
     nav: {
-      atelier: "BESPOKE ATELIER",
-      works: "Portfolio Works",
-      studio: "Logo Studio",
+      sub: "TRADEMARK ATELIER",
+      exhibition: "Exhibition",
+      crucible: "3D Crucible",
+      studio: "Geometry Lab",
       profile: "99designs Profile ↗"
     },
     hero: {
-      badge: "BRAND IDENTITY & LOGOMARK ATELIER",
-      title_part1: "CrimaDezignz®",
-      title_part2: "Distinctive Identity Architecture.",
-      subtitle: "Bespoke trademark marks, timeless monograms, and optical geometry crafted for global clients.",
-      cta_works: "View All Works",
-      cta_studio: "Interactive Logo Studio",
-      card1_tag: "OFFICIAL ATELIER MARK",
-      card1_title: "CrimaDezignz® Identity",
-      card1_desc: "A balanced emblem of optical tension, pure geometry, and visual resonance.",
-      card2_tag: "PRECISION CRAFT",
-      card2_title: "Mathematical Balance",
-      card2_desc: "Every design crafted with exact clear-space ratios, optical kerning, and grid discipline.",
-      card2_pill: "Golden Ratio Geometry",
-      card3_tag: "INTERNATIONAL CLIENTS",
-      card3_title: "Contest Winning Works",
-      card3_desc: "Commissioned and appreciated by brands, teams, publishers, and startups worldwide.",
-      card3_pill: "Award-Winning Standard"
+      kicker: "AVANT-GARDE IDENTITY ATELIER",
+      badge_pro: "99DESIGNS TOP TIER CREATOR",
+      title_p1: "CRIMA",
+      title_p2: "DEZIGNZ",
+      sub_accent: "RADICAL FORM. UNCOMPROMISING PRECISION.",
+      subtitle: "Surgically crafted brand marks, menacing monograms, and architectural emblems designed to dominate the visual landscape.",
+      explore: "EXPLORE EXHIBITION",
+      launch_3d: "3D CRUCIBLE"
+    },
+    crucible: {
+      tag: "SPATIAL EMBLEM CRUCIBLE",
+      title: "Interactive 3D Identity Matrix",
+      desc: "Manipulate the primary CrimaDezignz® crest in real-time 3D space. Move your cursor to trigger parallax depth, specular highlights, and chromatic aura fields."
     },
     works: {
-      tag: "PORTFOLIO COLLECTION",
-      title: "All Works Showcase",
-      desc: "Explore the visual collection. Filter by style or search in real time. Click any work to inspect in high resolution.",
+      tag: "CURATED EXHIBITION",
+      title: "Visual Works Exhibition",
+      desc: "Hover any work to trigger darkroom spotlight focus and optical coordinate analysis.",
       btn_all: "All Works",
-      btn_celebrated: "Most Appreciated",
+      btn_celebrated: "Most Celebrated",
       btn_monogram: "Monograms",
-      btn_tactical: "Tactical & Shields",
+      btn_tactical: "Tactical & Crests",
       btn_wordmark: "Wordmarks",
       btn_dynamic: "Dynamic & Sport",
-      search_placeholder: "Search works (e.g. warrior, racing, book)...",
-      load_more: "Load More Works",
-      no_results: "No designs match your criteria."
+      search_placeholder: "Search exhibition (e.g. warrior, lion, hawk, racing)...",
+      load_more: "LOAD MORE WORKS",
+      no_results: "No marks match your search criteria."
     },
     studio: {
-      tag: "PRECISION VISUAL LABORATORY",
-      title: "Interactive Logo Anatomy & Geometry",
-      desc: "Inspect the optical mass distribution, golden ratio proportions, clear-space boundaries, and contrast resilience of the CrimaDezignz® mark across various substrates.",
+      tag: "OPTICAL GEOMETRY LAB",
+      title: "Mathematical Construction",
+      desc: "Examine the underlying Fibonacci radii, safe clear-zones, and chromatic adaptability of the mark.",
       controls_overlays: "Geometric Overlays",
       opt_axis: "Cartesian Axis",
       opt_golden: "Golden Ratio Circles",
       opt_safezone: "Safe Clearance Zone",
-      controls_surface: "Substrate / Background Surface",
+      controls_surface: "Substrate Surface",
       controls_scale: "Optical Scale Test",
-      color_dna: "Color Palette"
+      color_dna: "Color Spectrum"
     },
     footer: {
-      about: "Curated identity marks created for international clients and competitions on 99designs.",
+      about: "Haute-couture trademark architecture and visual identities created for international clients and competitions on 99designs.",
       col_nav: "Navigation",
-      col_specs: "Platform"
+      col_specs: "Platform Architecture"
     }
   },
   ro: {
     nav: {
-      atelier: "ATELIER DE CREAȚIE",
-      works: "Lucrări Portofoliu",
-      studio: "Studio Siglă",
+      sub: "ATELIER DE MĂRCI",
+      exhibition: "Expoziție",
+      crucible: "Creuzet 3D",
+      studio: "Laborator Geometrie",
       profile: "Profil 99designs ↗"
     },
     hero: {
-      badge: "ATELIER DE IDENTITATE VIZUALĂ & MĂRCI",
-      title_part1: "CrimaDezignz®",
-      title_part2: "Arhitectură de Identitate Distinctivă.",
-      subtitle: "Sigle de autor, monograme atemporale și geometrie optică forjate pentru companii din întreaga lume.",
-      cta_works: "Vezi Toate Lucrările",
-      cta_studio: "Studio Interactiv Siglă",
-      card1_tag: "SIGILIU OFICIAL ATELIER",
-      card1_title: "Identitatea CrimaDezignz®",
-      card1_desc: "Un glif de o rară armonie vizuală, forță optică și rezonanță geometrică durabilă.",
-      card2_tag: "PRECIZIE ARTIZANALĂ",
-      card2_title: "Echilibru Matematic",
-      card2_desc: "Fiecare concept este construit respectând proporțiile de aur, spațiul de siguranță și kerning-ul optic.",
-      card2_pill: "Geometria Proporției de Aur",
-      card3_tag: "CLIENȚI INTERNAȚIONALI",
-      card3_title: "Concursuri Câștigate",
-      card3_desc: "Proiecte premiate și apreciate de branduri, echipe sportive, edituri și startup-uri globale.",
-      card3_pill: "Standard Premiat"
+      kicker: "ATELIER AVANT-GARDE DE IDENTITATE",
+      badge_pro: "CREATOR DE TOP 99DESIGNS",
+      title_p1: "CRIMA",
+      title_p2: "DEZIGNZ",
+      sub_accent: "FORMĂ RADICALĂ. PRECIZIE FĂRĂ COMPROMIS.",
+      subtitle: "Mărci tăiate chirurgical, monograme impunătoare și embleme arhitecturale forjate pentru a domina spațiul vizual.",
+      explore: "EXPLOREAZĂ EXPOZIȚIA",
+      launch_3d: "CREUZET 3D"
+    },
+    crucible: {
+      tag: "CREUZET SPAȚIAL AL EMBLEMEI",
+      title: "Matrice 3D Interactivă a Identității",
+      desc: "Manipulează blazonul principal CrimaDezignz® în spațiu 3D în timp real. Mișcă cursorul pentru adâncime de paralaxă, reflexii speculare și câmpuri de aură cromatică."
     },
     works: {
-      tag: "COLECȚIA DE PORTOFOLIU",
-      title: "Galeria Tuturor Lucrărilor",
-      desc: "Explorează portofoliul vizual. Filtrează după stil sau caută instantaneu. Fă click pe orice lucrare pentru detalii la rezoluție maximă.",
+      tag: "EXPOZIȚIE CURATĂ",
+      title: "Expoziția Lucrărilor Vizuale",
+      desc: "Treci cursorul peste orice lucrare pentru a activa focalizarea darkroom și analiza coordonatelor optice.",
       btn_all: "Toate Lucrările",
       btn_celebrated: "Cele Mai Apreciate",
       btn_monogram: "Monograme",
-      btn_tactical: "Tactic & Embleme",
+      btn_tactical: "Tactic & Blazoane",
       btn_wordmark: "Wordmarks",
       btn_dynamic: "Dinamice & Sport",
-      search_placeholder: "Caută în lucrări (ex: warrior, racing, book)...",
-      load_more: "Încarcă Mai Multe Lucrări",
+      search_placeholder: "Caută în expoziție (ex: warrior, lion, hawk, racing)...",
+      load_more: "ÎNCARCĂ MAI MULTE LUCRĂRI",
       no_results: "Nicio lucrare nu corespunde căutării."
     },
     studio: {
-      tag: "LABORATOR VIZUAL DE PRECIZIE",
-      title: "Anatomia și Geometria Interactivă a Siglei",
-      desc: "Analizează distribuția maselor optice, cercurile proporției de aur, perimetrele de siguranță și contrastul mărcii CrimaDezignz® pe diverse suprafețe de fond.",
+      tag: "LABORATOR GEOMETRIE OPTICĂ",
+      title: "Construcție Matematică",
+      desc: "Examinează razele Fibonacci, zonele de siguranță și adaptabilitatea cromatică a siglei pe diverse fundaluri.",
       controls_overlays: "Straturi Geometrice",
       opt_axis: "Axe Carteziene",
       opt_golden: "Cercuri Proporția de Aur",
       opt_safezone: "Zonă de Siguranță",
-      controls_surface: "Substrat / Suprafață de Fundal",
+      controls_surface: "Suprafață Substrat",
       controls_scale: "Test Scara Optică",
-      color_dna: "Paletă Cromatică"
+      color_dna: "Spectru Cromatic"
     },
     footer: {
-      about: "Identități vizuale de autor create pentru clienți și competiții internaționale pe 99designs.",
+      about: "Arhitectură de identitate haute-couture și mărci vizuale create pentru clienți și competiții internaționale pe 99designs.",
       col_nav: "Navigație",
-      col_specs: "Platformă"
+      col_specs: "Arhitectură Platformă"
     }
   }
 };
 
 // =============================================================================
-// 2. Application State Management
+// 2. Application Core Class
 // =============================================================================
-class ModernUXApp {
+class AvantGardeAtelierApp {
   constructor() {
     this.currentLang = localStorage.getItem("crimadezignz_lang") || "en";
     this.currentTheme = localStorage.getItem("crimadezignz_theme") || "dark";
     this.isAudioEnabled = false;
     this.portfolioItems = window.CRIMA_PORTFOLIO || [];
     
-    // Gallery State
+    // Exhibition State
     this.activeCategory = "all";
     this.searchQuery = "";
-    this.itemsPerPage = 24; // Show more visual items per batch
+    this.itemsPerPage = 20;
     this.displayedCount = 0;
     this.filteredItems = [];
 
-    // Audio Context (Synthesized micro-haptics)
+    // Synthesized Audio Context
     this.audioCtx = null;
 
     this.init();
@@ -152,10 +151,11 @@ class ModernUXApp {
   init() {
     this.setupTheme();
     this.setupLanguage();
+    this.setupMagneticCursor();
     this.setupAmbientCanvas();
-    this.setupSpecularLighting();
+    this.setup3DCrucible();
+    this.setupExhibition();
     this.setupStudioControls();
-    this.setupPortfolio();
     this.setupModal();
     this.setupAudio();
   }
@@ -174,7 +174,7 @@ class ModernUXApp {
         document.documentElement.setAttribute("data-theme", this.currentTheme);
         localStorage.setItem("crimadezignz_theme", this.currentTheme);
         this.updateThemeUI();
-        this.playMicroSound(440, 0.05);
+        this.playMicroTone(520, 0.04);
       });
     }
   }
@@ -187,7 +187,7 @@ class ModernUXApp {
   }
 
   // ===========================================================================
-  // Bilingual System (EN default / RO switch)
+  // Dual Language System (EN default / RO toggle)
   // ===========================================================================
   setupLanguage() {
     this.applyTranslations();
@@ -198,8 +198,8 @@ class ModernUXApp {
         this.currentLang = this.currentLang === "en" ? "ro" : "en";
         localStorage.setItem("crimadezignz_lang", this.currentLang);
         this.applyTranslations();
-        this.renderPortfolio(true);
-        this.playMicroSound(580, 0.04);
+        this.renderExhibition(true);
+        this.playMicroTone(640, 0.04);
       });
     }
   }
@@ -211,7 +211,6 @@ class ModernUXApp {
       indicator.textContent = this.currentLang === "en" ? "RO" : "EN";
     }
 
-    // Update text elements with data-i18n
     document.querySelectorAll("[data-i18n]").forEach(el => {
       const keyPath = el.getAttribute("data-i18n").split(".");
       let val = langData;
@@ -228,7 +227,6 @@ class ModernUXApp {
       }
     });
 
-    // Update placeholders
     document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
       const keyPath = el.getAttribute("data-i18n-placeholder").split(".");
       let val = langData;
@@ -247,7 +245,110 @@ class ModernUXApp {
   }
 
   // ===========================================================================
-  // Interactive Ambient Mesh Canvas (Latest Modern Visual Effect)
+  // Custom Magnetic Cursor with Spring Physics
+  // ===========================================================================
+  setupMagneticCursor() {
+    const dot = document.getElementById("cursorDot");
+    const ring = document.getElementById("cursorRing");
+    if (!dot || !ring) return;
+
+    let mouseX = -100;
+    let mouseY = -100;
+    let ringX = -100;
+    let ringY = -100;
+
+    window.addEventListener("mousemove", (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+
+      dot.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+    });
+
+    const updateRing = () => {
+      ringX += (mouseX - ringX) * 0.18;
+      ringY += (mouseY - ringY) * 0.18;
+
+      ring.style.transform = `translate(${ringX}px, ${ringY}px)`;
+      requestAnimationFrame(updateRing);
+    };
+    requestAnimationFrame(updateRing);
+
+    // Magnetic attachment & cursor enlargement
+    const attachMagnetic = () => {
+      document.querySelectorAll(".magnetic-target").forEach(target => {
+        target.addEventListener("mouseenter", () => {
+          ring.classList.add("cursor-hover");
+        });
+        target.addEventListener("mouseleave", () => {
+          ring.classList.remove("cursor-hover");
+        });
+      });
+    };
+    attachMagnetic();
+    this.refreshMagneticTargets = attachMagnetic;
+  }
+
+  // ===========================================================================
+  // 3D Gyroscope Emblem Crucible
+  // ===========================================================================
+  setup3DCrucible() {
+    const wrap = document.getElementById("crucibleWrap");
+    const card = document.getElementById("crucibleCard");
+    const cardLight = document.getElementById("cardLight");
+    const hudCoords = document.getElementById("hudCoords");
+    if (!wrap || !card) return;
+
+    let currentX = 0;
+    let currentY = 0;
+    let targetX = 0;
+    let targetY = 0;
+    let isHovered = false;
+
+    wrap.addEventListener("mousemove", (e) => {
+      const rect = card.getBoundingClientRect();
+      const cardCenterX = rect.left + rect.width / 2;
+      const cardCenterY = rect.top + rect.height / 2;
+
+      const normX = (e.clientX - cardCenterX) / (rect.width / 2);
+      const normY = (e.clientY - cardCenterY) / (rect.height / 2);
+
+      // Max tilt angles: ±22 deg
+      targetX = -normY * 22;
+      targetY = normX * 22;
+
+      // Specular highlight coordinate percentage
+      const lightX = ((e.clientX - rect.left) / rect.width) * 100;
+      const lightY = ((e.clientY - rect.top) / rect.height) * 100;
+      card.style.setProperty("--light-x", `${lightX}%`);
+      card.style.setProperty("--light-y", `${lightY}%`);
+
+      isHovered = true;
+    });
+
+    wrap.addEventListener("mouseleave", () => {
+      targetX = 0;
+      targetY = 0;
+      isHovered = false;
+    });
+
+    // Smooth inertia render loop
+    const animateCrucible = () => {
+      currentX += (targetX - currentX) * 0.12;
+      currentY += (targetY - currentY) * 0.12;
+
+      card.style.transform = `rotateX(${currentX.toFixed(2)}deg) rotateY(${currentY.toFixed(2)}deg)`;
+
+      if (hudCoords) {
+        hudCoords.textContent = `X: ${currentX.toFixed(2)}° / Y: ${currentY.toFixed(2)}°`;
+      }
+
+      requestAnimationFrame(animateCrucible);
+    };
+    requestAnimationFrame(animateCrucible);
+  }
+
+  // ===========================================================================
+  // Interactive Ambient Mesh Canvas
   // ===========================================================================
   setupAmbientCanvas() {
     const canvas = document.getElementById("ambientCanvas");
@@ -256,7 +357,7 @@ class ModernUXApp {
 
     let width, height;
     let particles = [];
-    const particleCount = 28;
+    const particleCount = 26;
     let mouse = { x: -1000, y: -1000 };
 
     const resize = () => {
@@ -278,23 +379,22 @@ class ModernUXApp {
       reset() {
         this.x = Math.random() * width;
         this.y = Math.random() * height;
-        this.vx = (Math.random() - 0.5) * 0.4;
-        this.vy = (Math.random() - 0.5) * 0.4;
+        this.vx = (Math.random() - 0.5) * 0.35;
+        this.vy = (Math.random() - 0.5) * 0.35;
         this.radius = Math.random() * 2 + 1;
-        this.alpha = Math.random() * 0.4 + 0.15;
+        this.alpha = Math.random() * 0.35 + 0.15;
       }
       update() {
         this.x += this.vx;
         this.y += this.vy;
 
-        // Gentle mouse interaction
         const dx = mouse.x - this.x;
         const dy = mouse.y - this.y;
         const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < 150) {
-          const force = (150 - dist) / 150;
-          this.x -= (dx / dist) * force * 1.5;
-          this.y -= (dy / dist) * force * 1.5;
+        if (dist < 160) {
+          const force = (160 - dist) / 160;
+          this.x -= (dx / dist) * force * 1.8;
+          this.y -= (dy / dist) * force * 1.8;
         }
 
         if (this.x < 0 || this.x > width) this.vx *= -1;
@@ -303,7 +403,7 @@ class ModernUXApp {
       draw() {
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(229, 192, 123, ${this.alpha * 0.5})`;
+        ctx.fillStyle = `rgba(229, 192, 123, ${this.alpha * 0.6})`;
         ctx.fill();
       }
     }
@@ -315,7 +415,6 @@ class ModernUXApp {
     const animate = () => {
       ctx.clearRect(0, 0, width, height);
 
-      // Connect near particles
       for (let i = 0; i < particles.length; i++) {
         for (let j = i + 1; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
@@ -339,75 +438,14 @@ class ModernUXApp {
 
       requestAnimationFrame(animate);
     };
-
     requestAnimationFrame(animate);
   }
 
   // ===========================================================================
-  // Specular Border Mouse Tracking (Figma / Linear / Vercel effect)
+  // The Darkroom Exhibition (Visual Works Grid & Darkroom Spotlight)
   // ===========================================================================
-  setupSpecularLighting() {
-    document.addEventListener("mousemove", (e) => {
-      document.querySelectorAll(".specular-card").forEach(card => {
-        const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        card.style.setProperty("--mouse-x", `${x}px`);
-        card.style.setProperty("--mouse-y", `${y}px`);
-      });
-    });
-  }
-
-  // ===========================================================================
-  // Interactive Logo Geometry Studio
-  // ===========================================================================
-  setupStudioControls() {
-    // Overlay layer toggles
-    document.querySelectorAll(".tool-chip").forEach(chip => {
-      chip.addEventListener("click", () => {
-        chip.classList.toggle("active");
-        const layerId = chip.getAttribute("data-layer");
-        const layer = document.getElementById(layerId);
-        if (layer) {
-          layer.style.display = chip.classList.contains("active") ? "block" : "none";
-        }
-        this.playMicroSound(620, 0.03);
-      });
-    });
-
-    // Substrate / background swatches
-    const viewport = document.getElementById("studioViewport");
-    document.querySelectorAll(".swatch-btn").forEach(swatch => {
-      swatch.addEventListener("click", () => {
-        document.querySelectorAll(".swatch-btn").forEach(s => s.classList.remove("active"));
-        swatch.classList.add("active");
-        const bg = swatch.getAttribute("data-bg");
-        if (viewport) {
-          viewport.style.backgroundColor = bg;
-        }
-        this.playMicroSound(520, 0.03);
-      });
-    });
-
-    // Optical Scale slider
-    const slider = document.getElementById("studioScaleSlider");
-    const logo = document.getElementById("studioLogo");
-    const sliderVal = document.getElementById("sliderValue");
-    if (slider && logo) {
-      slider.addEventListener("input", (e) => {
-        const val = e.target.value;
-        logo.style.width = `${val}px`;
-        logo.style.height = `${val}px`;
-        if (sliderVal) sliderVal.textContent = `${val}px`;
-      });
-    }
-  }
-
-  // ===========================================================================
-  // Visual-First Portfolio Works Grid (No Descriptions in Grid)
-  // ===========================================================================
-  setupPortfolio() {
-    this.filterPortfolio();
+  setupExhibition() {
+    this.filterExhibition();
 
     // Category button filters
     document.querySelectorAll(".filter-btn").forEach(btn => {
@@ -415,17 +453,17 @@ class ModernUXApp {
         document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
         this.activeCategory = btn.getAttribute("data-category") || "all";
-        this.filterPortfolio();
-        this.playMicroSound(480, 0.03);
+        this.filterExhibition();
+        this.playMicroTone(480, 0.03);
       });
     });
 
-    // Search bar filter
+    // Search input
     const searchInput = document.getElementById("archiveSearchInput");
     if (searchInput) {
       searchInput.addEventListener("input", (e) => {
         this.searchQuery = e.target.value.toLowerCase().trim();
-        this.filterPortfolio();
+        this.filterExhibition();
       });
     }
 
@@ -434,14 +472,13 @@ class ModernUXApp {
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener("click", () => {
         this.renderNextBatch();
-        this.playMicroSound(420, 0.03);
+        this.playMicroTone(420, 0.03);
       });
     }
   }
 
-  filterPortfolio() {
+  filterExhibition() {
     this.filteredItems = this.portfolioItems.filter(item => {
-      // Category Match
       let catMatch = true;
       if (this.activeCategory === "celebrated") {
         catMatch = item.likes >= 50;
@@ -449,7 +486,6 @@ class ModernUXApp {
         catMatch = item.category === this.activeCategory;
       }
 
-      // Search Match
       let searchMatch = true;
       if (this.searchQuery) {
         const text = (item.title + " " + item.description).toLowerCase();
@@ -459,10 +495,10 @@ class ModernUXApp {
       return catMatch && searchMatch;
     });
 
-    this.renderPortfolio(true);
+    this.renderExhibition(true);
   }
 
-  renderPortfolio(reset = false) {
+  renderExhibition(reset = false) {
     const grid = document.getElementById("portfolioGrid");
     const loadMoreBtn = document.getElementById("loadMoreBtn");
     if (!grid) return;
@@ -473,9 +509,12 @@ class ModernUXApp {
     }
 
     if (this.filteredItems.length === 0) {
-      grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 60px; color: var(--text-tertiary);">
-        ${TRANSLATIONS[this.currentLang].works.no_results}
-      </div>`;
+      const emptyMsg = (TRANSLATIONS[this.currentLang] || TRANSLATIONS.en).works.no_results;
+      grid.innerHTML = `
+        <div style="grid-column: 1/-1; text-align: center; padding: 80px 20px; color: var(--text-tertiary); font-family: var(--font-mono);">
+          ${emptyMsg}
+        </div>
+      `;
       if (loadMoreBtn) loadMoreBtn.style.display = "none";
       return;
     }
@@ -493,20 +532,22 @@ class ModernUXApp {
       this.displayedCount + this.itemsPerPage
     );
 
-    nextBatch.forEach(item => {
+    nextBatch.forEach((item, index) => {
+      const overallIndex = this.displayedCount + index;
+      const isFeatured = overallIndex === 0 || overallIndex === 7 || overallIndex === 15;
+
       const card = document.createElement("article");
-      card.className = "portfolio-card";
+      card.className = `exhibition-item magnetic-target ${isFeatured ? "span-featured" : ""}`;
       card.setAttribute("tabindex", "0");
       card.setAttribute("role", "button");
-      card.setAttribute("aria-label", `View design: ${item.title}`);
+      card.setAttribute("aria-label", `Inspect Mark: ${item.title}`);
 
-      // Visual-first: Only image + sleek bottom glass title/likes pill. No long descriptions!
       card.innerHTML = `
-        <div class="portfolio-thumb-wrap">
-          <img src="${item.image}" alt="${item.title}" class="portfolio-thumb" loading="lazy">
-          <div class="portfolio-overlay">
-            <span class="portfolio-title-text">${item.title}</span>
-            <span class="portfolio-likes-pill">★ ${item.likes}</span>
+        <div class="exhibition-thumb-wrap">
+          <img src="${item.image}" alt="${item.title}" class="exhibition-thumb" loading="lazy">
+          <div class="exhibition-floating-bar">
+            <span class="exhibition-title">${item.title}</span>
+            <span class="spec-pill">★ ${item.likes}</span>
           </div>
         </div>
       `;
@@ -527,10 +568,59 @@ class ModernUXApp {
     if (loadMoreBtn) {
       loadMoreBtn.style.display = this.displayedCount >= this.filteredItems.length ? "none" : "inline-block";
     }
+
+    if (this.refreshMagneticTargets) {
+      this.refreshMagneticTargets();
+    }
   }
 
   // ===========================================================================
-  // High-Resolution Detail Modal
+  // Interactive Optical Geometry Lab
+  // ===========================================================================
+  setupStudioControls() {
+    // Layer toggles
+    document.querySelectorAll(".tool-chip").forEach(chip => {
+      chip.addEventListener("click", () => {
+        chip.classList.toggle("active");
+        const layerId = chip.getAttribute("data-layer");
+        const layer = document.getElementById(layerId);
+        if (layer) {
+          layer.style.display = chip.classList.contains("active") ? "block" : "none";
+        }
+        this.playMicroTone(620, 0.03);
+      });
+    });
+
+    // Substrate background swatches
+    const viewport = document.getElementById("studioViewport");
+    document.querySelectorAll(".swatch-btn").forEach(swatch => {
+      swatch.addEventListener("click", () => {
+        document.querySelectorAll(".swatch-btn").forEach(s => s.classList.remove("active"));
+        swatch.classList.add("active");
+        const bg = swatch.getAttribute("data-bg");
+        if (viewport) {
+          viewport.style.backgroundColor = bg;
+        }
+        this.playMicroTone(540, 0.03);
+      });
+    });
+
+    // Optical Scale slider
+    const slider = document.getElementById("studioScaleSlider");
+    const logo = document.getElementById("studioLogo");
+    const sliderVal = document.getElementById("sliderValue");
+    if (slider && logo) {
+      slider.addEventListener("input", (e) => {
+        const val = e.target.value;
+        logo.style.width = `${val}px`;
+        logo.style.height = `${val}px`;
+        if (sliderVal) sliderVal.textContent = `${val}px`;
+      });
+    }
+  }
+
+  // ===========================================================================
+  // High-Fidelity Detail Modal Dialog
   // ===========================================================================
   setupModal() {
     const modal = document.getElementById("designModal");
@@ -564,7 +654,7 @@ class ModernUXApp {
 
     modal.classList.add("open");
     document.body.style.overflow = "hidden";
-    this.playMicroSound(700, 0.05);
+    this.playMicroTone(720, 0.05);
   }
 
   closeModal() {
@@ -572,11 +662,11 @@ class ModernUXApp {
     if (!modal) return;
     modal.classList.remove("open");
     document.body.style.overflow = "";
-    this.playMicroSound(380, 0.03);
+    this.playMicroTone(360, 0.03);
   }
 
   // ===========================================================================
-  // Optional Audio Feedback
+  // Optional Sonic Feedback Micro-Synthesizer
   // ===========================================================================
   setupAudio() {
     const btn = document.getElementById("audioToggleBtn");
@@ -595,14 +685,14 @@ class ModernUXApp {
         if (this.audioCtx.state === "suspended") {
           this.audioCtx.resume();
         }
-        this.playMicroSound(880, 0.05);
+        this.playMicroTone(880, 0.05);
       }
     });
 
     btn.style.opacity = "0.5";
   }
 
-  playMicroSound(frequency, duration) {
+  playMicroTone(frequency, duration) {
     if (!this.isAudioEnabled || !this.audioCtx) return;
     try {
       const osc = this.audioCtx.createOscillator();
@@ -616,12 +706,12 @@ class ModernUXApp {
       osc.start();
       osc.stop(this.audioCtx.currentTime + duration);
     } catch (e) {
-      // Audio fallback gracefully handled
+      // Audio fallback
     }
   }
 }
 
-// Instantiate application when DOM is ready
+// Initialize application on DOM ready
 window.addEventListener("DOMContentLoaded", () => {
-  window.modernApp = new ModernUXApp();
+  window.atelierApp = new AvantGardeAtelierApp();
 });

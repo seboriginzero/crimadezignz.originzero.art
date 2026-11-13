@@ -3,57 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CrimaDezignz® | Bespoke Identity Atelier & Logomark Collection</title>
-  <meta name="description" content="Official portfolio and logomark collection of CrimaDezignz®. Bespoke brand identities, modern monograms, and trademark design.">
+  <title>CrimaDezignz® | Avant-Garde Trademark Atelier</title>
+  <meta name="description" content="Official avant-garde portfolio of CrimaDezignz®. Monumental trademark design, tactical crests, and optical geometry.">
 
-  <!-- Google Fonts Preconnect & Styles -->
+  <!-- Haute-Couture Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="darkroom-active">
+  <!-- Custom Interactive Magnetic Cursor -->
+  <div class="custom-cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="custom-cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
   <!-- Film Grain Noise Overlay -->
   <div class="grain-overlay" aria-hidden="true"></div>
 
-  <!-- Interactive Ambient Mesh Background -->
+  <!-- Interactive Ambient Fluid Canvas -->
   <canvas id="ambientCanvas" aria-hidden="true"></canvas>
 
-  <!-- Sticky Luxury Navigation -->
+  <!-- Avant-Garde Floating Navigation Bar -->
   <header class="site-nav" role="banner">
-    <a href="#" class="nav-brand" aria-label="CrimaDezignz Home">
-      <img src="crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg" alt="CrimaDezignz Logo Mark" class="brand-avatar" id="navAvatar">
+    <a href="#" class="nav-brand" aria-label="CrimaDezignz Atelier">
+      <div class="nav-emblem-wrap">
+        <img src="crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg" alt="CrimaDezignz Emblem" class="brand-avatar" id="navAvatar">
+        <div class="emblem-glow-ring"></div>
+      </div>
       <div class="brand-title-wrap">
-        <span class="brand-name">CrimaDezignz®</span>
-        <span class="brand-sub" data-i18n="nav.atelier">BESPOKE ATELIER</span>
+        <span class="brand-name">CRIMADEZIGNZ®</span>
+        <span class="brand-sub" data-i18n="nav.sub">TRADEMARK ATELIER</span>
       </div>
     </a>
 
     <nav aria-label="Main Navigation">
       <ul class="nav-links">
-        <li><a href="#works" data-i18n="nav.works">Portfolio Works</a></li>
-        <li><a href="#studio" data-i18n="nav.studio">Logo Studio</a></li>
-        <li><a href="https://en.99designs.de/profiles/1844933" target="_blank" rel="noopener noreferrer" data-i18n="nav.profile">99designs Profile ↗</a></li>
+        <li><a href="#exhibition" class="magnetic-target" data-i18n="nav.exhibition">Exhibition</a></li>
+        <li><a href="#crucible" class="magnetic-target" data-i18n="nav.crucible">3D Crucible</a></li>
+        <li><a href="#studio" class="magnetic-target" data-i18n="nav.studio">Geometry Lab</a></li>
+        <li><a href="https://en.99designs.de/profiles/1844933" target="_blank" rel="noopener noreferrer" class="magnetic-target" data-i18n="nav.profile">99designs Profile ↗</a></li>
       </ul>
     </nav>
 
     <div class="nav-actions">
       <!-- Language Switcher -->
-      <button class="pill-btn lang-btn" id="langToggleBtn" aria-label="Switch Language" title="Toggle Language (EN / RO)">
+      <button class="pill-btn lang-btn magnetic-target" id="langToggleBtn" aria-label="Switch Language" title="Toggle Language (EN / RO)">
         <span id="langIndicator">RO</span>
       </button>
 
       <!-- Theme Switcher -->
-      <button class="pill-btn theme-btn" id="themeToggleBtn" aria-label="Toggle Theme" title="Toggle Obsidian / Alabaster Theme">
-        <svg id="themeIcon" viewBox="0 0 24 24">
-          <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <button class="pill-btn theme-btn magnetic-target" id="themeToggleBtn" aria-label="Toggle Theme" title="Toggle Obsidian / Alabaster Theme">
+        <svg id="themeIcon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/>
+          <path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
         </svg>
         <span id="themeLabel">Dark</span>
       </button>
 
-      <!-- Audio Feedback Toggle -->
-      <button class="pill-btn audio-btn" id="audioToggleBtn" aria-label="Toggle Sound Feedback" title="Toggle Subtle Sound Feedback">
+      <!-- Audio Micro-Delight Toggle -->
+      <button class="pill-btn audio-btn magnetic-target" id="audioToggleBtn" aria-label="Toggle Sound" title="Toggle Sonic Feedback">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
           <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
         </svg>
@@ -62,129 +71,158 @@
   </header>
 
   <main id="mainContent">
-    <!-- Hero / Headline Section -->
-    <section class="hero-section container" id="hero">
-      <div class="hero-badge-wrap">
-        <span class="hero-badge-dot" aria-hidden="true"></span>
-        <span class="mono-tag" data-i18n="hero.badge">BRAND IDENTITY & LOGOMARK ATELIER</span>
+    <!-- Monumental Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-aurora-glow"></div>
+      
+      <div class="hero-content container">
+        <div class="hero-kicker-row">
+          <span class="mono-badge">
+            <span class="pulsing-core"></span>
+            <span data-i18n="hero.kicker">AVANT-GARDE IDENTITY ATELIER</span>
+          </span>
+          <span class="mono-badge secondary-badge" data-i18n="hero.badge_pro">99DESIGNS TOP TIER CREATOR</span>
+        </div>
+
+        <!-- Monumental Sculptural Typography -->
+        <h1 class="hero-colossal-title">
+          <span class="title-line-1" data-i18n="hero.title_p1">CRIMA</span>
+          <span class="title-line-2 gradient-metallic" data-i18n="hero.title_p2">DEZIGNZ</span>
+        </h1>
+
+        <div class="hero-split-sub">
+          <div class="hero-sub-statement">
+            <span class="statement-accent" data-i18n="hero.sub_accent">RADICAL FORM. UNCOMPROMISING PRECISION.</span>
+            <p class="statement-text" data-i18n="hero.subtitle">
+              Surgically crafted brand marks, menacing monograms, and architectural emblems designed to dominate the visual landscape.
+            </p>
+          </div>
+
+          <div class="hero-quick-actions">
+            <a href="#exhibition" class="btn-avant-garde magnetic-target" data-i18n="hero.explore">
+              <span>EXPLORE EXHIBITION</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+            </a>
+            <a href="#crucible" class="btn-ghost-luxury magnetic-target" data-i18n="hero.launch_3d">
+              <span>3D CRUCIBLE</span>
+            </a>
+          </div>
+        </div>
       </div>
 
-      <h1 class="hero-headline">
-        <span data-i18n="hero.title_part1">CrimaDezignz®</span><br>
-        <span class="editorial-font gradient-gold" data-i18n="hero.title_part2">Distinctive Identity Architecture.</span>
-      </h1>
-
-      <p class="hero-subtitle" data-i18n="hero.subtitle">
-        Bespoke trademark marks, timeless monograms, and optical geometry crafted for global clients.
-      </p>
-
-      <div class="hero-ctas">
-        <a href="#works" class="btn-primary" data-i18n="hero.cta_works">
-          View All Works
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
-        </a>
-        <a href="#studio" class="btn-secondary" data-i18n="hero.cta_studio">
-          Interactive Logo Studio
-        </a>
-      </div>
-
-      <!-- Hero Identity Spotlight Row -->
-      <div class="hero-bento-grid">
-        <article class="specular-card hero-bento-card">
-          <div class="hero-identity-feature">
-            <img src="crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg" alt="CrimaDezignz Official Monogram" class="hero-avatar-large">
-            <div>
-              <span class="mono-tag" data-i18n="hero.card1_tag">OFFICIAL ATELIER MARK</span>
-              <h2 class="editorial-font" style="font-size: 1.8rem; margin: 4px 0;" data-i18n="hero.card1_title">CrimaDezignz® Identity</h2>
-              <p style="font-size: 0.85rem; color: var(--text-secondary);" data-i18n="hero.card1_desc">A balanced emblem of optical tension, pure geometry, and visual resonance.</p>
-            </div>
-          </div>
-          <div style="margin-top: 20px; display: flex; gap: 12px; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-tertiary);">
-            <span>ORIGIN: 99DESIGNS PRO</span> • <span>PROFILE #1844933</span>
-          </div>
-        </article>
-
-        <article class="specular-card hero-bento-card">
-          <div>
-            <span class="mono-tag" data-i18n="hero.card2_tag">PRECISION CRAFT</span>
-            <div class="hero-stat-number" style="color: var(--accent-gold);">Vector</div>
-            <h3 style="font-size: 1.1rem; margin-bottom: 6px;" data-i18n="hero.card2_title">Mathematical Balance</h3>
-            <p style="font-size: 0.82rem; color: var(--text-secondary);" data-i18n="hero.card2_desc">Every design crafted with exact clear-space ratios, optical kerning, and grid discipline.</p>
-          </div>
-          <div style="margin-top: 16px;">
-            <span class="spec-pill" data-i18n="hero.card2_pill">Golden Ratio Geometry</span>
-          </div>
-        </article>
-
-        <article class="specular-card hero-bento-card">
-          <div>
-            <span class="mono-tag" data-i18n="hero.card3_tag">INTERNATIONAL CLIENTS</span>
-            <div class="hero-stat-number" style="color: var(--accent-emerald);">Global</div>
-            <h3 style="font-size: 1.1rem; margin-bottom: 6px;" data-i18n="hero.card3_title">Contest Winning Works</h3>
-            <p style="font-size: 0.82rem; color: var(--text-secondary);" data-i18n="hero.card3_desc">Commissioned and appreciated by brands, teams, publishers, and startups worldwide.</p>
-          </div>
-          <div style="margin-top: 16px;">
-            <span class="spec-pill" data-i18n="hero.card3_pill">Award-Winning Standard</span>
-          </div>
-        </article>
+      <!-- Hero Infinite Kinetic Marquee -->
+      <div class="kinetic-marquee-wrap" aria-hidden="true">
+        <div class="kinetic-marquee-track" id="marqueeTrack">
+          <span>CRIMADEZIGNZ®</span> <span class="marquee-bullet">✦</span>
+          <span>TRADEMARK MONOGRAMS</span> <span class="marquee-bullet">✦</span>
+          <span>TACTICAL CRESTS</span> <span class="marquee-bullet">✦</span>
+          <span>MATHEMATICAL HARMONY</span> <span class="marquee-bullet">✦</span>
+          <span>AWARD WINNING IDENTITY</span> <span class="marquee-bullet">✦</span>
+          <span>HIGH-OCTANE EMBLEMS</span> <span class="marquee-bullet">✦</span>
+          <span>CRIMADEZIGNZ®</span> <span class="marquee-bullet">✦</span>
+          <span>TRADEMARK MONOGRAMS</span> <span class="marquee-bullet">✦</span>
+          <span>TACTICAL CRESTS</span> <span class="marquee-bullet">✦</span>
+          <span>MATHEMATICAL HARMONY</span> <span class="marquee-bullet">✦</span>
+        </div>
       </div>
     </section>
 
-    <!-- Complete Portfolio Works (Visual First - Modern Effects, No Descriptions in Grid) -->
-    <section class="section-wrapper container" id="works">
-      <div class="section-tag" data-i18n="works.tag">PORTFOLIO COLLECTION</div>
-      <h2 class="section-title editorial-font" data-i18n="works.title">All Works Showcase</h2>
-      <p class="section-desc" data-i18n="works.desc">
-        Explore the visual collection. Filter by style or search in real time. Click any work to inspect in high resolution.
-      </p>
+    <!-- 3D Gyroscope Emblem Crucible (Out of the Box Interactive 3D Feature) -->
+    <section class="section-wrapper crucible-section container" id="crucible">
+      <div class="crucible-header">
+        <span class="section-tag" data-i18n="crucible.tag">SPATIAL EMBLEM CRUCIBLE</span>
+        <h2 class="section-title-monumental" data-i18n="crucible.title">Interactive 3D Identity Matrix</h2>
+        <p class="section-desc-clean" data-i18n="crucible.desc">
+          Manipulate the primary CrimaDezignz® crest in real-time 3D space. Move your cursor to trigger parallax depth, specular highlights, and chromatic aura fields.
+        </p>
+      </div>
 
-      <!-- Archive Controls -->
-      <div class="archive-controls">
-        <div class="filter-pills" id="categoryFilterBar">
-          <button class="filter-btn active" data-category="all" data-i18n="works.btn_all">All Works</button>
-          <button class="filter-btn" data-category="celebrated" data-i18n="works.btn_celebrated">Most Appreciated</button>
-          <button class="filter-btn" data-category="monogram" data-i18n="works.btn_monogram">Monograms</button>
-          <button class="filter-btn" data-category="tactical" data-i18n="works.btn_tactical">Tactical & Shields</button>
-          <button class="filter-btn" data-category="wordmark" data-i18n="works.btn_wordmark">Wordmarks</button>
-          <button class="filter-btn" data-category="dynamic" data-i18n="works.btn_dynamic">Dynamic & Sport</button>
+      <div class="crucible-stage-wrap" id="crucibleWrap">
+        <div class="crucible-3d-card" id="crucibleCard">
+          <div class="card-specular-light" id="cardLight"></div>
+          
+          <div class="crucible-emblem-core">
+            <img src="crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg" alt="CrimaDezignz Primary Crest" class="crucible-image" id="crucibleImage">
+            <div class="emblem-energy-halo"></div>
+          </div>
+
+          <div class="crucible-hud">
+            <div class="hud-item">
+              <span class="hud-label">COORDINATES:</span>
+              <span class="hud-val" id="hudCoords">X: 0.00° / Y: 0.00°</span>
+            </div>
+            <div class="hud-item">
+              <span class="hud-label">VECTOR STABILITY:</span>
+              <span class="hud-val">100.0% OPTICAL BALANCE</span>
+            </div>
+            <div class="hud-item">
+              <span class="hud-label">ORIGIN:</span>
+              <span class="hud-val">99DESIGNS PRO ARCHIVE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Darkroom Exhibition (Visual-First Gallery with Asymmetric Bento & Darkroom Spotlight) -->
+    <section class="section-wrapper exhibition-section container" id="exhibition">
+      <div class="exhibition-header-wrap">
+        <div>
+          <span class="section-tag" data-i18n="works.tag">CURATED EXHIBITION</span>
+          <h2 class="section-title-monumental" data-i18n="works.title">Visual Works Exhibition</h2>
+          <p class="section-desc-clean" data-i18n="works.desc">
+            Hover any work to trigger darkroom spotlight focus and optical coordinate analysis.
+          </p>
         </div>
 
-        <div class="archive-search-box">
-          <span class="archive-search-icon">⚲</span>
-          <input type="text" id="archiveSearchInput" class="archive-search-input" placeholder="Search works (e.g. warrior, racing, book)..." data-i18n-placeholder="works.search_placeholder">
+        <!-- Exhibition Filter Controls -->
+        <div class="exhibition-controls">
+          <div class="filter-pills" id="categoryFilterBar">
+            <button class="filter-btn active magnetic-target" data-category="all" data-i18n="works.btn_all">All Works</button>
+            <button class="filter-btn magnetic-target" data-category="celebrated" data-i18n="works.btn_celebrated">Most Celebrated</button>
+            <button class="filter-btn magnetic-target" data-category="monogram" data-i18n="works.btn_monogram">Monograms</button>
+            <button class="filter-btn magnetic-target" data-category="tactical" data-i18n="works.btn_tactical">Tactical & Crests</button>
+            <button class="filter-btn magnetic-target" data-category="wordmark" data-i18n="works.btn_wordmark">Wordmarks</button>
+            <button class="filter-btn magnetic-target" data-category="dynamic" data-i18n="works.btn_dynamic">Dynamic & Sport</button>
+          </div>
+
+          <div class="archive-search-box">
+            <span class="archive-search-icon">✦</span>
+            <input type="text" id="archiveSearchInput" class="archive-search-input" placeholder="Search exhibition..." data-i18n-placeholder="works.search_placeholder">
+          </div>
         </div>
       </div>
 
-      <!-- Pure Visual-First Grid (Images with Modern Hover Effects, No Text Overload) -->
-      <div class="portfolio-grid" id="portfolioGrid">
+      <!-- Asymmetrical Avant-Garde Grid (Images Only, Ultra-Sleek) -->
+      <div class="exhibition-grid" id="portfolioGrid">
         <!-- Rendered dynamically by app.js -->
       </div>
 
-      <!-- Load More Button -->
       <div class="archive-load-more">
-        <button id="loadMoreBtn" class="btn-secondary" data-i18n="works.load_more">
-          Load More Works
+        <button id="loadMoreBtn" class="btn-avant-garde magnetic-target" data-i18n="works.load_more">
+          <span>LOAD MORE WORKS</span>
         </button>
       </div>
     </section>
 
-    <!-- Interactive Logo Geometry & Anatomy Studio -->
+    <!-- Interactive Geometry Lab -->
     <section class="section-wrapper container" id="studio">
-      <div class="section-tag" data-i18n="studio.tag">PRECISION VISUAL LABORATORY</div>
-      <h2 class="section-title editorial-font" data-i18n="studio.title">Interactive Logo Anatomy & Geometry</h2>
-      <p class="section-desc" data-i18n="studio.desc">
-        Inspect the optical mass distribution, golden ratio proportions, clear-space boundaries, and contrast resilience of the CrimaDezignz® mark across various substrates.
-      </p>
+      <div class="crucible-header">
+        <span class="section-tag" data-i18n="studio.tag">OPTICAL GEOMETRY LAB</span>
+        <h2 class="section-title-monumental" data-i18n="studio.title">Mathematical Construction</h2>
+        <p class="section-desc-clean" data-i18n="studio.desc">
+          Examine the underlying Fibonacci radii, safe clear-zones, and chromatic adaptability of the mark.
+        </p>
+      </div>
 
       <div class="studio-layout">
         <!-- Interactive Viewport -->
-        <div class="specular-card studio-viewport-card" id="studioViewport">
+        <div class="studio-viewport-card" id="studioViewport">
           <div class="studio-stage" id="studioStage">
             <img src="crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg" alt="CrimaDezignz Mark" class="studio-logo-target" id="studioLogo">
             
             <!-- SVG Construction Overlay -->
             <svg class="geometry-svg-overlay" id="geometryOverlay" viewBox="0 0 260 260">
-              <!-- Grid Elements -->
               <g id="layerGrid" style="display: block;">
                 <line x1="130" y1="0" x2="130" y2="260" class="overlay-axis"/>
                 <line x1="0" y1="130" x2="260" y2="130" class="overlay-axis"/>
@@ -192,7 +230,6 @@
                 <line x1="260" y1="0" x2="0" y2="260" class="overlay-axis" stroke-opacity="0.3"/>
               </g>
 
-              <!-- Golden Ratio Circles -->
               <g id="layerGoldenRatio" style="display: block;">
                 <circle cx="130" cy="130" r="110" class="overlay-circle"/>
                 <circle cx="130" cy="130" r="68" class="overlay-circle"/>
@@ -200,7 +237,6 @@
                 <circle cx="130" cy="130" r="26" class="overlay-circle"/>
               </g>
 
-              <!-- Safe Bounds -->
               <g id="layerSafezone" style="display: block;">
                 <rect x="25" y="25" width="210" height="210" rx="20" class="overlay-safezone"/>
                 <text x="32" y="42" fill="var(--accent-gold)" font-family="monospace" font-size="8">CLEAR ZONE: 2X</text>
@@ -208,27 +244,27 @@
             </svg>
           </div>
 
-          <div style="margin-top: 24px; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-tertiary); display: flex; gap: 16px;">
-            <span id="studioDimLabel">DISPLAY RATIO: 1:1 SQUARE</span>
-            <span>BALANCE: OPTICAL HARMONY</span>
-            <span>HIGH CONTRAST</span>
+          <div class="studio-hud-status">
+            <span>PROPORTION: 1:1 SQUARE</span>
+            <span>HARMONY: GOLDEN SECTION</span>
+            <span>KERNING: ABSOLUTE BALANCE</span>
           </div>
         </div>
 
         <!-- Studio Control Deck -->
-        <div class="specular-card studio-controls-card">
+        <div class="studio-controls-card">
           <div>
             <div class="control-group-title" data-i18n="studio.controls_overlays">Geometric Overlays</div>
             <div class="button-toggle-row">
-              <button class="tool-chip active" data-layer="layerGrid">
+              <button class="tool-chip active magnetic-target" data-layer="layerGrid">
                 <span class="tool-dot"></span>
                 <span data-i18n="studio.opt_axis">Cartesian Axis</span>
               </button>
-              <button class="tool-chip active" data-layer="layerGoldenRatio">
+              <button class="tool-chip active magnetic-target" data-layer="layerGoldenRatio">
                 <span class="tool-dot"></span>
                 <span data-i18n="studio.opt_golden">Golden Ratio Circles</span>
               </button>
-              <button class="tool-chip active" data-layer="layerSafezone">
+              <button class="tool-chip active magnetic-target" data-layer="layerSafezone">
                 <span class="tool-dot"></span>
                 <span data-i18n="studio.opt_safezone">Safe Clearance Zone</span>
               </button>
@@ -236,36 +272,36 @@
           </div>
 
           <div>
-            <div class="control-group-title" data-i18n="studio.controls_surface">Substrate / Background Surface</div>
+            <div class="control-group-title" data-i18n="studio.controls_surface">Substrate Surface</div>
             <div class="bg-swatch-picker">
-              <button class="swatch-btn active" style="background: #070709;" data-bg="#070709" title="Obsidian Noir"></button>
-              <button class="swatch-btn" style="background: #fbfbfa;" data-bg="#fbfbfa" title="Gallery Alabaster"></button>
-              <button class="swatch-btn" style="background: #1b1c22;" data-bg="#1b1c22" title="Titanium Slate"></button>
-              <button class="swatch-btn" style="background: #2b1f0c;" data-bg="#2b1f0c" title="Imperial Gold Leaf"></button>
-              <button class="swatch-btn" style="background: #1a0808;" data-bg="#1a0808" title="Crimson Deep"></button>
+              <button class="swatch-btn active magnetic-target" style="background: #050507;" data-bg="#050507" title="Obsidian Void"></button>
+              <button class="swatch-btn magnetic-target" style="background: #fcfbf9;" data-bg="#fcfbf9" title="Gallery Alabaster"></button>
+              <button class="swatch-btn magnetic-target" style="background: #14151b;" data-bg="#14151b" title="Titanium Slate"></button>
+              <button class="swatch-btn magnetic-target" style="background: #231908;" data-bg="#231908" title="Imperial Gold Leaf"></button>
+              <button class="swatch-btn magnetic-target" style="background: #190505;" data-bg="#190505" title="Crimson Abyss"></button>
             </div>
           </div>
 
           <div>
             <div class="control-group-title" data-i18n="studio.controls_scale">Optical Scale Test</div>
             <input type="range" id="studioScaleSlider" min="80" max="240" value="190" style="width: 100%; accent-color: var(--accent-gold);">
-            <div style="display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-tertiary); margin-top: 6px;">
-              <span>Favicon / App Icon (32px)</span>
+            <div class="slider-labels">
+              <span>App Icon (32px)</span>
               <span id="sliderValue">190px</span>
-              <span>Hero Display (512px)</span>
+              <span>Billboard (512px)</span>
             </div>
           </div>
 
           <div style="border-top: 1px solid var(--border-subtle); padding-top: 18px;">
-            <div class="control-group-title" data-i18n="studio.color_dna">Color Palette</div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-family: var(--font-mono); font-size: 0.75rem;">
-              <div style="padding: 8px; background: var(--bg-tertiary); border-radius: 6px;">
-                <span style="color: var(--text-tertiary);">PRIMARY NOIR:</span><br>
-                <strong>#0A0A0C</strong>
+            <div class="control-group-title" data-i18n="studio.color_dna">Color Spectrum</div>
+            <div class="color-dna-grid">
+              <div class="dna-box">
+                <span style="color: var(--text-tertiary);">OBSIDIAN NOIR:</span><br>
+                <strong>#050507</strong>
               </div>
-              <div style="padding: 8px; background: var(--bg-tertiary); border-radius: 6px;">
+              <div class="dna-box">
                 <span style="color: var(--accent-gold);">ROYAL GOLD:</span><br>
-                <strong>#C5A059</strong>
+                <strong>#E5C07B</strong>
               </div>
             </div>
           </div>
@@ -274,89 +310,90 @@
     </section>
   </main>
 
-  <!-- High-Fidelity Modal Dialog for Design Inspection -->
+  <!-- High-Fidelity Detail Modal Dialog -->
   <div class="modal-overlay" id="designModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div class="modal-dialog specular-card">
-      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Dialog">✕</button>
+    <div class="modal-dialog">
+      <button class="modal-close-btn magnetic-target" id="modalCloseBtn" aria-label="Close Dialog">✕</button>
       
-      <div style="text-align: center;">
+      <div class="modal-image-wrapper">
         <img src="" alt="" class="modal-image-display" id="modalImage">
       </div>
 
-      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 16px;">
+      <div class="modal-header-row">
         <div>
-          <span class="mono-tag" id="modalCategory">SYMBOLIC MARK</span>
-          <h2 class="editorial-font" style="font-size: 1.8rem; margin: 4px 0;" id="modalTitle">Design Title</h2>
+          <span class="mono-badge" id="modalCategory">SYMBOLIC MARK</span>
+          <h2 class="modal-title-text" id="modalTitle">Design Title</h2>
         </div>
         <div style="display: flex; align-items: center; gap: 12px;">
           <span class="spec-pill" id="modalLikes">★ Likes</span>
-          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 8px 18px; font-size: 0.8rem;" id="modalSourceLink">
-            View on 99designs ↗
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-avant-garde magnetic-target" id="modalSourceLink">
+            <span>99DESIGNS ENTRY ↗</span>
           </a>
         </div>
       </div>
 
-      <div style="border-top: 1px solid var(--border-subtle); padding-top: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; font-family: var(--font-mono); font-size: 0.75rem;">
+      <div class="modal-meta-grid">
         <div>
-          <span style="color: var(--text-tertiary);">DESIGN ID:</span><br>
+          <span style="color: var(--text-tertiary);">ARCHIVE ID:</span><br>
           <strong id="modalId">#000000</strong>
         </div>
         <div>
-          <span style="color: var(--text-tertiary);">DATE:</span><br>
-          <strong id="modalDate">Verified Archive</strong>
+          <span style="color: var(--text-tertiary);">RECORD:</span><br>
+          <strong id="modalDate">Verified</strong>
         </div>
         <div>
-          <span style="color: var(--text-tertiary);">STATUS:</span><br>
-          <strong style="color: var(--accent-emerald);">Official Trademark Entry</strong>
+          <span style="color: var(--text-tertiary);">STANDARD:</span><br>
+          <strong style="color: var(--accent-gold);">Original Trademark Mark</strong>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Luxury Colophon & Footer -->
+  <!-- Avant-Garde Colophon & Footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-top">
         <div class="footer-colophon">
-          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
-            <img src="crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg" alt="CrimaDezignz" style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--accent-gold);">
-            <strong style="font-size: 1.1rem;">CrimaDezignz® Atelier</strong>
+          <div class="footer-brand-lockup">
+            <img src="crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg" alt="CrimaDezignz" class="footer-avatar">
+            <span class="footer-brand-title">CRIMADEZIGNZ® ATELIER</span>
           </div>
-          <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6;" data-i18n="footer.about">
-            Curated identity marks created for international clients and competitions on 99designs.
+          <p class="footer-brand-desc" data-i18n="footer.about">
+            Haute-couture trademark architecture and visual identities created for international clients and competitions on 99designs.
           </p>
         </div>
 
-        <div style="display: flex; gap: 48px; flex-wrap: wrap;">
+        <div class="footer-links-cluster">
           <div>
             <div class="control-group-title" data-i18n="footer.col_nav">Navigation</div>
-            <ul style="list-style: none; font-size: 0.85rem; display: flex; flex-direction: column; gap: 8px;">
-              <li><a href="#works" style="color: var(--text-secondary); text-decoration: none;">Portfolio Works</a></li>
-              <li><a href="#studio" style="color: var(--text-secondary); text-decoration: none;">Logo Studio</a></li>
-              <li><a href="https://en.99designs.de/profiles/1844933" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); text-decoration: none;">99designs Profile ↗</a></li>
+            <ul class="footer-ul">
+              <li><a href="#exhibition" class="magnetic-target">Exhibition</a></li>
+              <li><a href="#crucible" class="magnetic-target">3D Crucible</a></li>
+              <li><a href="#studio" class="magnetic-target">Geometry Lab</a></li>
+              <li><a href="https://en.99designs.de/profiles/1844933" target="_blank" rel="noopener noreferrer" class="magnetic-target">99designs Official ↗</a></li>
             </ul>
           </div>
 
           <div>
-            <div class="control-group-title" data-i18n="footer.col_specs">Platform</div>
-            <ul style="list-style: none; font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-tertiary); display: flex; flex-direction: column; gap: 6px;">
-              <li>OriginZero Proxmox Hosting</li>
-              <li>Edge TLS 1.3 & HTTP/2</li>
-              <li>Ambient 60 FPS Canvas</li>
-              <li>Zero Layout Shift</li>
+            <div class="control-group-title" data-i18n="footer.col_specs">Platform Architecture</div>
+            <ul class="footer-ul mono-ul">
+              <li>OriginZero Proxmox Edge</li>
+              <li>Dynamic 3D Gyroscope Physics</li>
+              <li>Darkroom Spotlight Lighting</li>
+              <li>HTTP/2 & TLS 1.3 Certified</li>
             </ul>
           </div>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <span>© 2026 CrimaDezignz®. All Rights Reserved. Profile #1844933.</span>
-        <span>ORIGINZERO ATELIER</span>
+        <span>© 2026 CRIMADEZIGNZ®. ALL RIGHTS RESERVED. 99DESIGNS PRO #1844933.</span>
+        <span>ORIGINZERO HAUTE-COUTURE CREATIVE ENGINE</span>
       </div>
     </div>
   </footer>
 
-  <!-- Portfolio Data & Application Script -->
+  <!-- Scripts -->
   <script src="portfolio-data.js"></script>
   <script src="app.js"></script>
 </body>
