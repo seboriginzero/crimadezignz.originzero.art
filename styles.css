@@ -468,16 +468,13 @@ h1, h2, h3, h4 {
   margin-bottom: 4px;
 }
 
-.slop-badge-pill {
+.spec-pill {
   padding: 4px 12px;
   border-radius: 999px;
   font-size: 0.75rem;
   font-family: var(--font-mono);
   font-weight: 700;
   text-transform: uppercase;
-}
-
-.slop-badge-pill.good {
   background: rgba(197, 160, 89, 0.15);
   color: var(--accent-gold-light);
   border: 1px solid rgba(197, 160, 89, 0.3);
