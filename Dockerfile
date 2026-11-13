@@ -1,16 +1,29 @@
-FROM nginx:alpine
+# Multi-stage hardened runner for CrimaDezignz showcase
+FROM node:22-alpine AS runner
 
-# Copy custom nginx configuration
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+WORKDIR /app
 
-# Copy web assets
-COPY index.html /usr/share/nginx/html/
-COPY styles.css /usr/share/nginx/html/
-COPY app.js /usr/share/nginx/html/
-COPY portfolio-data.js /usr/share/nginx/html/
-COPY crimadezignz-profile-assets /usr/share/nginx/html/crimadezignz-profile-assets/
-COPY crimadezignz-portfolio /usr/share/nginx/html/crimadezignz-portfolio/
+# Hardening: Run as unprivileged node user (UID 1000)
+RUN chown -R node:node /app
 
-EXPOSE 80
+# Copy application files
+COPY --chown=node:node index.html /app/
+COPY --chown=node:node styles.css /app/
+COPY --chown=node:node app.js /app/
+COPY --chown=node:node portfolio-data.js /app/
+COPY --chown=node:node server.js /app/
+COPY --chown=node:node crimadezignz-profile-assets /app/crimadezignz-profile-assets/
+COPY --chown=node:node crimadezignz-portfolio /app/crimadezignz-portfolio/
 
-CMD ["nginx", "-g", "daemon off;"]
+USER node
+
+ENV PORT=3000
+ENV HOST=0.0.0.0
+ENV NODE_ENV=production
+
+EXPOSE 3000
+
+HEALTHCHECK --interval=15s --timeout=5s --retries=3 \
+  CMD node -e "const http = require('http'); http.get('http://127.0.0.1:3000/api/health', (r) => process.exit(r.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1));"
+
+CMD ["node", "server.js"]
