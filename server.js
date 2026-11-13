@@ -36,7 +36,6 @@ const server = http.createServer((req, res) => {
       status: 'healthy',
       service: 'crimadezignz.originzero.art',
       tenant: '008-CrimaDezignz',
-      total_designs: 170,
       uptime_seconds: Math.floor(process.uptime()),
       timestamp: new Date().toISOString()
     };
