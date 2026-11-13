@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  crimadezignz-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: crimadezignz-originzero-art
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8088}:80"
+    environment:
+      - NODE_ENV=production
+    labels:
+      # Traefik configuration (if Traefik is used on VM1)
+      - "traefik.enable=true"
+      - "traefik.http.routers.crimadezignz.rule=Host(`crimadezignz.originzero.art`)"
+      - "traefik.http.routers.crimadezignz.entrypoints=websecure"
+      - "traefik.http.routers.crimadezignz.tls.certresolver=letsencrypt"
+      - "traefik.http.services.crimadezignz.loadbalancer.server.port=80"
+      
+      # Reverse proxy metadata
+      - "originzero.tenant=008-CrimaDezignz"
+      - "originzero.domain=crimadezignz.originzero.art"
+      - "originzero.gateway=spartan.originzero.art"
+
+networks:
+  default:
+    name: originzero-network
+    external: true

@@ -1,0 +1,21 @@
+{
+  "name": "crimadezignz-originzero-art",
+  "version": "1.0.0",
+  "description": "CrimaDezignz® Bespoke Identity Atelier & Anti-Slop Showcase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ux",
+    "design",
+    "identity",
+    "logo",
+    "modern-ux",
+    "anti-ai-slop"
+  ],
+  "author": "OriginZero Art",
+  "license": "UNLICENSED",
+  "private": true
+}

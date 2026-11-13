@@ -1,0 +1,90 @@
+name: Deploy to Proxmox VM1 (GitOps)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  validate-and-build:
+    name: Build & Test Artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract Docker metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=raw,value=latest
+            type=sha,format=short
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: ${{ github.ref == 'refs/heads/main' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy-vm1:
+    name: Deploy to VM1 (Proxmox GitOps)
+    needs: validate-and-build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Execute GitOps Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VM1_HOST || 'spartan.originzero.art' }}
+          username: ${{ secrets.VM1_USER || 'root' }}
+          key: ${{ secrets.VM1_SSH_KEY }}
+          port: ${{ secrets.VM1_SSH_PORT || 22 }}
+          script: |
+            set -e
+            echo "==> Deploying CrimaDezignz to Proxmox VM1 (${{ secrets.VM1_HOST || 'spartan.originzero.art' }})..."
+            
+            APP_DIR="/opt/originzero/tenants/crimadezignz"
+            mkdir -p $APP_DIR
+            cd $APP_DIR
+
+            if [ -d ".git" ]; then
+              echo "==> Pulling latest changes from GitHub..."
+              git fetch origin main
+              git reset --hard origin/main
+            else
+              echo "==> Cloning repository..."
+              git clone https://github.com/${{ github.repository }}.git .
+            fi
+
+            echo "==> Pulling or building container..."
+            docker compose pull || docker compose build
+            docker compose up -d --remove-orphans
+
+            echo "==> Checking Reverse Proxy & Provisioning SSL..."
+            if [ -f "./provision-ssl.sh" ]; then
+              chmod +x ./provision-ssl.sh
+              ./provision-ssl.sh
+            fi
+
+            echo "==> Deployment Complete: https://crimadezignz.originzero.art"
