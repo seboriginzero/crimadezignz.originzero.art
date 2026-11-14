@@ -13,16 +13,15 @@
 // 1. 3D Presentation Gallery Modes Definition
 // =============================================================================
 const GALLERY_3D_MODES = [
+  // 3D Spatial Architecture (Top 3)
   { id: "tilt", name: "3D Spatial Tilt", sub: "Monolithic Parallax", badge: "3D SPATIAL TILT", num: "01" },
-  { id: "carousel", name: "3D Cylinder Ring", sub: "Orbital Revolver", badge: "3D CYLINDER RING", num: "02" },
-  { id: "coverflow", name: "3D Coverflow", sub: "Infinite Deep Stack", badge: "3D COVERFLOW", num: "03" },
-  { id: "spiral", name: "3D Helix Spiral", sub: "Ascending Column", badge: "3D HELIX SPIRAL", num: "04" },
-  { id: "stack", name: "3D Quantum Deck", sub: "Physics Stack Swipe", badge: "3D QUANTUM DECK", num: "05" },
-  { id: "matrix", name: "3D Hypercube Matrix", sub: "Z-Plane Constellation", badge: "3D HYPERCUBE MATRIX", num: "06" },
-  { id: "tunnel", name: "3D Void Tunnel", sub: "Endless Warp Corridor", badge: "3D VOID TUNNEL", num: "07" },
-  { id: "spherical", name: "3D Sphere Galaxy", sub: "Geodesic Orbital Dome", badge: "3D SPHERE GALAXY", num: "08" },
-  { id: "kinetic", name: "3D Kinetic Wall", sub: "Velocity Parallax Planes", badge: "3D KINETIC WALL", num: "09" },
-  { id: "hologram", name: "3D Hologram Deck", sub: "Chromatic RGB Refraction", badge: "3D HOLOGRAM DECK", num: "10" }
+  { id: "coverflow", name: "3D Coverflow", sub: "Infinite Deep Stack", badge: "3D COVERFLOW", num: "02" },
+  { id: "tunnel", name: "3D Void Tunnel", sub: "Deep Corridor Warp", badge: "3D VOID TUNNEL", num: "03" },
+
+  // Haute-Couture 2D Royal Galleries (Top 3)
+  { id: "salon-royal", name: "Salon Royal", sub: "Monolithic Editorial Plinths", badge: "2D SALON ROYAL", num: "04" },
+  { id: "imperial-runway", name: "Imperial Runway", sub: "Horizontal Luxury Ribbon", badge: "2D IMPERIAL RUNWAY", num: "05" },
+  { id: "sovereign-spotlight", name: "Sovereign Spotlight", sub: "Curatorial Pedestal Focus", badge: "2D SOVEREIGN SPOTLIGHT", num: "06" }
 ];
 
 // =============================================================================
@@ -423,7 +422,7 @@ class AvantGardeAtelierApp {
     const badge = document.getElementById("toolbarModeBadge");
     const counter = document.getElementById("toolbarCounter");
     if (badge) badge.textContent = modeConfig.badge;
-    if (counter) counter.textContent = `MODE ${modeConfig.num} / 10`;
+    if (counter) counter.textContent = `MODE ${modeConfig.num} / 06`;
 
     // Update Exhibition Grid Classes
     const grid = document.getElementById("portfolioGrid");
@@ -461,146 +460,123 @@ class AvantGardeAtelierApp {
       card.style.display = "";
       card.style.visibility = "";
       card.style.pointerEvents = "";
+      card.style.filter = "";
     });
 
     // Update Mode Status in Toolbar
     const counter = document.getElementById("toolbarCounter");
     const modeConfig = GALLERY_3D_MODES.find(m => m.id === mode) || GALLERY_3D_MODES[0];
     if (counter) {
-      const isSpatial = ["carousel", "coverflow", "spiral", "stack", "tunnel", "spherical"].includes(mode);
+      const isSpatial = ["coverflow", "tunnel", "sovereign-spotlight"].includes(mode);
       if (isSpatial) {
-        counter.textContent = `MODE ${modeConfig.num}/10 • MARK ${this.active3DIndex + 1}/${total}`;
+        counter.textContent = `MODE ${modeConfig.num}/06 • MARK ${this.active3DIndex + 1}/${total}`;
       } else {
-        counter.textContent = `MODE ${modeConfig.num}/10`;
+        counter.textContent = `MODE ${modeConfig.num}/06`;
       }
     }
 
-    // Grid-based modes rely purely on CSS transforms
-    if (mode === "tilt" || mode === "matrix" || mode === "kinetic" || mode === "hologram") {
+    // Modes 1 & 4 (3D Spatial Tilt, Salon Royal) rely purely on responsive CSS Grid layouts
+    if (mode === "tilt" || mode === "salon-royal") {
       return;
     }
 
-    cards.forEach((card, i) => {
-      if (mode === "carousel") {
-        // Dynamic orbital window centered around active3DIndex (supports unlimited loaded items)
-        let rel = (i - this.active3DIndex);
-        while (rel > total / 2) rel -= total;
-        while (rel < -total / 2) rel += total;
+    // Mode 5: Imperial Runway (Horizontal Luxury Ribbon)
+    if (mode === "imperial-runway") {
+      const targetCard = cards[this.active3DIndex];
+      if (targetCard) {
+        const offsetLeft = targetCard.offsetLeft - (grid.clientWidth / 2) + (targetCard.clientWidth / 2);
+        grid.scrollTo({ left: Math.max(0, offsetLeft), behavior: "smooth" });
+      }
+      return;
+    }
 
-        if (Math.abs(rel) <= 5) {
-          const angle = rel * 30;
-          const rad = (angle * Math.PI) / 180;
-          const zDepth = 520;
-          card.style.display = "";
-          card.style.transform = `rotateY(${angle}deg) translateZ(${zDepth}px)`;
-          card.style.opacity = Math.cos(rad) > 0.1 ? "1" : "0.35";
-          card.style.zIndex = Math.round((Math.cos(rad) + 1) * 50);
-          card.style.pointerEvents = Math.cos(rad) > 0.5 ? "auto" : "none";
+    // Mode 6: Sovereign Spotlight (Curatorial Solitary Pedestal)
+    if (mode === "sovereign-spotlight") {
+      cards.forEach((card, i) => {
+        if (i === this.active3DIndex) {
+          card.style.display = "block";
+          card.style.transform = "scale(1)";
+          card.style.opacity = "1";
+          card.style.zIndex = "100";
+          card.style.pointerEvents = "auto";
         } else {
           card.style.display = "none";
+          card.style.opacity = "0";
         }
-      } else if (mode === "coverflow") {
-        // Dynamic coverflow across all loaded items
+      });
+      return;
+    }
+
+    // Mode 2: 3D Coverflow (Infinite Deep Stack)
+    if (mode === "coverflow") {
+      cards.forEach((card, i) => {
         const diff = i - this.active3DIndex;
         if (Math.abs(diff) > 5) {
           card.style.display = "none";
         } else {
           card.style.display = "";
           if (diff === 0) {
-            card.style.transform = `scale(1.12) translateZ(80px)`;
+            card.style.transform = `scale(1.14) translateZ(90px)`;
             card.style.zIndex = "100";
             card.style.opacity = "1";
             card.style.pointerEvents = "auto";
           } else if (diff < 0) {
-            card.style.transform = `translateX(${diff * 180 - 60}px) rotateY(48deg) translateZ(-80px)`;
+            card.style.transform = `translateX(${diff * 180 - 70}px) rotateY(48deg) translateZ(-90px)`;
             card.style.zIndex = `${50 + diff}`;
             card.style.opacity = `${Math.max(0.3, 1 + diff * 0.18)}`;
             card.style.pointerEvents = "auto";
           } else {
-            card.style.transform = `translateX(${diff * 180 + 60}px) rotateY(-48deg) translateZ(-80px)`;
+            card.style.transform = `translateX(${diff * 180 + 70}px) rotateY(-48deg) translateZ(-90px)`;
             card.style.zIndex = `${50 - diff}`;
             card.style.opacity = `${Math.max(0.3, 1 - diff * 0.18)}`;
             card.style.pointerEvents = "auto";
           }
         }
-      } else if (mode === "spiral") {
-        // Dynamic ascending helix
-        const rel = (i - this.active3DIndex);
-        if (Math.abs(rel) > 7) {
-          card.style.display = "none";
-        } else {
-          card.style.display = "";
-          const angle = rel * 32;
-          const yOffset = rel * 40;
-          card.style.transform = `translateY(${yOffset}px) rotateY(${angle}deg) translateZ(360px)`;
-          card.style.opacity = Math.abs(rel) <= 4 ? "1" : "0.2";
-          card.style.zIndex = `${100 - Math.abs(rel)}`;
-          card.style.pointerEvents = Math.abs(rel) <= 2 ? "auto" : "none";
-        }
-      } else if (mode === "stack") {
-        // Dynamic quantum deck
-        let diff = (i - this.active3DIndex);
-        while (diff < 0) diff += total;
-        diff = diff % total;
+      });
+      return;
+    }
 
-        if (diff > 5) {
-          card.style.display = "none";
-        } else {
+    // Mode 3: 3D Void Tunnel (True Architectural Deep Corridor)
+    if (mode === "tunnel") {
+      cards.forEach((card, i) => {
+        const rel = (i - this.active3DIndex + total) % total;
+
+        if (rel === 0) {
+          // Front portal aperture leading directly toward camera
           card.style.display = "";
-          if (diff === 0) {
-            card.style.transform = `translateZ(60px) rotate(0deg) scale(1)`;
-            card.style.zIndex = "100";
-            card.style.opacity = "1";
-            card.style.pointerEvents = "auto";
+          card.style.transform = "translateZ(100px) scale(1.08)";
+          card.style.opacity = "1";
+          card.style.zIndex = "120";
+          card.style.pointerEvents = "auto";
+          card.style.filter = "drop-shadow(0 20px 50px rgba(197, 160, 89, 0.4))";
+        } else if (rel < 13) {
+          // 4-walled deep corridor slices receding in Z-space (up to -3120px)
+          const z = -rel * 260;
+          const wall = rel % 4;
+          card.style.display = "";
+          card.style.zIndex = `${100 - rel}`;
+          card.style.opacity = `${Math.max(0.12, 1 - rel * 0.08)}`;
+          card.style.filter = `brightness(${Math.max(0.2, 1 - rel * 0.08)})`;
+          card.style.pointerEvents = rel <= 2 ? "auto" : "none";
+
+          if (wall === 1) {
+            // Left tunnel wall facing inward
+            card.style.transform = `translateX(-380px) translateZ(${z}px) rotateY(70deg)`;
+          } else if (wall === 2) {
+            // Right tunnel wall facing inward
+            card.style.transform = `translateX(380px) translateZ(${z}px) rotateY(-70deg)`;
+          } else if (wall === 3) {
+            // Ceiling plane angled downward
+            card.style.transform = `translateY(-260px) translateZ(${z}px) rotateX(-65deg)`;
           } else {
-            const rot = diff % 2 === 0 ? diff * 3 : -diff * 3;
-            card.style.transform = `translateY(${diff * 14}px) translateZ(${60 - diff * 20}px) rotate(${rot}deg) scale(${1 - diff * 0.04})`;
-            card.style.zIndex = `${100 - diff}`;
-            card.style.opacity = `${1 - diff * 0.15}`;
-            card.style.pointerEvents = "none";
+            // Floor plane angled upward
+            card.style.transform = `translateY(260px) translateZ(${z}px) rotateX(65deg)`;
           }
-        }
-      } else if (mode === "tunnel") {
-        // Dynamic warp tunnel
-        let diff = (i - this.active3DIndex);
-        while (diff < 0) diff += total;
-        diff = diff % total;
-
-        if (diff >= 9) {
-          card.style.display = "none";
-        } else {
-          card.style.display = "";
-          const zPos = -diff * 170;
-          const xSide = diff % 2 === 0 ? -120 : 120;
-          card.style.transform = `translateX(${xSide}px) translateZ(${zPos}px) rotateY(${xSide > 0 ? -25 : 25}deg)`;
-          card.style.opacity = `${Math.max(0.1, 1 - diff * 0.11)}`;
-          card.style.zIndex = `${100 - diff}`;
-          card.style.pointerEvents = diff === 0 ? "auto" : "none";
-        }
-      } else if (mode === "spherical") {
-        // Dynamic geodesic sphere constellation
-        let rel = (i - this.active3DIndex);
-        while (rel > total / 2) rel -= total;
-        while (rel < -total / 2) rel += total;
-
-        if (Math.abs(rel) <= 8) {
-          const sphereTotal = 17;
-          const idxOnSphere = rel + 8;
-          const phi = Math.acos(-1 + (2 * idxOnSphere) / sphereTotal);
-          const theta = Math.sqrt(sphereTotal * Math.PI) * phi;
-          const xRot = (phi * 180) / Math.PI - 90;
-          const yRot = (theta * 180) / Math.PI;
-
-          card.style.display = "";
-          card.style.transform = `rotateY(${yRot}deg) rotateX(${xRot}deg) translateZ(480px)`;
-          card.style.opacity = Math.abs(rel) <= 3 ? "1" : "0.4";
-          card.style.zIndex = `${50 - Math.abs(rel)}`;
-          card.style.pointerEvents = Math.abs(rel) === 0 ? "auto" : "none";
         } else {
           card.style.display = "none";
         }
-      }
-    });
+      });
+    }
   }
 
   // ===========================================================================
@@ -608,43 +584,6 @@ class AvantGardeAtelierApp {
   // ===========================================================================
   setupExhibition() {
     this.renderExhibition(true);
-
-    // Curatorial Category Filter Pills
-    const filterPills = document.querySelectorAll(".filter-pill");
-    filterPills.forEach(pill => {
-      pill.addEventListener("click", () => {
-        filterPills.forEach(p => p.classList.remove("active"));
-        pill.classList.add("active");
-        this.activeCategory = pill.getAttribute("data-filter") || "all";
-        this.applyExhibitionFilters();
-        this.playMicroTone(580, 0.03);
-      });
-    });
-
-    // Real-Time Search Input
-    const searchInput = document.getElementById("archiveSearchInput");
-    const clearSearchBtn = document.getElementById("clearSearchBtn");
-    if (searchInput) {
-      searchInput.addEventListener("input", (e) => {
-        this.searchQuery = e.target.value.trim().toLowerCase();
-        if (clearSearchBtn) {
-          clearSearchBtn.style.display = this.searchQuery ? "block" : "none";
-        }
-        this.applyExhibitionFilters();
-      });
-    }
-
-    if (clearSearchBtn) {
-      clearSearchBtn.addEventListener("click", () => {
-        if (searchInput) {
-          searchInput.value = "";
-          this.searchQuery = "";
-          clearSearchBtn.style.display = "none";
-          this.applyExhibitionFilters();
-          searchInput.focus();
-        }
-      });
-    }
 
     // Load More & Load All Buttons
     const loadMoreBtn = document.getElementById("loadMoreBtn");
@@ -665,16 +604,15 @@ class AvantGardeAtelierApp {
       });
     }
 
-    // Lateral Mouse Wheel, Trackpad Horizontal Swipe & Drag for 3D modes
+    // Lateral Mouse Wheel, Trackpad Horizontal Swipe & Drag
     const grid = document.getElementById("portfolioGrid");
     if (grid) {
-      // 1. Mouse Lateral / Horizontal Wheel & Spatial Vertical Navigation
       let wheelAccumulator = 0;
       let wheelTimer = null;
 
       grid.addEventListener("wheel", (e) => {
         const isSpatialMode = [
-          "carousel", "coverflow", "spiral", "stack", "tunnel", "spherical"
+          "coverflow", "tunnel", "imperial-runway", "sovereign-spotlight"
         ].includes(this.current3DMode);
 
         const isHorizontalScroll = Math.abs(e.deltaX) > Math.abs(e.deltaY);
@@ -700,7 +638,7 @@ class AvantGardeAtelierApp {
         }
       }, { passive: false });
 
-      // 2. Touch swipe gestures (Mobile & Trackpad touch)
+      // Touch swipe gestures
       let touchStartX = 0;
       let touchStartY = 0;
       grid.addEventListener("touchstart", (e) => {
@@ -722,7 +660,7 @@ class AvantGardeAtelierApp {
         }
       }, { passive: true });
 
-      // 3. Pointer drag with tactile visual feedback
+      // Pointer drag with tactile visual feedback
       let isPointerDown = false;
       let pointerStartX = 0;
 

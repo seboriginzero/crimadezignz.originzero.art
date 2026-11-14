@@ -387,6 +387,23 @@ body {
   transform: translateY(0);
 }
 
+.gallery-menu-heading {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--accent-gold);
+  padding: 10px 18px 4px 18px;
+  text-transform: uppercase;
+  border-top: 1px solid var(--border-subtle);
+  margin-top: 4px;
+}
+
+.gallery-menu-heading:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+
 .gallery-3d-item {
   display: flex;
   align-items: center;
@@ -505,6 +522,11 @@ body {
   color: #8c6e28;
 }
 
+[data-theme="light"] .gallery-menu-heading {
+  color: #8c6e28;
+  border-top-color: rgba(0, 0, 0, 0.08);
+}
+
 [data-theme="light"] .pill-btn {
   background: #ffffff;
   border-color: rgba(0, 0, 0, 0.18);
@@ -542,130 +564,6 @@ body {
   filter: blur(90px);
   pointer-events: none;
   z-index: 0;
-}
-
-/* Minimalist Haute-Couture Artist Header Lockup */
-.hero-identity-header {
-  text-align: center;
-  margin-bottom: 24px;
-  position: relative;
-  z-index: 2;
-  max-width: 880px;
-  padding: 0 20px;
-}
-
-.hero-atelier-tag {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  color: var(--accent-gold);
-  margin-bottom: 12px;
-  text-transform: uppercase;
-}
-
-.hero-atelier-title {
-  font-family: var(--font-sans);
-  font-size: clamp(2.4rem, 5.5vw, 4.4rem);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--text-primary);
-  line-height: 1.05;
-  margin-bottom: 12px;
-}
-
-.trademark-sup {
-  font-size: 0.45em;
-  vertical-align: super;
-  font-weight: 700;
-  margin-left: 2px;
-  color: var(--accent-gold);
-}
-
-.hero-atelier-sub {
-  font-family: var(--font-sans);
-  font-size: clamp(0.88rem, 1.8vw, 1.1rem);
-  color: var(--text-secondary);
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.hero-telemetry-strip {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.telemetry-pill {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  padding: 6px 14px;
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border-medium);
-  color: var(--text-primary);
-  text-transform: uppercase;
-}
-
-[data-theme="light"] .hero-atelier-tag {
-  color: #8c6e28;
-}
-
-[data-theme="light"] .hero-atelier-title {
-  color: #0a0a0c;
-}
-
-[data-theme="light"] .hero-atelier-sub {
-  color: #4a4a55;
-}
-
-[data-theme="light"] .telemetry-pill {
-  background: #ffffff;
-  border-color: rgba(0, 0, 0, 0.16);
-  color: #0a0a0c;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-}
-
-.hero-scroll-cue {
-  margin-top: 18px;
-  margin-bottom: 10px;
-  position: relative;
-  z-index: 2;
-}
-
-.hero-scroll-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  color: var(--text-tertiary);
-  padding: 8px 18px;
-  border: 1px solid var(--border-subtle);
-  transition: var(--transition-quick);
-}
-
-.hero-scroll-link:hover {
-  color: var(--accent-gold);
-  border-color: var(--accent-gold);
-  background: rgba(197, 160, 89, 0.08);
-}
-
-.scroll-arrow {
-  display: inline-block;
-  transition: transform 0.25s ease;
-}
-
-.hero-scroll-link:hover .scroll-arrow {
-  transform: translateY(3px);
 }
 
 .crucible-stage-wrap {
@@ -817,118 +715,6 @@ body {
 [data-theme="light"] .crucible-image {
   border: none;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-}
-
-/* Curatorial Filter Bar & Live Search */
-.exhibition-curator-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-bottom: 24px;
-}
-
-.filter-pills-wrap {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.filter-pill {
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border-medium);
-  color: var(--text-secondary);
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  padding: 8px 14px;
-  cursor: pointer;
-  transition: var(--transition-quick);
-  text-transform: uppercase;
-}
-
-.filter-pill:hover {
-  color: var(--text-primary);
-  border-color: var(--border-focus);
-}
-
-.filter-pill.active {
-  background: var(--accent-gold);
-  color: #050507;
-  border-color: var(--accent-gold);
-}
-
-[data-theme="light"] .filter-pill {
-  background: #ffffff;
-  border-color: rgba(0, 0, 0, 0.15);
-  color: #4a4a55;
-}
-
-[data-theme="light"] .filter-pill:hover {
-  color: #0a0a0c;
-  border-color: #8c6e28;
-}
-
-[data-theme="light"] .filter-pill.active {
-  background: #0a0a0c;
-  color: #ffffff;
-  border-color: #0a0a0c;
-}
-
-.curator-search-box {
-  position: relative;
-  display: flex;
-  align-items: center;
-  min-width: 280px;
-}
-
-.curator-search-box .search-icon {
-  position: absolute;
-  left: 12px;
-  color: var(--accent-gold);
-  font-size: 0.85rem;
-  pointer-events: none;
-}
-
-.curator-search-box input {
-  width: 100%;
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border-medium);
-  color: var(--text-primary);
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  padding: 9px 34px 9px 32px;
-  outline: none;
-  transition: border-color 0.25s ease, box-shadow 0.25s ease;
-}
-
-.curator-search-box input:focus {
-  border-color: var(--accent-gold);
-  box-shadow: 0 0 15px rgba(197, 160, 89, 0.18);
-}
-
-[data-theme="light"] .curator-search-box input {
-  background: #ffffff;
-  border-color: rgba(0, 0, 0, 0.18);
-  color: #0a0a0c;
-}
-
-.clear-search-btn {
-  position: absolute;
-  right: 10px;
-  background: none;
-  border: none;
-  color: var(--text-tertiary);
-  font-size: 0.8rem;
-  cursor: pointer;
-  padding: 4px;
-}
-
-.clear-search-btn:hover {
-  color: var(--text-primary);
 }
 
 .archive-counter-text {
@@ -1129,35 +915,17 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   MODE 02: 3D Cylinder Ring (Orbital Carousel)
-   -------------------------------------------------------------------------- */
-.exhibition-grid.mode-carousel {
-  height: 560px;
-  perspective: 1400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: visible;
-}
-
-.exhibition-grid.mode-carousel .exhibition-item {
-  position: absolute;
-  width: 320px;
-  height: 380px;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
-}
-
-/* --------------------------------------------------------------------------
-   MODE 03: 3D Coverflow
+   MODE 02: 3D Coverflow (Infinite Deep Stack)
    -------------------------------------------------------------------------- */
 .exhibition-grid.mode-coverflow {
-  height: 520px;
+  height: 540px;
   perspective: 1200px;
+  perspective-origin: 50% 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
 }
 
 .exhibition-grid.mode-coverflow .exhibition-item {
@@ -1169,173 +937,174 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   MODE 04: 3D Helix Spiral Column
-   -------------------------------------------------------------------------- */
-.exhibition-grid.mode-spiral {
-  height: 600px;
-  perspective: 1500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.exhibition-grid.mode-spiral .exhibition-item {
-  position: absolute;
-  width: 300px;
-  height: 340px;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.85);
-}
-
-/* --------------------------------------------------------------------------
-   MODE 05: 3D Quantum Deck (Stack Swipe)
-   -------------------------------------------------------------------------- */
-.exhibition-grid.mode-stack {
-  height: 540px;
-  perspective: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.exhibition-grid.mode-stack .exhibition-item {
-  position: absolute;
-  width: 380px;
-  height: 460px;
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
-  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.95);
-}
-
-/* --------------------------------------------------------------------------
-   MODE 06: 3D Hypercube Matrix
-   -------------------------------------------------------------------------- */
-.exhibition-grid.mode-matrix {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 28px;
-  perspective: 1600px;
-  transform-style: preserve-3d;
-}
-
-.exhibition-grid.mode-matrix .exhibition-item:nth-child(3n+1) {
-  transform: translateZ(50px);
-}
-
-.exhibition-grid.mode-matrix .exhibition-item:nth-child(3n+2) {
-  transform: translateZ(0px);
-}
-
-.exhibition-grid.mode-matrix .exhibition-item:nth-child(3n) {
-  transform: translateZ(-60px);
-  opacity: 0.85;
-}
-
-.exhibition-grid.mode-matrix .exhibition-item:hover {
-  transform: translateZ(100px) scale(1.05) !important;
-  opacity: 1 !important;
-  border-color: var(--accent-gold);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.95);
-  z-index: 20;
-}
-
-/* --------------------------------------------------------------------------
-   MODE 07: 3D Void Tunnel Corridor
+   MODE 03: 3D Void Tunnel Corridor (True Architectural Deep Corridor)
    -------------------------------------------------------------------------- */
 .exhibition-grid.mode-tunnel {
-  height: 560px;
+  height: 640px;
   perspective: 900px;
+  perspective-origin: 50% 50%;
+  transform-style: preserve-3d;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   overflow: hidden;
-  background: radial-gradient(circle at 50% 50%, rgba(16, 17, 23, 0.6), #000 80%);
+  background: radial-gradient(circle at 50% 50%, rgba(197, 160, 89, 0.12) 0%, rgba(14, 15, 20, 0.95) 45%, #050507 90%);
+  border: 1px solid var(--border-medium);
+}
+
+.exhibition-grid.mode-tunnel::before {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border: 1px solid rgba(197, 160, 89, 0.3);
+  box-shadow: 0 0 80px rgba(197, 160, 89, 0.25);
+  pointer-events: none;
+  z-index: 1;
+  transform: translateZ(-3200px);
 }
 
 .exhibition-grid.mode-tunnel .exhibition-item {
   position: absolute;
-  width: 340px;
-  height: 400px;
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+  width: 320px;
+  height: 380px;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease, filter 0.4s ease;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.95);
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}
+
+[data-theme="light"] .exhibition-grid.mode-tunnel {
+  background: radial-gradient(circle at 50% 50%, rgba(197, 160, 89, 0.1) 0%, rgba(240, 240, 245, 0.95) 45%, #e8e8ee 90%);
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 /* --------------------------------------------------------------------------
-   MODE 08: 3D Sphere Galaxy Dome
+   MODE 04: Salon Royal (Haute-Couture Monolithic Editorial Plinths)
    -------------------------------------------------------------------------- */
-.exhibition-grid.mode-spherical {
-  height: 580px;
-  perspective: 1400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.exhibition-grid.mode-spherical .exhibition-item {
-  position: absolute;
-  width: 280px;
-  height: 320px;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-/* --------------------------------------------------------------------------
-   MODE 09: 3D Kinetic Wall Parallax
-   -------------------------------------------------------------------------- */
-.exhibition-grid.mode-kinetic {
+.exhibition-grid.mode-salon-royal {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 24px;
-  perspective: 1200px;
-  transform-style: preserve-3d;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  position: relative;
 }
 
-.exhibition-grid.mode-kinetic .exhibition-item {
-  transition: transform 0.25s ease-out;
+.exhibition-grid.mode-salon-royal .exhibition-item {
+  grid-column: span 4;
+  background: var(--bg-card);
+  border: 1px solid var(--border-medium);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
 }
 
-.exhibition-grid.mode-kinetic .exhibition-item:hover {
-  transform: translateZ(60px) scale(1.04);
+/* Haute-Couture Asymmetric Editorial Cadence: Hero Plinth (8-cols) followed by Companion Plinth (4-cols) */
+.exhibition-grid.mode-salon-royal .exhibition-item:nth-child(5n+1) {
+  grid-column: span 8;
+  border-left: 3px solid var(--accent-gold);
+}
+
+.exhibition-grid.mode-salon-royal .exhibition-item:nth-child(5n+1) .exhibition-thumb-wrap {
+  min-height: 480px;
+}
+
+.exhibition-grid.mode-salon-royal .exhibition-item:nth-child(5n+2) {
+  grid-column: span 4;
+}
+
+.exhibition-grid.mode-salon-royal .exhibition-item:hover {
+  transform: translateY(-8px);
   border-color: var(--accent-gold);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95), 0 0 30px rgba(197, 160, 89, 0.15);
   z-index: 10;
 }
 
+@media (max-width: 900px) {
+  .exhibition-grid.mode-salon-royal .exhibition-item,
+  .exhibition-grid.mode-salon-royal .exhibition-item:nth-child(5n+1) {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 600px) {
+  .exhibition-grid.mode-salon-royal .exhibition-item,
+  .exhibition-grid.mode-salon-royal .exhibition-item:nth-child(5n+1) {
+    grid-column: span 12;
+  }
+}
+
 /* --------------------------------------------------------------------------
-   MODE 10: 3D Hologram Deck (Chromatic RGB Refraction & CRT Scanlines)
+   MODE 05: Imperial Runway (Haute-Couture Horizontal Luxury Ribbon)
    -------------------------------------------------------------------------- */
-.exhibition-grid.mode-hologram {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 24px;
+.exhibition-grid.mode-imperial-runway {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 24px 16px 48px 16px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-gold) var(--bg-secondary);
 }
 
-.exhibition-grid.mode-hologram .exhibition-item {
-  border: 1px solid var(--accent-cyan);
-  box-shadow: 0 0 20px rgba(0, 229, 212, 0.2);
+.exhibition-grid.mode-imperial-runway::-webkit-scrollbar {
+  height: 6px;
 }
 
-.exhibition-grid.mode-hologram .exhibition-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.2) 0px,
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 3px
-  );
-  pointer-events: none;
-  z-index: 3;
+.exhibition-grid.mode-imperial-runway::-webkit-scrollbar-thumb {
+  background: var(--accent-gold);
 }
 
-.exhibition-grid.mode-hologram .exhibition-item:hover {
-  box-shadow: -4px 0 25px rgba(255, 42, 95, 0.6), 4px 0 25px rgba(0, 229, 212, 0.6);
+.exhibition-grid.mode-imperial-runway::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+.exhibition-grid.mode-imperial-runway .exhibition-item {
+  flex: 0 0 360px;
+  height: 420px;
+  scroll-snap-align: center;
+  border: 1px solid var(--border-medium);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
+  position: relative;
+}
+
+.exhibition-grid.mode-imperial-runway .exhibition-item:hover {
   transform: translateY(-8px) scale(1.02);
   border-color: var(--accent-gold);
+}
+
+/* --------------------------------------------------------------------------
+   MODE 06: Sovereign Spotlight (Curatorial Solitary Pedestal)
+   -------------------------------------------------------------------------- */
+.exhibition-grid.mode-sovereign-spotlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 580px;
+  position: relative;
+  background: radial-gradient(circle 500px at 50% 50%, rgba(197, 160, 89, 0.14) 0%, rgba(10, 11, 16, 0.95) 55%, var(--bg-primary) 85%);
+  border: 1px solid var(--border-medium);
+  overflow: hidden;
+}
+
+.exhibition-grid.mode-sovereign-spotlight .exhibition-item {
+  position: absolute;
+  width: 480px;
+  max-width: calc(100vw - 48px);
+  height: 520px;
+  box-shadow: 0 35px 90px rgba(0, 0, 0, 0.95), 0 0 50px rgba(197, 160, 89, 0.25);
+  border: 1px solid var(--accent-gold);
+  transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="light"] .exhibition-grid.mode-sovereign-spotlight {
+  background: radial-gradient(circle 500px at 50% 50%, rgba(197, 160, 89, 0.12) 0%, rgba(245, 245, 248, 0.95) 55%, var(--bg-primary) 85%);
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 /* ==========================================================================
