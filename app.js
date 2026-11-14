@@ -444,6 +444,41 @@ class AvantGardeAtelierApp {
     this.playMicroTone(440 + (this.active3DIndex % 12) * 15, 0.03);
   }
 
+  ensureTunnelElements() {
+    const grid = document.getElementById("portfolioGrid");
+    if (!grid) return;
+    let world = document.getElementById("tunnelWorld");
+    if (!world) {
+      world = document.createElement("div");
+      world.className = "tunnel-world";
+      world.id = "tunnelWorld";
+      world.setAttribute("aria-hidden", "true");
+      world.innerHTML = `
+        <div class="tunnel-portal">
+          <div class="tunnel-portal-ring"></div>
+          <div class="tunnel-portal-core"></div>
+          <div class="tunnel-portal-hud">HORIZON // 008</div>
+        </div>
+        <div class="tunnel-floor"></div>
+        <div class="tunnel-ceiling"></div>
+        <div class="tunnel-rail rail-top-left"></div>
+        <div class="tunnel-rail rail-top-right"></div>
+        <div class="tunnel-rail rail-bottom-left"></div>
+        <div class="tunnel-rail rail-bottom-right"></div>
+        <div class="tunnel-ring" style="--ring-z: 120px;"></div>
+        <div class="tunnel-ring" style="--ring-z: -260px;"></div>
+        <div class="tunnel-ring" style="--ring-z: -640px;"></div>
+        <div class="tunnel-ring" style="--ring-z: -1020px;"></div>
+        <div class="tunnel-ring" style="--ring-z: -1400px;"></div>
+        <div class="tunnel-ring" style="--ring-z: -1780px;"></div>
+        <div class="tunnel-ring" style="--ring-z: -2160px;"></div>
+        <div class="tunnel-ring" style="--ring-z: -2540px;"></div>
+      `;
+      grid.prepend(world);
+    }
+    world.style.display = "block";
+  }
+
   apply3DModeTransforms() {
     const grid = document.getElementById("portfolioGrid");
     const cards = Array.from(document.querySelectorAll(".exhibition-item"));
@@ -451,6 +486,15 @@ class AvantGardeAtelierApp {
 
     const total = cards.length;
     const mode = this.current3DMode;
+
+    // Toggle tunnel world background geometry
+    const tunnelWorld = document.getElementById("tunnelWorld");
+    if (mode === "tunnel") {
+      this.ensureTunnelElements();
+    } else if (tunnelWorld) {
+      tunnelWorld.style.display = "none";
+      tunnelWorld.style.transform = "";
+    }
 
     // Full reset of transforms, opacities, and display visibility
     cards.forEach((card) => {
@@ -461,6 +505,7 @@ class AvantGardeAtelierApp {
       card.style.visibility = "";
       card.style.pointerEvents = "";
       card.style.filter = "";
+      card.style.borderColor = "";
     });
 
     // Update Mode Status in Toolbar
@@ -538,44 +583,45 @@ class AvantGardeAtelierApp {
 
     // Mode 3: 3D Void Tunnel (True Architectural Deep Corridor)
     if (mode === "tunnel") {
+      const isMobile = window.innerWidth < 768;
+      const isTablet = window.innerWidth >= 768 && window.innerWidth < 1024;
+      const xDist = isMobile ? Math.min(130, window.innerWidth * 0.32) : isTablet ? 250 : 380;
+      const activePair = Math.floor(this.active3DIndex / 2);
+      const totalPairs = Math.ceil(total / 2);
+
       cards.forEach((card, i) => {
-        const rel = (i - this.active3DIndex + total) % total;
+        const pair = Math.floor(i / 2);
+        const relPair = (pair - activePair + totalPairs) % totalPairs;
+        const isLeft = (i % 2 === 0);
+        const x = isLeft ? -xDist : xDist;
+        const rotY = isLeft ? (isMobile ? 18 : 30) : (isMobile ? -18 : -30);
 
-        if (rel === 0) {
-          // Front portal aperture leading directly toward camera
-          card.style.display = "";
-          card.style.transform = "translateZ(100px) scale(1.08)";
-          card.style.opacity = "1";
-          card.style.zIndex = "120";
-          card.style.pointerEvents = "auto";
-          card.style.filter = "drop-shadow(0 20px 50px rgba(197, 160, 89, 0.4))";
-        } else if (rel < 13) {
-          // 4-walled deep corridor slices receding in Z-space (up to -3120px)
-          const z = -rel * 260;
-          const wall = rel % 4;
-          card.style.display = "";
-          card.style.zIndex = `${100 - rel}`;
-          card.style.opacity = `${Math.max(0.12, 1 - rel * 0.08)}`;
-          card.style.filter = `brightness(${Math.max(0.2, 1 - rel * 0.08)})`;
-          card.style.pointerEvents = rel <= 2 ? "auto" : "none";
+        if (relPair < 8) {
+          card.style.display = "block";
+          const z = 80 - relPair * 380;
+          const opacity = Math.max(0.18, 1 - relPair * 0.11);
+          const brightness = Math.max(0.28, 1 - relPair * 0.08);
 
-          if (wall === 1) {
-            // Left tunnel wall facing inward
-            card.style.transform = `translateX(-380px) translateZ(${z}px) rotateY(70deg)`;
-          } else if (wall === 2) {
-            // Right tunnel wall facing inward
-            card.style.transform = `translateX(380px) translateZ(${z}px) rotateY(-70deg)`;
-          } else if (wall === 3) {
-            // Ceiling plane angled downward
-            card.style.transform = `translateY(-260px) translateZ(${z}px) rotateX(-65deg)`;
+          if (i === this.active3DIndex) {
+            card.style.transform = `translateX(${x}px) translateZ(${z + 40}px) rotateY(${rotY}deg) scale(1.06)`;
+            card.style.opacity = "1";
+            card.style.zIndex = "120";
+            card.style.filter = "brightness(1.18) drop-shadow(0 0 35px rgba(197, 160, 89, 0.75))";
+            card.style.borderColor = "var(--accent-gold)";
+            card.style.pointerEvents = "auto";
           } else {
-            // Floor plane angled upward
-            card.style.transform = `translateY(260px) translateZ(${z}px) rotateX(65deg)`;
+            card.style.transform = `translateX(${x}px) translateZ(${z}px) rotateY(${rotY}deg)`;
+            card.style.zIndex = `${95 - relPair}`;
+            card.style.opacity = `${opacity.toFixed(2)}`;
+            card.style.filter = `brightness(${brightness.toFixed(2)})`;
+            card.style.borderColor = "";
+            card.style.pointerEvents = relPair <= 2 ? "auto" : "none";
           }
         } else {
           card.style.display = "none";
         }
       });
+      return;
     }
   }
 
@@ -688,6 +734,27 @@ class AvantGardeAtelierApp {
       };
       window.addEventListener("pointerup", stopPointerDrag);
       window.addEventListener("pointercancel", stopPointerDrag);
+
+      // Interactive 3D Tunnel Gyroscope Look-Around
+      grid.addEventListener("mousemove", (e) => {
+        if (this.current3DMode !== "tunnel") return;
+        const rect = grid.getBoundingClientRect();
+        const normX = (e.clientX - rect.left) / rect.width - 0.5;
+        const normY = (e.clientY - rect.top) / rect.height - 0.5;
+        const rotY = normX * 12;
+        const rotX = -normY * 8;
+        const world = document.getElementById("tunnelWorld");
+        if (world) {
+          world.style.transform = `rotateX(${rotX.toFixed(2)}deg) rotateY(${rotY.toFixed(2)}deg)`;
+        }
+      });
+
+      grid.addEventListener("mouseleave", () => {
+        const world = document.getElementById("tunnelWorld");
+        if (world) {
+          world.style.transform = "rotateX(0deg) rotateY(0deg)";
+        }
+      });
     }
   }
 

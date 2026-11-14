@@ -940,44 +940,345 @@ body {
    MODE 03: 3D Void Tunnel Corridor (True Architectural Deep Corridor)
    -------------------------------------------------------------------------- */
 .exhibition-grid.mode-tunnel {
-  height: 640px;
-  perspective: 900px;
+  height: 720px;
+  perspective: 950px;
   perspective-origin: 50% 50%;
   transform-style: preserve-3d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   position: relative;
   overflow: hidden;
-  background: radial-gradient(circle at 50% 50%, rgba(197, 160, 89, 0.12) 0%, rgba(14, 15, 20, 0.95) 45%, #050507 90%);
+  background: radial-gradient(circle at 50% 50%, rgba(18, 19, 26, 0.95) 0%, rgba(8, 9, 12, 0.98) 60%, #020204 100%);
   border: 1px solid var(--border-medium);
 }
 
-.exhibition-grid.mode-tunnel::before {
-  content: "";
+.tunnel-world {
   position: absolute;
-  width: 160px;
-  height: 160px;
-  border: 1px solid rgba(197, 160, 89, 0.3);
-  box-shadow: 0 0 80px rgba(197, 160, 89, 0.25);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform-style: preserve-3d;
   pointer-events: none;
   z-index: 1;
-  transform: translateZ(-3200px);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+/* Perspective Floor Runway with Glowing Centerline & Cross-Beams */
+.tunnel-floor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1400px;
+  height: 3400px;
+  margin-left: -700px;
+  margin-top: 0;
+  transform-origin: 50% 0%;
+  transform: translateY(280px) rotateX(90deg);
+  background:
+    linear-gradient(to right,
+      transparent 0%,
+      transparent calc(50% - 3px),
+      rgba(197, 160, 89, 0.9) calc(50% - 2px),
+      rgba(197, 160, 89, 0.9) calc(50% + 2px),
+      transparent calc(50% + 3px),
+      transparent 100%
+    ),
+    repeating-linear-gradient(to bottom,
+      transparent 0px,
+      transparent 96px,
+      rgba(197, 160, 89, 0.22) 96px,
+      rgba(197, 160, 89, 0.22) 100px
+    ),
+    linear-gradient(to bottom,
+      rgba(197, 160, 89, 0.35) 0%,
+      rgba(8, 9, 12, 0.95) 45%,
+      rgba(2, 2, 4, 1) 100%
+    );
+  pointer-events: none;
+}
+
+/* Perspective Ceiling with Dual Gold Lighting Tracks */
+.tunnel-ceiling {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1400px;
+  height: 3400px;
+  margin-left: -700px;
+  margin-top: 0;
+  transform-origin: 50% 0%;
+  transform: translateY(-280px) rotateX(-90deg);
+  background:
+    linear-gradient(to right,
+      transparent 0%,
+      transparent calc(50% - 160px),
+      rgba(197, 160, 89, 0.5) calc(50% - 158px),
+      rgba(197, 160, 89, 0.5) calc(50% - 156px),
+      transparent calc(50% - 154px),
+      transparent calc(50% + 154px),
+      rgba(197, 160, 89, 0.5) calc(50% + 156px),
+      rgba(197, 160, 89, 0.5) calc(50% + 158px),
+      transparent calc(50% + 160px),
+      transparent 100%
+    ),
+    repeating-linear-gradient(to bottom,
+      transparent 0px,
+      transparent 196px,
+      rgba(197, 160, 89, 0.18) 196px,
+      rgba(197, 160, 89, 0.18) 200px
+    ),
+    linear-gradient(to bottom,
+      rgba(197, 160, 89, 0.25) 0%,
+      rgba(8, 9, 12, 0.95) 45%,
+      rgba(2, 2, 4, 1) 100%
+    );
+  pointer-events: none;
+}
+
+/* 4 Longitudinal Corner Guide Rails */
+.tunnel-rail {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2px;
+  height: 3400px;
+  transform-origin: 50% 0%;
+  background: linear-gradient(to bottom, rgba(197, 160, 89, 0.85) 0%, rgba(197, 160, 89, 0.2) 65%, transparent 100%);
+  box-shadow: 0 0 12px rgba(197, 160, 89, 0.6);
+  pointer-events: none;
+}
+.tunnel-rail.rail-top-left {
+  transform: translate(-480px, -280px) rotateX(90deg);
+}
+.tunnel-rail.rail-top-right {
+  transform: translate(480px, -280px) rotateX(90deg);
+}
+.tunnel-rail.rail-bottom-left {
+  transform: translate(-480px, 280px) rotateX(90deg);
+}
+.tunnel-rail.rail-bottom-right {
+  transform: translate(480px, 280px) rotateX(90deg);
+}
+
+/* 8 Concentric Architectural Portal Rings */
+.tunnel-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 960px;
+  height: 560px;
+  margin-left: -480px;
+  margin-top: -280px;
+  border: 1px solid rgba(197, 160, 89, 0.28);
+  box-shadow: 0 0 35px rgba(197, 160, 89, 0.12), inset 0 0 35px rgba(197, 160, 89, 0.12);
+  transform: translateZ(var(--ring-z));
+  pointer-events: none;
+  box-sizing: border-box;
+}
+.tunnel-ring::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 24px;
+  height: 24px;
+  border-top: 3px solid var(--accent-gold);
+  border-left: 3px solid var(--accent-gold);
+}
+.tunnel-ring::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 24px;
+  height: 24px;
+  border-bottom: 3px solid var(--accent-gold);
+  border-right: 3px solid var(--accent-gold);
+}
+
+/* Glowing Vanishing Void Portal */
+.tunnel-portal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 220px;
+  height: 220px;
+  margin-left: -110px;
+  margin-top: -110px;
+  transform: translateZ(-3000px);
+  border: 2px solid rgba(197, 160, 89, 0.6);
+  box-shadow: 0 0 100px rgba(197, 160, 89, 0.5), inset 0 0 50px rgba(197, 160, 89, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, rgba(197, 160, 89, 0.35) 0%, rgba(0, 0, 0, 0.8) 70%);
+  pointer-events: none;
+}
+.tunnel-portal-ring {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border: 1px dashed rgba(197, 160, 89, 0.7);
+  animation: spinPortal 20s linear infinite;
+}
+@keyframes spinPortal {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.tunnel-portal-core {
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(circle, #ffffff 0%, #c5a059 50%, transparent 80%);
+  box-shadow: 0 0 60px #c5a059, 0 0 120px rgba(197, 160, 89, 0.8);
+}
+.tunnel-portal-hud {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: var(--accent-gold);
+  margin-top: 14px;
+  text-shadow: 0 0 10px rgba(197, 160, 89, 0.8);
+}
+
+/* Cards Positioned Along the Tunnel Walls */
 .exhibition-grid.mode-tunnel .exhibition-item {
   position: absolute;
+  left: 50%;
+  top: 50%;
   width: 320px;
   height: 380px;
+  margin-left: -160px;
+  margin-top: -190px;
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease, filter 0.4s ease;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.95);
   backface-visibility: hidden;
   will-change: transform, opacity;
+  cursor: pointer;
+  z-index: 20;
 }
 
+.exhibition-grid.mode-tunnel .exhibition-item:hover {
+  filter: brightness(1.22) drop-shadow(0 0 35px var(--accent-gold)) !important;
+  border-color: var(--accent-gold) !important;
+  z-index: 150 !important;
+}
+
+/* Light Theme Adaptations */
 [data-theme="light"] .exhibition-grid.mode-tunnel {
-  background: radial-gradient(circle at 50% 50%, rgba(197, 160, 89, 0.1) 0%, rgba(240, 240, 245, 0.95) 45%, #e8e8ee 90%);
+  background: radial-gradient(circle at 50% 50%, rgba(245, 243, 238, 0.95) 0%, rgba(230, 227, 220, 0.98) 60%, #ded9ce 100%);
   border-color: rgba(0, 0, 0, 0.15);
+}
+[data-theme="light"] .tunnel-floor {
+  background:
+    linear-gradient(to right,
+      transparent 0%,
+      transparent calc(50% - 3px),
+      rgba(140, 110, 40, 0.85) calc(50% - 2px),
+      rgba(140, 110, 40, 0.85) calc(50% + 2px),
+      transparent calc(50% + 3px),
+      transparent 100%
+    ),
+    repeating-linear-gradient(to bottom,
+      transparent 0px,
+      transparent 96px,
+      rgba(140, 110, 40, 0.18) 96px,
+      rgba(140, 110, 40, 0.18) 100px
+    ),
+    linear-gradient(to bottom,
+      rgba(197, 160, 89, 0.25) 0%,
+      rgba(240, 238, 232, 0.95) 45%,
+      #ded9ce 100%
+    );
+}
+[data-theme="light"] .tunnel-ceiling {
+  background:
+    linear-gradient(to right,
+      transparent 0%,
+      transparent calc(50% - 160px),
+      rgba(140, 110, 40, 0.4) calc(50% - 158px),
+      rgba(140, 110, 40, 0.4) calc(50% - 156px),
+      transparent calc(50% - 154px),
+      transparent calc(50% + 154px),
+      rgba(140, 110, 40, 0.4) calc(50% + 156px),
+      rgba(140, 110, 40, 0.4) calc(50% + 158px),
+      transparent calc(50% + 160px),
+      transparent 100%
+    ),
+    repeating-linear-gradient(to bottom,
+      transparent 0px,
+      transparent 196px,
+      rgba(140, 110, 40, 0.14) 196px,
+      rgba(140, 110, 40, 0.14) 200px
+    ),
+    linear-gradient(to bottom,
+      rgba(197, 160, 89, 0.2) 0%,
+      rgba(240, 238, 232, 0.95) 45%,
+      #ded9ce 100%
+    );
+}
+[data-theme="light"] .tunnel-ring {
+  border-color: rgba(140, 110, 40, 0.25);
+  box-shadow: 0 0 25px rgba(140, 110, 40, 0.1), inset 0 0 25px rgba(140, 110, 40, 0.1);
+}
+[data-theme="light"] .tunnel-portal {
+  border-color: rgba(140, 110, 40, 0.5);
+  box-shadow: 0 0 80px rgba(140, 110, 40, 0.35);
+  background: radial-gradient(circle, rgba(197, 160, 89, 0.25) 0%, rgba(255, 255, 255, 0.8) 70%);
+}
+[data-theme="light"] .exhibition-grid.mode-tunnel .exhibition-item {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 900px) {
+  .exhibition-grid.mode-tunnel {
+    height: 600px;
+    perspective: 800px;
+  }
+  .tunnel-ring {
+    width: 680px;
+    height: 480px;
+    margin-left: -340px;
+    margin-top: -240px;
+  }
+  .tunnel-rail.rail-top-left { transform: translate(-340px, -240px) rotateX(90deg); }
+  .tunnel-rail.rail-top-right { transform: translate(340px, -240px) rotateX(90deg); }
+  .tunnel-rail.rail-bottom-left { transform: translate(-340px, 240px) rotateX(90deg); }
+  .tunnel-rail.rail-bottom-right { transform: translate(340px, 240px) rotateX(90deg); }
+  .tunnel-floor { transform: translateY(240px) rotateX(90deg); }
+  .tunnel-ceiling { transform: translateY(-240px) rotateX(-90deg); }
+  .exhibition-grid.mode-tunnel .exhibition-item {
+    width: 250px;
+    height: 310px;
+    margin-left: -125px;
+    margin-top: -155px;
+  }
+}
+
+@media (max-width: 600px) {
+  .exhibition-grid.mode-tunnel {
+    height: 520px;
+    perspective: 700px;
+  }
+  .tunnel-ring {
+    width: 360px;
+    height: 420px;
+    margin-left: -180px;
+    margin-top: -210px;
+  }
+  .tunnel-rail.rail-top-left { transform: translate(-180px, -210px) rotateX(90deg); }
+  .tunnel-rail.rail-top-right { transform: translate(180px, -210px) rotateX(90deg); }
+  .tunnel-rail.rail-bottom-left { transform: translate(-180px, 210px) rotateX(90deg); }
+  .tunnel-rail.rail-bottom-right { transform: translate(180px, 210px) rotateX(90deg); }
+  .tunnel-floor { transform: translateY(210px) rotateX(90deg); }
+  .tunnel-ceiling { transform: translateY(-210px) rotateX(-90deg); }
+  .exhibition-grid.mode-tunnel .exhibition-item {
+    width: 170px;
+    height: 220px;
+    margin-left: -85px;
+    margin-top: -110px;
+  }
 }
 
 /* --------------------------------------------------------------------------
