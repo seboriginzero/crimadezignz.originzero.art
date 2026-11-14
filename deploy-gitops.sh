@@ -24,7 +24,7 @@ fi
 
 # 2. Build fresh Docker image
 echo "🔨 Building container image originzero-tenant-crimadezignz:latest..."
-docker build -t originzero-tenant-crimadezignz:latest "${SOURCE_DIR}"
+docker build --no-cache -t originzero-tenant-crimadezignz:latest "${SOURCE_DIR}"
 
 # 3. Copy latest compose file to tenant dir
 cp "${SOURCE_DIR}/docker-compose.yml" "${COMPOSE_FILE}"

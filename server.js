@@ -31,7 +31,7 @@ const MIME_TYPES = {
 
 const server = http.createServer((req, res) => {
   // 1. Healthcheck Endpoint
-  if (req.url === '/api/health' || req.url === '/health') {
+  if (req.url === '/api/health' || req.url === '/health' || req.url === '/healthz') {
     const health = {
       status: 'healthy',
       service: 'crimadezignz.originzero.art',
