@@ -53,6 +53,14 @@ const server = http.createServer((req, res) => {
     safePath = '/index.html';
   }
 
+  // Favicon fallback safeguard
+  if (safePath === '/favicon.ico') {
+    const icoPath = path.join(ROOT_DIR, 'favicon.ico');
+    if (!fs.existsSync(icoPath)) {
+      safePath = '/crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg';
+    }
+  }
+
   const filePath = path.join(ROOT_DIR, safePath);
 
   // Security check: ensure path stays within ROOT_DIR

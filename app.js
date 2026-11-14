@@ -440,9 +440,9 @@ class AvantGardeAtelierApp {
     if (cards.length === 0) return;
 
     this.active3DIndex = (this.active3DIndex + direction + cards.length) % cards.length;
-    this.carouselAngle += direction * (360 / Math.min(cards.length, 12));
+    this.carouselAngle += direction * 30;
     this.apply3DModeTransforms();
-    this.playMicroTone(440 + this.active3DIndex * 15, 0.03);
+    this.playMicroTone(440 + (this.active3DIndex % 12) * 15, 0.03);
   }
 
   apply3DModeTransforms() {
@@ -453,8 +453,7 @@ class AvantGardeAtelierApp {
     const total = cards.length;
     const mode = this.current3DMode;
 
-    // Critical Bug Fix: Full reset of transforms, opacities, and display visibility
-    // Ensures cards hidden by carousel/sphere are immediately restored upon returning to grid modes
+    // Full reset of transforms, opacities, and display visibility
     cards.forEach((card) => {
       card.style.transform = "";
       card.style.opacity = "";
@@ -470,7 +469,7 @@ class AvantGardeAtelierApp {
     if (counter) {
       const isSpatial = ["carousel", "coverflow", "spiral", "stack", "tunnel", "spherical"].includes(mode);
       if (isSpatial) {
-        counter.textContent = `MODE ${modeConfig.num}/10 • POS ${this.active3DIndex + 1}/${total}`;
+        counter.textContent = `MODE ${modeConfig.num}/10 • MARK ${this.active3DIndex + 1}/${total}`;
       } else {
         counter.textContent = `MODE ${modeConfig.num}/10`;
       }
@@ -483,76 +482,120 @@ class AvantGardeAtelierApp {
 
     cards.forEach((card, i) => {
       if (mode === "carousel") {
-        const ringCount = Math.min(total, 12);
-        if (i < ringCount) {
-          const angle = (i * (360 / ringCount)) - this.carouselAngle;
+        // Dynamic orbital window centered around active3DIndex (supports unlimited loaded items)
+        let rel = (i - this.active3DIndex);
+        while (rel > total / 2) rel -= total;
+        while (rel < -total / 2) rel += total;
+
+        if (Math.abs(rel) <= 5) {
+          const angle = rel * 30;
           const rad = (angle * Math.PI) / 180;
           const zDepth = 520;
+          card.style.display = "";
           card.style.transform = `rotateY(${angle}deg) translateZ(${zDepth}px)`;
-          card.style.opacity = Math.cos(rad) > -0.2 ? "1" : "0.2";
+          card.style.opacity = Math.cos(rad) > 0.1 ? "1" : "0.35";
           card.style.zIndex = Math.round((Math.cos(rad) + 1) * 50);
+          card.style.pointerEvents = Math.cos(rad) > 0.5 ? "auto" : "none";
         } else {
           card.style.display = "none";
         }
       } else if (mode === "coverflow") {
+        // Dynamic coverflow across all loaded items
         const diff = i - this.active3DIndex;
-        if (Math.abs(diff) > 4) {
-          card.style.opacity = "0";
-          card.style.pointerEvents = "none";
-        } else if (diff === 0) {
-          card.style.transform = `scale(1.12) translateZ(80px)`;
-          card.style.zIndex = "100";
-          card.style.opacity = "1";
-        } else if (diff < 0) {
-          card.style.transform = `translateX(${diff * 180 - 60}px) rotateY(48deg) translateZ(-80px)`;
-          card.style.zIndex = `${50 + diff}`;
-          card.style.opacity = `${Math.max(0.3, 1 + diff * 0.2)}`;
+        if (Math.abs(diff) > 5) {
+          card.style.display = "none";
         } else {
-          card.style.transform = `translateX(${diff * 180 + 60}px) rotateY(-48deg) translateZ(-80px)`;
-          card.style.zIndex = `${50 - diff}`;
-          card.style.opacity = `${Math.max(0.3, 1 - diff * 0.2)}`;
+          card.style.display = "";
+          if (diff === 0) {
+            card.style.transform = `scale(1.12) translateZ(80px)`;
+            card.style.zIndex = "100";
+            card.style.opacity = "1";
+            card.style.pointerEvents = "auto";
+          } else if (diff < 0) {
+            card.style.transform = `translateX(${diff * 180 - 60}px) rotateY(48deg) translateZ(-80px)`;
+            card.style.zIndex = `${50 + diff}`;
+            card.style.opacity = `${Math.max(0.3, 1 + diff * 0.18)}`;
+            card.style.pointerEvents = "auto";
+          } else {
+            card.style.transform = `translateX(${diff * 180 + 60}px) rotateY(-48deg) translateZ(-80px)`;
+            card.style.zIndex = `${50 - diff}`;
+            card.style.opacity = `${Math.max(0.3, 1 - diff * 0.18)}`;
+            card.style.pointerEvents = "auto";
+          }
         }
       } else if (mode === "spiral") {
+        // Dynamic ascending helix
         const rel = (i - this.active3DIndex);
-        const angle = rel * 32;
-        const yOffset = rel * 38;
-        card.style.transform = `translateY(${yOffset}px) rotateY(${angle}deg) translateZ(360px)`;
-        card.style.opacity = Math.abs(rel) <= 5 ? "1" : "0.15";
-        card.style.zIndex = `${100 - Math.abs(rel)}`;
-      } else if (mode === "stack") {
-        const diff = (i - this.active3DIndex + total) % total;
-        if (diff === 0) {
-          card.style.transform = `translateZ(60px) rotate(0deg) scale(1)`;
-          card.style.zIndex = "100";
-          card.style.opacity = "1";
-        } else if (diff <= 4) {
-          const rot = diff % 2 === 0 ? diff * 3 : -diff * 3;
-          card.style.transform = `translateY(${diff * 14}px) translateZ(${60 - diff * 20}px) rotate(${rot}deg) scale(${1 - diff * 0.04})`;
-          card.style.zIndex = `${100 - diff}`;
-          card.style.opacity = `${1 - diff * 0.15}`;
+        if (Math.abs(rel) > 7) {
+          card.style.display = "none";
         } else {
-          card.style.opacity = "0";
-          card.style.pointerEvents = "none";
+          card.style.display = "";
+          const angle = rel * 32;
+          const yOffset = rel * 40;
+          card.style.transform = `translateY(${yOffset}px) rotateY(${angle}deg) translateZ(360px)`;
+          card.style.opacity = Math.abs(rel) <= 4 ? "1" : "0.2";
+          card.style.zIndex = `${100 - Math.abs(rel)}`;
+          card.style.pointerEvents = Math.abs(rel) <= 2 ? "auto" : "none";
+        }
+      } else if (mode === "stack") {
+        // Dynamic quantum deck
+        let diff = (i - this.active3DIndex);
+        while (diff < 0) diff += total;
+        diff = diff % total;
+
+        if (diff > 5) {
+          card.style.display = "none";
+        } else {
+          card.style.display = "";
+          if (diff === 0) {
+            card.style.transform = `translateZ(60px) rotate(0deg) scale(1)`;
+            card.style.zIndex = "100";
+            card.style.opacity = "1";
+            card.style.pointerEvents = "auto";
+          } else {
+            const rot = diff % 2 === 0 ? diff * 3 : -diff * 3;
+            card.style.transform = `translateY(${diff * 14}px) translateZ(${60 - diff * 20}px) rotate(${rot}deg) scale(${1 - diff * 0.04})`;
+            card.style.zIndex = `${100 - diff}`;
+            card.style.opacity = `${1 - diff * 0.15}`;
+            card.style.pointerEvents = "none";
+          }
         }
       } else if (mode === "tunnel") {
-        const diff = (i - this.active3DIndex + total) % total;
-        if (diff < 8) {
-          const zPos = -diff * 180;
+        // Dynamic warp tunnel
+        let diff = (i - this.active3DIndex);
+        while (diff < 0) diff += total;
+        diff = diff % total;
+
+        if (diff >= 9) {
+          card.style.display = "none";
+        } else {
+          card.style.display = "";
+          const zPos = -diff * 170;
           const xSide = diff % 2 === 0 ? -120 : 120;
           card.style.transform = `translateX(${xSide}px) translateZ(${zPos}px) rotateY(${xSide > 0 ? -25 : 25}deg)`;
-          card.style.opacity = `${1 - diff * 0.12}`;
+          card.style.opacity = `${Math.max(0.1, 1 - diff * 0.11)}`;
           card.style.zIndex = `${100 - diff}`;
-        } else {
-          card.style.opacity = "0";
+          card.style.pointerEvents = diff === 0 ? "auto" : "none";
         }
       } else if (mode === "spherical") {
-        const phi = Math.acos(-1 + (2 * i) / Math.min(total, 16));
-        const theta = Math.sqrt(Math.min(total, 16) * Math.PI) * phi + this.carouselAngle * 0.02;
-        const xRot = (phi * 180) / Math.PI - 90;
-        const yRot = (theta * 180) / Math.PI;
-        if (i < 16) {
+        // Dynamic geodesic sphere constellation
+        let rel = (i - this.active3DIndex);
+        while (rel > total / 2) rel -= total;
+        while (rel < -total / 2) rel += total;
+
+        if (Math.abs(rel) <= 8) {
+          const sphereTotal = 17;
+          const idxOnSphere = rel + 8;
+          const phi = Math.acos(-1 + (2 * idxOnSphere) / sphereTotal);
+          const theta = Math.sqrt(sphereTotal * Math.PI) * phi;
+          const xRot = (phi * 180) / Math.PI - 90;
+          const yRot = (theta * 180) / Math.PI;
+
+          card.style.display = "";
           card.style.transform = `rotateY(${yRot}deg) rotateX(${xRot}deg) translateZ(480px)`;
-          card.style.opacity = "0.9";
+          card.style.opacity = Math.abs(rel) <= 3 ? "1" : "0.4";
+          card.style.zIndex = `${50 - Math.abs(rel)}`;
+          card.style.pointerEvents = Math.abs(rel) === 0 ? "auto" : "none";
         } else {
           card.style.display = "none";
         }
@@ -603,7 +646,10 @@ class AvantGardeAtelierApp {
       });
     }
 
+    // Load More & Load All Buttons
     const loadMoreBtn = document.getElementById("loadMoreBtn");
+    const loadAllBtn = document.getElementById("loadAllBtn");
+
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener("click", () => {
         this.renderNextBatch();
@@ -611,29 +657,99 @@ class AvantGardeAtelierApp {
       });
     }
 
-    // Drag interaction for 3D modes
+    if (loadAllBtn) {
+      loadAllBtn.addEventListener("click", () => {
+        this.itemsPerPage = this.filteredItems.length;
+        this.renderNextBatch();
+        this.playMicroTone(680, 0.05);
+      });
+    }
+
+    // Lateral Mouse Wheel, Trackpad Horizontal Swipe & Drag for 3D modes
     const grid = document.getElementById("portfolioGrid");
     if (grid) {
-      let isDown = false;
-      let startX = 0;
+      // 1. Mouse Lateral / Horizontal Wheel & Spatial Vertical Navigation
+      let wheelAccumulator = 0;
+      let wheelTimer = null;
 
-      grid.addEventListener("mousedown", (e) => {
-        isDown = true;
-        startX = e.clientX;
+      grid.addEventListener("wheel", (e) => {
+        const isSpatialMode = [
+          "carousel", "coverflow", "spiral", "stack", "tunnel", "spherical"
+        ].includes(this.current3DMode);
+
+        const isHorizontalScroll = Math.abs(e.deltaX) > Math.abs(e.deltaY);
+        const hasLateralIntent = isHorizontalScroll && Math.abs(e.deltaX) > 6;
+        const hasSpatialVerticalIntent = isSpatialMode && Math.abs(e.deltaY) > 8;
+
+        if (hasLateralIntent || hasSpatialVerticalIntent) {
+          const rawDelta = hasLateralIntent ? e.deltaX : e.deltaY;
+          e.preventDefault();
+          wheelAccumulator += rawDelta;
+
+          const threshold = 32;
+          if (Math.abs(wheelAccumulator) >= threshold) {
+            const step = wheelAccumulator > 0 ? 1 : -1;
+            this.navigate3D(step);
+            wheelAccumulator = 0;
+          }
+
+          clearTimeout(wheelTimer);
+          wheelTimer = setTimeout(() => {
+            wheelAccumulator = 0;
+          }, 140);
+        }
+      }, { passive: false });
+
+      // 2. Touch swipe gestures (Mobile & Trackpad touch)
+      let touchStartX = 0;
+      let touchStartY = 0;
+      grid.addEventListener("touchstart", (e) => {
+        if (e.touches.length === 1) {
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+        }
+      }, { passive: true });
+
+      grid.addEventListener("touchmove", (e) => {
+        if (e.touches.length === 1) {
+          const diffX = e.touches[0].clientX - touchStartX;
+          const diffY = e.touches[0].clientY - touchStartY;
+          if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 35) {
+            this.navigate3D(diffX > 0 ? -1 : 1);
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+          }
+        }
+      }, { passive: true });
+
+      // 3. Pointer drag with tactile visual feedback
+      let isPointerDown = false;
+      let pointerStartX = 0;
+
+      grid.addEventListener("pointerdown", (e) => {
+        if (e.button !== 0) return;
+        isPointerDown = true;
+        pointerStartX = e.clientX;
+        grid.classList.add("stage-dragging");
       });
 
-      window.addEventListener("mouseup", () => {
-        isDown = false;
-      });
-
-      grid.addEventListener("mousemove", (e) => {
-        if (!isDown) return;
-        const delta = e.clientX - startX;
-        if (Math.abs(delta) > 50) {
-          this.navigate3D(delta > 0 ? -1 : 1);
-          startX = e.clientX;
+      window.addEventListener("pointermove", (e) => {
+        if (!isPointerDown) return;
+        const deltaX = e.clientX - pointerStartX;
+        if (Math.abs(deltaX) > 42) {
+          this.navigate3D(deltaX > 0 ? -1 : 1);
+          pointerStartX = e.clientX;
         }
       });
+
+      const stopPointerDrag = () => {
+        if (isPointerDown) {
+          isPointerDown = false;
+          grid.classList.remove("stage-dragging");
+        }
+      };
+      window.addEventListener("pointerup", stopPointerDrag);
+      window.addEventListener("pointercancel", stopPointerDrag);
     }
   }
 
@@ -655,6 +771,8 @@ class AvantGardeAtelierApp {
 
   updateArchiveCounters() {
     const counterText = document.getElementById("archiveCounterText");
+    const loadMoreBtn = document.getElementById("loadMoreBtn");
+    const loadAllBtn = document.getElementById("loadAllBtn");
     const total = this.portfolioItems.length;
     const matching = this.filteredItems.length;
     const showing = Math.min(this.displayedCount, matching);
@@ -666,11 +784,16 @@ class AvantGardeAtelierApp {
         counterText.textContent = `Showing ${showing} of ${matching} Filtered Marks (${total} in Archive)`;
       }
     }
+
+    const isFullyLoaded = this.displayedCount >= matching;
+    if (loadMoreBtn) loadMoreBtn.style.display = isFullyLoaded ? "none" : "inline-block";
+    if (loadAllBtn) loadAllBtn.style.display = isFullyLoaded ? "none" : "inline-block";
   }
 
   renderExhibition(reset = false) {
     const grid = document.getElementById("portfolioGrid");
     const loadMoreBtn = document.getElementById("loadMoreBtn");
+    const loadAllBtn = document.getElementById("loadAllBtn");
     if (!grid) return;
 
     if (reset) {
@@ -678,6 +801,7 @@ class AvantGardeAtelierApp {
       this.displayedCount = 0;
       this.active3DIndex = 0;
       this.carouselAngle = 0;
+      this.itemsPerPage = 24;
     }
 
     if (this.filteredItems.length === 0) {
@@ -688,6 +812,7 @@ class AvantGardeAtelierApp {
         </div>
       `;
       if (loadMoreBtn) loadMoreBtn.style.display = "none";
+      if (loadAllBtn) loadAllBtn.style.display = "none";
       this.updateArchiveCounters();
       return;
     }

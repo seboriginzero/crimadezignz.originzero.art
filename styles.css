@@ -1366,6 +1366,39 @@ body {
   filter: brightness(1.1);
 }
 
+.btn-load-all {
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-medium);
+  box-shadow: none;
+  margin-left: 12px;
+}
+
+.btn-load-all:hover {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border-color: var(--accent-gold);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="light"] .btn-load-all {
+  background: #ffffff;
+  color: #4a4a55;
+  border-color: rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .btn-load-all:hover {
+  background: #f4f4f7;
+  color: #0a0a0c;
+  border-color: #8c6e28;
+}
+
+.exhibition-grid.stage-dragging {
+  cursor: grabbing !important;
+  user-select: none;
+}
+
 .archive-load-more {
   text-align: center;
   margin-top: 56px;
