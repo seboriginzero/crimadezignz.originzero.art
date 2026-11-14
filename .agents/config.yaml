@@ -1,0 +1,122 @@
+# ==============================================================================
+# CONFIGURAȚIE TENANT — 008-CrimaDezignz
+# Ecosistem: doamneAjuta / Macro-zona Vest (AR)
+# ==============================================================================
+
+project:
+  name: "CrimaDezignz®"
+  tenant_id: "008-CrimaDezignz"
+  version: "2.1.0"
+  tagline: "Avant-Garde Trademark Atelier • 99designs Pro Archive"
+  description: "Portofoliu suveran de identitate vizuală de lux, mărci vectoriale de elită și expoziție 3D/2D Haute-Couture."
+  primary_domain: "crimadezignz.originzero.art"
+  protocol: "https"
+  license: "All Rights Reserved © CrimaDezignz®"
+
+zone_hierarchy:
+  macro_zone: "vest"
+  macro_zone_name: "Vest (Banat, Crișana de Sud & Hunedoara)"
+  county: "AR"
+  county_name: "Arad"
+  status: "active"
+
+infrastructure:
+  compute_host:
+    name: "Proxmox VM1"
+    ip: "192.168.57.51"
+    user: "antigravity"
+    deploy_path: "/home/antigravity/tenants/crimadezignz"
+    deploy_script: "/home/antigravity/tenants/crimadezignz/deploy-gitops.sh"
+  container:
+    name: "originzero-tenant-crimadezignz"
+    image: "originzero-tenant-crimadezignz:latest"
+    internal_port: 3000
+    host_port: 3105
+    network: "host"
+    restart_policy: "always"
+  edge_ssl_proxy:
+    name: "Proxmox VM3 Nginx SSL"
+    server_names:
+      - "crimadezignz.originzero.art"
+    ssl_cert: "/etc/letsencrypt/live/crimadezignz.originzero.art/fullchain.pem"
+    ssl_key: "/etc/letsencrypt/live/crimadezignz.originzero.art/privkey.pem"
+    upstream_target: "http://192.168.57.51:3105"
+  github_repository:
+    remote_url: "git@github.com:seboriginzero/crimadezignz.originzero.art.git"
+    branch: "main"
+    git_bin: "/Library/Developer/CommandLineTools/usr/bin/git"
+
+stack:
+  runtime: "Node.js 22 LTS (Alpine Linux)"
+  server: "server.js (Hardened HTTP Static & SPA Server)"
+  frontend: "Vanilla ES2024 Modern Vanilla Engine (app.js)"
+  styling: "Pure Vanilla CSS3 with CSS 3D Transforms (styles.css)"
+  data_store: "portfolio-data.js (170 Curated Master Marks)"
+
+branding_rules:
+  exact_casing: "CrimaDezignz®"
+  geometry:
+    border_radius: "0px !important"
+    angles: "Strict 90-degree Cartesian edges"
+  artwork_presentation:
+    frames: "strictly_prohibited"
+    borders: "strictly_prohibited"
+    aspect_ratio: "preserve_original_unclipped"
+    lightroom_masking: "strictly_prohibited"
+  color_palette:
+    noir_obsidian: "#050507"
+    jet_black: "#0a0a0c"
+    champagne_gold: "#c9a050"
+    gold_highlight: "#dfba68"
+    warm_silver: "#e0e0e0"
+    ambient_subtle: "#18181f"
+  favicon:
+    concept: "Alien Head Neon Chromatic Glitch"
+    files:
+      - "favicon.ico"
+      - "favicon.svg"
+      - "favicon-16x16.png"
+      - "favicon-32x32.png"
+      - "favicon-48x48.png"
+      - "favicon-64x64.png"
+      - "apple-touch-icon.png"
+
+gallery_modes:
+  three_dimensional:
+    - id: "tilt"
+      name: "3D Spatial Tilt"
+      description: "Perspective stage with dynamic cursor tilt and spatial depth."
+    - id: "coverflow"
+      name: "3D Coverflow"
+      description: "Angled left/right card cascade with central elevated focus."
+    - id: "tunnel"
+      name: "3D Void Tunnel"
+      description: "Monumental 4-walled deep corridor with 8 portal rings, floor runway grid, ceiling tracks and central flight engine through all 170 master works."
+  two_dimensional_haute_couture:
+    - id: "salon"
+      name: "Salon Royal"
+      description: "Vertical architectural salon with zenithal lighting and hero spotlight."
+    - id: "runway"
+      name: "Imperial Runway"
+      description: "Horizontal high-fashion runway with lateral mouse wheel and trackpad scroll."
+    - id: "spotlight"
+      name: "Sovereign Spotlight"
+      description: "Monumental single-mark exhibition with high-resolution inspection."
+
+archive_inventory:
+  total_works: 170
+  origin: "99designs Pro Archive (#1844933)"
+  categories:
+    - "Monograms (84)"
+    - "Tactical Crests (45)"
+    - "Symbolic Marks (38)"
+    - "Wordmarks (3)"
+  formats:
+    - "SVG"
+    - "PNG"
+    - "JPG"
+
+healthcheck:
+  internal_endpoint: "http://127.0.0.1:3105/healthz"
+  public_endpoint: "https://crimadezignz.originzero.art/healthz"
+  expected_status: 200
