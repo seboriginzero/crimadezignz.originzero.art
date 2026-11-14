@@ -76,6 +76,9 @@ class AvantGardeAtelierApp {
     this.itemsPerPage = 24;
     this.displayedCount = 0;
     this.filteredItems = this.portfolioItems;
+    this.activeCategory = "all";
+    this.searchQuery = "";
+    this.modalCurrentIndex = 0;
 
     // 3D Navigation Index for spatial presentation modes
     this.active3DIndex = 0;
@@ -450,12 +453,35 @@ class AvantGardeAtelierApp {
     const total = cards.length;
     const mode = this.current3DMode;
 
-    cards.forEach((card, i) => {
-      // Reset generic styles
+    // Critical Bug Fix: Full reset of transforms, opacities, and display visibility
+    // Ensures cards hidden by carousel/sphere are immediately restored upon returning to grid modes
+    cards.forEach((card) => {
       card.style.transform = "";
       card.style.opacity = "";
       card.style.zIndex = "";
+      card.style.display = "";
+      card.style.visibility = "";
+      card.style.pointerEvents = "";
+    });
 
+    // Update Mode Status in Toolbar
+    const counter = document.getElementById("toolbarCounter");
+    const modeConfig = GALLERY_3D_MODES.find(m => m.id === mode) || GALLERY_3D_MODES[0];
+    if (counter) {
+      const isSpatial = ["carousel", "coverflow", "spiral", "stack", "tunnel", "spherical"].includes(mode);
+      if (isSpatial) {
+        counter.textContent = `MODE ${modeConfig.num}/10 • POS ${this.active3DIndex + 1}/${total}`;
+      } else {
+        counter.textContent = `MODE ${modeConfig.num}/10`;
+      }
+    }
+
+    // Grid-based modes rely purely on CSS transforms
+    if (mode === "tilt" || mode === "matrix" || mode === "kinetic" || mode === "hologram") {
+      return;
+    }
+
+    cards.forEach((card, i) => {
       if (mode === "carousel") {
         const ringCount = Math.min(total, 12);
         if (i < ringCount) {
@@ -540,6 +566,43 @@ class AvantGardeAtelierApp {
   setupExhibition() {
     this.renderExhibition(true);
 
+    // Curatorial Category Filter Pills
+    const filterPills = document.querySelectorAll(".filter-pill");
+    filterPills.forEach(pill => {
+      pill.addEventListener("click", () => {
+        filterPills.forEach(p => p.classList.remove("active"));
+        pill.classList.add("active");
+        this.activeCategory = pill.getAttribute("data-filter") || "all";
+        this.applyExhibitionFilters();
+        this.playMicroTone(580, 0.03);
+      });
+    });
+
+    // Real-Time Search Input
+    const searchInput = document.getElementById("archiveSearchInput");
+    const clearSearchBtn = document.getElementById("clearSearchBtn");
+    if (searchInput) {
+      searchInput.addEventListener("input", (e) => {
+        this.searchQuery = e.target.value.trim().toLowerCase();
+        if (clearSearchBtn) {
+          clearSearchBtn.style.display = this.searchQuery ? "block" : "none";
+        }
+        this.applyExhibitionFilters();
+      });
+    }
+
+    if (clearSearchBtn) {
+      clearSearchBtn.addEventListener("click", () => {
+        if (searchInput) {
+          searchInput.value = "";
+          this.searchQuery = "";
+          clearSearchBtn.style.display = "none";
+          this.applyExhibitionFilters();
+          searchInput.focus();
+        }
+      });
+    }
+
     const loadMoreBtn = document.getElementById("loadMoreBtn");
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener("click", () => {
@@ -574,6 +637,37 @@ class AvantGardeAtelierApp {
     }
   }
 
+  applyExhibitionFilters() {
+    const cat = this.activeCategory || "all";
+    const query = this.searchQuery || "";
+
+    this.filteredItems = this.portfolioItems.filter(item => {
+      const matchCat = (cat === "all") || (item.category === cat);
+      const matchQuery = !query ||
+        (item.title && item.title.toLowerCase().includes(query)) ||
+        (item.description && item.description.toLowerCase().includes(query)) ||
+        (item.id && item.id.toString().includes(query));
+      return matchCat && matchQuery;
+    });
+
+    this.renderExhibition(true);
+  }
+
+  updateArchiveCounters() {
+    const counterText = document.getElementById("archiveCounterText");
+    const total = this.portfolioItems.length;
+    const matching = this.filteredItems.length;
+    const showing = Math.min(this.displayedCount, matching);
+
+    if (counterText) {
+      if (matching === total) {
+        counterText.textContent = `Showing ${showing} of ${total} Master Works`;
+      } else {
+        counterText.textContent = `Showing ${showing} of ${matching} Filtered Marks (${total} in Archive)`;
+      }
+    }
+  }
+
   renderExhibition(reset = false) {
     const grid = document.getElementById("portfolioGrid");
     const loadMoreBtn = document.getElementById("loadMoreBtn");
@@ -582,6 +676,20 @@ class AvantGardeAtelierApp {
     if (reset) {
       grid.innerHTML = "";
       this.displayedCount = 0;
+      this.active3DIndex = 0;
+      this.carouselAngle = 0;
+    }
+
+    if (this.filteredItems.length === 0) {
+      grid.innerHTML = `
+        <div class="archive-empty-state" style="grid-column: 1 / -1; padding: 5rem 2rem; text-align: center; color: var(--text-dim);">
+          <p style="font-family: var(--font-mono); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.75rem; color: var(--accent-gold);">NO ARCHIVE ENTRIES MATCH YOUR CRITERIA</p>
+          <p style="font-size: 0.9rem; opacity: 0.75;">Try searching for another keyword (e.g. lion, apex, monogram) or choose "ALL WORKS".</p>
+        </div>
+      `;
+      if (loadMoreBtn) loadMoreBtn.style.display = "none";
+      this.updateArchiveCounters();
+      return;
     }
 
     this.renderNextBatch();
@@ -599,7 +707,7 @@ class AvantGardeAtelierApp {
 
     nextBatch.forEach((item, index) => {
       const overallIndex = this.displayedCount + index;
-      const isFeatured = overallIndex === 0 || overallIndex === 7 || overallIndex === 15;
+      const isFeatured = (overallIndex === 0 || overallIndex === 7 || overallIndex === 15) && this.current3DMode === "tilt";
 
       const card = document.createElement("article");
       card.className = `exhibition-item magnetic-target ${isFeatured ? "span-featured" : ""}`;
@@ -617,11 +725,11 @@ class AvantGardeAtelierApp {
         </div>
       `;
 
-      card.addEventListener("click", () => this.openModal(item));
+      card.addEventListener("click", () => this.openModal(item, overallIndex));
       card.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
-          this.openModal(item);
+          this.openModal(item, overallIndex);
         }
       });
 
@@ -633,6 +741,8 @@ class AvantGardeAtelierApp {
     if (loadMoreBtn) {
       loadMoreBtn.style.display = this.displayedCount >= this.filteredItems.length ? "none" : "inline-block";
     }
+
+    this.updateArchiveCounters();
 
     if (this.refreshMagneticTargets) {
       this.refreshMagneticTargets();
@@ -647,35 +757,119 @@ class AvantGardeAtelierApp {
   setupModal() {
     const modal = document.getElementById("designModal");
     const closeBtn = document.getElementById("modalCloseBtn");
+    const prevBtn = document.getElementById("modalPrevBtn");
+    const nextBtn = document.getElementById("modalNextBtn");
+    const zoomBtn = document.getElementById("modalZoomBtn");
 
     if (closeBtn && modal) {
       closeBtn.addEventListener("click", () => this.closeModal());
       modal.addEventListener("click", (e) => {
         if (e.target === modal) this.closeModal();
       });
-      window.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && modal.classList.contains("open")) {
-          this.closeModal();
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        this.navigateModal(-1);
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        this.navigateModal(1);
+      });
+    }
+
+    if (zoomBtn) {
+      zoomBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const img = document.getElementById("modalImage");
+        const zoomText = document.getElementById("zoomBtnText");
+        if (img) {
+          img.classList.toggle("zoomed");
+          const isZoomed = img.classList.contains("zoomed");
+          if (zoomText) zoomText.textContent = isZoomed ? "RESET" : "ZOOM 2X";
+          this.playMicroTone(isZoomed ? 680 : 520, 0.03);
         }
       });
     }
+
+    const modalImg = document.getElementById("modalImage");
+    if (modalImg) {
+      modalImg.addEventListener("click", () => {
+        modalImg.classList.toggle("zoomed");
+        const zoomText = document.getElementById("zoomBtnText");
+        const isZoomed = modalImg.classList.contains("zoomed");
+        if (zoomText) zoomText.textContent = isZoomed ? "RESET" : "ZOOM 2X";
+      });
+    }
+
+    window.addEventListener("keydown", (e) => {
+      if (!modal || !modal.classList.contains("open")) return;
+      if (e.key === "Escape") {
+        this.closeModal();
+      } else if (e.key === "ArrowLeft") {
+        this.navigateModal(-1);
+      } else if (e.key === "ArrowRight") {
+        this.navigateModal(1);
+      }
+    });
   }
 
-  openModal(item) {
+  openModal(item, index) {
     const modal = document.getElementById("designModal");
-    if (!modal) return;
+    if (!modal || !item) return;
 
-    document.getElementById("modalImage").src = item.image;
-    document.getElementById("modalImage").alt = item.title;
-    document.getElementById("modalTitle").textContent = item.title;
-    document.getElementById("modalCategory").textContent = (item.category || "TRADEMARK").toUpperCase() + " MARK";
-    document.getElementById("modalId").textContent = `#${item.id}`;
-    document.getElementById("modalDate").textContent = item.createdAt ? item.createdAt.slice(0, 10) : "Archive Entry";
-    document.getElementById("modalSourceLink").href = item.url;
+    this.modalCurrentIndex = (typeof index === "number") ? index : this.filteredItems.indexOf(item);
+
+    const modalImg = document.getElementById("modalImage");
+    if (modalImg) {
+      modalImg.src = item.image;
+      modalImg.alt = item.title;
+      modalImg.classList.remove("zoomed");
+    }
+
+    const zoomText = document.getElementById("zoomBtnText");
+    if (zoomText) zoomText.textContent = "ZOOM 2X";
+
+    const titleEl = document.getElementById("modalTitle");
+    if (titleEl) titleEl.textContent = item.title;
+
+    const catEl = document.getElementById("modalCategory");
+    if (catEl) catEl.textContent = (item.category || "TRADEMARK").toUpperCase() + " MARK";
+
+    const idEl = document.getElementById("modalId");
+    if (idEl) idEl.textContent = `#${item.id}`;
+
+    const dateEl = document.getElementById("modalDate");
+    if (dateEl) dateEl.textContent = item.createdAt ? item.createdAt.slice(0, 10) : "Verified";
+
+    const linkEl = document.getElementById("modalSourceLink");
+    if (linkEl) linkEl.href = item.url;
+
+    // Authentic Design Concept & Brief Rationale
+    const descEl = document.getElementById("modalDesc");
+    if (descEl) {
+      if (item.description && item.description.trim().length > 0) {
+        descEl.textContent = item.description;
+      } else {
+        descEl.textContent = "Original trademark design and bespoke vector geometry crafted by CrimaDezignz® for international contest submission on 99designs.";
+      }
+    }
 
     modal.classList.add("open");
     document.body.style.overflow = "hidden";
     this.playMicroTone(720, 0.05);
+  }
+
+  navigateModal(direction) {
+    if (!this.filteredItems || this.filteredItems.length === 0) return;
+    const len = this.filteredItems.length;
+    this.modalCurrentIndex = (this.modalCurrentIndex + direction + len) % len;
+    const nextItem = this.filteredItems[this.modalCurrentIndex];
+    this.openModal(nextItem, this.modalCurrentIndex);
   }
 
   closeModal() {
@@ -683,6 +877,10 @@ class AvantGardeAtelierApp {
     if (!modal) return;
     modal.classList.remove("open");
     document.body.style.overflow = "";
+
+    const modalImg = document.getElementById("modalImage");
+    if (modalImg) modalImg.classList.remove("zoomed");
+
     this.playMicroTone(360, 0.03);
   }
 

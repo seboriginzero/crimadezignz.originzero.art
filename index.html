@@ -155,6 +155,19 @@
     <section class="hero-section" id="hero">
       <div class="hero-aurora-glow"></div>
       
+      <!-- Minimalist Haute-Couture Artist Header Lockup -->
+      <div class="hero-identity-header">
+        <div class="hero-atelier-tag">AVANT-GARDE TRADEMARK ATELIER • 99DESIGNS PRO ARCHIVE</div>
+        <h1 class="hero-atelier-title">CrimaDezignz<span class="trademark-sup">®</span></h1>
+        <p class="hero-atelier-sub">Haute-Couture Brand Marks • Menacing Monograms • Optical Vector Geometry</p>
+        <div class="hero-telemetry-strip">
+          <span class="telemetry-pill">170 MASTER MARKS</span>
+          <span class="telemetry-pill">99DESIGNS TOP TIER CREATOR</span>
+          <span class="telemetry-pill">100% VECTOR PRECISION</span>
+          <span class="telemetry-pill">CONTEST WINNER</span>
+        </div>
+      </div>
+
       <!-- 3D Gyroscope Emblem Crucible Card (Spacious Landscape Layout, Sharp Brutalist Edges) -->
       <div class="crucible-stage-wrap" id="crucibleWrap">
         <div class="crucible-3d-card" id="crucibleCard">
@@ -181,10 +194,34 @@
           </div>
         </div>
       </div>
+
+      <div class="hero-scroll-cue">
+        <a href="#exhibition" class="hero-scroll-link magnetic-target">
+          <span>EXPLORE ARCHIVE</span>
+          <span class="scroll-arrow">↓</span>
+        </a>
+      </div>
     </section>
 
     <!-- The Darkroom Exhibition (Visual Works Gallery with 10 Switchable 3D Modes) -->
     <section class="section-wrapper exhibition-section container" id="exhibition">
+      <!-- Curatorial Filter Bar & Live Search -->
+      <div class="exhibition-curator-bar">
+        <div class="filter-pills-wrap" id="categoryFilterWrap">
+          <button class="filter-pill active magnetic-target" data-filter="all">ALL WORKS (170)</button>
+          <button class="filter-pill magnetic-target" data-filter="monogram">MONOGRAMS (84)</button>
+          <button class="filter-pill magnetic-target" data-filter="tactical">TACTICAL CRESTS (45)</button>
+          <button class="filter-pill magnetic-target" data-filter="symbolic">SYMBOLIC MARKS (38)</button>
+          <button class="filter-pill magnetic-target" data-filter="wordmark">WORDMARKS (3)</button>
+        </div>
+
+        <div class="curator-search-box">
+          <span class="search-icon">⚲</span>
+          <input type="text" id="archiveSearchInput" placeholder="Search archive (e.g. apex, lion, racing, hawk)..." aria-label="Search portfolio works">
+          <button id="clearSearchBtn" class="clear-search-btn" style="display: none;" aria-label="Clear search">✕</button>
+        </div>
+      </div>
+
       <!-- 3D Gallery Interactive Toolbar -->
       <div class="gallery-3d-toolbar" id="gallery3DToolbar">
         <button class="toolbar-nav-btn magnetic-target" id="galleryPrevBtn" aria-label="Previous 3D Slide">◀ PREV</button>
@@ -204,6 +241,7 @@
         <button id="loadMoreBtn" class="btn-avant-garde magnetic-target" data-i18n="works.load_more">
           <span>LOAD MORE WORKS</span>
         </button>
+        <div class="archive-counter-text" id="archiveCounterText">Showing 24 of 170 Master Works</div>
       </div>
     </section>
   </main>
@@ -211,10 +249,17 @@
   <!-- High-Fidelity Detail Modal Dialog (Sharp Architectural Edges) -->
   <div class="modal-overlay" id="designModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="modal-dialog">
+      <!-- Modal Navigation Controls -->
+      <button class="modal-nav-arrow modal-prev-arrow magnetic-target" id="modalPrevBtn" aria-label="Previous Mark">◀</button>
+      <button class="modal-nav-arrow modal-next-arrow magnetic-target" id="modalNextBtn" aria-label="Next Mark">▶</button>
       <button class="modal-close-btn magnetic-target" id="modalCloseBtn" aria-label="Close Dialog">✕</button>
       
       <div class="modal-image-wrapper">
         <img src="" alt="" class="modal-image-display" id="modalImage">
+        <button class="modal-zoom-btn magnetic-target" id="modalZoomBtn" aria-label="Toggle Image Zoom">
+          <span class="zoom-icon">⚲</span>
+          <span id="zoomBtnText">ZOOM 2X</span>
+        </button>
       </div>
 
       <div class="modal-header-row">
@@ -224,9 +269,15 @@
         </div>
         <div style="display: flex; align-items: center; gap: 12px;">
           <a href="#" target="_blank" rel="noopener noreferrer" class="btn-avant-garde magnetic-target" id="modalSourceLink">
-            <span>99DESIGNS ENTRY ↗</span>
+            <span>VERIFY ON 99DESIGNS ↗</span>
           </a>
         </div>
+      </div>
+
+      <!-- Design Rationale & Artist Concept -->
+      <div class="modal-concept-wrap" id="modalConceptWrap">
+        <span class="meta-label">DESIGN CONCEPT & ARCHITECTURAL BRIEF:</span>
+        <p class="modal-desc-text" id="modalDesc">Original trademark architecture crafted for international client brief.</p>
       </div>
 
       <div class="modal-meta-grid">
