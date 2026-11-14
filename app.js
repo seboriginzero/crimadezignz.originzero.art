@@ -37,6 +37,13 @@ const TRANSLATIONS = {
       load_more: "LOAD MORE WORKS",
       no_results: "No marks match your search criteria."
     },
+    pledge: {
+      tag: "ATELIER PHILANTHROPY & SOCIAL IMPACT",
+      text_start: "A portion of these proceeds ",
+      text_end: " can also support causes or people in need of help.",
+      sub_info: "Grammatical nuance: strict formal agreement in Romanian (nucleul subiectului 'o parte' ⟶ 'poate').",
+      btn_explain: "LINGUISTIC EXPLANATION [POATE / POT] ℹ"
+    },
     footer: {
       about: "Haute-couture trademark architecture and visual identities created for international clients and competitions on 99designs.",
       col_nav: "Navigation",
@@ -51,6 +58,13 @@ const TRANSLATIONS = {
     works: {
       load_more: "ÎNCARCĂ MAI MULTE LUCRĂRI",
       no_results: "Nicio lucrare nu corespunde căutării."
+    },
+    pledge: {
+      tag: "ANGAJAMENT COMUNITAR & IMPACT SOCIAL",
+      text_start: "O parte din acești bani ",
+      text_end: " sprijini și cauze sau oameni care au nevoie de ajutor.",
+      sub_info: "Acord formal canonic cu nucleul subiectului „o parte” (singular) ⟶ „poate”.",
+      btn_explain: "EXPLICAȚIE LINGVISTICĂ [POATE / POT] ℹ"
     },
     footer: {
       about: "Arhitectură de identitate haute-couture și mărci vizuale create pentru clienți și competiții internaționale pe 99designs.",
@@ -104,6 +118,7 @@ class AvantGardeAtelierApp {
     this.setupExhibition();
     this.setup3DGalleryEngine();
     this.setupModal();
+    this.setupGrammarModal();
     this.setupAudio();
   }
 
@@ -1213,6 +1228,51 @@ class AvantGardeAtelierApp {
     if (modalImg) modalImg.classList.remove("zoomed");
 
     this.playMicroTone(360, 0.03);
+  }
+
+  // ===========================================================================
+  // Academic Grammar Explanation Modal Dialog (DOOM3 / GALR Standard)
+  // ===========================================================================
+  setupGrammarModal() {
+    const modal = document.getElementById("grammarExplanationModal");
+    const openBtn = document.getElementById("openGrammarModalBtn");
+    const inlineLink = document.getElementById("grammarInlineLink");
+    const closeBtn = document.getElementById("grammarModalCloseBtn");
+    const closeSecondaryBtn = document.getElementById("closeGrammarModalBtn");
+
+    const openGrammarModal = (e) => {
+      if (e) e.preventDefault();
+      if (modal) {
+        modal.classList.add("open");
+        document.body.style.overflow = "hidden";
+        this.playMicroTone(720, 0.05);
+      }
+    };
+
+    const closeGrammarModal = () => {
+      if (modal) {
+        modal.classList.remove("open");
+        document.body.style.overflow = "";
+        this.playMicroTone(440, 0.03);
+      }
+    };
+
+    if (openBtn) openBtn.addEventListener("click", openGrammarModal);
+    if (inlineLink) inlineLink.addEventListener("click", openGrammarModal);
+    if (closeBtn) closeBtn.addEventListener("click", closeGrammarModal);
+    if (closeSecondaryBtn) closeSecondaryBtn.addEventListener("click", closeGrammarModal);
+
+    if (modal) {
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) closeGrammarModal();
+      });
+    }
+
+    window.addEventListener("keydown", (e) => {
+      if (modal && modal.classList.contains("open") && e.key === "Escape") {
+        closeGrammarModal();
+      }
+    });
   }
 
   // ===========================================================================

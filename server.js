@@ -67,7 +67,12 @@ const server = http.createServer((req, res) => {
     }
   }
 
-  const filePath = path.join(ROOT_DIR, safePath);
+  let filePath = path.join(ROOT_DIR, safePath);
+
+  // Clean URL rewrite: support /page -> /page.html
+  if (!fs.existsSync(filePath) && fs.existsSync(filePath + '.html')) {
+    filePath = filePath + '.html';
+  }
 
   // Security check: ensure path stays within ROOT_DIR
   if (!filePath.startsWith(ROOT_DIR)) {

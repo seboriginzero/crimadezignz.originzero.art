@@ -8,6 +8,7 @@ RUN chown -R node:node /app
 
 # Copy application files
 COPY --chown=node:node index.html /app/
+COPY --chown=node:node explicatie-gramaticala.html /app/
 COPY --chown=node:node styles.css /app/
 COPY --chown=node:node app.js /app/
 COPY --chown=node:node portfolio-data.js /app/

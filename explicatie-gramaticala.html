@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ro" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clarificare Gramaticală: [Poate / Pot] | CrimaDezignz®</title>
+  <meta name="description" content="Clarificare lingvistică autorizată conform GALR și DOOM: Acordul gramatical strict (formal) vs. acordul după înțeles (prin atracție) în limba română.">
+
+  <!-- Haute-Couture Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Brand Favicons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .grammar-page-container {
+      max-width: 960px;
+      margin: 120px auto 80px auto;
+      padding: 0 24px;
+    }
+
+    .grammar-hero-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-medium);
+      padding: 48px;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    .grammar-badge-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .grammar-kicker {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-accent);
+      padding: 4px 10px;
+      background: var(--text-accent-glow);
+      border: 1px solid var(--border-focus);
+    }
+
+    .grammar-source-tag {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-tertiary);
+      letter-spacing: 0.1em;
+    }
+
+    .grammar-page-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      letter-spacing: -0.01em;
+    }
+
+    .grammar-lead {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      margin-bottom: 32px;
+    }
+
+    /* Primary Quote Plinth */
+    .target-sentence-plinth {
+      background: var(--bg-tertiary);
+      border-left: 3px solid var(--text-accent);
+      padding: 24px 30px;
+      margin: 30px 0;
+      position: relative;
+    }
+
+    .target-sentence-text {
+      font-family: var(--font-sans);
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.6;
+      margin: 0 0 10px 0;
+    }
+
+    .target-sentence-text .word-poate {
+      color: var(--text-accent);
+      border-bottom: 2px solid var(--text-accent);
+      padding: 0 4px;
+      font-weight: 800;
+      background: rgba(229, 192, 123, 0.15);
+    }
+
+    .target-sentence-sub {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-tertiary);
+      letter-spacing: 0.08em;
+    }
+
+    /* Comparison Grid */
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin: 40px 0;
+    }
+
+    .comparison-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition-medium);
+    }
+
+    .comparison-card:hover {
+      border-color: var(--border-focus);
+      background: var(--bg-card);
+    }
+
+    .card-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .indicator-formal {
+      color: #50fa7b;
+    }
+
+    .indicator-attraction {
+      color: #8be9fd;
+    }
+
+    .comparison-card h3 {
+      font-family: var(--font-sans);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 14px;
+      line-height: 1.35;
+    }
+
+    .comparison-card p {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .formula-box {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-medium);
+      padding: 14px 18px;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      margin-top: auto;
+      letter-spacing: 0.02em;
+    }
+
+    .formula-box .highlight {
+      color: var(--text-accent);
+      font-weight: 700;
+    }
+
+    /* Academic Citations */
+    .academic-reference-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 32px;
+      margin-top: 40px;
+    }
+
+    .academic-reference-card h4 {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 18px;
+    }
+
+    .citation-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .citation-list li {
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .citation-list li::before {
+      content: "▪";
+      position: absolute;
+      left: 0;
+      color: var(--text-accent);
+      font-size: 1.1rem;
+      line-height: 1.4;
+    }
+
+    .citation-list strong {
+      color: var(--text-primary);
+    }
+
+    /* Action bar */
+    .action-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-subtle);
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  </style>
+</head>
+<body class="darkroom-active">
+  <!-- Interactive Ambient Canvas -->
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-nav" role="banner">
+    <a href="index.html" class="nav-brand" aria-label="CrimaDezignz Atelier">
+      <div class="nav-emblem-wrap">
+        <img src="crimadezignz-profile-assets/alien-head-logo.png" alt="CrimaDezignz Emblem" class="brand-avatar">
+        <div class="emblem-glow-ring"></div>
+      </div>
+      <div class="brand-title-wrap">
+        <span class="brand-name">CrimaDezignz®</span>
+      </div>
+    </a>
+
+    <nav aria-label="Main Navigation">
+      <ul class="nav-links">
+        <li><a href="index.html#exhibition">← Înapoi la Expoziție / Atelier</a></li>
+        <li><a href="https://en.99designs.de/profiles/1844933" target="_blank" rel="noopener noreferrer">99designs Profile ↗</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <!-- Theme Switcher -->
+      <button class="pill-btn theme-btn" id="themeToggleBtn" aria-label="Toggle Theme" title="Toggle Obsidian / Alabaster Theme">
+        <svg id="themeIcon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/>
+          <path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+        <span id="themeLabel">Dark</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="grammar-page-container">
+    <article class="grammar-hero-card">
+      <div class="grammar-badge-row">
+        <span class="grammar-kicker">LINGVISTICĂ CANONICĂ ROMÂNĂ</span>
+        <span class="grammar-source-tag">NORME DOOM3 & GALR (ACADEMIA ROMÂNĂ)</span>
+      </div>
+
+      <h1 class="grammar-page-title">Acordul Gramatical Strict (Formal)<br>vs. Acordul după Înțeles (prin Atracție)</h1>
+      
+      <p class="grammar-lead">
+        În limba română, sintaxa acestei propoziții reprezintă o dilemă clasică între <strong>acordul gramatical strict (formal)</strong> și <strong>acordul după înțeles (ad sensum / prin atracție)</strong>.
+      </p>
+
+      <!-- Target Sentence Display -->
+      <div class="target-sentence-plinth">
+        <p class="target-sentence-text">
+          „O parte din acești bani <span class="word-poate">poate</span> sprijini și cauze sau oameni care au nevoie de ajutor.”
+        </p>
+        <span class="target-sentence-sub">ANALIZĂ COMPARATIVĂ: DE CE „POATE” NU ESTE O GREȘEALĂ ȘI CUM ESTE ACCEPTAT „POT”</span>
+      </div>
+
+      <!-- Comparative Analysis Columns -->
+      <div class="comparison-grid">
+        <!-- 1. Formal Agreement -->
+        <div class="comparison-card">
+          <div>
+            <div class="card-indicator indicator-formal">
+              <span>●</span>
+              <span>1. NORMA CANONICĂ FORMALĂ</span>
+            </div>
+            <h3>De ce varianta cu „poate” (singular) NU este o greșeală</h3>
+            <p>
+              <strong>Subiectul gramatical al propoziției</strong> este substantivul <strong>„o parte”</strong> (genul feminin, numărul singular).
+            </p>
+            <p>
+              Sintagma <strong>„din acești bani”</strong> este doar un <em>atribut substantival prepozițional</em> (arată din ce anume este constituită acea parte, fără a deveni subiectul acțiunii).
+            </p>
+            <p>
+              Conform normei gramaticale canonice a Academiei Române (GALR / DOOM), <strong>predicatul se acordă în mod strict cu nucleul subiectului</strong>:
+            </p>
+          </div>
+          <div class="formula-box">
+            <span class="highlight">O parte</span> (singular) ⟶ <span class="highlight">poate</span> (singular)<br>
+            <small style="color:var(--text-tertiary); display:block; margin-top:4px;">(La fel cum spunem canonic: <em>„O parte din spectatori a aplaudat”</em>, nu doar <em>„au aplaudat”</em>).</small>
+          </div>
+        </div>
+
+        <!-- 2. Agreement by Attraction -->
+        <div class="comparison-card">
+          <div>
+            <div class="card-indicator indicator-attraction">
+              <span>●</span>
+              <span>2. ACORDUL AD SENSUM (ATRACȚIE)</span>
+            </div>
+            <h3>De ce varianta cu „pot” (plural) este și ea acceptată</h3>
+            <p>
+              Se aplică <strong>acordul după înțeles (ad sensum)</strong> sau <strong>acordul prin atracție</strong>.
+            </p>
+            <p>
+              Când avem un substantiv partitiv sau cantitativ (<em>„o parte din”</em>, <em>„o mulțime de”</em>, <em>„majoritatea”</em>) urmat de un substantiv la plural (<em>„acești bani”</em>, <em>„oamenii”</em>), verbul poate fi atras de substantivul plural din atribut:
+            </p>
+            <p>
+              În limba română contemporană și în comunicarea de zi cu zi, acordul după înțeles este <strong>larg acceptat</strong> și adesea perceput de vorbitori ca fiind mai firesc sau mai fluid la auz.
+            </p>
+          </div>
+          <div class="formula-box">
+            „O parte din <span class="highlight">acești bani pot</span> sprijini...”<br>
+            <small style="color:var(--text-tertiary); display:block; margin-top:4px;">(Acord tolerat și validat în uzul curent prin atracția pluralului substantivului determinat).</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academic Reference Box -->
+      <div class="academic-reference-card">
+        <h4>Referințe Normative Canonice</h4>
+        <ul class="citation-list">
+          <li>
+            <strong>Academia Română — Gramatica Limbii Române (GALR, Vol. II — Enunțul):</strong> Capitolul <em>„Acordul predicatului cu subiectul”</em> specifică faptul că acordul formal gramatical cu centrul grupului nominal partitiv reprezintă norma standard a limbii literare îngrijite.
+          </li>
+          <li>
+            <strong>DOOM3 (Dicționarul ortografic, ortoepic și morfologic al limbii române, Ediția a III-a):</strong> În cazul construcțiilor partitive urmate de un genitiv sau acuzativ cu prepoziție la plural, norma academică admite ambele soluții de acord, recunoscând varianta la singular ca fiind impecabilă din punct de vedere structural-formal.
+          </li>
+          <li>
+            <strong>Concluzie practică:</strong> Utilizarea formei de singular <strong>„poate”</strong> este 100% corectă gramatical și reflectă acuratețea academică a acordului formal, în timp ce forma de plural <strong>„pot”</strong> reprezintă varianta uzuală legitimată prin acordul după înțeles.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Action Back -->
+      <div class="action-bar">
+        <a href="index.html#social-impact" class="btn-avant-garde">
+          <span>← ÎNAPOI LA ATELIERUL CRIMADEZIGNZ®</span>
+        </a>
+        <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-tertiary);">
+          CRIMADEZIGNZ® ATELIER PHILANTHROPY PLEDGE
+        </span>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 CrimaDezignz®. ALL RIGHTS RESERVED. 99DESIGNS PRO #1844933.</span>
+        <span>ORIGINZERO HAUTE-COUTURE CREATIVE ENGINE</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle handling
+    const themeBtn = document.getElementById('themeToggleBtn');
+    const themeLabel = document.getElementById('themeLabel');
+    const html = document.documentElement;
+
+    const savedTheme = localStorage.getItem('crimadezignz_theme') || 'dark';
+    html.setAttribute('data-theme', savedTheme);
+    if (themeLabel) themeLabel.textContent = savedTheme === 'dark' ? 'Dark' : 'Light';
+
+    if (themeBtn) {
+      themeBtn.addEventListener('click', () => {
+        const current = html.getAttribute('data-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('crimadezignz_theme', next);
+        if (themeLabel) themeLabel.textContent = next === 'dark' ? 'Dark' : 'Light';
+      });
+    }
+  </script>
+</body>
+</html>
