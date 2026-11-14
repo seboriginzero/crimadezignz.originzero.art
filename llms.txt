@@ -1,0 +1,22 @@
+# CrimaDezignz® — Avant-Garde Trademark Atelier
+
+> Official avant-garde trademark design portfolio and 99designs pro archive of CrimaDezignz®. Monumental trademark design, tactical crests, menacing monograms, and optical vector geometry.
+
+## Overview
+- Website: https://crimadezignz.originzero.art/
+- 99designs Profile: https://en.99designs.de/profiles/1844933
+- Archive Size: 170 Master Trademark Marks (100% Vector Precision, Top Tier Contest Winner)
+- Geographic Context: Arad (AR), Romania • Macro-Zone Vest
+
+## Archive Classification
+- Monograms & Geometric Cryptograms: 84 master works
+- Tactical Crests & Heraldic Emblems: 45 master works
+- Symbolic Marks & Animal Totems: 38 master works
+- Wordmarks & High-Fashion Logotypes: 3 master works
+
+## Architecture & Visual Standards
+- Strict 90-degree Cartesian edges (`border-radius: 0 !important;`)
+- Pure Artwork Presentation: Zero decorative frames, zero artificial clipping, native aspect ratios preserved
+- Darkroom Noir Palette: Obsidian (`#050507`), Jet Black (`#0a0a0c`), Champagne Gold (`#c9a050`), Warm Silver (`#e0e0e0`)
+- 6 Curated Galleries: 3D Spatial Tilt, 3D Coverflow, 3D Void Tunnel with central corridor flight, 2D Salon Royal, 2D Imperial Runway with lateral scroll, 2D Sovereign Spotlight
+- Official Brand Icon: Alien Head Neon Chromatic Glitch suite
