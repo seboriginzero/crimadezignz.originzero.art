@@ -14,6 +14,11 @@ COPY --chown=node:node portfolio-data.js /app/
 COPY --chown=node:node server.js /app/
 COPY --chown=node:node favicon.ico /app/
 COPY --chown=node:node favicon.svg /app/
+COPY --chown=node:node favicon-16x16.png /app/
+COPY --chown=node:node favicon-32x32.png /app/
+COPY --chown=node:node favicon-48x48.png /app/
+COPY --chown=node:node favicon-64x64.png /app/
+COPY --chown=node:node apple-touch-icon.png /app/
 COPY --chown=node:node crimadezignz-profile-assets /app/crimadezignz-profile-assets/
 COPY --chown=node:node crimadezignz-portfolio /app/crimadezignz-portfolio/
 

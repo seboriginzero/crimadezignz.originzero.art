@@ -57,13 +57,13 @@ const server = http.createServer((req, res) => {
   if (safePath === '/favicon.ico') {
     const icoPath = path.join(ROOT_DIR, 'favicon.ico');
     if (!fs.existsSync(icoPath)) {
-      safePath = '/crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg';
+      safePath = '/crimadezignz-profile-assets/alien-head-logo.png';
     }
   }
   if (safePath === '/favicon.svg') {
     const svgPath = path.join(ROOT_DIR, 'favicon.svg');
     if (!fs.existsSync(svgPath)) {
-      safePath = '/crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg';
+      safePath = '/crimadezignz-profile-assets/alien-head-logo.png';
     }
   }
 
