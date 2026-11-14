@@ -83,6 +83,12 @@ class AvantGardeAtelierApp {
     this.active3DIndex = 0;
     this.carouselAngle = 0;
 
+    // 3D Void Tunnel Endless Walkway Physics
+    this.tunnelDepth = 0;
+    this.targetTunnelDepth = 0;
+    this.isAutoWalking = false;
+    this.tunnelRafId = null;
+
     // Synthesized Audio Context
     this.audioCtx = null;
 
@@ -400,14 +406,62 @@ class AvantGardeAtelierApp {
       nextBtn.addEventListener("click", () => this.navigate3D(1));
     }
 
+    // Tunnel Auto-Walk Cruise Button
+    const autoWalkBtn = document.getElementById("tunnelAutoWalkBtn");
+    if (autoWalkBtn) {
+      autoWalkBtn.addEventListener("click", () => this.toggleAutoWalk());
+    }
+
     // Apply stored mode
     this.switch3DMode(this.current3DMode, false);
+  }
+
+  toggleAutoWalk() {
+    this.isAutoWalking = !this.isAutoWalking;
+    const btn = document.getElementById("tunnelAutoWalkBtn");
+    if (btn) {
+      btn.classList.toggle("active", this.isAutoWalking);
+      btn.textContent = this.isAutoWalking ? "⏸ PAUSE CRUISE" : "▶ AUTO-CRUISE";
+    }
+    this.playMicroTone(this.isAutoWalking ? 620 : 380, 0.04);
+  }
+
+  startTunnelLoop() {
+    if (this.tunnelRafId) return;
+    const loop = () => {
+      if (this.current3DMode === "tunnel") {
+        this.renderTunnelFrame();
+        this.tunnelRafId = requestAnimationFrame(loop);
+      } else {
+        this.tunnelRafId = null;
+      }
+    };
+    this.tunnelRafId = requestAnimationFrame(loop);
+  }
+
+  stopTunnelLoop() {
+    if (this.tunnelRafId) {
+      cancelAnimationFrame(this.tunnelRafId);
+      this.tunnelRafId = null;
+    }
   }
 
   switch3DMode(modeId, animate = true) {
     const modeConfig = GALLERY_3D_MODES.find(m => m.id === modeId) || GALLERY_3D_MODES[0];
     this.current3DMode = modeConfig.id;
     localStorage.setItem("crimadezignz_3d_mode", this.current3DMode);
+
+    // When entering tunnel mode, load ALL 170 master works into the corridor
+    if (this.current3DMode === "tunnel" && this.displayedCount < this.filteredItems.length) {
+      this.itemsPerPage = this.filteredItems.length;
+      this.renderNextBatch();
+    }
+
+    // Toggle Auto-Cruise button visibility
+    const autoWalkBtn = document.getElementById("tunnelAutoWalkBtn");
+    if (autoWalkBtn) {
+      autoWalkBtn.style.display = (this.current3DMode === "tunnel") ? "inline-flex" : "none";
+    }
 
     // Update Header 3D Button Label
     const modeLabel = document.getElementById("current3DModeLabel");
@@ -424,6 +478,18 @@ class AvantGardeAtelierApp {
     if (badge) badge.textContent = modeConfig.badge;
     if (counter) counter.textContent = `MODE ${modeConfig.num} / 06`;
 
+    // Start or stop tunnel 60fps loop
+    if (this.current3DMode === "tunnel") {
+      this.startTunnelLoop();
+    } else {
+      this.stopTunnelLoop();
+      this.isAutoWalking = false;
+      if (autoWalkBtn) {
+        autoWalkBtn.classList.remove("active");
+        autoWalkBtn.textContent = "▶ AUTO-CRUISE";
+      }
+    }
+
     // Update Exhibition Grid Classes
     const grid = document.getElementById("portfolioGrid");
     if (grid) {
@@ -435,6 +501,13 @@ class AvantGardeAtelierApp {
   }
 
   navigate3D(direction) {
+    if (this.current3DMode === "tunnel") {
+      const spacing = 380;
+      this.targetTunnelDepth += direction * spacing;
+      this.playMicroTone(440 + ((Math.floor(this.tunnelDepth / spacing) % 12) + 12) % 12 * 15, 0.03);
+      return;
+    }
+
     const cards = document.querySelectorAll(".exhibition-item");
     if (cards.length === 0) return;
 
@@ -479,6 +552,118 @@ class AvantGardeAtelierApp {
     world.style.display = "block";
   }
 
+  renderTunnelFrame() {
+    const grid = document.getElementById("portfolioGrid");
+    const cards = document.querySelectorAll(".exhibition-item");
+    if (!grid || cards.length === 0) return;
+
+    this.ensureTunnelElements();
+
+    const total = cards.length;
+    const totalPairs = Math.ceil(total / 2);
+    const spacing = 380;
+    const maxDepth = totalPairs * spacing;
+
+    // Auto-walk cruise forward
+    if (this.isAutoWalking) {
+      this.targetTunnelDepth += 2.8; // smooth cinematic cruising speed
+    }
+
+    // Smooth lerp physics
+    const diff = this.targetTunnelDepth - this.tunnelDepth;
+    this.tunnelDepth += diff * 0.12;
+
+    // Wrap tunnelDepth seamlessly
+    if (this.tunnelDepth > maxDepth) {
+      this.tunnelDepth -= maxDepth;
+      this.targetTunnelDepth -= maxDepth;
+    } else if (this.tunnelDepth < 0) {
+      this.tunnelDepth += maxDepth;
+      this.targetTunnelDepth += maxDepth;
+    }
+
+    // 1. Animate Floor Runway & Ceiling Tracks with continuous glide
+    const floor = document.querySelector(".tunnel-floor");
+    if (floor) {
+      const offset = (this.tunnelDepth % 100);
+      floor.style.backgroundPositionY = `${offset.toFixed(1)}px`;
+    }
+    const ceiling = document.querySelector(".tunnel-ceiling");
+    if (ceiling) {
+      const offset = (this.tunnelDepth % 200);
+      ceiling.style.backgroundPositionY = `${offset.toFixed(1)}px`;
+    }
+
+    // 2. Animate the 8 Portal Rings
+    const rings = document.querySelectorAll(".tunnel-ring");
+    rings.forEach((ring, r) => {
+      const ringSpacing = 380;
+      let rz = 120 - ((r * ringSpacing + (this.tunnelDepth % ringSpacing)) % (rings.length * ringSpacing));
+      ring.style.transform = `translateZ(${rz.toFixed(1)}px)`;
+    });
+
+    // 3. Virtualized 3D Card Positioning along Corridor Walls
+    const isMobile = window.innerWidth < 768;
+    const isTablet = window.innerWidth >= 768 && window.innerWidth < 1024;
+    const xDist = isMobile ? Math.min(130, window.innerWidth * 0.32) : isTablet ? 250 : 380;
+
+    let closestIndex = 0;
+    let minAbsZ = Infinity;
+
+    cards.forEach((card, i) => {
+      const pair = Math.floor(i / 2);
+      const baseZ = -pair * spacing;
+      let z = (baseZ + this.tunnelDepth) % maxDepth;
+      if (z > 200) z -= maxDepth;
+      if (z < -maxDepth + 200) z += maxDepth;
+
+      const absZ = Math.abs(z);
+      if (absZ < minAbsZ) {
+        minAbsZ = absZ;
+        closestIndex = i;
+      }
+
+      // Virtualization frustum: -3400px to +180px
+      if (z > 180 || z < -3400) {
+        card.style.display = "none";
+      } else {
+        card.style.display = "block";
+        const isLeft = (i % 2 === 0);
+        const x = isLeft ? -xDist : xDist;
+        const rotY = isLeft ? (isMobile ? 18 : 30) : (isMobile ? -18 : -30);
+
+        const horizonFade = Math.max(0, Math.min(1, (z + 3400) / 1000));
+        const nearFade = z > 40 ? Math.max(0, 1 - (z - 40) / 140) : 1;
+        const opacity = (horizonFade * nearFade).toFixed(2);
+        const brightness = Math.max(0.25, Math.min(1.15, 1 - Math.abs(z) / 3200)).toFixed(2);
+
+        const isClosest = absZ < 190;
+        if (isClosest) {
+          card.style.transform = `translateX(${x}px) translateZ(${z.toFixed(1)}px) rotateY(${rotY}deg) scale(1.05)`;
+          card.style.zIndex = "120";
+          card.style.opacity = opacity;
+          card.style.filter = "brightness(1.18) drop-shadow(0 0 35px rgba(197, 160, 89, 0.75))";
+          card.style.borderColor = "var(--accent-gold)";
+          card.style.pointerEvents = "auto";
+        } else {
+          card.style.transform = `translateX(${x}px) translateZ(${z.toFixed(1)}px) rotateY(${rotY}deg)`;
+          card.style.zIndex = `${Math.round(100 + z / 40)}`;
+          card.style.opacity = opacity;
+          card.style.filter = `brightness(${brightness})`;
+          card.style.borderColor = "";
+          card.style.pointerEvents = (z > -800 && z < 100) ? "auto" : "none";
+        }
+      }
+    });
+
+    // 4. Update Telemetry HUD
+    this.active3DIndex = closestIndex;
+    const counter = document.getElementById("toolbarCounter");
+    if (counter) {
+      counter.textContent = `MODE 03/06 • CORRIDOR MARK ${closestIndex + 1}/${total} • DEPTH ${Math.round(this.tunnelDepth)}m`;
+    }
+  }
+
   apply3DModeTransforms() {
     const grid = document.getElementById("portfolioGrid");
     const cards = Array.from(document.querySelectorAll(".exhibition-item"));
@@ -491,6 +676,8 @@ class AvantGardeAtelierApp {
     const tunnelWorld = document.getElementById("tunnelWorld");
     if (mode === "tunnel") {
       this.ensureTunnelElements();
+      this.renderTunnelFrame();
+      return;
     } else if (tunnelWorld) {
       tunnelWorld.style.display = "none";
       tunnelWorld.style.transform = "";
@@ -512,7 +699,7 @@ class AvantGardeAtelierApp {
     const counter = document.getElementById("toolbarCounter");
     const modeConfig = GALLERY_3D_MODES.find(m => m.id === mode) || GALLERY_3D_MODES[0];
     if (counter) {
-      const isSpatial = ["coverflow", "tunnel", "sovereign-spotlight"].includes(mode);
+      const isSpatial = ["coverflow", "sovereign-spotlight"].includes(mode);
       if (isSpatial) {
         counter.textContent = `MODE ${modeConfig.num}/06 • MARK ${this.active3DIndex + 1}/${total}`;
       } else {
@@ -580,49 +767,6 @@ class AvantGardeAtelierApp {
       });
       return;
     }
-
-    // Mode 3: 3D Void Tunnel (True Architectural Deep Corridor)
-    if (mode === "tunnel") {
-      const isMobile = window.innerWidth < 768;
-      const isTablet = window.innerWidth >= 768 && window.innerWidth < 1024;
-      const xDist = isMobile ? Math.min(130, window.innerWidth * 0.32) : isTablet ? 250 : 380;
-      const activePair = Math.floor(this.active3DIndex / 2);
-      const totalPairs = Math.ceil(total / 2);
-
-      cards.forEach((card, i) => {
-        const pair = Math.floor(i / 2);
-        const relPair = (pair - activePair + totalPairs) % totalPairs;
-        const isLeft = (i % 2 === 0);
-        const x = isLeft ? -xDist : xDist;
-        const rotY = isLeft ? (isMobile ? 18 : 30) : (isMobile ? -18 : -30);
-
-        if (relPair < 8) {
-          card.style.display = "block";
-          const z = 80 - relPair * 380;
-          const opacity = Math.max(0.18, 1 - relPair * 0.11);
-          const brightness = Math.max(0.28, 1 - relPair * 0.08);
-
-          if (i === this.active3DIndex) {
-            card.style.transform = `translateX(${x}px) translateZ(${z + 40}px) rotateY(${rotY}deg) scale(1.06)`;
-            card.style.opacity = "1";
-            card.style.zIndex = "120";
-            card.style.filter = "brightness(1.18) drop-shadow(0 0 35px rgba(197, 160, 89, 0.75))";
-            card.style.borderColor = "var(--accent-gold)";
-            card.style.pointerEvents = "auto";
-          } else {
-            card.style.transform = `translateX(${x}px) translateZ(${z}px) rotateY(${rotY}deg)`;
-            card.style.zIndex = `${95 - relPair}`;
-            card.style.opacity = `${opacity.toFixed(2)}`;
-            card.style.filter = `brightness(${brightness.toFixed(2)})`;
-            card.style.borderColor = "";
-            card.style.pointerEvents = relPair <= 2 ? "auto" : "none";
-          }
-        } else {
-          card.style.display = "none";
-        }
-      });
-      return;
-    }
   }
 
   // ===========================================================================
@@ -657,8 +801,21 @@ class AvantGardeAtelierApp {
       let wheelTimer = null;
 
       grid.addEventListener("wheel", (e) => {
+        if (this.current3DMode === "tunnel") {
+          e.preventDefault();
+          const rawDelta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+          this.targetTunnelDepth += rawDelta * 2.2;
+          this.isAutoWalking = false;
+          const autoWalkBtn = document.getElementById("tunnelAutoWalkBtn");
+          if (autoWalkBtn) {
+            autoWalkBtn.classList.remove("active");
+            autoWalkBtn.textContent = "▶ AUTO-CRUISE";
+          }
+          return;
+        }
+
         const isSpatialMode = [
-          "coverflow", "tunnel", "imperial-runway", "sovereign-spotlight"
+          "coverflow", "imperial-runway", "sovereign-spotlight"
         ].includes(this.current3DMode);
 
         const isHorizontalScroll = Math.abs(e.deltaX) > Math.abs(e.deltaY);
@@ -698,6 +855,17 @@ class AvantGardeAtelierApp {
         if (e.touches.length === 1) {
           const diffX = e.touches[0].clientX - touchStartX;
           const diffY = e.touches[0].clientY - touchStartY;
+
+          if (this.current3DMode === "tunnel") {
+            const raw = Math.abs(diffY) > Math.abs(diffX) ? -diffY : -diffX;
+            if (Math.abs(raw) > 8) {
+              this.targetTunnelDepth += raw * 3.2;
+              touchStartX = e.touches[0].clientX;
+              touchStartY = e.touches[0].clientY;
+            }
+            return;
+          }
+
           if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 35) {
             this.navigate3D(diffX > 0 ? -1 : 1);
             touchStartX = e.touches[0].clientX;
@@ -709,16 +877,31 @@ class AvantGardeAtelierApp {
       // Pointer drag with tactile visual feedback
       let isPointerDown = false;
       let pointerStartX = 0;
+      let pointerStartY = 0;
 
       grid.addEventListener("pointerdown", (e) => {
         if (e.button !== 0) return;
         isPointerDown = true;
         pointerStartX = e.clientX;
+        pointerStartY = e.clientY;
         grid.classList.add("stage-dragging");
       });
 
       window.addEventListener("pointermove", (e) => {
         if (!isPointerDown) return;
+        if (this.current3DMode === "tunnel") {
+          const deltaY = e.clientY - pointerStartY;
+          this.targetTunnelDepth -= deltaY * 3.5;
+          pointerStartY = e.clientY;
+          this.isAutoWalking = false;
+          const autoWalkBtn = document.getElementById("tunnelAutoWalkBtn");
+          if (autoWalkBtn) {
+            autoWalkBtn.classList.remove("active");
+            autoWalkBtn.textContent = "▶ AUTO-CRUISE";
+          }
+          return;
+        }
+
         const deltaX = e.clientX - pointerStartX;
         if (Math.abs(deltaX) > 42) {
           this.navigate3D(deltaX > 0 ? -1 : 1);
@@ -734,6 +917,24 @@ class AvantGardeAtelierApp {
       };
       window.addEventListener("pointerup", stopPointerDrag);
       window.addEventListener("pointercancel", stopPointerDrag);
+
+      // Keyboard Walking Controls for Tunnel Corridor
+      window.addEventListener("keydown", (e) => {
+        if (this.current3DMode === "tunnel") {
+          if (e.key === "ArrowDown" || e.key === "KeyS" || e.key === "PageDown") {
+            e.preventDefault();
+            this.targetTunnelDepth += 260; // walk forward
+            this.isAutoWalking = false;
+          } else if (e.key === "ArrowUp" || e.key === "KeyW" || e.key === "PageUp") {
+            e.preventDefault();
+            this.targetTunnelDepth -= 260; // walk backward
+            this.isAutoWalking = false;
+          } else if (e.key === " " && document.activeElement && document.activeElement.tagName !== "INPUT") {
+            e.preventDefault();
+            this.toggleAutoWalk();
+          }
+        }
+      });
 
       // Interactive 3D Tunnel Gyroscope Look-Around
       grid.addEventListener("mousemove", (e) => {
