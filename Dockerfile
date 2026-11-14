@@ -12,6 +12,8 @@ COPY --chown=node:node styles.css /app/
 COPY --chown=node:node app.js /app/
 COPY --chown=node:node portfolio-data.js /app/
 COPY --chown=node:node server.js /app/
+COPY --chown=node:node favicon.ico /app/
+COPY --chown=node:node favicon.svg /app/
 COPY --chown=node:node crimadezignz-profile-assets /app/crimadezignz-profile-assets/
 COPY --chown=node:node crimadezignz-portfolio /app/crimadezignz-portfolio/
 

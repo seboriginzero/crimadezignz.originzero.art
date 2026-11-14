@@ -60,6 +60,12 @@ const server = http.createServer((req, res) => {
       safePath = '/crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg';
     }
   }
+  if (safePath === '/favicon.svg') {
+    const svgPath = path.join(ROOT_DIR, 'favicon.svg');
+    if (!fs.existsSync(svgPath)) {
+      safePath = '/crimadezignz-profile-assets/crimadezignz-logo-avatar.jpg';
+    }
+  }
 
   const filePath = path.join(ROOT_DIR, safePath);
 
