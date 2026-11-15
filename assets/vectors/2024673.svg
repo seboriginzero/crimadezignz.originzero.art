@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="426 220 1146 806" width="1146" height="806" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="750 312 499 310" width="499" height="310" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2024673" title="Combat%20Labs%20%20-%20Logo%20Proposal" archive="99designs-#2024673"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="426,220,1146,806" aspect="1.4218"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(165,0,160)"/>
+    <originZero:layout type="1x4" fullSize="2000x1250"/>
+    <originZero:geometry bbox="750,312,499,310" aspect="1.6097"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(171,171,171)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2024673">
-      <rect x="426" y="220" width="1146" height="806"/>
+      <rect x="750" y="312" width="499" height="310"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2024673.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2024673)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="628 626 640 108" width="640" height="108" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="627 624 643 112" width="643" height="112" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="813880" title="Exorcist%20-%20Logo%20Design" archive="99designs-#813880"/>
     <originZero:layout type="single" fullSize="1897x1362"/>
-    <originZero:geometry bbox="628,626,640,108" aspect="5.9259"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(50,255,43)"/>
+    <originZero:geometry bbox="627,624,643,112" aspect="5.7411"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(43,38,36)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-813880">
-      <rect x="628" y="626" width="640" height="108"/>
+      <rect x="627" y="624" width="643" height="112"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/813880.jpg" x="0" y="0" width="1897" height="1362" clip-path="url(#logoClip-813880)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 870 4484" width="870" height="4484" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="876 1161 874 922" width="874" height="922" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1986026" title="Variant%20Innovation" archive="99designs-#1986026"/>
-    <originZero:layout type="split-2x1" fullSize="1752x4489"/>
-    <originZero:geometry bbox="2,2,870,4484" aspect="0.194"/>
-    <originZero:chroma background="rgb(47,47,47)" dominant="rgb(78,47,86)"/>
+    <originZero:layout type="2x4" fullSize="1752x4489"/>
+    <originZero:geometry bbox="876,1161,874,922" aspect="0.9479"/>
+    <originZero:chroma background="rgb(8,9,10)" dominant="rgb(18,79,151)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1986026">
-      <rect x="2" y="2" width="870" height="4484"/>
+      <rect x="876" y="1161" width="874" height="922"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1986026.jpg" x="0" y="0" width="1752" height="4489" clip-path="url(#logoClip-1986026)"/>

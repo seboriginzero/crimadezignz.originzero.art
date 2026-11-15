@@ -51,7 +51,13 @@ class LiveSurfaceStageEngine {
     ];
 
     this.cache = new Map(); // In-memory cache for processed isolated canvases
-    this.init();
+    this.manifestPromise = this.init();
+  }
+
+  async ensureManifest() {
+    if (this.manifestPromise) {
+      await this.manifestPromise;
+    }
   }
 
   async init() {
@@ -74,6 +80,7 @@ class LiveSurfaceStageEngine {
   // ===========================================================================
   async loadMark(item) {
     if (!item) return;
+    await this.ensureManifest();
     this.currentMark = item;
 
     const meta = this.vectorManifest ? this.vectorManifest[item.id] : null;

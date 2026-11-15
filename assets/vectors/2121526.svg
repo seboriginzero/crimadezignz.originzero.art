@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1994 1244" width="1994" height="1244" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 0 994 622" width="994" height="622" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2121526" title="Star%20Lore%20" archive="99designs-#2121526"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="2,2,1994,1244" aspect="1.6029"/>
-    <originZero:chroma background="rgb(2,1,7)" dominant="rgb(52,1,58)"/>
+    <originZero:layout type="2x2" fullSize="2000x1250"/>
+    <originZero:geometry bbox="3,0,994,622" aspect="1.5981"/>
+    <originZero:chroma background="rgb(3,2,9)" dominant="rgb(98,94,108)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2121526">
-      <rect x="2" y="2" width="1994" height="1244"/>
+      <rect x="3" y="0" width="994" height="622"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2121526.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2121526)"/>

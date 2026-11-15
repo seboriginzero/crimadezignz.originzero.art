@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="856 540 286 170" width="286" height="170" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="855 539 289 172" width="289" height="172" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2051445" title="Eagle%20Eye%20Protection%20-%20Logo%20Proposal" archive="99designs-#2051445"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="856,540,286,170" aspect="1.6824"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(222,255,11)"/>
+    <originZero:layout type="1x3" fullSize="2000x1250"/>
+    <originZero:geometry bbox="855,539,289,172" aspect="1.6802"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(222,11,11)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2051445">
-      <rect x="856" y="540" width="286" height="170"/>
+      <rect x="855" y="539" width="289" height="172"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2051445.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2051445)"/>

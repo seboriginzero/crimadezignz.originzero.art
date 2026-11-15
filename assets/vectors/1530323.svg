@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="470 322 784 754" width="784" height="754" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="468 466 787 463" width="787" height="463" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1530323" title="Skill%20At%20Arms%20-%20Logo%20Design" archive="99designs-#1530323"/>
-    <originZero:layout type="single" fullSize="1724x1400"/>
-    <originZero:geometry bbox="470,322,784,754" aspect="1.0398"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(212,0,212)"/>
+    <originZero:layout type="1x3" fullSize="1724x1400"/>
+    <originZero:geometry bbox="468,466,787,463" aspect="1.6998"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(211,211,211)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1530323">
-      <rect x="470" y="322" width="784" height="754"/>
+      <rect x="468" y="466" width="787" height="463"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1530323.jpg" x="0" y="0" width="1724" height="1400" clip-path="url(#logoClip-1530323)"/>

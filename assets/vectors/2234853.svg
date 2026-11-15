@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 56 1000 1954" width="1000" height="1954" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="222 521 598 319" width="598" height="319" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2234853" title="Kestrel%20Logo%20Proposal" archive="99designs-#2234853"/>
-    <originZero:layout type="split-2x1" fullSize="2012x2013"/>
-    <originZero:geometry bbox="2,56,1000,1954" aspect="0.5118"/>
-    <originZero:chroma background="rgb(2,2,2)" dominant="rgb(212,2,207)"/>
+    <originZero:layout type="2x4" fullSize="2012x2013"/>
+    <originZero:geometry bbox="222,521,598,319" aspect="1.8746"/>
+    <originZero:chroma background="rgb(3,4,2)" dominant="rgb(232,199,152)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2234853">
-      <rect x="2" y="56" width="1000" height="1954"/>
+      <rect x="222" y="521" width="598" height="319"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2234853.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#logoClip-2234853)"/>

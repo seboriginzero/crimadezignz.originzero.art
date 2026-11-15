@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="706 566 198 226" width="198" height="226" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="705 564 202 229" width="202" height="229" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1947639" title="Monolithic%20-%20Logo%20Design" archive="99designs-#1947639"/>
     <originZero:layout type="single" fullSize="1611x1361"/>
-    <originZero:geometry bbox="706,566,198,226" aspect="0.8761"/>
-    <originZero:chroma background="rgb(24,24,24)" dominant="rgb(216,24,214)"/>
+    <originZero:geometry bbox="705,564,202,229" aspect="0.8821"/>
+    <originZero:chroma background="rgb(24,24,24)" dominant="rgb(216,216,214)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1947639">
-      <rect x="706" y="566" width="198" height="226"/>
+      <rect x="705" y="564" width="202" height="229"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1947639.jpg" x="0" y="0" width="1611" height="1361" clip-path="url(#logoClip-1947639)"/>

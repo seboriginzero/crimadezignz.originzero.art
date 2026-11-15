@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1764 6160" width="1764" height="6160" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1768 6619" width="1768" height="6619" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2125907" title="Otter%20-%20Leather%20Works" archive="99designs-#2125907"/>
     <originZero:layout type="single" fullSize="1770x6620"/>
-    <originZero:geometry bbox="2,2,1764,6160" aspect="0.2864"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(199,0,164)"/>
+    <originZero:geometry bbox="0,0,1768,6619" aspect="0.2671"/>
+    <originZero:chroma background="rgb(128,128,128)" dominant="rgb(159,141,131)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2125907">
-      <rect x="2" y="2" width="1764" height="6160"/>
+      <rect x="0" y="0" width="1768" height="6619"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2125907.jpg" x="0" y="0" width="1770" height="6620" clip-path="url(#logoClip-2125907)"/>

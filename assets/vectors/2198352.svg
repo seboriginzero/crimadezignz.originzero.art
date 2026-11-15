@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 2886" width="1366" height="2886" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="507 570 505 379" width="505" height="379" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2198352" title="Titans%20Armory" archive="99designs-#2198352"/>
-    <originZero:layout type="single" fullSize="1521x3043"/>
-    <originZero:geometry bbox="76,78,1366,2886" aspect="0.4733"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(41,255,34)"/>
+    <originZero:layout type="3x2" fullSize="1521x3043"/>
+    <originZero:geometry bbox="507,570,505,379" aspect="1.3325"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(41,37,34)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2198352">
-      <rect x="76" y="78" width="1366" height="2886"/>
+      <rect x="507" y="570" width="505" height="379"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2198352.jpg" x="0" y="0" width="1521" height="3043" clip-path="url(#logoClip-2198352)"/>

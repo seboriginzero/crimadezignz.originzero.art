@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1618 3230" width="1618" height="3230" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1621 3235" width="1621" height="3235" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="935434" title="Corinthians%20-%20Logo%20Design" archive="99designs-#935434"/>
     <originZero:layout type="single" fullSize="1623x3236"/>
-    <originZero:geometry bbox="2,2,1618,3230" aspect="0.5009"/>
-    <originZero:chroma background="rgb(51,103,153)" dominant="rgb(83,103,106)"/>
+    <originZero:geometry bbox="0,0,1621,3235" aspect="0.5011"/>
+    <originZero:chroma background="rgb(134,151,172)" dominant="rgb(80,94,109)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-935434">
-      <rect x="2" y="2" width="1618" height="3230"/>
+      <rect x="0" y="0" width="1621" height="3235"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/935434.jpg" x="0" y="0" width="1623" height="3236" clip-path="url(#logoClip-935434)"/>

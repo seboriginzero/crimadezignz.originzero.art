@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 870 4046" width="870" height="4046" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="309 3048 1303 1015" width="1303" height="1015" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1974995" title="BB%20Guns%20-%20Logo%20Design" archive="99designs-#1974995"/>
-    <originZero:layout type="split-2x1" fullSize="1752x4067"/>
-    <originZero:geometry bbox="2,2,870,4046" aspect="0.215"/>
-    <originZero:chroma background="rgb(3,3,3)" dominant="rgb(173,3,165)"/>
+    <originZero:layout type="1x4" fullSize="1752x4067"/>
+    <originZero:geometry bbox="309,3048,1303,1015" aspect="1.2837"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(73,45,46)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1974995">
-      <rect x="2" y="2" width="870" height="4046"/>
+      <rect x="309" y="3048" width="1303" height="1015"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1974995.jpg" x="0" y="0" width="1752" height="4067" clip-path="url(#logoClip-1974995)"/>

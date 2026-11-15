@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="458 370 626 504" width="626" height="504" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="423 584 664 583" width="664" height="583" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="307180" title="Kick%20ass!%20Can%20you%20design%20an%20elite%20logo%20for%20a%20martial%20arts%20group%3F" archive="99designs-#307180"/>
-    <originZero:layout type="split-1x2" fullSize="1506x1754"/>
-    <originZero:geometry bbox="458,370,626,504" aspect="1.2421"/>
-    <originZero:chroma background="rgb(16,17,20)" dominant="rgb(200,17,94)"/>
+    <originZero:layout type="1x3" fullSize="1506x1754"/>
+    <originZero:geometry bbox="423,584,664,583" aspect="1.1389"/>
+    <originZero:chroma background="rgb(22,24,28)" dominant="rgb(228,184,182)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-307180">
-      <rect x="458" y="370" width="626" height="504"/>
+      <rect x="423" y="584" width="664" height="583"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/307180.jpg" x="0" y="0" width="1506" height="1754" clip-path="url(#logoClip-307180)"/>

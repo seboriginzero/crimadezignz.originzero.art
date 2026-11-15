@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1942 1938" width="1942" height="1938" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="974 231 769 349" width="769" height="349" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2004307" title="Ecruit%20Logo%20Design" archive="99designs-#2004307"/>
-    <originZero:layout type="single" fullSize="1948x1943"/>
-    <originZero:geometry bbox="2,2,1942,1938" aspect="1.0021"/>
-    <originZero:chroma background="rgb(98,46,138)" dominant="rgb(152,46,144)"/>
+    <originZero:layout type="2x3" fullSize="1948x1943"/>
+    <originZero:geometry bbox="974,231,769,349" aspect="2.2034"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(136,38,113)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2004307">
-      <rect x="2" y="2" width="1942" height="1938"/>
+      <rect x="974" y="231" width="769" height="349"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2004307.jpg" x="0" y="0" width="1948" height="1943" clip-path="url(#logoClip-2004307)"/>

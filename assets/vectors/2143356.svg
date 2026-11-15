@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 76 1366 2888" width="1366" height="2888" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="507 672 505 175" width="505" height="175" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2143356" title="S4%20Energy%20Services" archive="99designs-#2143356"/>
-    <originZero:layout type="single" fullSize="1521x3043"/>
-    <originZero:geometry bbox="76,76,1366,2888" aspect="0.473"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(18,255,149)"/>
+    <originZero:layout type="3x2" fullSize="1521x3043"/>
+    <originZero:geometry bbox="507,672,505,175" aspect="2.8857"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(47,110,146)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2143356">
-      <rect x="76" y="76" width="1366" height="2888"/>
+      <rect x="507" y="672" width="505" height="175"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2143356.jpg" x="0" y="0" width="1521" height="3043" clip-path="url(#logoClip-2143356)"/>

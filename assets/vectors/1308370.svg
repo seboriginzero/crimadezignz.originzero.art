@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 2 1710 1292" width="1710" height="1292" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9 649 1711 646" width="1711" height="646" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1308370" title="Phenom%20-%20Logo%20design" archive="99designs-#1308370"/>
-    <originZero:layout type="single" fullSize="1731x1298"/>
-    <originZero:geometry bbox="8,2,1710,1292" aspect="1.3235"/>
-    <originZero:chroma background="rgb(0,0,1)" dominant="rgb(82,0,72)"/>
+    <originZero:layout type="1x2" fullSize="1731x1298"/>
+    <originZero:geometry bbox="9,649,1711,646" aspect="2.6486"/>
+    <originZero:chroma background="rgb(0,0,1)" dominant="rgb(114,149,107)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1308370">
-      <rect x="8" y="2" width="1710" height="1292"/>
+      <rect x="9" y="649" width="1711" height="646"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1308370.jpg" x="0" y="0" width="1731" height="1298" clip-path="url(#logoClip-1308370)"/>

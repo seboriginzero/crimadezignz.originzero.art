@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="32 32 618 618" width="618" height="618" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 30 622 400" width="622" height="400" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2402858" title="Skandipaw" archive="99designs-#2402858"/>
-    <originZero:layout type="grid-2x3" fullSize="1364x2046"/>
-    <originZero:geometry bbox="32,32,618,618" aspect="1"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(95,255,104)"/>
+    <originZero:layout type="2x4" fullSize="1364x2046"/>
+    <originZero:geometry bbox="30,30,622,400" aspect="1.555"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(86,100,96)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2402858">
-      <rect x="32" y="32" width="618" height="618"/>
+      <rect x="30" y="30" width="622" height="400"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2402858.jpg" x="0" y="0" width="1364" height="2046" clip-path="url(#logoClip-2402858)"/>

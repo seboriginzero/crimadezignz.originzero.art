@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 398 874 1862" width="874" height="1862" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="720 1980 313 286" width="313" height="286" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2115125" title="Optio" archive="99designs-#2115125"/>
-    <originZero:layout type="split-2x1" fullSize="1758x2496"/>
-    <originZero:geometry bbox="2,398,874,1862" aspect="0.4694"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(64,255,86)"/>
+    <originZero:layout type="1x4" fullSize="1758x2496"/>
+    <originZero:geometry bbox="720,1980,313,286" aspect="1.0944"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(44,44,44)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2115125">
-      <rect x="2" y="398" width="874" height="1862"/>
+      <rect x="720" y="1980" width="313" height="286"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2115125.jpg" x="0" y="0" width="1758" height="2496" clip-path="url(#logoClip-2115125)"/>

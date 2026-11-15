@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="560 416 632 500" width="632" height="500" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="564 444 631 424" width="631" height="424" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1561814" title="Tactical%20Warrior%20-%20Logo%20Design" archive="99designs-#1561814"/>
-    <originZero:layout type="single" fullSize="1752x1332"/>
-    <originZero:geometry bbox="560,416,632,500" aspect="1.264"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(189,0,189)"/>
+    <originZero:layout type="1x3" fullSize="1752x1332"/>
+    <originZero:geometry bbox="564,444,631,424" aspect="1.4882"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(182,182,182)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1561814">
-      <rect x="560" y="416" width="632" height="500"/>
+      <rect x="564" y="444" width="631" height="424"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1561814.jpg" x="0" y="0" width="1752" height="1332" clip-path="url(#logoClip-1561814)"/>

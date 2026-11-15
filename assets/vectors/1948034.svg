@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="472 620 1008 170" width="1008" height="170" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="650 621 610 169" width="610" height="169" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1948034" title="Orbit%20-%20Logo%20Proposal" archive="99designs-#1948034"/>
-    <originZero:layout type="single" fullSize="1952x1413"/>
-    <originZero:geometry bbox="472,620,1008,170" aspect="5.9294"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(51,255,67)"/>
+    <originZero:layout type="3x1" fullSize="1952x1413"/>
+    <originZero:geometry bbox="650,621,610,169" aspect="3.6095"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(46,42,44)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1948034">
-      <rect x="472" y="620" width="1008" height="170"/>
+      <rect x="650" y="621" width="610" height="169"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1948034.jpg" x="0" y="0" width="1952" height="1413" clip-path="url(#logoClip-1948034)"/>

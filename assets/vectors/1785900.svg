@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 296 1682 4464" width="1682" height="4464" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="354 294 979 628" width="979" height="628" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1785900" title="Lunar%20Arms%20Gunsmithing%20-%20Logo%20Proposal" archive="99designs-#1785900"/>
-    <originZero:layout type="single" fullSize="1687x4763"/>
-    <originZero:geometry bbox="2,296,1682,4464" aspect="0.3768"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(196,0,146)"/>
+    <originZero:layout type="1x4" fullSize="1687x4763"/>
+    <originZero:geometry bbox="354,294,979,628" aspect="1.5589"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(160,100,102)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1785900">
-      <rect x="2" y="296" width="1682" height="4464"/>
+      <rect x="354" y="294" width="979" height="628"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1785900.jpg" x="0" y="0" width="1687" height="4763" clip-path="url(#logoClip-1785900)"/>

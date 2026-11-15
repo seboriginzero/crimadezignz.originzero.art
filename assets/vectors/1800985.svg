@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="442 350 968 640" width="968" height="640" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="516 447 820 445" width="820" height="445" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1800985" title="R%26S%20Retrievers%20-%20Logo%20Design" archive="99designs-#1800985"/>
-    <originZero:layout type="single" fullSize="1853x1341"/>
-    <originZero:geometry bbox="442,350,968,640" aspect="1.5125"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(196,0,93)"/>
+    <originZero:layout type="1x3" fullSize="1853x1341"/>
+    <originZero:geometry bbox="516,447,820,445" aspect="1.8427"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(201,136,73)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1800985">
-      <rect x="442" y="350" width="968" height="640"/>
+      <rect x="516" y="447" width="820" height="445"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1800985.jpg" x="0" y="0" width="1853" height="1341" clip-path="url(#logoClip-1800985)"/>

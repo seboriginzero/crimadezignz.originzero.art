@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 196 870 2936" width="870" height="2936" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="195 195 487 484" width="487" height="484" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1950552" title="No%20Man%20Down" archive="99designs-#1950552"/>
-    <originZero:layout type="split-2x1" fullSize="1752x3339"/>
-    <originZero:geometry bbox="2,196,870,2936" aspect="0.2963"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(107,255,57)"/>
+    <originZero:layout type="2x4" fullSize="1752x3339"/>
+    <originZero:geometry bbox="195,195,487,484" aspect="1.0062"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(85,14,25)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1950552">
-      <rect x="2" y="196" width="870" height="2936"/>
+      <rect x="195" y="195" width="487" height="484"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1950552.jpg" x="0" y="0" width="1752" height="3339" clip-path="url(#logoClip-1950552)"/>

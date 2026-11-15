@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1502 1552" width="1502" height="1552" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1170 751 367" width="751" height="367" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2196866" title="Kalibershop%20" archive="99designs-#2196866"/>
-    <originZero:layout type="single" fullSize="1508x1558"/>
-    <originZero:geometry bbox="2,2,1502,1552" aspect="0.9678"/>
-    <originZero:chroma background="rgb(140,97,36)" dominant="rgb(143,97,101)"/>
+    <originZero:layout type="2x4" fullSize="1508x1558"/>
+    <originZero:geometry bbox="0,1170,751,367" aspect="2.0463"/>
+    <originZero:chroma background="rgb(198,125,35)" dominant="rgb(232,193,140)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2196866">
-      <rect x="2" y="2" width="1502" height="1552"/>
+      <rect x="0" y="1170" width="751" height="367"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2196866.jpg" x="0" y="0" width="1508" height="1558" clip-path="url(#logoClip-2196866)"/>

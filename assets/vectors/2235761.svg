@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="690 336 618 812" width="618" height="812" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="687 625 625 523" width="625" height="523" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2235761" title="Ferox" archive="99designs-#2235761"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="690,336,618,812" aspect="0.7611"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(94,0,97)"/>
+    <originZero:layout type="3x2" fullSize="2000x1250"/>
+    <originZero:geometry bbox="687,625,625,523" aspect="1.195"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(68,68,70)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2235761">
-      <rect x="690" y="336" width="618" height="812"/>
+      <rect x="687" y="625" width="625" height="523"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2235761.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2235761)"/>

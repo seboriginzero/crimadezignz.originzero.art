@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="636 580 258 168" width="258" height="168" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="633 579 262 172" width="262" height="172" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1044279" title="JP%20Capital%20-%20Logo%20Design" archive="99designs-#1044279"/>
     <originZero:layout type="single" fullSize="1530x1329"/>
-    <originZero:geometry bbox="636,580,258,168" aspect="1.5357"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(69,255,63)"/>
+    <originZero:geometry bbox="633,579,262,172" aspect="1.5233"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(68,64,62)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1044279">
-      <rect x="636" y="580" width="258" height="168"/>
+      <rect x="633" y="579" width="262" height="172"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1044279.jpg" x="0" y="0" width="1530" height="1329" clip-path="url(#logoClip-1044279)"/>

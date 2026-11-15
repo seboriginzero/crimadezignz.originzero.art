@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1980 1494" width="1980" height="1494" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 750 1885 742" width="1885" height="742" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1813922" title="Iron%20Sight%20Gym%20-%20Logo%20Design" archive="99designs-#1813922"/>
-    <originZero:layout type="single" fullSize="2000x1500"/>
-    <originZero:geometry bbox="2,2,1980,1494" aspect="1.3253"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(78,0,69)"/>
+    <originZero:layout type="1x2" fullSize="2000x1500"/>
+    <originZero:geometry bbox="0,750,1885,742" aspect="2.5404"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(78,81,71)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1813922">
-      <rect x="2" y="2" width="1980" height="1494"/>
+      <rect x="0" y="750" width="1885" height="742"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1813922.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#logoClip-1813922)"/>

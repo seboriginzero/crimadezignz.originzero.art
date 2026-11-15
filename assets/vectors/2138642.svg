@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1540 1596" width="1540" height="1596" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="772 801 769 799" width="769" height="799" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2138642" title="True%20Ronin" archive="99designs-#2138642"/>
-    <originZero:layout type="single" fullSize="1545x1602"/>
-    <originZero:geometry bbox="2,2,1540,1596" aspect="0.9649"/>
-    <originZero:chroma background="rgb(38,11,6)" dominant="rgb(90,11,58)"/>
+    <originZero:layout type="2x2" fullSize="1545x1602"/>
+    <originZero:geometry bbox="772,801,769,799" aspect="0.9625"/>
+    <originZero:chroma background="rgb(11,1,1)" dominant="rgb(105,63,24)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2138642">
-      <rect x="2" y="2" width="1540" height="1596"/>
+      <rect x="772" y="801" width="769" height="799"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2138642.jpg" x="0" y="0" width="1545" height="1602" clip-path="url(#logoClip-2138642)"/>

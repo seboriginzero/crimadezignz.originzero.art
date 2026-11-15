@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="668 380 1276 830" width="1276" height="830" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="666 416 667 415" width="667" height="415" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2253331" title="Pamir%20Hunt" archive="99designs-#2253331"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="668,380,1276,830" aspect="1.5373"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(197,0,148)"/>
+    <originZero:layout type="1x3" fullSize="2000x1250"/>
+    <originZero:geometry bbox="666,416,667,415" aspect="1.6072"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(197,184,150)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2253331">
-      <rect x="668" y="380" width="1276" height="830"/>
+      <rect x="666" y="416" width="667" height="415"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2253331.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2253331)"/>

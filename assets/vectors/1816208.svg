@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="168 284 540 306" width="540" height="306" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1041 1158 544 310" width="544" height="310" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1816208" title="Comrey%20FFL%20Services%20LLC%20-%20Logo%20Design" archive="99designs-#1816208"/>
-    <originZero:layout type="grid-2x2" fullSize="1752x1752"/>
-    <originZero:geometry bbox="168,284,540,306" aspect="1.7647"/>
-    <originZero:chroma background="rgb(254,255,255)" dominant="rgb(97,255,88)"/>
+    <originZero:layout type="2x2" fullSize="1752x1752"/>
+    <originZero:geometry bbox="1041,1158,544,310" aspect="1.7548"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(138,148,125)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1816208">
-      <rect x="168" y="284" width="540" height="306"/>
+      <rect x="1041" y="1158" width="544" height="310"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1816208.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#logoClip-1816208)"/>

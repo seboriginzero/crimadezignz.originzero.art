@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1000 2008" width="1000" height="2008" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="273 1692 481 148" width="481" height="148" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2251277" title="SENDERO%20Shooting%20Techonlogies" archive="99designs-#2251277"/>
-    <originZero:layout type="split-2x1" fullSize="2012x2013"/>
-    <originZero:geometry bbox="2,2,1000,2008" aspect="0.498"/>
-    <originZero:chroma background="rgb(35,35,37)" dominant="rgb(78,35,77)"/>
+    <originZero:layout type="2x4" fullSize="2012x2013"/>
+    <originZero:geometry bbox="273,1692,481,148" aspect="3.25"/>
+    <originZero:chroma background="rgb(228,228,228)" dominant="rgb(121,66,69)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2251277">
-      <rect x="2" y="2" width="1000" height="2008"/>
+      <rect x="273" y="1692" width="481" height="148"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2251277.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#logoClip-2251277)"/>

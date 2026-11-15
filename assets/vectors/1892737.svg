@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1136 934" width="1136" height="934" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="201 1410 760 436" width="760" height="436" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1892737" title="Spear%20-%20Logo%20Design" archive="99designs-#1892737"/>
-    <originZero:layout type="split-1x2" fullSize="1141x1880"/>
-    <originZero:geometry bbox="2,2,1136,934" aspect="1.2163"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(254,0,254)"/>
+    <originZero:layout type="1x4" fullSize="1141x1880"/>
+    <originZero:geometry bbox="201,1410,760,436" aspect="1.7431"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(132,132,133)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1892737">
-      <rect x="2" y="2" width="1136" height="934"/>
+      <rect x="201" y="1410" width="760" height="436"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1892737.jpg" x="0" y="0" width="1141" height="1880" clip-path="url(#logoClip-1892737)"/>

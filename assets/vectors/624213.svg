@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 138 1858 1224" width="1858" height="1224" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 138 1861 1225" width="1861" height="1225" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="624213" title="Shadow%20Gunworks%20-%20Logo%20Design" archive="99designs-#624213"/>
     <originZero:layout type="single" fullSize="1863x1468"/>
-    <originZero:geometry bbox="2,138,1858,1224" aspect="1.518"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(78,11,79)"/>
+    <originZero:geometry bbox="0,138,1861,1225" aspect="1.5192"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(80,81,80)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-624213">
-      <rect x="2" y="138" width="1858" height="1224"/>
+      <rect x="0" y="138" width="1861" height="1225"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/624213.jpg" x="0" y="0" width="1863" height="1468" clip-path="url(#logoClip-624213)"/>

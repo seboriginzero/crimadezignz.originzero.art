@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="552 396 578 542" width="578" height="542" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="552 445 580 442" width="580" height="442" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="818849" title="Ridgid%20Holsters%20-%20Logo%20Design" archive="99designs-#818849"/>
-    <originZero:layout type="single" fullSize="1683x1336"/>
-    <originZero:geometry bbox="552,396,578,542" aspect="1.0664"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(117,11,171)"/>
+    <originZero:layout type="1x3" fullSize="1683x1336"/>
+    <originZero:geometry bbox="552,445,580,442" aspect="1.3122"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(119,144,174)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-818849">
-      <rect x="552" y="396" width="578" height="542"/>
+      <rect x="552" y="445" width="580" height="442"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/818849.jpg" x="0" y="0" width="1683" height="1336" clip-path="url(#logoClip-818849)"/>

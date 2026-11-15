@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="118 166 764 666" width="764" height="666" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="666 680 217 139" width="217" height="139" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2317158" title="Strategic%20Rise" archive="99designs-#2317158"/>
-    <originZero:layout type="single" fullSize="1000x1000"/>
-    <originZero:geometry bbox="118,166,764,666" aspect="1.1471"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(152,11,153)"/>
+    <originZero:layout type="3x2" fullSize="1000x1000"/>
+    <originZero:geometry bbox="666,680,217,139" aspect="1.5612"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(119,119,120)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2317158">
-      <rect x="118" y="166" width="764" height="666"/>
+      <rect x="666" y="680" width="217" height="139"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2317158.jpg" x="0" y="0" width="1000" height="1000" clip-path="url(#logoClip-2317158)"/>

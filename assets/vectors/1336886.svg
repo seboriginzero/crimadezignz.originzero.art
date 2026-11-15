@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="372 628 914 54" width="914" height="54" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="552 627 550 115" width="550" height="115" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1336886" title="Gun%20Pros%20-%20Logo%20Design%20" archive="99designs-#1336886"/>
-    <originZero:layout type="split-1x2" fullSize="1658x1372"/>
-    <originZero:geometry bbox="372,628,914,54" aspect="16.9259"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(192,11,102)"/>
+    <originZero:layout type="3x1" fullSize="1658x1372"/>
+    <originZero:geometry bbox="552,627,550,115" aspect="4.7826"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(201,177,95)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1336886">
-      <rect x="372" y="628" width="914" height="54"/>
+      <rect x="552" y="627" width="550" height="115"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1336886.jpg" x="0" y="0" width="1658" height="1372" clip-path="url(#logoClip-1336886)"/>

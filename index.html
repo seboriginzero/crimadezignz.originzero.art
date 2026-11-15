@@ -209,31 +209,46 @@
     </section>
   </main>
 
-  <!-- High-Fidelity Detail Modal Dialog (Sharp Architectural Edges) -->
+  <!-- High-Fidelity Detail Modal Dialog (Cinema-Scale Architectural Canvas) -->
   <div class="modal-overlay" id="designModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="modal-dialog">
-      <!-- Modal Navigation Controls -->
+      <!-- Modal Navigation Tactile Arrows -->
       <button class="modal-nav-arrow modal-prev-arrow magnetic-target" id="modalPrevBtn" aria-label="Previous Mark">◀</button>
       <button class="modal-nav-arrow modal-next-arrow magnetic-target" id="modalNextBtn" aria-label="Next Mark">▶</button>
-      <button class="modal-close-btn magnetic-target" id="modalCloseBtn" aria-label="Close Dialog">✕</button>
       
-      <!-- Modal View Mode Switch: 2D Artwork vs Live Surface Stage (10) -->
+      <!-- Modal Master Top Bar (Cinema Scale 48px) -->
       <div class="modal-view-mode-bar">
+        <!-- Left: View Mode Tabs -->
         <div class="view-mode-tabs">
-          <button class="view-mode-btn active magnetic-target" id="viewMode2DBtn" data-mode="2d">
+          <button class="view-mode-btn active magnetic-target" id="viewMode2DBtn" data-mode="2d" title="Switch to Original 2D Artwork [S]">
             <span>◻ 2D ARTWORK</span>
           </button>
-          <button class="view-mode-btn magnetic-target" id="viewModeStageBtn" data-mode="stage">
+          <button class="view-mode-btn magnetic-target" id="viewModeStageBtn" data-mode="stage" title="Switch to 10-Surface Master Stage [S]">
             <span>❖ SURFACE STAGE (10)</span>
             <span class="stage-pill-badge">LIVE 3D</span>
           </button>
         </div>
-        <div class="stage-quick-meta">
-          <span class="meta-tag-zero-ai">● ZERO-AI DETERMINISTIC</span>
-          <span id="modalMarkIdLabel">#000000</span>
+
+        <!-- Center: Mark Title & Brand Header -->
+        <div class="modal-bar-center">
+          <span class="mono-badge" id="modalCategory">SYMBOLIC MARK</span>
+          <h2 class="modal-title-text" id="modalTitle">Design Title</h2>
+          <span class="modal-id-tag" id="modalMarkIdLabel">#000000</span>
+        </div>
+
+        <!-- Right: Actions & Close -->
+        <div class="modal-bar-actions">
+          <button class="modal-brief-toggle-btn magnetic-target" id="modalConceptToggleBtn" title="Toggle Concept & Brief Rationale [B]">
+            <span>ℹ CONCEPT BRIEF</span>
+          </button>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-avant-garde magnetic-target" id="modalSourceLink" title="Verify Original 99designs Record">
+            <span>VERIFY ↗</span>
+          </a>
+          <button class="modal-close-btn magnetic-target" id="modalCloseBtn" aria-label="Close Dialog">✕</button>
         </div>
       </div>
       
+      <!-- Fullscreen Cinema Canvas Wrapper -->
       <div class="modal-image-wrapper">
         <!-- 1. Classic 2D Artwork View -->
         <div class="modal-2d-viewport" id="modal2DViewport">
@@ -253,16 +268,16 @@
           <div class="stage-dock" id="stageDock">
             <!-- Tier 1: Surface Studio Navigator (01 - 10) -->
             <div class="stage-surface-ribbon" id="stageSurfaceRibbon">
-              <button class="stage-surface-btn active magnetic-target" data-surface="0" title="Surface 01 [1]"><span class="surface-btn-key">1</span><span class="surface-btn-name">01 Card</span></button>
-              <button class="stage-surface-btn magnetic-target" data-surface="1" title="Surface 02 [2]"><span class="surface-btn-key">2</span><span class="surface-btn-name">02 Apparel</span></button>
-              <button class="stage-surface-btn magnetic-target" data-surface="2" title="Surface 03 [3]"><span class="surface-btn-key">3</span><span class="surface-btn-name">03 Mug</span></button>
-              <button class="stage-surface-btn magnetic-target" data-surface="3" title="Surface 04 [4]"><span class="surface-btn-key">4</span><span class="surface-btn-name">04 Glass</span></button>
-              <button class="stage-surface-btn magnetic-target" data-surface="4" title="Surface 05 [5]"><span class="surface-btn-key">5</span><span class="surface-btn-name">05 Leather</span></button>
-              <button class="stage-surface-btn magnetic-target" data-surface="5" title="Surface 06 [6]"><span class="surface-btn-key">6</span><span class="surface-btn-name">06 Metal</span></button>
+              <button class="stage-surface-btn active magnetic-target" data-surface="0" title="Surface 01 [1]"><span class="surface-btn-key">1</span><span class="surface-btn-name">01 Cotton Card</span></button>
+              <button class="stage-surface-btn magnetic-target" data-surface="1" title="Surface 02 [2]"><span class="surface-btn-key">2</span><span class="surface-btn-name">02 Apparel 280g</span></button>
+              <button class="stage-surface-btn magnetic-target" data-surface="2" title="Surface 03 [3]"><span class="surface-btn-key">3</span><span class="surface-btn-name">03 Ceramic Mug</span></button>
+              <button class="stage-surface-btn magnetic-target" data-surface="3" title="Surface 04 [4]"><span class="surface-btn-key">4</span><span class="surface-btn-name">04 Frosted Glass</span></button>
+              <button class="stage-surface-btn magnetic-target" data-surface="4" title="Surface 05 [5]"><span class="surface-btn-key">5</span><span class="surface-btn-name">05 Leather Folio</span></button>
+              <button class="stage-surface-btn magnetic-target" data-surface="5" title="Surface 06 [6]"><span class="surface-btn-key">6</span><span class="surface-btn-name">06 Anodized Metal</span></button>
               <button class="stage-surface-btn magnetic-target" data-surface="6" title="Surface 07 [7]"><span class="surface-btn-key">7</span><span class="surface-btn-name">07 Luxury Box</span></button>
-              <button class="stage-surface-btn magnetic-target" data-surface="7" title="Surface 08 [8]"><span class="surface-btn-key">8</span><span class="surface-btn-name">08 OS Grid</span></button>
-              <button class="stage-surface-btn magnetic-target" data-surface="8" title="Surface 09 [9]"><span class="surface-btn-key">9</span><span class="surface-btn-name">09 Blade Sign</span></button>
-              <button class="stage-surface-btn magnetic-target" data-surface="9" title="Surface 10 [0]"><span class="surface-btn-key">0</span><span class="surface-btn-name">10 Vinyl</span></button>
+              <button class="stage-surface-btn magnetic-target" data-surface="7" title="Surface 08 [8]"><span class="surface-btn-key">8</span><span class="surface-btn-name">08 OS Favicon Grid</span></button>
+              <button class="stage-surface-btn magnetic-target" data-surface="8" title="Surface 09 [9]"><span class="surface-btn-key">9</span><span class="surface-btn-name">09 Night Blade Sign</span></button>
+              <button class="stage-surface-btn magnetic-target" data-surface="9" title="Surface 10 [0]"><span class="surface-btn-key">0</span><span class="surface-btn-name">10 Storefront Vinyl</span></button>
             </div>
 
             <!-- Tier 2: Unified Inspector Row -->
@@ -342,39 +357,39 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="modal-header-row">
-        <div>
-          <span class="mono-badge" id="modalCategory">SYMBOLIC MARK</span>
-          <h2 class="modal-title-text" id="modalTitle">Design Title</h2>
-        </div>
-        <div style="display: flex; align-items: center; gap: 12px;">
-          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-avant-garde magnetic-target" id="modalSourceLink">
-            <span>VERIFY ON 99DESIGNS ↗</span>
-          </a>
-        </div>
-      </div>
+        <!-- Slide-Over Atelier Brief & Concept Drawer (Zero Disruption to Canvas) -->
+        <aside class="modal-concept-drawer" id="modalConceptDrawer">
+          <div class="drawer-header">
+            <div class="drawer-title-group">
+              <span class="meta-label">ARCHITECTURAL DOSSIER</span>
+              <h3 class="drawer-heading" id="drawerTitle">Concept & Rationale</h3>
+            </div>
+            <button class="drawer-close-btn magnetic-target" id="modalConceptDrawerClose" aria-label="Close Concept Drawer">✕</button>
+          </div>
+          
+          <div class="drawer-body">
+            <div class="modal-concept-wrap" id="modalConceptWrap">
+              <span class="meta-label">DESIGN CONCEPT & ARCHITECTURAL BRIEF:</span>
+              <p class="modal-desc-text" id="modalDesc">Original trademark architecture crafted for international client brief.</p>
+            </div>
 
-      <!-- Design Rationale & Artist Concept -->
-      <div class="modal-concept-wrap" id="modalConceptWrap">
-        <span class="meta-label">DESIGN CONCEPT & ARCHITECTURAL BRIEF:</span>
-        <p class="modal-desc-text" id="modalDesc">Original trademark architecture crafted for international client brief.</p>
-      </div>
-
-      <div class="modal-meta-grid">
-        <div class="modal-meta-item">
-          <span class="meta-label">ARCHIVE ID:</span>
-          <strong class="meta-val" id="modalId">#000000</strong>
-        </div>
-        <div class="modal-meta-item">
-          <span class="meta-label">RECORD:</span>
-          <strong class="meta-val" id="modalDate">Verified</strong>
-        </div>
-        <div class="modal-meta-item">
-          <span class="meta-label">STANDARD:</span>
-          <strong class="meta-val meta-standard" id="modalStandard">Original Trademark Mark</strong>
-        </div>
+            <div class="modal-meta-grid">
+              <div class="modal-meta-item">
+                <span class="meta-label">ARCHIVE ID:</span>
+                <strong class="meta-val" id="modalId">#000000</strong>
+              </div>
+              <div class="modal-meta-item">
+                <span class="meta-label">RECORD:</span>
+                <strong class="meta-val" id="modalDate">Verified</strong>
+              </div>
+              <div class="modal-meta-item">
+                <span class="meta-label">STANDARD:</span>
+                <strong class="meta-val meta-standard" id="modalStandard">Original Trademark Mark</strong>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
     </div>
   </div>

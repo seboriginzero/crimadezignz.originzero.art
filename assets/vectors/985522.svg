@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="714 580 392 340" width="392" height="340" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="714 579 394 340" width="394" height="340" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="985522" title="IronClad" archive="99designs-#985522"/>
     <originZero:layout type="single" fullSize="1821x1500"/>
-    <originZero:geometry bbox="714,580,392,340" aspect="1.1529"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(126,255,73)"/>
+    <originZero:geometry bbox="714,579,394,340" aspect="1.1588"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(125,66,72)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-985522">
-      <rect x="714" y="580" width="392" height="340"/>
+      <rect x="714" y="579" width="394" height="340"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/985522.jpg" x="0" y="0" width="1821" height="1500" clip-path="url(#logoClip-985522)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 870 1970" width="870" height="1970" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="261 1205 355 217" width="355" height="217" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1503899" title="Reading%20Capital%20-%20Logo%20Design" archive="99designs-#1503899"/>
-    <originZero:layout type="split-2x1" fullSize="1752x2106"/>
-    <originZero:geometry bbox="2,2,870,1970" aspect="0.4416"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(165,0,165)"/>
+    <originZero:layout type="2x4" fullSize="1752x2106"/>
+    <originZero:geometry bbox="261,1205,355,217" aspect="1.6359"/>
+    <originZero:chroma background="rgb(76,76,76)" dominant="rgb(6,6,6)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1503899">
-      <rect x="2" y="2" width="870" height="1970"/>
+      <rect x="261" y="1205" width="355" height="217"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1503899.jpg" x="0" y="0" width="1752" height="2106" clip-path="url(#logoClip-1503899)"/>

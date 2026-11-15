@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="750 268 462 386" width="462" height="386" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="750 267 463 388" width="463" height="388" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="666464" title="Untamed%20Fitness%20-%20Logo%20Design" archive="99designs-#666464"/>
-    <originZero:layout type="split-1x2" fullSize="1962x1845"/>
-    <originZero:geometry bbox="750,268,462,386" aspect="1.1969"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(179,255,87)"/>
+    <originZero:layout type="3x2" fullSize="1962x1845"/>
+    <originZero:geometry bbox="750,267,463,388" aspect="1.1933"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(177,127,84)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-666464">
-      <rect x="750" y="268" width="462" height="386"/>
+      <rect x="750" y="267" width="463" height="388"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/666464.jpg" x="0" y="0" width="1962" height="1845" clip-path="url(#logoClip-666464)"/>

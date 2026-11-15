@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 340 1216 3712" width="1216" height="3712" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 2450 1219 1603" width="1219" height="1603" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1931674" title="Bravo%20Zulu%20Logo%20Proposal" archive="99designs-#1931674"/>
-    <originZero:layout type="single" fullSize="1221x4360"/>
-    <originZero:geometry bbox="2,340,1216,3712" aspect="0.3276"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(86,255,56)"/>
+    <originZero:layout type="1x2" fullSize="1221x4360"/>
+    <originZero:geometry bbox="0,2450,1219,1603" aspect="0.7604"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(137,129,120)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1931674">
-      <rect x="2" y="340" width="1216" height="3712"/>
+      <rect x="0" y="2450" width="1219" height="1603"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1931674.jpg" x="0" y="0" width="1221" height="4360" clip-path="url(#logoClip-1931674)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="550 296 898 908" width="898" height="908" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="549 500 898 499" width="898" height="499" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1759357" title="Bad%20Guy%20Targets%20-%20Logo%20Design" archive="99designs-#1759357"/>
-    <originZero:layout type="single" fullSize="2000x1500"/>
-    <originZero:geometry bbox="550,296,898,908" aspect="0.989"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(88,255,27)"/>
+    <originZero:layout type="1x3" fullSize="2000x1500"/>
+    <originZero:geometry bbox="549,500,898,499" aspect="1.7996"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(75,32,34)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1759357">
-      <rect x="550" y="296" width="898" height="908"/>
+      <rect x="549" y="500" width="898" height="499"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1759357.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#logoClip-1759357)"/>

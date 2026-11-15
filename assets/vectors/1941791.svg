@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 142 554 2662" width="554" height="2662" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1117 2947" width="1117" height="2947" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1941791" title="Alligator%20Arms%20-%20Logo%20Design" archive="99designs-#1941791"/>
-    <originZero:layout type="split-2x1" fullSize="1119x2950"/>
-    <originZero:geometry bbox="2,142,554,2662" aspect="0.2081"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(81,255,52)"/>
+    <originZero:layout type="single" fullSize="1119x2950"/>
+    <originZero:geometry bbox="0,0,1117,2947" aspect="0.379"/>
+    <originZero:chroma background="rgb(200,200,200)" dominant="rgb(120,123,100)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1941791">
-      <rect x="2" y="142" width="554" height="2662"/>
+      <rect x="0" y="0" width="1117" height="2947"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1941791.jpg" x="0" y="0" width="1119" height="2950" clip-path="url(#logoClip-1941791)"/>

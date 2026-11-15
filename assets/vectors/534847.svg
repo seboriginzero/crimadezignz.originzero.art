@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="374 586 1090 720" width="1090" height="720" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="387 710 1060 595" width="1060" height="595" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="534847" title="CrossfitGP%20-%20Logo%20Design" archive="99designs-#534847"/>
-    <originZero:layout type="single" fullSize="1837x1420"/>
-    <originZero:geometry bbox="374,586,1090,720" aspect="1.5139"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(183,255,52)"/>
+    <originZero:layout type="1x2" fullSize="1837x1420"/>
+    <originZero:geometry bbox="387,710,1060,595" aspect="1.7815"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(199,118,45)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-534847">
-      <rect x="374" y="586" width="1090" height="720"/>
+      <rect x="387" y="710" width="1060" height="595"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/534847.jpg" x="0" y="0" width="1837" height="1420" clip-path="url(#logoClip-534847)"/>

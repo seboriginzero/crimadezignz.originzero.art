@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 678" width="1366" height="678" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="75 78 1369 679" width="1369" height="679" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2156030" title="MIGUNCO%20Logo%20Proposal" archive="99designs-#2156030"/>
-    <originZero:layout type="split-1x2" fullSize="1521x1521"/>
-    <originZero:geometry bbox="76,78,1366,678" aspect="2.0147"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(66,255,66)"/>
+    <originZero:layout type="1x2" fullSize="1521x1521"/>
+    <originZero:geometry bbox="75,78,1369,679" aspect="2.0162"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(66,66,66)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2156030">
-      <rect x="76" y="78" width="1366" height="678"/>
+      <rect x="75" y="78" width="1369" height="679"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2156030.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#logoClip-2156030)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="598 552 620 1710" width="620" height="1710" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="605 549 604 349" width="604" height="349" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1991930" title="Alexandra%20Crum%20-%20Logo%20Proposal" archive="99designs-#1991930"/>
-    <originZero:layout type="single" fullSize="1816x2773"/>
-    <originZero:geometry bbox="598,552,620,1710" aspect="0.3626"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(53,255,49)"/>
+    <originZero:layout type="3x2" fullSize="1816x2773"/>
+    <originZero:geometry bbox="605,549,604,349" aspect="1.7307"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(38,38,38)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1991930">
-      <rect x="598" y="552" width="620" height="1710"/>
+      <rect x="605" y="549" width="604" height="349"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1991930.jpg" x="0" y="0" width="1816" height="2773" clip-path="url(#logoClip-1991930)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="62 64 1130 2382" width="1130" height="2382" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3757 1258 799" width="1258" height="799" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2132196" title="Weather%20Tough%20Flags%20" archive="99designs-#2132196"/>
-    <originZero:layout type="split-1x2" fullSize="1259x5021"/>
-    <originZero:geometry bbox="62,64,1130,2382" aspect="0.4744"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(94,255,78)"/>
+    <originZero:layout type="1x3" fullSize="1259x5021"/>
+    <originZero:geometry bbox="0,3757,1258,799" aspect="1.5745"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(125,15,30)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2132196">
-      <rect x="62" y="64" width="1130" height="2382"/>
+      <rect x="0" y="3757" width="1258" height="799"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2132196.jpg" x="0" y="0" width="1259" height="5021" clip-path="url(#logoClip-2132196)"/>

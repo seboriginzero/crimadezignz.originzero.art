@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1994 620" width="1994" height="620" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1999 1249" width="1999" height="1249" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2166996" title="GET'EM%20LEAKIN'" archive="99designs-#2166996"/>
-    <originZero:layout type="split-1x2" fullSize="2000x1250"/>
-    <originZero:geometry bbox="2,2,1994,620" aspect="3.2161"/>
-    <originZero:chroma background="rgb(206,206,206)" dominant="rgb(180,206,180)"/>
+    <originZero:layout type="single" fullSize="2000x1250"/>
+    <originZero:geometry bbox="0,0,1999,1249" aspect="1.6005"/>
+    <originZero:chroma background="rgb(194,194,194)" dominant="rgb(176,176,176)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2166996">
-      <rect x="2" y="2" width="1994" height="620"/>
+      <rect x="0" y="0" width="1999" height="1249"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2166996.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2166996)"/>

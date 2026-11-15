@@ -1137,6 +1137,33 @@ class AvantGardeAtelierApp {
       });
     }
 
+    // Architectural Concept & Brief Drawer Wiring
+    const drawer = document.getElementById("modalConceptDrawer");
+    const drawerToggleBtn = document.getElementById("modalConceptToggleBtn");
+    const drawerCloseBtn = document.getElementById("modalConceptDrawerClose");
+
+    const toggleDrawer = (force) => {
+      if (!drawer) return;
+      const isOpen = typeof force === "boolean" ? force : !drawer.classList.contains("open");
+      drawer.classList.toggle("open", isOpen);
+      if (drawerToggleBtn) drawerToggleBtn.classList.toggle("active", isOpen);
+      this.playMicroTone(isOpen ? 740 : 420, 0.03);
+    };
+
+    if (drawerToggleBtn) {
+      drawerToggleBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleDrawer();
+      });
+    }
+
+    if (drawerCloseBtn) {
+      drawerCloseBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleDrawer(false);
+      });
+    }
+
     // Live Surface Stage (10-Surface Master Stage) Integration
     const view2DBtn = document.getElementById("viewMode2DBtn");
     const viewStageBtn = document.getElementById("viewModeStageBtn");
@@ -1237,7 +1264,16 @@ class AvantGardeAtelierApp {
     window.addEventListener("keydown", (e) => {
       if (!modal || !modal.classList.contains("open")) return;
       if (e.key === "Escape") {
+        const drawerEl = document.getElementById("modalConceptDrawer");
+        if (drawerEl && drawerEl.classList.contains("open")) {
+          toggleDrawer(false);
+          return;
+        }
         this.closeModal();
+      } else if (e.key === "b" || e.key === "B") {
+        if (!e.target || (e.target.tagName !== "INPUT" && e.target.tagName !== "TEXTAREA")) {
+          toggleDrawer();
+        }
       } else if (e.key === "ArrowLeft") {
         this.navigateModal(-1);
       } else if (e.key === "ArrowRight") {
@@ -1313,6 +1349,11 @@ class AvantGardeAtelierApp {
     if (!modal) return;
     modal.classList.remove("open");
     document.body.style.overflow = "";
+
+    const drawer = document.getElementById("modalConceptDrawer");
+    if (drawer) drawer.classList.remove("open");
+    const drawerToggleBtn = document.getElementById("modalConceptToggleBtn");
+    if (drawerToggleBtn) drawerToggleBtn.classList.remove("active");
 
     const modalImg = document.getElementById("modalImage");
     if (modalImg) modalImg.classList.remove("zoomed");

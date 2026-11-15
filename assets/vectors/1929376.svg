@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1994 1112" width="1994" height="1112" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="468 750 1207 367" width="1207" height="367" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1929376" title="EOHN%20-%20Logo%20Design" archive="99designs-#1929376"/>
-    <originZero:layout type="single" fullSize="2000x1500"/>
-    <originZero:geometry bbox="2,2,1994,1112" aspect="1.7932"/>
-    <originZero:chroma background="rgb(3,0,11)" dominant="rgb(40,0,72)"/>
+    <originZero:layout type="1x4" fullSize="2000x1500"/>
+    <originZero:geometry bbox="468,750,1207,367" aspect="3.2888"/>
+    <originZero:chroma background="rgb(8,1,21)" dominant="rgb(68,59,106)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1929376">
-      <rect x="2" y="2" width="1994" height="1112"/>
+      <rect x="468" y="750" width="1207" height="367"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1929376.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#logoClip-1929376)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="218 314 488 292" width="488" height="292" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="216 312 490 295" width="490" height="295" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="727471" title="London%20Cryo%20-%20Logo%20Design" archive="99designs-#727471"/>
-    <originZero:layout type="grid-2x2" fullSize="1845x1845"/>
-    <originZero:geometry bbox="218,314,488,292" aspect="1.6712"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(67,255,154)"/>
+    <originZero:layout type="2x2" fullSize="1845x1845"/>
+    <originZero:geometry bbox="216,312,490,295" aspect="1.661"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(61,149,149)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-727471">
-      <rect x="218" y="314" width="488" height="292"/>
+      <rect x="216" y="312" width="490" height="295"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/727471.jpg" x="0" y="0" width="1845" height="1845" clip-path="url(#logoClip-727471)"/>

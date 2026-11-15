@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 1364" width="1366" height="1364" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="75 78 1369 679" width="1369" height="679" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2185209" title="Modalic%20Logo%20Design" archive="99designs-#2185209"/>
-    <originZero:layout type="single" fullSize="1521x1521"/>
-    <originZero:geometry bbox="76,78,1366,1364" aspect="1.0015"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(23,255,25)"/>
+    <originZero:layout type="1x2" fullSize="1521x1521"/>
+    <originZero:geometry bbox="75,78,1369,679" aspect="2.0162"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(22,23,24)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2185209">
-      <rect x="76" y="78" width="1366" height="1364"/>
+      <rect x="75" y="78" width="1369" height="679"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2185209.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#logoClip-2185209)"/>

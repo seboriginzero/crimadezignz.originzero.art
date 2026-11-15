@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="680 434 518 488" width="518" height="488" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="679 435 520 487" width="520" height="487" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2052158" title="Orion%20Tactical%20Logo%20Design" archive="99designs-#2052158"/>
-    <originZero:layout type="single" fullSize="1857x1393"/>
-    <originZero:geometry bbox="680,434,518,488" aspect="1.0615"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(142,0,26)"/>
+    <originZero:layout type="3x1" fullSize="1857x1393"/>
+    <originZero:geometry bbox="679,435,520,487" aspect="1.0678"/>
+    <originZero:chroma background="rgb(5,7,9)" dominant="rgb(146,22,27)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2052158">
-      <rect x="680" y="434" width="518" height="488"/>
+      <rect x="679" y="435" width="520" height="487"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2052158.jpg" x="0" y="0" width="1857" height="1393" clip-path="url(#logoClip-2052158)"/>

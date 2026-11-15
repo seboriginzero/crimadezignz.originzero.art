@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 22 978 756" width="978" height="756" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="666 21 307 370" width="307" height="370" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="382202" title="Adamant%20Arms%20-%20Logo%20Design" archive="99designs-#382202"/>
-    <originZero:layout type="single" fullSize="1000x791"/>
-    <originZero:geometry bbox="8,22,978,756" aspect="1.2937"/>
-    <originZero:chroma background="rgb(35,35,35)" dominant="rgb(108,35,111)"/>
+    <originZero:layout type="3x2" fullSize="1000x791"/>
+    <originZero:geometry bbox="666,21,307,370" aspect="0.8297"/>
+    <originZero:chroma background="rgb(36,36,36)" dominant="rgb(117,117,117)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-382202">
-      <rect x="8" y="22" width="978" height="756"/>
+      <rect x="666" y="21" width="307" height="370"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/382202.jpg" x="0" y="0" width="1000" height="791" clip-path="url(#logoClip-382202)"/>

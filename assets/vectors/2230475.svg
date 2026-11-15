@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 554 862" width="554" height="862" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1678 1732" width="1678" height="1732" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2230475" title="Drip%20Gear%20" archive="99designs-#2230475"/>
-    <originZero:layout type="grid-3x2" fullSize="1679x1735"/>
-    <originZero:geometry bbox="2,2,554,862" aspect="0.6427"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(159,0,159)"/>
+    <originZero:layout type="single" fullSize="1679x1735"/>
+    <originZero:geometry bbox="0,0,1678,1732" aspect="0.9688"/>
+    <originZero:chroma background="rgb(130,130,130)" dominant="rgb(127,127,127)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2230475">
-      <rect x="2" y="2" width="554" height="862"/>
+      <rect x="0" y="0" width="1678" height="1732"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2230475.jpg" x="0" y="0" width="1679" height="1735" clip-path="url(#logoClip-2230475)"/>

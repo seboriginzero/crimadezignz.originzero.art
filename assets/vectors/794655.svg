@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="314 300 294 320" width="294" height="320" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="315 300 295 322" width="295" height="322" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="794655" title="Magnum%20Sports%20-%20Logo%20Design" archive="99designs-#794655"/>
-    <originZero:layout type="grid-2x2" fullSize="1845x1845"/>
-    <originZero:geometry bbox="314,300,294,320" aspect="0.9187"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(96,255,57)"/>
+    <originZero:layout type="2x2" fullSize="1845x1845"/>
+    <originZero:geometry bbox="315,300,295,322" aspect="0.9161"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(96,103,57)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-794655">
-      <rect x="314" y="300" width="294" height="320"/>
+      <rect x="315" y="300" width="295" height="322"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/794655.jpg" x="0" y="0" width="1845" height="1845" clip-path="url(#logoClip-794655)"/>

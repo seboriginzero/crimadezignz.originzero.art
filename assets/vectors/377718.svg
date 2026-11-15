@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="544 172 362 360" width="362" height="360" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="606 165 571 370" width="571" height="370" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="377718" title="MONOLITHICLIFE" archive="99designs-#377718"/>
-    <originZero:layout type="grid-2x2" fullSize="1819x1406"/>
-    <originZero:geometry bbox="544,172,362,360" aspect="1.0056"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(35,255,37)"/>
+    <originZero:layout type="3x2" fullSize="1819x1406"/>
+    <originZero:geometry bbox="606,165,571,370" aspect="1.5432"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(38,39,41)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-377718">
-      <rect x="544" y="172" width="362" height="360"/>
+      <rect x="606" y="165" width="571" height="370"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/377718.jpg" x="0" y="0" width="1819" height="1406" clip-path="url(#logoClip-377718)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1512 4322" width="1512" height="4322" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="210 3246 1186 1081" width="1186" height="1081" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2056976" title="TACTIGYM%20-%20Logo%20Proposal" archive="99designs-#2056976"/>
-    <originZero:layout type="single" fullSize="1518x4328"/>
-    <originZero:geometry bbox="2,2,1512,4322" aspect="0.3498"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(139,0,113)"/>
+    <originZero:layout type="1x4" fullSize="1518x4328"/>
+    <originZero:geometry bbox="210,3246,1186,1081" aspect="1.0971"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(38,39,27)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2056976">
-      <rect x="2" y="2" width="1512" height="4322"/>
+      <rect x="210" y="3246" width="1186" height="1081"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2056976.jpg" x="0" y="0" width="1518" height="4328" clip-path="url(#logoClip-2056976)"/>

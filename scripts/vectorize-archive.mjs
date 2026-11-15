@@ -75,132 +75,149 @@ for (const item of items) {
     };
   };
 
-  // 1. Detect Seams & Multi-Panel Grids
-  const midY = Math.floor(height / 2);
-  const midX = Math.floor(width / 2);
-
-  // Horizontal seam at h/2
-  let hSeam = 0;
-  for (let x = 40; x < width - 40; x += 20) {
-    const pA = getPixel(x, midY - 20);
-    const pB = getPixel(x, midY + 20);
-    hSeam += Math.abs(pA.r - pB.r) + Math.abs(pA.g - pB.g) + Math.abs(pA.b - pB.b);
-  }
-  const hasH2 = (hSeam / ((width - 80) / 20)) > 140;
-
-  // Vertical seams at w/3 and 2w/3
-  const x3_1 = Math.floor(width / 3);
-  const x3_2 = Math.floor((2 * width) / 3);
-  let vSeam3 = 0;
-  for (let y = 40; y < height - 40; y += 20) {
-    const pL1 = getPixel(x3_1 - 20, y);
-    const pR1 = getPixel(x3_1 + 20, y);
-    const pL2 = getPixel(x3_2 - 20, y);
-    const pR2 = getPixel(x3_2 + 20, y);
-    vSeam3 += Math.abs(pL1.r - pR1.r) + Math.abs(pL1.g - pR1.g) + Math.abs(pL1.b - pR1.b);
-    vSeam3 += Math.abs(pL2.r - pR2.r) + Math.abs(pL2.g - pR2.g) + Math.abs(pL2.b - pR2.b);
-  }
-  const hasV3 = (vSeam3 / ((height - 80) / 10)) > 140;
-
-  // Vertical seam at w/2
-  let vSeam2 = 0;
-  for (let y = 40; y < height - 40; y += 20) {
-    const pL = getPixel(midX - 20, y);
-    const pR = getPixel(midX + 20, y);
-    vSeam2 += Math.abs(pL.r - pR.r) + Math.abs(pL.g - pR.g) + Math.abs(pL.b - pR.b);
-  }
-  const hasV2 = (vSeam2 / ((height - 80) / 20)) > 140;
-
-  // Horizontal seams at h/3 and 2h/3
-  const y3_1 = Math.floor(height / 3);
-  const y3_2 = Math.floor((2 * height) / 3);
-  let hSeam3 = 0;
-  for (let x = 40; x < width - 40; x += 20) {
-    const pA1 = getPixel(x, y3_1 - 20);
-    const pB1 = getPixel(x, y3_1 + 20);
-    const pA2 = getPixel(x, y3_2 - 20);
-    const pB2 = getPixel(x, y3_2 + 20);
-    hSeam3 += Math.abs(pA1.r - pB1.r) + Math.abs(pA1.g - pB1.g) + Math.abs(pA1.b - pB1.b);
-    hSeam3 += Math.abs(pA2.r - pB2.r) + Math.abs(pA2.g - pB2.g) + Math.abs(pA2.b - pB2.b);
-  }
-  const hasH3 = (hSeam3 / ((width - 80) / 10)) > 140;
-
-  let layoutType = "single";
-  let targetBox = { x: 0, y: 0, width: width, height: height };
-
-  if (hasH2 && hasV3) {
-    layoutType = "grid-3x2";
-    targetBox = { x: 0, y: 0, width: Math.floor(width / 3), height: Math.floor(height / 2) };
-  } else if (hasH3 && hasV2) {
-    layoutType = "grid-2x3";
-    targetBox = { x: 0, y: 0, width: Math.floor(width / 2), height: Math.floor(height / 3) };
-  } else if (hasH2 && hasV2) {
-    layoutType = "grid-2x2";
-    targetBox = { x: 0, y: 0, width: Math.floor(width / 2), height: Math.floor(height / 2) };
-  } else if (hasH2) {
-    layoutType = "split-1x2";
-    targetBox = { x: 0, y: 0, width: width, height: Math.floor(height / 2) };
-  } else if (hasV2) {
-    layoutType = "split-2x1";
-    targetBox = { x: 0, y: 0, width: Math.floor(width / 2), height: height };
-  }
-
-  // Sample corners of the primary target box to determine background
-  const cornerSamplePoints = [
-    getPixel(targetBox.x + 12, targetBox.y + 12),
-    getPixel(targetBox.x + targetBox.width - 12, targetBox.y + 12),
-    getPixel(targetBox.x + 12, targetBox.y + targetBox.height - 12),
-    getPixel(targetBox.x + targetBox.width - 12, targetBox.y + targetBox.height - 12)
+  // Generate candidate grid partitions (multi-panel detection)
+  const candidateCells = [];
+  const splits = [
+    { cols: 1, rows: 1 },
+    { cols: 2, rows: 1 },
+    { cols: 1, rows: 2 },
+    { cols: 2, rows: 2 },
+    { cols: 3, rows: 2 },
+    { cols: 2, rows: 3 },
+    { cols: 3, rows: 1 },
+    { cols: 1, rows: 3 },
+    { cols: 1, rows: 4 },
+    { cols: 2, rows: 4 }
   ];
-  const rSort = cornerSamplePoints.map(p => p.r).sort((a, b) => a - b);
-  const gSort = cornerSamplePoints.map(p => p.g).sort((a, b) => a - b);
-  const bSort = cornerSamplePoints.map(p => p.b).sort((a, b) => a - b);
-  const bg = { r: rSort[1], g: gSort[1], b: bSort[1] };
 
-  // Scan inside targetBox for the pure isolated logo mark
-  let minX = targetBox.x + targetBox.width;
-  let maxX = targetBox.x;
-  let minY = targetBox.y + targetBox.height;
-  let maxY = targetBox.y;
-  let fgR = 0, fgG = 0, fgB = 0, fgCount = 0;
-  const threshold = 28;
+  for (const s of splits) {
+    const cellW = Math.floor(width / s.cols);
+    const cellH = Math.floor(height / s.rows);
+    if (cellW < 180 || cellH < 100) continue;
 
-  for (let y = targetBox.y + 8; y < targetBox.y + targetBox.height - 8; y += 2) {
-    for (let x = targetBox.x + 8; x < targetBox.x + targetBox.width - 8; x += 2) {
-      const p = getPixel(x, y);
-      const dist = Math.sqrt((p.r - bg.r) ** 2 + (p.g - bg.g) ** 2 + (p.b - bg.b) ** 2);
-      if (dist > threshold) {
-        if (x < minX) minX = x;
-        if (x > maxX) maxX = x;
-        if (y < minY) minY = y;
-        if (y > maxY) maxY = y;
-        fgR += p.r; fgG += gSort[1]; fgB += p.b; fgCount++;
+    for (let r = 0; r < s.rows; r++) {
+      for (let c = 0; c < s.cols; c++) {
+        candidateCells.push({
+          x: c * cellW,
+          y: r * cellH,
+          w: cellW,
+          h: cellH,
+          split: `${s.cols}x${s.rows}`,
+          col: c,
+          row: r
+        });
       }
     }
   }
 
-  // Safety fallback if cell was empty or detection missed
-  if (maxX <= minX || maxY <= minY) {
-    minX = targetBox.x;
-    minY = targetBox.y;
-    maxX = targetBox.x + targetBox.width;
-    maxY = targetBox.y + targetBox.height;
+  // Score candidate cells to isolate clean logo presentation cards from mockups
+  const scored = [];
+  for (const cell of candidateCells) {
+    const pTL = getPixel(cell.x + 12, cell.y + 12);
+    const pTR = getPixel(cell.x + cell.w - 12, cell.y + 12);
+    const pBL = getPixel(cell.x + 12, cell.y + cell.h - 12);
+    const pBR = getPixel(cell.x + cell.w - 12, cell.y + cell.h - 12);
+
+    const cornerDiff = 
+      Math.abs(pTL.r - pTR.r) + Math.abs(pTL.g - pTR.g) + Math.abs(pTL.b - pTR.b) +
+      Math.abs(pTL.r - pBL.r) + Math.abs(pTL.g - pBL.g) + Math.abs(pTL.b - pBL.b) +
+      Math.abs(pTL.r - pBR.r) + Math.abs(pTL.g - pBR.g) + Math.abs(pTL.b - pBR.b);
+
+    // Reject non-uniform cells (photographic mockups, textured surfaces)
+    if (cornerDiff > 70 && cell.split !== "1x1") continue;
+
+    const bg = {
+      r: Math.round((pTL.r + pTR.r + pBL.r + pBR.r) / 4),
+      g: Math.round((pTL.g + pTR.g + pBL.g + pBR.g) / 4),
+      b: Math.round((pTL.b + pTR.b + pBL.b + pBR.b) / 4)
+    };
+
+    let minX = cell.x + cell.w, maxX = cell.x;
+    let minY = cell.y + cell.h, maxY = cell.y;
+    let fgR = 0, fgG = 0, fgB = 0, fgCount = 0;
+    const threshold = 30;
+
+    for (let y = cell.y + 8; y < cell.y + cell.h - 8; y += 3) {
+      for (let x = cell.x + 8; x < cell.x + cell.w - 8; x += 3) {
+        const p = getPixel(x, y);
+        const dist = Math.sqrt((p.r - bg.r)**2 + (p.g - bg.g)**2 + (p.b - bg.b)**2);
+        if (dist > threshold) {
+          fgCount++;
+          if (x < minX) minX = x;
+          if (x > maxX) maxX = x;
+          if (y < minY) minY = y;
+          if (y > maxY) maxY = y;
+          fgR += p.r; fgG += p.g; fgB += p.b;
+        }
+      }
+    }
+
+    if (fgCount < 20 || maxX <= minX || maxY <= minY) continue;
+
+    const bboxW = (maxX - minX);
+    const bboxH = (maxY - minY);
+    const aspect = bboxW / bboxH;
+
+    // Filter out extreme aspect ratios unless it's the only option
+    if ((aspect < 0.65 || aspect > 6.0) && cell.split !== "1x1") continue;
+
+    const leftPad = minX - cell.x;
+    const rightPad = (cell.x + cell.w) - maxX;
+    const topPad = minY - cell.y;
+    const bottomPad = (cell.y + cell.h) - maxY;
+
+    // Reject if mark bleeds directly into cell edges (photo cropping artifact)
+    if ((leftPad < 6 || rightPad < 6 || topPad < 6 || bottomPad < 6) && cell.split !== "1x1") continue;
+
+    const horizCenterDiff = Math.abs(leftPad - rightPad) / cell.w;
+    const vertCenterDiff = Math.abs(topPad - bottomPad) / cell.h;
+    const aspectPenalty = Math.abs(Math.log(aspect / 1.8));
+
+    // Priority bonus for standard 1x1, 2x2, 3x2, or 2x4 presentation cards
+    let splitBonus = 0;
+    if (cell.split === "3x2" || cell.split === "2x2") splitBonus = 100;
+    if (cell.split === "2x4" || cell.split === "1x2") splitBonus = 80;
+
+    const score = 1000 + splitBonus - cornerDiff * 4 - (horizCenterDiff + vertCenterDiff) * 300 - aspectPenalty * 120;
+
+    scored.push({
+      cell,
+      bg,
+      bbox: {
+        x: Math.max(0, minX - 8),
+        y: Math.max(0, minY - 8),
+        width: Math.min(width - minX + 8, bboxW + 16),
+        height: Math.min(height - minY + 8, bboxH + 16)
+      },
+      aspect: +(aspect).toFixed(4),
+      dominantFg: {
+        r: Math.round(fgR / fgCount),
+        g: Math.round(fgG / fgCount),
+        b: Math.round(fgB / fgCount)
+      },
+      score,
+      count: fgCount
+    });
   }
 
-  // Padding
-  minX = Math.max(targetBox.x, minX - 6);
-  minY = Math.max(targetBox.y, minY - 6);
-  maxX = Math.min(targetBox.x + targetBox.width, maxX + 6);
-  maxY = Math.min(targetBox.y + targetBox.height, maxY + 6);
+  scored.sort((a, b) => b.score - a.score);
 
-  const logoW = maxX - minX;
-  const logoH = maxY - minY;
+  const best = scored[0] || {
+    cell: { x: 0, y: 0, w: width, h: height, split: "single" },
+    bg: { r: 15, g: 16, b: 21 },
+    bbox: { x: 0, y: 0, width, height },
+    aspect: +(width / height).toFixed(4),
+    dominantFg: { r: 229, g: 192, b: 123 },
+    score: 0
+  };
 
-  const fg = fgCount > 0 ? {
-    r: Math.round(fgR / fgCount),
-    g: Math.round(fgG / fgCount),
-    b: Math.round(fgB / fgCount)
-  } : { r: 200, g: 160, b: 80 };
+  const layoutType = best.cell.split === "1x1" ? "single" : best.cell.split;
+  const minX = best.bbox.x;
+  const minY = best.bbox.y;
+  const logoW = best.bbox.width;
+  const logoH = best.bbox.height;
+  const bg = best.bg;
+  const fg = best.dominantFg;
 
   // Write SVG with exact isolated clipPath
   const svgContent = `<?xml version="1.0" encoding="UTF-8"?>
@@ -229,20 +246,18 @@ for (const item of items) {
     svgPath: `assets/vectors/${id}.svg`,
     layout: layoutType,
     fullDimensions: { width, height },
-    targetCell: targetBox,
+    targetCell: { x: best.cell.x, y: best.cell.y, width: best.cell.w, height: best.cell.h },
     logoBBox: { x: minX, y: minY, width: logoW, height: logoH },
     background: bg,
     dominantForeground: fg,
     aspectRatio: +(logoW / logoH).toFixed(4)
   };
 
-  try { fs.unlinkSync(tmpBmp); } catch (_) {}
-
   processed++;
   if (processed % 25 === 0 || processed === items.length) {
-    console.log(`✓ Processed ${processed}/${items.length} marks (Latest: #${id}, Layout: ${layoutType}, Logo: ${logoW}x${logoH})...`);
+    console.log(`✨ Processed ${processed}/${items.length} works...`);
   }
 }
 
 fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
-console.log(`\n🎉 [SUCCESS] All ${Object.keys(manifest).length} marks processed with Smart Logo Isolation!`);
+console.log(`✅ [ZERO-AI Vectorizer Complete] Generated ${processed} vector SVGs & updated manifest.`);

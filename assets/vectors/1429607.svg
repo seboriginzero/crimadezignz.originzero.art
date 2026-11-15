@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="466 566 766 190" width="766" height="190" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="565 564 562 190" width="562" height="190" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1429607" title="Polarcat%20-%20Logo%20Design" archive="99designs-#1429607"/>
-    <originZero:layout type="single" fullSize="1697x1322"/>
-    <originZero:geometry bbox="466,566,766,190" aspect="4.0316"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(97,255,61)"/>
+    <originZero:layout type="3x1" fullSize="1697x1322"/>
+    <originZero:geometry bbox="565,564,562,190" aspect="2.9579"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(85,43,62)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1429607">
-      <rect x="466" y="566" width="766" height="190"/>
+      <rect x="565" y="564" width="562" height="190"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1429607.jpg" x="0" y="0" width="1697" height="1322" clip-path="url(#logoClip-1429607)"/>

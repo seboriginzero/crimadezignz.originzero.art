@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 168 1732 1166" width="1732" height="1166" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 168 1735 1168" width="1735" height="1168" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="636036" title="Roosvelt%20-%20Logo%20Design" archive="99designs-#636036"/>
     <originZero:layout type="single" fullSize="1737x1398"/>
-    <originZero:geometry bbox="2,168,1732,1166" aspect="1.4854"/>
-    <originZero:chroma background="rgb(20,21,23)" dominant="rgb(70,21,72)"/>
+    <originZero:geometry bbox="0,168,1735,1168" aspect="1.4854"/>
+    <originZero:chroma background="rgb(20,21,23)" dominant="rgb(71,73,72)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-636036">
-      <rect x="2" y="168" width="1732" height="1166"/>
+      <rect x="0" y="168" width="1735" height="1168"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/636036.jpg" x="0" y="0" width="1737" height="1398" clip-path="url(#logoClip-636036)"/>

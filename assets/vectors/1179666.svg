@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="128 496 1498 760" width="1498" height="760" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1002 975 625 283" width="625" height="283" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1179666" title="Iron%20Nomad%20Logo%20design" archive="99designs-#1179666"/>
-    <originZero:layout type="single" fullSize="1752x1752"/>
-    <originZero:geometry bbox="128,496,1498,760" aspect="1.9711"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(195,11,182)"/>
+    <originZero:layout type="2x4" fullSize="1752x1752"/>
+    <originZero:geometry bbox="1002,975,625,283" aspect="2.2085"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(200,189,180)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1179666">
-      <rect x="128" y="496" width="1498" height="760"/>
+      <rect x="1002" y="975" width="625" height="283"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1179666.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#logoClip-1179666)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 164 1682 1162" width="1682" height="1162" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 168 1684 1159" width="1684" height="1159" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="610166" title="Unlike%20Noise%20-%20Logo%20Proposal" archive="99designs-#610166"/>
     <originZero:layout type="single" fullSize="1687x1402"/>
-    <originZero:geometry bbox="2,164,1682,1162" aspect="1.4475"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(5,0,73)"/>
+    <originZero:geometry bbox="0,168,1684,1159" aspect="1.453"/>
+    <originZero:chroma background="rgb(0,1,2)" dominant="rgb(6,31,77)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-610166">
-      <rect x="2" y="164" width="1682" height="1162"/>
+      <rect x="0" y="168" width="1684" height="1159"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/610166.jpg" x="0" y="0" width="1687" height="1402" clip-path="url(#logoClip-610166)"/>

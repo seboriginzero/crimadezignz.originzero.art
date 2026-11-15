@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="654 344 342 792" width="342" height="792" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="666 625 664 511" width="664" height="511" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2235822" title="Raw%20Dog" archive="99designs-#2235822"/>
-    <originZero:layout type="split-2x1" fullSize="2000x1250"/>
-    <originZero:geometry bbox="654,344,342,792" aspect="0.4318"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(44,255,44)"/>
+    <originZero:layout type="3x2" fullSize="2000x1250"/>
+    <originZero:geometry bbox="666,625,664,511" aspect="1.2994"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(52,52,52)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2235822">
-      <rect x="654" y="344" width="342" height="792"/>
+      <rect x="666" y="625" width="664" height="511"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2235822.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2235822)"/>

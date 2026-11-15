@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="264 304 348 266" width="348" height="266" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="699 2055 355 271" width="355" height="271" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2128651" title="Dash%20Services" archive="99designs-#2128651"/>
-    <originZero:layout type="grid-2x3" fullSize="1752x2628"/>
-    <originZero:geometry bbox="264,304,348,266" aspect="1.3083"/>
-    <originZero:chroma background="rgb(253,255,255)" dominant="rgb(38,255,136)"/>
+    <originZero:layout type="1x3" fullSize="1752x2628"/>
+    <originZero:geometry bbox="699,2055,355,271" aspect="1.31"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(35,35,35)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2128651">
-      <rect x="264" y="304" width="348" height="266"/>
+      <rect x="699" y="2055" width="355" height="271"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2128651.jpg" x="0" y="0" width="1752" height="2628" clip-path="url(#logoClip-2128651)"/>

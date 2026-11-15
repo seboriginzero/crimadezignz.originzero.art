@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="664 344 670 562" width="670" height="562" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="663 416 673 415" width="673" height="415" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2047244" title="Savage%20Army%20-%20Logo%20Proposal" archive="99designs-#2047244"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="664,344,670,562" aspect="1.1922"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(140,0,29)"/>
+    <originZero:layout type="1x3" fullSize="2000x1250"/>
+    <originZero:geometry bbox="663,416,673,415" aspect="1.6217"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(142,23,29)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2047244">
-      <rect x="664" y="344" width="670" height="562"/>
+      <rect x="663" y="416" width="673" height="415"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2047244.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2047244)"/>

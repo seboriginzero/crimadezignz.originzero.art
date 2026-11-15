@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="168 268 354 120" width="354" height="120" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="165 264 358 124" width="358" height="124" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2236736" title="GSG%20-%20Golden%20State%20Garage" archive="99designs-#2236736"/>
-    <originZero:layout type="grid-3x2" fullSize="1978x1318"/>
-    <originZero:geometry bbox="168,268,354,120" aspect="2.95"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(229,255,51)"/>
+    <originZero:layout type="3x2" fullSize="1978x1318"/>
+    <originZero:geometry bbox="165,264,358,124" aspect="2.8871"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(229,191,50)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2236736">
-      <rect x="168" y="268" width="354" height="120"/>
+      <rect x="165" y="264" width="358" height="124"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2236736.jpg" x="0" y="0" width="1978" height="1318" clip-path="url(#logoClip-2236736)"/>

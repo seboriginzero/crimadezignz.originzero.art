@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="168 302 540 270" width="540" height="270" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1044 1176 541 274" width="541" height="274" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1586261" title="Texas%20Plinking%20-%20Logo%20Design" archive="99designs-#1586261"/>
-    <originZero:layout type="grid-2x3" fullSize="1752x1752"/>
-    <originZero:geometry bbox="168,302,540,270" aspect="2"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(20,255,20)"/>
+    <originZero:layout type="2x2" fullSize="1752x1752"/>
+    <originZero:geometry bbox="1044,1176,541,274" aspect="1.9745"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(208,208,208)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1586261">
-      <rect x="168" y="302" width="540" height="270"/>
+      <rect x="1044" y="1176" width="541" height="274"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1586261.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#logoClip-1586261)"/>

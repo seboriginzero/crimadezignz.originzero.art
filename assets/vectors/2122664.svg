@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="708 334 582 582" width="582" height="582" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="708 416 583 415" width="583" height="415" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2122664" title="Currahee%20Armory" archive="99designs-#2122664"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="708,334,582,582" aspect="1"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(126,255,126)"/>
+    <originZero:layout type="1x3" fullSize="2000x1250"/>
+    <originZero:geometry bbox="708,416,583,415" aspect="1.4048"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(126,126,127)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2122664">
-      <rect x="708" y="334" width="582" height="582"/>
+      <rect x="708" y="416" width="583" height="415"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2122664.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2122664)"/>

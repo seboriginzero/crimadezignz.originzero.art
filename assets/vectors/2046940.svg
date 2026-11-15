@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="638 492 418 346" width="418" height="346" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="637 492 421 349" width="421" height="349" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2046940" title="Assault%20Forward%20Logo%20Proposal" archive="99designs-#2046940"/>
-    <originZero:layout type="single" fullSize="1695x1333"/>
-    <originZero:geometry bbox="638,492,418,346" aspect="1.2081"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(128,0,4)"/>
+    <originZero:layout type="3x1" fullSize="1695x1333"/>
+    <originZero:geometry bbox="637,492,421,349" aspect="1.2063"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(128,4,4)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2046940">
-      <rect x="638" y="492" width="418" height="346"/>
+      <rect x="637" y="492" width="421" height="349"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2046940.jpg" x="0" y="0" width="1695" height="1333" clip-path="url(#logoClip-2046940)"/>

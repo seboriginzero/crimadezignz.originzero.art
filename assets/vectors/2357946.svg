@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1394 3194" width="1394" height="3194" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="700 917 616 652" width="616" height="652" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2357946" title="Skout" archive="99designs-#2357946"/>
-    <originZero:layout type="single" fullSize="1400x3200"/>
-    <originZero:geometry bbox="2,2,1394,3194" aspect="0.4364"/>
-    <originZero:chroma background="rgb(191,89,51)" dominant="rgb(191,89,154)"/>
+    <originZero:layout type="2x4" fullSize="1400x3200"/>
+    <originZero:geometry bbox="700,917,616,652" aspect="0.9448"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(87,87,87)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2357946">
-      <rect x="2" y="2" width="1394" height="3194"/>
+      <rect x="700" y="917" width="616" height="652"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2357946.jpg" x="0" y="0" width="1400" height="3200" clip-path="url(#logoClip-2357946)"/>

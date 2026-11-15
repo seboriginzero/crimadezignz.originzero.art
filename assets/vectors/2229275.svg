@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1516 2626" width="1516" height="2626" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="75 78 1369 781" width="1369" height="781" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2229275" title="Grams%20Fitness" archive="99designs-#2229275"/>
-    <originZero:layout type="single" fullSize="1521x2666"/>
-    <originZero:geometry bbox="2,2,1516,2626" aspect="0.5773"/>
-    <originZero:chroma background="rgb(119,119,119)" dominant="rgb(222,119,222)"/>
+    <originZero:layout type="1x2" fullSize="1521x2666"/>
+    <originZero:geometry bbox="75,78,1369,781" aspect="1.7529"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(49,45,42)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2229275">
-      <rect x="2" y="2" width="1516" height="2626"/>
+      <rect x="75" y="78" width="1369" height="781"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2229275.jpg" x="0" y="0" width="1521" height="2666" clip-path="url(#logoClip-2229275)"/>

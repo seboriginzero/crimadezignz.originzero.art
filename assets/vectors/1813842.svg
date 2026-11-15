@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 356 870 1890" width="870" height="1890" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="876 1872 655 343" width="655" height="343" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1813842" title="Density%20Ammunition%20-%20Logo%20Design" archive="99designs-#1813842"/>
-    <originZero:layout type="split-2x1" fullSize="1752x2346"/>
-    <originZero:geometry bbox="2,356,870,1890" aspect="0.4603"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(92,255,80)"/>
+    <originZero:layout type="2x4" fullSize="1752x2346"/>
+    <originZero:geometry bbox="876,1872,655,343" aspect="1.9096"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(212,127,56)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1813842">
-      <rect x="2" y="356" width="870" height="1890"/>
+      <rect x="876" y="1872" width="655" height="343"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1813842.jpg" x="0" y="0" width="1752" height="2346" clip-path="url(#logoClip-1813842)"/>

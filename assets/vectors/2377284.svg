@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="196 268 256 108" width="256" height="108" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="195 267 259 112" width="259" height="112" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2377284" title="ZeroDark30" archive="99designs-#2377284"/>
-    <originZero:layout type="grid-3x2" fullSize="1945x1296"/>
-    <originZero:geometry bbox="196,268,256,108" aspect="2.3704"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(41,255,50)"/>
+    <originZero:layout type="3x2" fullSize="1945x1296"/>
+    <originZero:geometry bbox="195,267,259,112" aspect="2.3125"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(49,79,58)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2377284">
-      <rect x="196" y="268" width="256" height="108"/>
+      <rect x="195" y="267" width="259" height="112"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2377284.jpg" x="0" y="0" width="1945" height="1296" clip-path="url(#logoClip-2377284)"/>

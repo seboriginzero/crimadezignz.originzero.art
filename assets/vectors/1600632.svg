@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="414 566 1118 132" width="1118" height="132" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="414 564 1120 271" width="1120" height="271" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1600632" title="Tac%20Force%20-%20Logo%20Proposal" archive="99designs-#1600632"/>
-    <originZero:layout type="split-1x2" fullSize="1947x1404"/>
-    <originZero:geometry bbox="414,566,1118,132" aspect="8.4697"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(174,0,91)"/>
+    <originZero:layout type="single" fullSize="1947x1404"/>
+    <originZero:geometry bbox="414,564,1120,271" aspect="4.1328"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(168,78,78)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1600632">
-      <rect x="414" y="566" width="1118" height="132"/>
+      <rect x="414" y="564" width="1120" height="271"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1600632.jpg" x="0" y="0" width="1947" height="1404" clip-path="url(#logoClip-1600632)"/>

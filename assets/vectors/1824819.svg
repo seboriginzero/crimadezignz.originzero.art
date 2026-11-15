@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="568 458 690 436" width="690" height="436" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="567 456 691 439" width="691" height="439" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1824819" title="Veteran%20Hawk%20-%20Logo%20Design" archive="99designs-#1824819"/>
     <originZero:layout type="single" fullSize="1777x1352"/>
-    <originZero:geometry bbox="568,458,690,436" aspect="1.5826"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(40,255,40)"/>
+    <originZero:geometry bbox="567,456,691,439" aspect="1.574"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(41,41,41)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1824819">
-      <rect x="568" y="458" width="690" height="436"/>
+      <rect x="567" y="456" width="691" height="439"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1824819.jpg" x="0" y="0" width="1777" height="1352" clip-path="url(#logoClip-1824819)"/>

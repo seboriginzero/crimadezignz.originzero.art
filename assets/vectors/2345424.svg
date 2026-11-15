@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="664 272 1266 938" width="1266" height="938" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="720 624 556 310" width="556" height="310" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2345424" title="Shield%20our%20Faith" archive="99designs-#2345424"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="664,272,1266,938" aspect="1.3497"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(117,0,118)"/>
+    <originZero:layout type="1x4" fullSize="2000x1250"/>
+    <originZero:geometry bbox="720,624,556,310" aspect="1.7935"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(132,132,133)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2345424">
-      <rect x="664" y="272" width="1266" height="938"/>
+      <rect x="720" y="624" width="556" height="310"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2345424.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2345424)"/>

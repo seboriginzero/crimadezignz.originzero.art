@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="650 194 578 346" width="578" height="346" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="655 198 574 343" width="574" height="343" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="345639" title="Music%20On%20Boat%20-%20Logo%20Design" archive="99designs-#345639"/>
-    <originZero:layout type="split-1x2" fullSize="1884x1481"/>
-    <originZero:geometry bbox="650,194,578,346" aspect="1.6705"/>
-    <originZero:chroma background="rgb(222,222,222)" dominant="rgb(50,222,43)"/>
+    <originZero:layout type="3x2" fullSize="1884x1481"/>
+    <originZero:geometry bbox="655,198,574,343" aspect="1.6735"/>
+    <originZero:chroma background="rgb(232,232,232)" dominant="rgb(47,42,40)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-345639">
-      <rect x="650" y="194" width="578" height="346"/>
+      <rect x="655" y="198" width="574" height="343"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/345639.jpg" x="0" y="0" width="1884" height="1481" clip-path="url(#logoClip-345639)"/>

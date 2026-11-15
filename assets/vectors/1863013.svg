@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="502 442 762 552" width="762" height="552" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="501 479 763 478" width="763" height="478" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1863013" title="Hawkeye%20PSD%20-%20Logo%20Design" archive="99designs-#1863013"/>
-    <originZero:layout type="single" fullSize="1765x1438"/>
-    <originZero:geometry bbox="502,442,762,552" aspect="1.3804"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(77,255,64)"/>
+    <originZero:layout type="1x3" fullSize="1765x1438"/>
+    <originZero:geometry bbox="501,479,763,478" aspect="1.5962"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(76,80,65)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1863013">
-      <rect x="502" y="442" width="762" height="552"/>
+      <rect x="501" y="479" width="763" height="478"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1863013.jpg" x="0" y="0" width="1765" height="1438" clip-path="url(#logoClip-1863013)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="646 480 514 404" width="514" height="404" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="645 480 517 406" width="517" height="406" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1195469" title="Hobby%20Strike%20-%20Logo%20Proposal" archive="99designs-#1195469"/>
     <originZero:layout type="single" fullSize="1806x1369"/>
-    <originZero:geometry bbox="646,480,514,404" aspect="1.2723"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(170,11,54)"/>
+    <originZero:geometry bbox="645,480,517,406" aspect="1.2734"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(169,95,54)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1195469">
-      <rect x="646" y="480" width="514" height="404"/>
+      <rect x="645" y="480" width="517" height="406"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1195469.jpg" x="0" y="0" width="1806" height="1369" clip-path="url(#logoClip-1195469)"/>

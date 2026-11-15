@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1000 2008" width="1000" height="2008" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="327 1668 352 175" width="352" height="175" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2279856" title="Sanspat" archive="99designs-#2279856"/>
-    <originZero:layout type="split-2x1" fullSize="2012x2013"/>
-    <originZero:geometry bbox="2,2,1000,2008" aspect="0.498"/>
-    <originZero:chroma background="rgb(35,35,37)" dominant="rgb(80,35,81)"/>
+    <originZero:layout type="2x4" fullSize="2012x2013"/>
+    <originZero:geometry bbox="327,1668,352,175" aspect="2.0114"/>
+    <originZero:chroma background="rgb(228,228,228)" dominant="rgb(23,23,23)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2279856">
-      <rect x="2" y="2" width="1000" height="2008"/>
+      <rect x="327" y="1668" width="352" height="175"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2279856.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#logoClip-2279856)"/>

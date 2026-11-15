@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1656 1366" width="1656" height="1366" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="830 0 829 340" width="829" height="340" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1818626" title="Blackjack%20Tactical%20-%20Logo%20Design" archive="99designs-#1818626"/>
-    <originZero:layout type="single" fullSize="1661x1371"/>
-    <originZero:geometry bbox="2,2,1656,1366" aspect="1.2123"/>
-    <originZero:chroma background="rgb(168,168,168)" dominant="rgb(164,168,164)"/>
+    <originZero:layout type="2x4" fullSize="1661x1371"/>
+    <originZero:geometry bbox="830,0,829,340" aspect="2.4382"/>
+    <originZero:chroma background="rgb(187,187,187)" dominant="rgb(172,172,172)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1818626">
-      <rect x="2" y="2" width="1656" height="1366"/>
+      <rect x="830" y="0" width="829" height="340"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1818626.jpg" x="0" y="0" width="1661" height="1371" clip-path="url(#logoClip-1818626)"/>

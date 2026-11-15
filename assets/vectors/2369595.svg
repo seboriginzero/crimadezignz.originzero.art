@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="158 382 560 110" width="560" height="110" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1035 282 559 310" width="559" height="310" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2369595" title="Fight%20Standard%20" archive="99designs-#2369595"/>
-    <originZero:layout type="grid-2x2" fullSize="1752x1752"/>
-    <originZero:geometry bbox="158,382,560,110" aspect="5.0909"/>
-    <originZero:chroma background="rgb(254,254,255)" dominant="rgb(117,254,60)"/>
+    <originZero:layout type="2x2" fullSize="1752x1752"/>
+    <originZero:geometry bbox="1035,282,559,310" aspect="1.8032"/>
+    <originZero:chroma background="rgb(202,9,38)" dominant="rgb(236,231,231)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2369595">
-      <rect x="158" y="382" width="560" height="110"/>
+      <rect x="1035" y="282" width="559" height="310"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2369595.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#logoClip-2369595)"/>

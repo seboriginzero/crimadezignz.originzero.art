@@ -87,14 +87,16 @@
 }
 
 /* --------------------------------------------------------------------------
-   Surface Stage Container & Viewport
+   Surface Stage Container & Viewport (Cinema-Scale Fullscreen Responsive)
    -------------------------------------------------------------------------- */
 .surface-stage-container {
   display: none;
   flex-direction: column;
   position: relative;
   width: 100%;
-  height: 560px;
+  height: 100%;
+  flex: 1;
+  min-height: 0;
   background: #050507;
   border-radius: 0 !important;
   overflow: hidden;
@@ -110,7 +112,8 @@
   position: relative;
   width: 100%;
   height: 100%;
-  perspective: 1200px;
+  min-height: 0;
+  perspective: 1400px;
   perspective-origin: 50% 50%;
   display: flex;
   align-items: center;
@@ -153,8 +156,8 @@
 }
 
 .plinth-cotton-card {
-  width: 480px;
-  height: 300px;
+  width: min(880px, 78vw);
+  height: min(520px, 56vh);
   background: #f7f5f0;
   box-shadow: 
     0 1px 2px rgba(0, 0, 0, 0.2),
@@ -211,8 +214,8 @@
 }
 
 .plinth-apparel {
-  width: 540px;
-  height: 420px;
+  width: min(920px, 80vw);
+  height: min(600px, 62vh);
   position: relative;
   display: flex;
   align-items: center;
@@ -260,8 +263,8 @@
 }
 
 .plinth-ceramic-cylinder {
-  width: 320px;
-  height: 420px;
+  width: 340px;
+  height: min(540px, 58vh);
   position: relative;
   display: flex;
   align-items: center;
@@ -307,7 +310,7 @@
 }
 
 .ceramic-mark-wrapper {
-  width: 220px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -334,8 +337,8 @@
 
 .glass-sign-assembly {
   position: relative;
-  width: 500px;
-  height: 340px;
+  width: min(920px, 80vw);
+  height: min(540px, 56vh);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -415,8 +418,8 @@
 }
 
 .plinth-leather {
-  width: 520px;
-  height: 380px;
+  width: min(920px, 80vw);
+  height: min(560px, 58vh);
   background-color: #141418;
   /* Tactile pebble grain leather texture */
   background-image: 
@@ -457,8 +460,8 @@
 }
 
 .plinth-metal {
-  width: 500px;
-  height: 340px;
+  width: min(920px, 80vw);
+  height: min(540px, 56vh);
   background-color: #242730;
   /* Anisotropic horizontal brushed grain + 45deg specular sheen */
   background-image: 
@@ -499,8 +502,8 @@
 }
 
 .isometric-box-assembly {
-  width: 440px;
-  height: 380px;
+  width: min(720px, 72vw);
+  height: min(540px, 56vh);
   position: relative;
   display: flex;
   align-items: center;
@@ -509,8 +512,8 @@
 }
 
 .box-lid-plane {
-  width: 380px;
-  height: 280px;
+  width: min(620px, 62vw);
+  height: min(420px, 44vh);
   background: #0f1015;
   box-shadow: 
     -25px 35px 70px rgba(0,0,0,0.95),
@@ -540,9 +543,9 @@
 
 .os-grid-assembly {
   width: 100%;
-  max-width: 780px;
+  max-width: 1040px;
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 240px 1fr;
   grid-gap: 20px;
   align-items: center;
 }
@@ -571,8 +574,8 @@
 
 /* 512px Squircle */
 .os-squircle-preview {
-  width: 130px;
-  height: 130px;
+  width: 180px;
+  height: 180px;
   background: #1e2029;
   box-shadow: 0 12px 30px rgba(0,0,0,0.6);
   display: flex;
@@ -672,16 +675,16 @@
 }
 
 .blade-wall-bracket {
-  width: 32px;
-  height: 160px;
+  width: 36px;
+  height: 220px;
   background: linear-gradient(to right, #111, #25262c);
   border-right: 3px solid #000;
   box-shadow: -10px 0 20px rgba(0,0,0,0.8);
 }
 
 .blade-sign-plinth {
-  width: 440px;
-  height: 320px;
+  width: min(820px, 74vw);
+  height: min(520px, 54vh);
   background: #08080c;
   border: 12px solid #16171d;
   box-shadow: 
@@ -727,8 +730,8 @@
 }
 
 .storefront-window-plinth {
-  width: 540px;
-  height: 380px;
+  width: min(920px, 80vw);
+  height: min(560px, 58vh);
   /* Dark boutique interior depth behind glass */
   background-color: #0b0c10;
   background-image: 
@@ -843,8 +846,8 @@
   scrollbar-width: none;
   background: #090a0e;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 3px 6px;
-  gap: 3px;
+  padding: 4px 14px;
+  gap: 4px;
   border-radius: 0 !important;
 }
 
@@ -863,7 +866,7 @@
   font-size: 0.68rem;
   font-weight: 500;
   letter-spacing: 0.04em;
-  padding: 5px 10px;
+  padding: 6px 12px;
   cursor: pointer;
   white-space: nowrap;
   border-radius: 0 !important;
@@ -903,7 +906,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6px 12px;
+  padding: 7px 16px;
   gap: 12px;
   background: #070709;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);

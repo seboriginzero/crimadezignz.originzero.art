@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="200 296 478 282" width="478" height="282" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1074 1170 481 286" width="481" height="286" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1889321" title="VB%20Data%20Solutions%20-%20Logo%20proposal" archive="99designs-#1889321"/>
-    <originZero:layout type="grid-2x2" fullSize="1752x1752"/>
-    <originZero:geometry bbox="200,296,478,282" aspect="1.695"/>
-    <originZero:chroma background="rgb(254,255,251)" dominant="rgb(42,255,171)"/>
+    <originZero:layout type="2x2" fullSize="1752x1752"/>
+    <originZero:geometry bbox="1074,1170,481,286" aspect="1.6818"/>
+    <originZero:chroma background="rgb(8,16,27)" dominant="rgb(75,167,209)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1889321">
-      <rect x="200" y="296" width="478" height="282"/>
+      <rect x="1074" y="1170" width="481" height="286"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1889321.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#logoClip-1889321)"/>

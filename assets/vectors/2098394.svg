@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 76 1464 2786" width="1464" height="2786" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="618 621 235 226" width="235" height="226" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2098394" title="5Three%20Logo%20Proposal" archive="99designs-#2098394"/>
-    <originZero:layout type="single" fullSize="1469x2938"/>
-    <originZero:geometry bbox="2,76,1464,2786" aspect="0.5255"/>
-    <originZero:chroma background="rgb(35,35,35)" dominant="rgb(206,35,204)"/>
+    <originZero:layout type="3x2" fullSize="1469x2938"/>
+    <originZero:geometry bbox="618,621,235,226" aspect="1.0398"/>
+    <originZero:chroma background="rgb(35,35,35)" dominant="rgb(209,209,207)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2098394">
-      <rect x="2" y="76" width="1464" height="2786"/>
+      <rect x="618" y="621" width="235" height="226"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2098394.jpg" x="0" y="0" width="1469" height="2938" clip-path="url(#logoClip-2098394)"/>

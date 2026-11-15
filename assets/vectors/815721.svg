@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 916 3976" width="916" height="3976" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="126 87 1717 1903" width="1717" height="1903" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="815721" title="Roamm%20-%20Logo%20Design" archive="99designs-#815721"/>
-    <originZero:layout type="split-2x1" fullSize="1845x3987"/>
-    <originZero:geometry bbox="2,2,916,3976" aspect="0.2304"/>
-    <originZero:chroma background="rgb(33,37,48)" dominant="rgb(189,37,188)"/>
+    <originZero:layout type="1x2" fullSize="1845x3987"/>
+    <originZero:geometry bbox="126,87,1717,1903" aspect="0.9023"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(30,30,31)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-815721">
-      <rect x="2" y="2" width="916" height="3976"/>
+      <rect x="126" y="87" width="1717" height="1903"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/815721.jpg" x="0" y="0" width="1845" height="3987" clip-path="url(#logoClip-815721)"/>

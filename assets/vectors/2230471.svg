@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1756 3038" width="1756" height="3038" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="210 1784 1360 1258" width="1360" height="1258" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2230471" title="Sonak%20Logo%20Proposal" archive="99designs-#2230471"/>
-    <originZero:layout type="single" fullSize="1761x3125"/>
-    <originZero:geometry bbox="2,2,1756,3038" aspect="0.578"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(230,0,227)"/>
+    <originZero:layout type="1x2" fullSize="1761x3125"/>
+    <originZero:geometry bbox="210,1784,1360,1258" aspect="1.0811"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(85,75,62)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2230471">
-      <rect x="2" y="2" width="1756" height="3038"/>
+      <rect x="210" y="1784" width="1360" height="1258"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2230471.jpg" x="0" y="0" width="1761" height="3125" clip-path="url(#logoClip-2230471)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="66 74 1300 2306" width="1300" height="2306" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="483 570 472 298" width="472" height="298" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2355830" title="Shogun%20Logo%20design" archive="99designs-#2355830"/>
-    <originZero:layout type="single" fullSize="1440x2880"/>
-    <originZero:geometry bbox="66,74,1300,2306" aspect="0.5637"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(40,255,33)"/>
+    <originZero:layout type="3x2" fullSize="1440x2880"/>
+    <originZero:geometry bbox="483,570,472,298" aspect="1.5839"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(44,39,37)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2355830">
-      <rect x="66" y="74" width="1300" height="2306"/>
+      <rect x="483" y="570" width="472" height="298"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2355830.jpg" x="0" y="0" width="1440" height="2880" clip-path="url(#logoClip-2355830)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="356 2 1474 1244" width="1474" height="1244" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="471 625 1018 622" width="1018" height="622" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2045881" title="Fotia%20Arms%20-%20Logo%20Proposal" archive="99designs-#2045881"/>
-    <originZero:layout type="single" fullSize="2000x1250"/>
-    <originZero:geometry bbox="356,2,1474,1244" aspect="1.1849"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(78,0,18)"/>
+    <originZero:layout type="1x2" fullSize="2000x1250"/>
+    <originZero:geometry bbox="471,625,1018,622" aspect="1.6367"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(85,40,18)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-2045881">
-      <rect x="356" y="2" width="1474" height="1244"/>
+      <rect x="471" y="625" width="1018" height="622"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/2045881.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2045881)"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="596 456 546 442" width="546" height="442" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="594 456 550 445" width="550" height="445" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1442567" title="Viking%20Decoy%20Company%20-%20Logo%20Design" archive="99designs-#1442567"/>
     <originZero:layout type="single" fullSize="1736x1357"/>
-    <originZero:geometry bbox="596,456,546,442" aspect="1.2353"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(193,0,193)"/>
+    <originZero:geometry bbox="594,456,550,445" aspect="1.236"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(190,190,190)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-1442567">
-      <rect x="596" y="456" width="546" height="442"/>
+      <rect x="594" y="456" width="550" height="445"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/1442567.jpg" x="0" y="0" width="1736" height="1357" clip-path="url(#logoClip-1442567)"/>

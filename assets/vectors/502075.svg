@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="378 272 730 602" width="730" height="602" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="378 382 730 379" width="730" height="379" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="502075" title="Broken%20Bow%20-%20Logo%20Design" archive="99designs-#502075"/>
-    <originZero:layout type="single" fullSize="1485x1147"/>
-    <originZero:geometry bbox="378,272,730,602" aspect="1.2126"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(53,255,46)"/>
+    <originZero:layout type="1x3" fullSize="1485x1147"/>
+    <originZero:geometry bbox="378,382,730,379" aspect="1.9261"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(54,50,48)"/>
   </metadata>
   <defs>
     <clipPath id="logoClip-502075">
-      <rect x="378" y="272" width="730" height="602"/>
+      <rect x="378" y="382" width="730" height="379"/>
     </clipPath>
   </defs>
   <image href="/crimadezignz-portfolio/images/502075.jpg" x="0" y="0" width="1485" height="1147" clip-path="url(#logoClip-502075)"/>
