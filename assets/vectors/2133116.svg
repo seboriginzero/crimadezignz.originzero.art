@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 2394" width="1752" height="2394" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 870 2278" width="870" height="2278" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2133116" title="Cyclops%20Composites" archive="99designs-#2133116"/>
-    <originZero:geometry width="1752" height="2394" bbox="0,0,1752,2394"/>
-    <originZero:chroma background="rgb(15,15,15)" dominant="rgb(154,162,165)"/>
+    <originZero:layout type="split-2x1" fullSize="1752x2394"/>
+    <originZero:geometry bbox="2,2,870,2278" aspect="0.3819"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(159,0,171)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2133116">
-      <rect x="0" y="0" width="1752" height="2394"/>
+    <clipPath id="logoClip-2133116">
+      <rect x="2" y="2" width="870" height="2278"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2133116.jpg" x="0" y="0" width="1752" height="2394" clip-path="url(#markClip-2133116)"/>
+  <image href="/crimadezignz-portfolio/images/2133116.jpg" x="0" y="0" width="1752" height="2394" clip-path="url(#logoClip-2133116)"/>
 </svg>

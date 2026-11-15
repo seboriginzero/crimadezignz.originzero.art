@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2012 2013" width="2012" height="2013" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 56 1000 1954" width="1000" height="1954" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2234853" title="Kestrel%20Logo%20Proposal" archive="99designs-#2234853"/>
-    <originZero:geometry width="2012" height="2013" bbox="0,0,2012,2013"/>
-    <originZero:chroma background="rgb(100,105,121)" dominant="rgb(87,75,56)"/>
+    <originZero:layout type="split-2x1" fullSize="2012x2013"/>
+    <originZero:geometry bbox="2,56,1000,1954" aspect="0.5118"/>
+    <originZero:chroma background="rgb(2,2,2)" dominant="rgb(212,2,207)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2234853">
-      <rect x="0" y="0" width="2012" height="2013"/>
+    <clipPath id="logoClip-2234853">
+      <rect x="2" y="56" width="1000" height="1954"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2234853.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#markClip-2234853)"/>
+  <image href="/crimadezignz-portfolio/images/2234853.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#logoClip-2234853)"/>
 </svg>

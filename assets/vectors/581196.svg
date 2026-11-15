@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1807 1420" width="1807" height="1420" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="344 440 1120 860" width="1120" height="860" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="581196" title="Caracter%20logo%20of%20DAB%20Cananbis%20Oil%20wizzard" archive="99designs-#581196"/>
-    <originZero:geometry width="1807" height="1420" bbox="0,0,1464,1420"/>
-    <originZero:chroma background="rgb(31,26,23)" dominant="rgb(211,180,69)"/>
+    <originZero:layout type="single" fullSize="1807x1420"/>
+    <originZero:geometry bbox="344,440,1120,860" aspect="1.3023"/>
+    <originZero:chroma background="rgb(31,26,23)" dominant="rgb(214,26,67)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-581196">
-      <rect x="0" y="0" width="1464" height="1420"/>
+    <clipPath id="logoClip-581196">
+      <rect x="344" y="440" width="1120" height="860"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/581196.jpg" x="0" y="0" width="1807" height="1420" clip-path="url(#markClip-581196)"/>
+  <image href="/crimadezignz-portfolio/images/581196.jpg" x="0" y="0" width="1807" height="1420" clip-path="url(#logoClip-581196)"/>
 </svg>

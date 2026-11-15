@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 2628" width="1752" height="2628" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="256 332 364 212" width="364" height="212" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2363572" title="Virtus" archive="99designs-#2363572"/>
-    <originZero:geometry width="1752" height="2628" bbox="0,0,1752,2628"/>
-    <originZero:chroma background="rgb(189,161,78)" dominant="rgb(92,93,93)"/>
+    <originZero:layout type="grid-2x3" fullSize="1752x2628"/>
+    <originZero:geometry bbox="256,332,364,212" aspect="1.717"/>
+    <originZero:chroma background="rgb(255,255,253)" dominant="rgb(128,255,85)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2363572">
-      <rect x="0" y="0" width="1752" height="2628"/>
+    <clipPath id="logoClip-2363572">
+      <rect x="256" y="332" width="364" height="212"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2363572.jpg" x="0" y="0" width="1752" height="2628" clip-path="url(#markClip-2363572)"/>
+  <image href="/crimadezignz-portfolio/images/2363572.jpg" x="0" y="0" width="1752" height="2628" clip-path="url(#logoClip-2363572)"/>
 </svg>

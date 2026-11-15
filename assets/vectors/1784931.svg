@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 1752" width="1752" height="1752" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="150 244 576 386" width="576" height="386" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1784931" title="Aim%20Arms%20-%20Logo%20Design" archive="99designs-#1784931"/>
-    <originZero:geometry width="1752" height="1752" bbox="0,0,1752,1752"/>
-    <originZero:chroma background="rgb(65,80,87)" dominant="rgb(121,126,128)"/>
+    <originZero:layout type="grid-2x2" fullSize="1752x1752"/>
+    <originZero:geometry bbox="150,244,576,386" aspect="1.4922"/>
+    <originZero:chroma background="rgb(255,254,255)" dominant="rgb(123,254,128)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1784931">
-      <rect x="0" y="0" width="1752" height="1752"/>
+    <clipPath id="logoClip-1784931">
+      <rect x="150" y="244" width="576" height="386"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1784931.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#markClip-1784931)"/>
+  <image href="/crimadezignz-portfolio/images/1784931.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#logoClip-1784931)"/>
 </svg>

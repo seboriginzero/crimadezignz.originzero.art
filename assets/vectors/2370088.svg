@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1379 1379" width="1379" height="1379" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="32 32 624 624" width="624" height="624" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2370088" title="Noctis" archive="99designs-#2370088"/>
-    <originZero:geometry width="1379" height="1379" bbox="0,0,1379,1379"/>
-    <originZero:chroma background="rgb(6,6,6)" dominant="rgb(221,221,221)"/>
+    <originZero:layout type="grid-2x2" fullSize="1379x1379"/>
+    <originZero:geometry bbox="32,32,624,624" aspect="1"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(73,255,69)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2370088">
-      <rect x="0" y="0" width="1379" height="1379"/>
+    <clipPath id="logoClip-2370088">
+      <rect x="32" y="32" width="624" height="624"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2370088.jpg" x="0" y="0" width="1379" height="1379" clip-path="url(#markClip-2370088)"/>
+  <image href="/crimadezignz-portfolio/images/2370088.jpg" x="0" y="0" width="1379" height="1379" clip-path="url(#logoClip-2370088)"/>
 </svg>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1761 3125" width="1761" height="3125" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1756 3038" width="1756" height="3038" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2230471" title="Sonak%20Logo%20Proposal" archive="99designs-#2230471"/>
-    <originZero:geometry width="1761" height="3125" bbox="0,448,1761,2677"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(10,9,8)"/>
+    <originZero:layout type="single" fullSize="1761x3125"/>
+    <originZero:geometry bbox="2,2,1756,3038" aspect="0.578"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(230,0,227)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2230471">
-      <rect x="0" y="448" width="1761" height="2677"/>
+    <clipPath id="logoClip-2230471">
+      <rect x="2" y="2" width="1756" height="3038"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2230471.jpg" x="0" y="0" width="1761" height="3125" clip-path="url(#markClip-2230471)"/>
+  <image href="/crimadezignz-portfolio/images/2230471.jpg" x="0" y="0" width="1761" height="3125" clip-path="url(#logoClip-2230471)"/>
 </svg>

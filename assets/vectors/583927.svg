@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1869 1362" width="1869" height="1362" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="510 172 856 1040" width="856" height="1040" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="583927" title="Armored%20-%20Strength%20%26%20Nutrition%20-%20Logo%20Design" archive="99designs-#583927"/>
-    <originZero:geometry width="1869" height="1362" bbox="0,0,1368,1362"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(46,76,76)"/>
+    <originZero:layout type="single" fullSize="1869x1362"/>
+    <originZero:geometry bbox="510,172,856,1040" aspect="0.8231"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(45,11,76)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-583927">
-      <rect x="0" y="0" width="1368" height="1362"/>
+    <clipPath id="logoClip-583927">
+      <rect x="510" y="172" width="856" height="1040"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/583927.jpg" x="0" y="0" width="1869" height="1362" clip-path="url(#markClip-583927)"/>
+  <image href="/crimadezignz-portfolio/images/583927.jpg" x="0" y="0" width="1869" height="1362" clip-path="url(#logoClip-583927)"/>
 </svg>

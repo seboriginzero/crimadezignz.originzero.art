@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1775 2549" width="1775" height="2549" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1770 2544" width="1770" height="2544" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1218104" title="Red%20Cloud%20-%20Logo%20Design" archive="99designs-#1218104"/>
-    <originZero:geometry width="1775" height="2549" bbox="0,0,1775,2549"/>
-    <originZero:chroma background="rgb(149,148,146)" dominant="rgb(91,92,93)"/>
+    <originZero:layout type="single" fullSize="1775x2549"/>
+    <originZero:geometry bbox="2,2,1770,2544" aspect="0.6958"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(163,11,161)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1218104">
-      <rect x="0" y="0" width="1775" height="2549"/>
+    <clipPath id="logoClip-1218104">
+      <rect x="2" y="2" width="1770" height="2544"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1218104.jpg" x="0" y="0" width="1775" height="2549" clip-path="url(#markClip-1218104)"/>
+  <image href="/crimadezignz-portfolio/images/1218104.jpg" x="0" y="0" width="1775" height="2549" clip-path="url(#logoClip-1218104)"/>
 </svg>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1113" width="1500" height="1113" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="416 2 1080 616" width="1080" height="616" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="304362" title="Orion%20-%20Logo%20Design" archive="99designs-#304362"/>
-    <originZero:geometry width="1500" height="1113" bbox="0,0,1500,1113"/>
-    <originZero:chroma background="rgb(20,21,25)" dominant="rgb(176,177,178)"/>
+    <originZero:layout type="single" fullSize="1500x1113"/>
+    <originZero:geometry bbox="416,2,1080,616" aspect="1.7532"/>
+    <originZero:chroma background="rgb(16,17,19)" dominant="rgb(110,17,114)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-304362">
-      <rect x="0" y="0" width="1500" height="1113"/>
+    <clipPath id="logoClip-304362">
+      <rect x="416" y="2" width="1080" height="616"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/304362.jpg" x="0" y="0" width="1500" height="1113" clip-path="url(#markClip-304362)"/>
+  <image href="/crimadezignz-portfolio/images/304362.jpg" x="0" y="0" width="1500" height="1113" clip-path="url(#logoClip-304362)"/>
 </svg>

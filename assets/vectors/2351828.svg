@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1624 1678" width="1624" height="1678" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1618 1672" width="1618" height="1672" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2351828" title="Cabinet%20Installer%20Academy" archive="99designs-#2351828"/>
-    <originZero:geometry width="1624" height="1678" bbox="0,0,1624,1678"/>
-    <originZero:chroma background="rgb(180,142,126)" dominant="rgb(191,188,186)"/>
+    <originZero:layout type="single" fullSize="1624x1678"/>
+    <originZero:geometry bbox="2,2,1618,1672" aspect="0.9677"/>
+    <originZero:chroma background="rgb(173,142,121)" dominant="rgb(191,142,186)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2351828">
-      <rect x="0" y="0" width="1624" height="1678"/>
+    <clipPath id="logoClip-2351828">
+      <rect x="2" y="2" width="1618" height="1672"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2351828.jpg" x="0" y="0" width="1624" height="1678" clip-path="url(#markClip-2351828)"/>
+  <image href="/crimadezignz-portfolio/images/2351828.jpg" x="0" y="0" width="1624" height="1678" clip-path="url(#logoClip-2351828)"/>
 </svg>

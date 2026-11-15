@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1398 2062" width="1398" height="2062" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1392 1994" width="1392" height="1994" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="636843" title="Perfect%20-%20Logo%20Design" archive="99designs-#636843"/>
-    <originZero:geometry width="1398" height="2062" bbox="0,112,1398,1950"/>
-    <originZero:chroma background="rgb(244,244,244)" dominant="rgb(69,71,73)"/>
+    <originZero:layout type="single" fullSize="1398x2062"/>
+    <originZero:geometry bbox="2,2,1392,1994" aspect="0.6981"/>
+    <originZero:chroma background="rgb(30,34,37)" dominant="rgb(176,34,178)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-636843">
-      <rect x="0" y="112" width="1398" height="1950"/>
+    <clipPath id="logoClip-636843">
+      <rect x="2" y="2" width="1392" height="1994"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/636843.jpg" x="0" y="0" width="1398" height="2062" clip-path="url(#markClip-636843)"/>
+  <image href="/crimadezignz-portfolio/images/636843.jpg" x="0" y="0" width="1398" height="2062" clip-path="url(#logoClip-636843)"/>
 </svg>

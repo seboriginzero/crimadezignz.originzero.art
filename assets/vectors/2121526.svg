@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1994 1244" width="1994" height="1244" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2121526" title="Star%20Lore%20" archive="99designs-#2121526"/>
-    <originZero:geometry width="2000" height="1250" bbox="0,0,2000,1250"/>
-    <originZero:chroma background="rgb(2,1,7)" dominant="rgb(52,43,58)"/>
+    <originZero:layout type="single" fullSize="2000x1250"/>
+    <originZero:geometry bbox="2,2,1994,1244" aspect="1.6029"/>
+    <originZero:chroma background="rgb(2,1,7)" dominant="rgb(52,1,58)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2121526">
-      <rect x="0" y="0" width="2000" height="1250"/>
+    <clipPath id="logoClip-2121526">
+      <rect x="2" y="2" width="1994" height="1244"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2121526.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2121526)"/>
+  <image href="/crimadezignz-portfolio/images/2121526.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2121526)"/>
 </svg>

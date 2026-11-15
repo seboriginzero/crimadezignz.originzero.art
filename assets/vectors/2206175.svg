@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1521 1521" width="1521" height="1521" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="88 68 1366 1364" width="1366" height="1364" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2206175" title="Heimdall%20-%20Logo%20Proposal" archive="99designs-#2206175"/>
-    <originZero:geometry width="1521" height="1521" bbox="0,0,1521,1521"/>
-    <originZero:chroma background="rgb(45,51,99)" dominant="rgb(212,214,225)"/>
+    <originZero:layout type="single" fullSize="1521x1521"/>
+    <originZero:geometry bbox="88,68,1366,1364" aspect="1.0015"/>
+    <originZero:chroma background="rgb(45,51,99)" dominant="rgb(233,51,238)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2206175">
-      <rect x="0" y="0" width="1521" height="1521"/>
+    <clipPath id="logoClip-2206175">
+      <rect x="88" y="68" width="1366" height="1364"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2206175.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#markClip-2206175)"/>
+  <image href="/crimadezignz-portfolio/images/2206175.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#logoClip-2206175)"/>
 </svg>

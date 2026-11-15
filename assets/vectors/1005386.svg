@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1757 1310" width="1757" height="1310" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="704 450 348 406" width="348" height="406" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1005386" title="Military%20Technical%20-%20Logo%20Proposal" archive="99designs-#1005386"/>
-    <originZero:geometry width="1757" height="1310" bbox="0,0,1052,1310"/>
-    <originZero:chroma background="rgb(9,10,10)" dominant="rgb(128,128,128)"/>
+    <originZero:layout type="single" fullSize="1757x1310"/>
+    <originZero:geometry bbox="704,450,348,406" aspect="0.8571"/>
+    <originZero:chroma background="rgb(9,10,10)" dominant="rgb(131,10,130)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1005386">
-      <rect x="0" y="0" width="1052" height="1310"/>
+    <clipPath id="logoClip-1005386">
+      <rect x="704" y="450" width="348" height="406"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1005386.jpg" x="0" y="0" width="1757" height="1310" clip-path="url(#markClip-1005386)"/>
+  <image href="/crimadezignz-portfolio/images/1005386.jpg" x="0" y="0" width="1757" height="1310" clip-path="url(#logoClip-1005386)"/>
 </svg>

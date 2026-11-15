@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1521 1521" width="1521" height="1521" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 678" width="1366" height="678" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2217155" title="NOOK%20Logo%20Proposal" archive="99designs-#2217155"/>
-    <originZero:geometry width="1521" height="1521" bbox="76,76,1368,1368"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(25,25,25)"/>
+    <originZero:layout type="split-1x2" fullSize="1521x1521"/>
+    <originZero:geometry bbox="76,78,1366,678" aspect="2.0147"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(27,255,27)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2217155">
-      <rect x="76" y="76" width="1368" height="1368"/>
+    <clipPath id="logoClip-2217155">
+      <rect x="76" y="78" width="1366" height="678"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2217155.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#markClip-2217155)"/>
+  <image href="/crimadezignz-portfolio/images/2217155.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#logoClip-2217155)"/>
 </svg>

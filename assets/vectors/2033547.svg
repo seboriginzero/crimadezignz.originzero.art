@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1944 2949" width="1944" height="2949" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 458 1938 2068" width="1938" height="2068" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2033547" title="Southern%20Current%20-%20Logo%20Proposal" archive="99designs-#2033547"/>
-    <originZero:geometry width="1944" height="2949" bbox="0,456,1944,2072"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(62,149,199)"/>
+    <originZero:layout type="single" fullSize="1944x2949"/>
+    <originZero:geometry bbox="2,458,1938,2068" aspect="0.9371"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(62,255,198)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2033547">
-      <rect x="0" y="456" width="1944" height="2072"/>
+    <clipPath id="logoClip-2033547">
+      <rect x="2" y="458" width="1938" height="2068"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2033547.jpg" x="0" y="0" width="1944" height="2949" clip-path="url(#markClip-2033547)"/>
+  <image href="/crimadezignz-portfolio/images/2033547.jpg" x="0" y="0" width="1944" height="2949" clip-path="url(#logoClip-2033547)"/>
 </svg>

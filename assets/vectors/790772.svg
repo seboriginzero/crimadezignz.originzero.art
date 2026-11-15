@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1717 1350" width="1717" height="1350" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="692 600 332 148" width="332" height="148" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="790772" title="Jack%20Troy%20-%20Logo%20Design" archive="99designs-#790772"/>
-    <originZero:geometry width="1717" height="1350" bbox="0,0,1024,1350"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(189,189,190)"/>
+    <originZero:layout type="single" fullSize="1717x1350"/>
+    <originZero:geometry bbox="692,600,332,148" aspect="2.2432"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(216,11,217)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-790772">
-      <rect x="0" y="0" width="1024" height="1350"/>
+    <clipPath id="logoClip-790772">
+      <rect x="692" y="600" width="332" height="148"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/790772.jpg" x="0" y="0" width="1717" height="1350" clip-path="url(#markClip-790772)"/>
+  <image href="/crimadezignz-portfolio/images/790772.jpg" x="0" y="0" width="1717" height="1350" clip-path="url(#logoClip-790772)"/>
 </svg>

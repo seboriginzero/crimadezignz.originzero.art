@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1845 1845" width="1845" height="1845" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="230 340 462 240" width="462" height="240" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="791275" title="Sport%20Nation" archive="99designs-#791275"/>
-    <originZero:geometry width="1845" height="1845" bbox="0,0,1845,1845"/>
-    <originZero:chroma background="rgb(254,72,77)" dominant="rgb(154,93,95)"/>
+    <originZero:layout type="grid-2x2" fullSize="1845x1845"/>
+    <originZero:geometry bbox="230,340,462,240" aspect="1.925"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(163,255,58)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-791275">
-      <rect x="0" y="0" width="1845" height="1845"/>
+    <clipPath id="logoClip-791275">
+      <rect x="230" y="340" width="462" height="240"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/791275.jpg" x="0" y="0" width="1845" height="1845" clip-path="url(#markClip-791275)"/>
+  <image href="/crimadezignz-portfolio/images/791275.jpg" x="0" y="0" width="1845" height="1845" clip-path="url(#logoClip-791275)"/>
 </svg>

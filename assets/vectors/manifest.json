@@ -5,27 +5,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/304362.jpg",
     "svgPath": "assets/vectors/304362.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1500,
       "height": 1113
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1500,
       "height": 1113
     },
+    "logoBBox": {
+      "x": 416,
+      "y": 2,
+      "width": 1080,
+      "height": 616
+    },
     "background": {
-      "r": 20,
-      "g": 21,
-      "b": 25
+      "r": 16,
+      "g": 17,
+      "b": 19
     },
     "dominantForeground": {
-      "r": 176,
-      "g": 177,
-      "b": 178
+      "r": 110,
+      "g": 17,
+      "b": 114
     },
-    "aspectRatio": 1.3477
+    "aspectRatio": 1.7532
   },
   "307180": {
     "id": "307180",
@@ -33,27 +40,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/307180.jpg",
     "svgPath": "assets/vectors/307180.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1506,
       "height": 1754
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1088,
-      "height": 1754
+      "width": 1506,
+      "height": 877
+    },
+    "logoBBox": {
+      "x": 458,
+      "y": 370,
+      "width": 626,
+      "height": 504
     },
     "background": {
-      "r": 19,
-      "g": 20,
-      "b": 24
+      "r": 16,
+      "g": 17,
+      "b": 20
     },
     "dominantForeground": {
-      "r": 219,
-      "g": 169,
-      "b": 166
+      "r": 200,
+      "g": 17,
+      "b": 94
     },
-    "aspectRatio": 0.6203
+    "aspectRatio": 1.2421
   },
   "345639": {
     "id": "345639",
@@ -61,27 +75,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/345639.jpg",
     "svgPath": "assets/vectors/345639.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1884,
       "height": 1481
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1884,
-      "height": 1481
+      "height": 740
+    },
+    "logoBBox": {
+      "x": 650,
+      "y": 194,
+      "width": 578,
+      "height": 346
     },
     "background": {
-      "r": 221,
-      "g": 221,
-      "b": 221
+      "r": 222,
+      "g": 222,
+      "b": 222
     },
     "dominantForeground": {
-      "r": 32,
-      "g": 33,
-      "b": 36
+      "r": 50,
+      "g": 222,
+      "b": 43
     },
-    "aspectRatio": 1.2721
+    "aspectRatio": 1.6705
   },
   "377718": {
     "id": "377718",
@@ -89,15 +110,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/377718.jpg",
     "svgPath": "assets/vectors/377718.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1819,
       "height": 1406
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 164,
-      "width": 1819,
-      "height": 1242
+      "y": 0,
+      "width": 909,
+      "height": 703
+    },
+    "logoBBox": {
+      "x": 544,
+      "y": 172,
+      "width": 362,
+      "height": 360
     },
     "background": {
       "r": 255,
@@ -105,11 +133,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 22,
-      "g": 23,
-      "b": 27
+      "r": 35,
+      "g": 255,
+      "b": 37
     },
-    "aspectRatio": 1.4646
+    "aspectRatio": 1.0056
   },
   "382202": {
     "id": "382202",
@@ -117,27 +145,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/382202.jpg",
     "svgPath": "assets/vectors/382202.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1000,
       "height": 791
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 20,
-      "width": 976,
-      "height": 771
+      "y": 0,
+      "width": 1000,
+      "height": 791
+    },
+    "logoBBox": {
+      "x": 8,
+      "y": 22,
+      "width": 978,
+      "height": 756
     },
     "background": {
-      "r": 36,
-      "g": 36,
-      "b": 36
+      "r": 35,
+      "g": 35,
+      "b": 35
     },
     "dominantForeground": {
-      "r": 112,
-      "g": 113,
-      "b": 115
+      "r": 108,
+      "g": 35,
+      "b": 111
     },
-    "aspectRatio": 1.2659
+    "aspectRatio": 1.2937
   },
   "502075": {
     "id": "502075",
@@ -145,15 +180,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/502075.jpg",
     "svgPath": "assets/vectors/502075.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1485,
       "height": 1147
     },
-    "bbox": {
-      "x": 376,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1485,
+      "height": 1147
+    },
+    "logoBBox": {
+      "x": 378,
       "y": 272,
-      "width": 732,
-      "height": 604
+      "width": 730,
+      "height": 602
     },
     "background": {
       "r": 255,
@@ -161,11 +203,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 52,
-      "g": 48,
+      "r": 53,
+      "g": 255,
       "b": 46
     },
-    "aspectRatio": 1.2119
+    "aspectRatio": 1.2126
   },
   "532338": {
     "id": "532338",
@@ -173,15 +215,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/532338.jpg",
     "svgPath": "assets/vectors/532338.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1794,
       "height": 1386
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1176,
+      "width": 1794,
       "height": 1386
+    },
+    "logoBBox": {
+      "x": 620,
+      "y": 522,
+      "width": 554,
+      "height": 340
     },
     "background": {
       "r": 10,
@@ -189,11 +238,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 174,
-      "g": 114,
-      "b": 114
+      "r": 186,
+      "g": 11,
+      "b": 117
     },
-    "aspectRatio": 0.8485
+    "aspectRatio": 1.6294
   },
   "534847": {
     "id": "534847",
@@ -201,15 +250,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/534847.jpg",
     "svgPath": "assets/vectors/534847.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1837,
       "height": 1420
     },
-    "bbox": {
-      "x": 372,
-      "y": 584,
-      "width": 1092,
-      "height": 724
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1837,
+      "height": 1420
+    },
+    "logoBBox": {
+      "x": 374,
+      "y": 586,
+      "width": 1090,
+      "height": 720
     },
     "background": {
       "r": 255,
@@ -218,10 +274,10 @@
     },
     "dominantForeground": {
       "r": 183,
-      "g": 114,
-      "b": 53
+      "g": 255,
+      "b": 52
     },
-    "aspectRatio": 1.5083
+    "aspectRatio": 1.5139
   },
   "581196": {
     "id": "581196",
@@ -229,15 +285,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/581196.jpg",
     "svgPath": "assets/vectors/581196.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1807,
       "height": 1420
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1464,
+      "width": 1807,
       "height": 1420
+    },
+    "logoBBox": {
+      "x": 344,
+      "y": 440,
+      "width": 1120,
+      "height": 860
     },
     "background": {
       "r": 31,
@@ -245,11 +308,11 @@
       "b": 23
     },
     "dominantForeground": {
-      "r": 211,
-      "g": 180,
-      "b": 69
+      "r": 214,
+      "g": 26,
+      "b": 67
     },
-    "aspectRatio": 1.031
+    "aspectRatio": 1.3023
   },
   "583927": {
     "id": "583927",
@@ -257,15 +320,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/583927.jpg",
     "svgPath": "assets/vectors/583927.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1869,
       "height": 1362
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1368,
+      "width": 1869,
       "height": 1362
+    },
+    "logoBBox": {
+      "x": 510,
+      "y": 172,
+      "width": 856,
+      "height": 1040
     },
     "background": {
       "r": 10,
@@ -273,11 +343,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 46,
-      "g": 76,
+      "r": 45,
+      "g": 11,
       "b": 76
     },
-    "aspectRatio": 1.0044
+    "aspectRatio": 0.8231
   },
   "610166": {
     "id": "610166",
@@ -285,27 +355,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/610166.jpg",
     "svgPath": "assets/vectors/610166.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1687,
       "height": 1402
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1687,
       "height": 1402
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 164,
+      "width": 1682,
+      "height": 1162
+    },
     "background": {
-      "r": 1,
-      "g": 1,
-      "b": 2
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 6,
-      "g": 30,
-      "b": 75
+      "r": 5,
+      "g": 0,
+      "b": 73
     },
-    "aspectRatio": 1.2033
+    "aspectRatio": 1.4475
   },
   "624213": {
     "id": "624213",
@@ -313,15 +390,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/624213.jpg",
     "svgPath": "assets/vectors/624213.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1863,
       "height": 1468
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1863,
       "height": 1468
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 138,
+      "width": 1858,
+      "height": 1224
     },
     "background": {
       "r": 10,
@@ -329,11 +413,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 79,
-      "g": 80,
+      "r": 78,
+      "g": 11,
       "b": 79
     },
-    "aspectRatio": 1.2691
+    "aspectRatio": 1.518
   },
   "636036": {
     "id": "636036",
@@ -341,15 +425,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/636036.jpg",
     "svgPath": "assets/vectors/636036.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1737,
       "height": 1398
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1737,
       "height": 1398
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 168,
+      "width": 1732,
+      "height": 1166
     },
     "background": {
       "r": 20,
@@ -357,11 +448,11 @@
       "b": 23
     },
     "dominantForeground": {
-      "r": 71,
-      "g": 73,
+      "r": 70,
+      "g": 21,
       "b": 72
     },
-    "aspectRatio": 1.2425
+    "aspectRatio": 1.4854
   },
   "636843": {
     "id": "636843",
@@ -369,27 +460,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/636843.jpg",
     "svgPath": "assets/vectors/636843.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1398,
       "height": 2062
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 112,
+      "y": 0,
       "width": 1398,
-      "height": 1950
+      "height": 2062
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1392,
+      "height": 1994
     },
     "background": {
-      "r": 244,
-      "g": 244,
-      "b": 244
+      "r": 30,
+      "g": 34,
+      "b": 37
     },
     "dominantForeground": {
-      "r": 69,
-      "g": 71,
-      "b": 73
+      "r": 176,
+      "g": 34,
+      "b": 178
     },
-    "aspectRatio": 0.7169
+    "aspectRatio": 0.6981
   },
   "666464": {
     "id": "666464",
@@ -397,15 +495,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/666464.jpg",
     "svgPath": "assets/vectors/666464.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1962,
       "height": 1845
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 268,
+      "y": 0,
       "width": 1962,
-      "height": 1577
+      "height": 922
+    },
+    "logoBBox": {
+      "x": 750,
+      "y": 268,
+      "width": 462,
+      "height": 386
     },
     "background": {
       "r": 255,
@@ -413,11 +518,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 28,
-      "g": 27,
-      "b": 26
+      "r": 179,
+      "g": 255,
+      "b": 87
     },
-    "aspectRatio": 1.2441
+    "aspectRatio": 1.1969
   },
   "727471": {
     "id": "727471",
@@ -425,27 +530,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/727471.jpg",
     "svgPath": "assets/vectors/727471.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1845,
       "height": 1845
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1845,
-      "height": 1845
+      "width": 922,
+      "height": 922
+    },
+    "logoBBox": {
+      "x": 218,
+      "y": 314,
+      "width": 488,
+      "height": 292
     },
     "background": {
-      "r": 91,
-      "g": 204,
-      "b": 223
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 118,
-      "g": 157,
-      "b": 164
+      "r": 67,
+      "g": 255,
+      "b": 154
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.6712
   },
   "730705": {
     "id": "730705",
@@ -453,15 +565,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/730705.jpg",
     "svgPath": "assets/vectors/730705.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1898,
       "height": 1440
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1898,
+      "height": 1440
+    },
+    "logoBBox": {
       "x": 604,
       "y": 552,
-      "width": 692,
-      "height": 336
+      "width": 690,
+      "height": 334
     },
     "background": {
       "r": 255,
@@ -469,11 +588,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 99,
-      "g": 99,
-      "b": 100
+      "r": 101,
+      "g": 255,
+      "b": 102
     },
-    "aspectRatio": 2.0595
+    "aspectRatio": 2.0659
   },
   "732432": {
     "id": "732432",
@@ -481,15 +600,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/732432.jpg",
     "svgPath": "assets/vectors/732432.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1739,
       "height": 1379
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1020,
+      "width": 1739,
       "height": 1379
+    },
+    "logoBBox": {
+      "x": 718,
+      "y": 562,
+      "width": 302,
+      "height": 254
     },
     "background": {
       "r": 10,
@@ -497,11 +623,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 181,
-      "g": 182,
-      "b": 183
+      "r": 219,
+      "g": 11,
+      "b": 220
     },
-    "aspectRatio": 0.7397
+    "aspectRatio": 1.189
   },
   "740479": {
     "id": "740479",
@@ -509,27 +635,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/740479.jpg",
     "svgPath": "assets/vectors/740479.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1480,
       "height": 7477
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 164,
+      "y": 0,
       "width": 1480,
-      "height": 7313
+      "height": 7477
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1474,
+      "height": 7472
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 46,
+      "g": 51,
+      "b": 54
     },
     "dominantForeground": {
-      "r": 55,
-      "g": 71,
-      "b": 72
+      "r": 100,
+      "g": 51,
+      "b": 114
     },
-    "aspectRatio": 0.2024
+    "aspectRatio": 0.1973
   },
   "790772": {
     "id": "790772",
@@ -537,15 +670,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/790772.jpg",
     "svgPath": "assets/vectors/790772.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1717,
       "height": 1350
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1024,
+      "width": 1717,
       "height": 1350
+    },
+    "logoBBox": {
+      "x": 692,
+      "y": 600,
+      "width": 332,
+      "height": 148
     },
     "background": {
       "r": 10,
@@ -553,11 +693,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 189,
-      "g": 189,
-      "b": 190
+      "r": 216,
+      "g": 11,
+      "b": 217
     },
-    "aspectRatio": 0.7585
+    "aspectRatio": 2.2432
   },
   "791275": {
     "id": "791275",
@@ -565,27 +705,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/791275.jpg",
     "svgPath": "assets/vectors/791275.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1845,
       "height": 1845
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1845,
-      "height": 1845
+      "width": 922,
+      "height": 922
+    },
+    "logoBBox": {
+      "x": 230,
+      "y": 340,
+      "width": 462,
+      "height": 240
     },
     "background": {
-      "r": 254,
-      "g": 72,
-      "b": 77
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 154,
-      "g": 93,
-      "b": 95
+      "r": 163,
+      "g": 255,
+      "b": 58
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.925
   },
   "794655": {
     "id": "794655",
@@ -593,27 +740,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/794655.jpg",
     "svgPath": "assets/vectors/794655.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1845,
       "height": 1845
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1845,
-      "height": 1845
+      "width": 922,
+      "height": 922
+    },
+    "logoBBox": {
+      "x": 314,
+      "y": 300,
+      "width": 294,
+      "height": 320
     },
     "background": {
-      "r": 118,
-      "g": 124,
-      "b": 78
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 116,
-      "g": 116,
-      "b": 104
+      "r": 96,
+      "g": 255,
+      "b": 57
     },
-    "aspectRatio": 1
+    "aspectRatio": 0.9187
   },
   "813880": {
     "id": "813880",
@@ -621,15 +775,22 @@
     "category": "wordmark",
     "originalImage": "crimadezignz-portfolio/images/813880.jpg",
     "svgPath": "assets/vectors/813880.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1897,
       "height": 1362
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1897,
+      "height": 1362
+    },
+    "logoBBox": {
       "x": 628,
-      "y": 624,
+      "y": 626,
       "width": 640,
-      "height": 112
+      "height": 108
     },
     "background": {
       "r": 255,
@@ -637,11 +798,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 60,
-      "g": 55,
-      "b": 53
+      "r": 50,
+      "g": 255,
+      "b": 43
     },
-    "aspectRatio": 5.7143
+    "aspectRatio": 5.9259
   },
   "815721": {
     "id": "815721",
@@ -649,27 +810,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/815721.jpg",
     "svgPath": "assets/vectors/815721.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1845,
       "height": 3987
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 88,
-      "width": 1845,
-      "height": 3899
+      "y": 0,
+      "width": 922,
+      "height": 3987
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 916,
+      "height": 3976
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 33,
+      "g": 37,
+      "b": 48
     },
     "dominantForeground": {
-      "r": 43,
-      "g": 43,
-      "b": 46
+      "r": 189,
+      "g": 37,
+      "b": 188
     },
-    "aspectRatio": 0.4732
+    "aspectRatio": 0.2304
   },
   "818849": {
     "id": "818849",
@@ -677,15 +845,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/818849.jpg",
     "svgPath": "assets/vectors/818849.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1683,
       "height": 1336
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1132,
+      "width": 1683,
       "height": 1336
+    },
+    "logoBBox": {
+      "x": 552,
+      "y": 396,
+      "width": 578,
+      "height": 542
     },
     "background": {
       "r": 10,
@@ -693,11 +868,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 119,
-      "g": 143,
-      "b": 170
+      "r": 117,
+      "g": 11,
+      "b": 171
     },
-    "aspectRatio": 0.8473
+    "aspectRatio": 1.0664
   },
   "852260": {
     "id": "852260",
@@ -705,43 +880,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/852260.jpg",
     "svgPath": "assets/vectors/852260.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1851,
       "height": 1504
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1308,
+      "width": 1851,
       "height": 1504
     },
-    "background": {
-      "r": 11,
-      "g": 11,
-      "b": 13
-    },
-    "dominantForeground": {
-      "r": 24,
-      "g": 44,
-      "b": 64
-    },
-    "aspectRatio": 0.8697
-  },
-  "874325": {
-    "id": "874325",
-    "title": "Curbside Autocare - Logo Design",
-    "category": "tactical",
-    "originalImage": "crimadezignz-portfolio/images/874325.jpg",
-    "svgPath": "assets/vectors/874325.svg",
-    "dimensions": {
-      "width": 1854,
-      "height": 1420
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1152,
-      "height": 1420
+    "logoBBox": {
+      "x": 538,
+      "y": 346,
+      "width": 770,
+      "height": 780
     },
     "background": {
       "r": 10,
@@ -749,11 +903,46 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 157,
-      "g": 120,
-      "b": 83
+      "r": 22,
+      "g": 11,
+      "b": 64
     },
-    "aspectRatio": 0.8113
+    "aspectRatio": 0.9872
+  },
+  "874325": {
+    "id": "874325",
+    "title": "Curbside Autocare - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/874325.jpg",
+    "svgPath": "assets/vectors/874325.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1854,
+      "height": 1420
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1854,
+      "height": 1420
+    },
+    "logoBBox": {
+      "x": 704,
+      "y": 556,
+      "width": 446,
+      "height": 676
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 160,
+      "g": 11,
+      "b": 75
+    },
+    "aspectRatio": 0.6598
   },
   "902150": {
     "id": "902150",
@@ -761,27 +950,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/902150.jpg",
     "svgPath": "assets/vectors/902150.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1171,
       "height": 2880
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 136,
+      "y": 0,
       "width": 1171,
-      "height": 2744
+      "height": 1440
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1166,
+      "height": 1434
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 163,
+      "g": 4,
+      "b": 6
     },
     "dominantForeground": {
-      "r": 47,
-      "g": 28,
-      "b": 29
+      "r": 116,
+      "g": 4,
+      "b": 111
     },
-    "aspectRatio": 0.4267
+    "aspectRatio": 0.8131
   },
   "935434": {
     "id": "935434",
@@ -789,27 +985,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/935434.jpg",
     "svgPath": "assets/vectors/935434.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1623,
       "height": 3236
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1623,
       "height": 3236
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1618,
+      "height": 3230
+    },
     "background": {
-      "r": 160,
-      "g": 163,
-      "b": 172
+      "r": 51,
+      "g": 103,
+      "b": 153
     },
     "dominantForeground": {
-      "r": 80,
-      "g": 94,
-      "b": 109
+      "r": 83,
+      "g": 103,
+      "b": 106
     },
-    "aspectRatio": 0.5015
+    "aspectRatio": 0.5009
   },
   "985522": {
     "id": "985522",
@@ -817,14 +1020,21 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/985522.jpg",
     "svgPath": "assets/vectors/985522.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1821,
       "height": 1500
     },
-    "bbox": {
-      "x": 712,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1821,
+      "height": 1500
+    },
+    "logoBBox": {
+      "x": 714,
       "y": 580,
-      "width": 396,
+      "width": 392,
       "height": 340
     },
     "background": {
@@ -833,11 +1043,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 124,
-      "g": 65,
-      "b": 71
+      "r": 126,
+      "g": 255,
+      "b": 73
     },
-    "aspectRatio": 1.1647
+    "aspectRatio": 1.1529
   },
   "1005386": {
     "id": "1005386",
@@ -845,15 +1055,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1005386.jpg",
     "svgPath": "assets/vectors/1005386.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1757,
       "height": 1310
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1052,
+      "width": 1757,
       "height": 1310
+    },
+    "logoBBox": {
+      "x": 704,
+      "y": 450,
+      "width": 348,
+      "height": 406
     },
     "background": {
       "r": 9,
@@ -861,11 +1078,11 @@
       "b": 10
     },
     "dominantForeground": {
-      "r": 128,
-      "g": 128,
-      "b": 128
+      "r": 131,
+      "g": 10,
+      "b": 130
     },
-    "aspectRatio": 0.8031
+    "aspectRatio": 0.8571
   },
   "1011653": {
     "id": "1011653",
@@ -873,27 +1090,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1011653.jpg",
     "svgPath": "assets/vectors/1011653.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1541,
       "height": 4134
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1541,
       "height": 4134
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 298,
+      "width": 1536,
+      "height": 3710
+    },
     "background": {
-      "r": 52,
-      "g": 56,
-      "b": 61
+      "r": 38,
+      "g": 45,
+      "b": 55
     },
     "dominantForeground": {
       "r": 175,
-      "g": 194,
-      "b": 141
+      "g": 45,
+      "b": 140
     },
-    "aspectRatio": 0.3728
+    "aspectRatio": 0.414
   },
   "1044279": {
     "id": "1044279",
@@ -901,14 +1125,21 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1044279.jpg",
     "svgPath": "assets/vectors/1044279.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1530,
       "height": 1329
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1530,
+      "height": 1329
+    },
+    "logoBBox": {
       "x": 636,
       "y": 580,
-      "width": 260,
+      "width": 258,
       "height": 168
     },
     "background": {
@@ -918,10 +1149,10 @@
     },
     "dominantForeground": {
       "r": 69,
-      "g": 65,
+      "g": 255,
       "b": 63
     },
-    "aspectRatio": 1.5476
+    "aspectRatio": 1.5357
   },
   "1048586": {
     "id": "1048586",
@@ -929,15 +1160,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1048586.jpg",
     "svgPath": "assets/vectors/1048586.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1817,
       "height": 1380
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1184,
+      "width": 1817,
       "height": 1380
+    },
+    "logoBBox": {
+      "x": 634,
+      "y": 442,
+      "width": 550,
+      "height": 488
     },
     "background": {
       "r": 10,
@@ -945,11 +1183,11 @@
       "b": 10
     },
     "dominantForeground": {
-      "r": 136,
-      "g": 55,
-      "b": 56
+      "r": 140,
+      "g": 10,
+      "b": 51
     },
-    "aspectRatio": 0.858
+    "aspectRatio": 1.127
   },
   "1179666": {
     "id": "1179666",
@@ -957,15 +1195,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1179666.jpg",
     "svgPath": "assets/vectors/1179666.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1628,
+      "width": 1752,
       "height": 1752
+    },
+    "logoBBox": {
+      "x": 128,
+      "y": 496,
+      "width": 1498,
+      "height": 760
     },
     "background": {
       "r": 10,
@@ -973,11 +1218,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 193,
-      "g": 186,
-      "b": 181
+      "r": 195,
+      "g": 11,
+      "b": 182
     },
-    "aspectRatio": 0.9292
+    "aspectRatio": 1.9711
   },
   "1195469": {
     "id": "1195469",
@@ -985,15 +1230,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1195469.jpg",
     "svgPath": "assets/vectors/1195469.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1806,
       "height": 1369
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1806,
       "height": 1369
+    },
+    "logoBBox": {
+      "x": 646,
+      "y": 480,
+      "width": 514,
+      "height": 404
     },
     "background": {
       "r": 10,
@@ -1001,11 +1253,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 165,
-      "g": 102,
-      "b": 67
+      "r": 170,
+      "g": 11,
+      "b": 54
     },
-    "aspectRatio": 1.3192
+    "aspectRatio": 1.2723
   },
   "1218104": {
     "id": "1218104",
@@ -1013,71 +1265,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1218104.jpg",
     "svgPath": "assets/vectors/1218104.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1775,
       "height": 2549
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1775,
       "height": 2549
     },
-    "background": {
-      "r": 149,
-      "g": 148,
-      "b": 146
-    },
-    "dominantForeground": {
-      "r": 91,
-      "g": 92,
-      "b": 93
-    },
-    "aspectRatio": 0.6964
-  },
-  "1308370": {
-    "id": "1308370",
-    "title": "Phenom - Logo design",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/1308370.jpg",
-    "svgPath": "assets/vectors/1308370.svg",
-    "dimensions": {
-      "width": 1731,
-      "height": 1298
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1731,
-      "height": 1298
-    },
-    "background": {
-      "r": 4,
-      "g": 8,
-      "b": 2
-    },
-    "dominantForeground": {
-      "r": 89,
-      "g": 150,
-      "b": 76
-    },
-    "aspectRatio": 1.3336
-  },
-  "1336886": {
-    "id": "1336886",
-    "title": "Gun Pros - Logo Design ",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/1336886.jpg",
-    "svgPath": "assets/vectors/1336886.svg",
-    "dimensions": {
-      "width": 1658,
-      "height": 1372
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1288,
-      "height": 1372
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1770,
+      "height": 2544
     },
     "background": {
       "r": 10,
@@ -1085,11 +1288,81 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 193,
-      "g": 174,
-      "b": 110
+      "r": 163,
+      "g": 11,
+      "b": 161
     },
-    "aspectRatio": 0.9388
+    "aspectRatio": 0.6958
+  },
+  "1308370": {
+    "id": "1308370",
+    "title": "Phenom - Logo design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1308370.jpg",
+    "svgPath": "assets/vectors/1308370.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1731,
+      "height": 1298
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1731,
+      "height": 1298
+    },
+    "logoBBox": {
+      "x": 8,
+      "y": 2,
+      "width": 1710,
+      "height": 1292
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 1
+    },
+    "dominantForeground": {
+      "r": 82,
+      "g": 0,
+      "b": 72
+    },
+    "aspectRatio": 1.3235
+  },
+  "1336886": {
+    "id": "1336886",
+    "title": "Gun Pros - Logo Design ",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1336886.jpg",
+    "svgPath": "assets/vectors/1336886.svg",
+    "layout": "split-1x2",
+    "fullDimensions": {
+      "width": 1658,
+      "height": 1372
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1658,
+      "height": 686
+    },
+    "logoBBox": {
+      "x": 372,
+      "y": 628,
+      "width": 914,
+      "height": 54
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 192,
+      "g": 11,
+      "b": 102
+    },
+    "aspectRatio": 16.9259
   },
   "1413231": {
     "id": "1413231",
@@ -1097,14 +1370,21 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1413231.jpg",
     "svgPath": "assets/vectors/1413231.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1724,
       "height": 1388
     },
-    "bbox": {
-      "x": 588,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1724,
+      "height": 1388
+    },
+    "logoBBox": {
+      "x": 590,
       "y": 528,
-      "width": 548,
+      "width": 544,
       "height": 332
     },
     "background": {
@@ -1113,11 +1393,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 23,
-      "g": 23,
-      "b": 23
+      "r": 25,
+      "g": 255,
+      "b": 25
     },
-    "aspectRatio": 1.6506
+    "aspectRatio": 1.6386
   },
   "1429607": {
     "id": "1429607",
@@ -1125,15 +1405,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1429607.jpg",
     "svgPath": "assets/vectors/1429607.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1697,
       "height": 1322
     },
-    "bbox": {
-      "x": 464,
-      "y": 564,
-      "width": 768,
-      "height": 188
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1697,
+      "height": 1322
+    },
+    "logoBBox": {
+      "x": 466,
+      "y": 566,
+      "width": 766,
+      "height": 190
     },
     "background": {
       "r": 255,
@@ -1141,11 +1428,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 94,
-      "g": 39,
-      "b": 57
+      "r": 97,
+      "g": 255,
+      "b": 61
     },
-    "aspectRatio": 4.0851
+    "aspectRatio": 4.0316
   },
   "1437958": {
     "id": "1437958",
@@ -1153,15 +1440,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1437958.jpg",
     "svgPath": "assets/vectors/1437958.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1500
     },
-    "bbox": {
-      "x": 28,
+    "targetCell": {
+      "x": 0,
       "y": 0,
-      "width": 1968,
+      "width": 2000,
       "height": 1500
+    },
+    "logoBBox": {
+      "x": 30,
+      "y": 2,
+      "width": 1964,
+      "height": 1494
     },
     "background": {
       "r": 1,
@@ -1169,11 +1463,11 @@
       "b": 1
     },
     "dominantForeground": {
-      "r": 57,
-      "g": 57,
-      "b": 58
+      "r": 56,
+      "g": 1,
+      "b": 57
     },
-    "aspectRatio": 1.312
+    "aspectRatio": 1.3146
   },
   "1442567": {
     "id": "1442567",
@@ -1181,15 +1475,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1442567.jpg",
     "svgPath": "assets/vectors/1442567.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1736,
       "height": 1357
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1736,
       "height": 1357
+    },
+    "logoBBox": {
+      "x": 596,
+      "y": 456,
+      "width": 546,
+      "height": 442
     },
     "background": {
       "r": 0,
@@ -1197,11 +1498,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 175,
-      "g": 175,
-      "b": 175
+      "r": 193,
+      "g": 0,
+      "b": 193
     },
-    "aspectRatio": 1.2793
+    "aspectRatio": 1.2353
   },
   "1448204": {
     "id": "1448204",
@@ -1209,27 +1510,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1448204.jpg",
     "svgPath": "assets/vectors/1448204.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 204,
+      "y": 326,
+      "width": 468,
+      "height": 224
     },
     "background": {
-      "r": 18,
-      "g": 97,
-      "b": 29
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 115,
-      "g": 124,
-      "b": 117
+      "r": 70,
+      "g": 255,
+      "b": 83
     },
-    "aspectRatio": 1
+    "aspectRatio": 2.0893
   },
   "1458315": {
     "id": "1458315",
@@ -1237,15 +1545,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1458315.jpg",
     "svgPath": "assets/vectors/1458315.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1460,
       "height": 1332
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1460,
+      "height": 1332
+    },
+    "logoBBox": {
       "x": 584,
-      "y": 572,
-      "width": 288,
-      "height": 312
+      "y": 574,
+      "width": 292,
+      "height": 310
     },
     "background": {
       "r": 246,
@@ -1253,11 +1568,11 @@
       "b": 247
     },
     "dominantForeground": {
-      "r": 62,
-      "g": 120,
-      "b": 166
+      "r": 65,
+      "g": 248,
+      "b": 169
     },
-    "aspectRatio": 0.9231
+    "aspectRatio": 0.9419
   },
   "1477934": {
     "id": "1477934",
@@ -1265,15 +1580,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1477934.jpg",
     "svgPath": "assets/vectors/1477934.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1460,
       "height": 1332
     },
-    "bbox": {
-      "x": 608,
-      "y": 568,
-      "width": 244,
-      "height": 192
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1460,
+      "height": 1332
+    },
+    "logoBBox": {
+      "x": 610,
+      "y": 570,
+      "width": 240,
+      "height": 190
     },
     "background": {
       "r": 255,
@@ -1281,11 +1603,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 66,
-      "g": 41,
+      "r": 67,
+      "g": 255,
       "b": 41
     },
-    "aspectRatio": 1.2708
+    "aspectRatio": 1.2632
   },
   "1503899": {
     "id": "1503899",
@@ -1293,27 +1615,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1503899.jpg",
     "svgPath": "assets/vectors/1503899.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1752,
       "height": 2106
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
+      "width": 876,
       "height": 2106
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 870,
+      "height": 1970
+    },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 49,
-      "g": 50,
-      "b": 52
+      "r": 165,
+      "g": 0,
+      "b": 165
     },
-    "aspectRatio": 0.8319
+    "aspectRatio": 0.4416
   },
   "1519965": {
     "id": "1519965",
@@ -1321,15 +1650,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/1519965.jpg",
     "svgPath": "assets/vectors/1519965.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1744,
       "height": 1345
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1744,
       "height": 1345
+    },
+    "logoBBox": {
+      "x": 534,
+      "y": 334,
+      "width": 676,
+      "height": 676
     },
     "background": {
       "r": 0,
@@ -1337,11 +1673,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 209,
-      "g": 191,
-      "b": 119
+      "r": 221,
+      "g": 0,
+      "b": 124
     },
-    "aspectRatio": 1.2967
+    "aspectRatio": 1
   },
   "1530323": {
     "id": "1530323",
@@ -1349,15 +1685,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1530323.jpg",
     "svgPath": "assets/vectors/1530323.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1724,
       "height": 1400
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1256,
+      "width": 1724,
       "height": 1400
+    },
+    "logoBBox": {
+      "x": 470,
+      "y": 322,
+      "width": 784,
+      "height": 754
     },
     "background": {
       "r": 0,
@@ -1365,11 +1708,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 210,
-      "g": 210,
-      "b": 210
+      "r": 212,
+      "g": 0,
+      "b": 212
     },
-    "aspectRatio": 0.8971
+    "aspectRatio": 1.0398
   },
   "1561814": {
     "id": "1561814",
@@ -1377,15 +1720,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1561814.jpg",
     "svgPath": "assets/vectors/1561814.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1752,
       "height": 1332
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1192,
+      "width": 1752,
       "height": 1332
+    },
+    "logoBBox": {
+      "x": 560,
+      "y": 416,
+      "width": 632,
+      "height": 500
     },
     "background": {
       "r": 0,
@@ -1393,11 +1743,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 183,
-      "g": 183,
-      "b": 183
+      "r": 189,
+      "g": 0,
+      "b": 189
     },
-    "aspectRatio": 0.8949
+    "aspectRatio": 1.264
   },
   "1571296": {
     "id": "1571296",
@@ -1405,27 +1755,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1571296.jpg",
     "svgPath": "assets/vectors/1571296.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1752,
       "height": 4272
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
+      "width": 876,
       "height": 4272
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 870,
+      "height": 4266
+    },
     "background": {
-      "r": 18,
-      "g": 18,
-      "b": 19
+      "r": 2,
+      "g": 2,
+      "b": 4
     },
     "dominantForeground": {
-      "r": 80,
-      "g": 83,
-      "b": 85
+      "r": 118,
+      "g": 2,
+      "b": 125
     },
-    "aspectRatio": 0.4101
+    "aspectRatio": 0.2039
   },
   "1586261": {
     "id": "1586261",
@@ -1433,27 +1790,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1586261.jpg",
     "svgPath": "assets/vectors/1586261.svg",
-    "dimensions": {
+    "layout": "grid-2x3",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 584
+    },
+    "logoBBox": {
+      "x": 168,
+      "y": 302,
+      "width": 540,
+      "height": 270
     },
     "background": {
-      "r": 65,
-      "g": 80,
-      "b": 87
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 103,
-      "g": 103,
-      "b": 103
+      "r": 20,
+      "g": 255,
+      "b": 20
     },
-    "aspectRatio": 1
+    "aspectRatio": 2
   },
   "1600632": {
     "id": "1600632",
@@ -1461,15 +1825,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1600632.jpg",
     "svgPath": "assets/vectors/1600632.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1947,
       "height": 1404
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1532,
-      "height": 1404
+      "width": 1947,
+      "height": 702
+    },
+    "logoBBox": {
+      "x": 414,
+      "y": 566,
+      "width": 1118,
+      "height": 132
     },
     "background": {
       "r": 0,
@@ -1477,11 +1848,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 163,
-      "g": 79,
-      "b": 79
+      "r": 174,
+      "g": 0,
+      "b": 91
     },
-    "aspectRatio": 1.0912
+    "aspectRatio": 8.4697
   },
   "1724130": {
     "id": "1724130",
@@ -1489,15 +1860,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1724130.jpg",
     "svgPath": "assets/vectors/1724130.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1822,
       "height": 1366
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1432,
-      "height": 1366
+      "width": 1822,
+      "height": 683
+    },
+    "logoBBox": {
+      "x": 390,
+      "y": 492,
+      "width": 1042,
+      "height": 188
     },
     "background": {
       "r": 0,
@@ -1505,11 +1883,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 207,
-      "g": 196,
-      "b": 134
+      "r": 218,
+      "g": 0,
+      "b": 151
     },
-    "aspectRatio": 1.0483
+    "aspectRatio": 5.5426
   },
   "1759357": {
     "id": "1759357",
@@ -1517,14 +1895,21 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1759357.jpg",
     "svgPath": "assets/vectors/1759357.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1500
     },
-    "bbox": {
-      "x": 548,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1500
+    },
+    "logoBBox": {
+      "x": 550,
       "y": 296,
-      "width": 900,
+      "width": 898,
       "height": 908
     },
     "background": {
@@ -1533,11 +1918,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 87,
-      "g": 25,
-      "b": 26
+      "r": 88,
+      "g": 255,
+      "b": 27
     },
-    "aspectRatio": 0.9912
+    "aspectRatio": 0.989
   },
   "1784931": {
     "id": "1784931",
@@ -1545,27 +1930,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1784931.jpg",
     "svgPath": "assets/vectors/1784931.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 150,
+      "y": 244,
+      "width": 576,
+      "height": 386
     },
     "background": {
-      "r": 65,
-      "g": 80,
-      "b": 87
+      "r": 255,
+      "g": 254,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 121,
-      "g": 126,
+      "r": 123,
+      "g": 254,
       "b": 128
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.4922
   },
   "1785900": {
     "id": "1785900",
@@ -1573,71 +1965,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1785900.jpg",
     "svgPath": "assets/vectors/1785900.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1687,
       "height": 4763
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1687,
       "height": 4763
     },
-    "background": {
-      "r": 48,
-      "g": 1,
-      "b": 1
-    },
-    "dominantForeground": {
-      "r": 128,
-      "g": 97,
-      "b": 97
-    },
-    "aspectRatio": 0.3542
-  },
-  "1791837": {
-    "id": "1791837",
-    "title": "Gordon - Logo Design",
-    "category": "tactical",
-    "originalImage": "crimadezignz-portfolio/images/1791837.jpg",
-    "svgPath": "assets/vectors/1791837.svg",
-    "dimensions": {
-      "width": 1839,
-      "height": 1320
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1236,
-      "height": 1320
-    },
-    "background": {
-      "r": 10,
-      "g": 11,
-      "b": 13
-    },
-    "dominantForeground": {
-      "r": 201,
-      "g": 131,
-      "b": 132
-    },
-    "aspectRatio": 0.9364
-  },
-  "1800985": {
-    "id": "1800985",
-    "title": "R&S Retrievers - Logo Design",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/1800985.jpg",
-    "svgPath": "assets/vectors/1800985.svg",
-    "dimensions": {
-      "width": 1853,
-      "height": 1341
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1853,
-      "height": 1341
+    "logoBBox": {
+      "x": 2,
+      "y": 296,
+      "width": 1682,
+      "height": 4464
     },
     "background": {
       "r": 0,
@@ -1645,11 +1988,81 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 192,
-      "g": 148,
-      "b": 96
+      "r": 196,
+      "g": 0,
+      "b": 146
     },
-    "aspectRatio": 1.3818
+    "aspectRatio": 0.3768
+  },
+  "1791837": {
+    "id": "1791837",
+    "title": "Gordon - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1791837.jpg",
+    "svgPath": "assets/vectors/1791837.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1839,
+      "height": 1320
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1839,
+      "height": 1320
+    },
+    "logoBBox": {
+      "x": 606,
+      "y": 384,
+      "width": 628,
+      "height": 442
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 210,
+      "g": 11,
+      "b": 133
+    },
+    "aspectRatio": 1.4208
+  },
+  "1800985": {
+    "id": "1800985",
+    "title": "R&S Retrievers - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1800985.jpg",
+    "svgPath": "assets/vectors/1800985.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1853,
+      "height": 1341
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1853,
+      "height": 1341
+    },
+    "logoBBox": {
+      "x": 442,
+      "y": 350,
+      "width": 968,
+      "height": 640
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 196,
+      "g": 0,
+      "b": 93
+    },
+    "aspectRatio": 1.5125
   },
   "1812972": {
     "id": "1812972",
@@ -1657,15 +2070,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1812972.jpg",
     "svgPath": "assets/vectors/1812972.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1500
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1500
+    },
+    "logoBBox": {
       "x": 548,
-      "y": 440,
-      "width": 904,
-      "height": 620
+      "y": 442,
+      "width": 902,
+      "height": 616
     },
     "background": {
       "r": 255,
@@ -1673,11 +2093,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 106,
-      "g": 95,
-      "b": 69
+      "r": 107,
+      "g": 255,
+      "b": 70
     },
-    "aspectRatio": 1.4581
+    "aspectRatio": 1.4643
   },
   "1813842": {
     "id": "1813842",
@@ -1685,15 +2105,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1813842.jpg",
     "svgPath": "assets/vectors/1813842.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1752,
       "height": 2346
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 2248
+      "width": 876,
+      "height": 2346
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 356,
+      "width": 870,
+      "height": 1890
     },
     "background": {
       "r": 255,
@@ -1701,11 +2128,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 103,
-      "g": 75,
-      "b": 48
+      "r": 92,
+      "g": 255,
+      "b": 80
     },
-    "aspectRatio": 0.7794
+    "aspectRatio": 0.4603
   },
   "1813922": {
     "id": "1813922",
@@ -1713,15 +2140,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1813922.jpg",
     "svgPath": "assets/vectors/1813922.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1500
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1984,
+      "width": 2000,
       "height": 1500
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1980,
+      "height": 1494
     },
     "background": {
       "r": 0,
@@ -1730,10 +2164,10 @@
     },
     "dominantForeground": {
       "r": 78,
-      "g": 80,
-      "b": 68
+      "g": 0,
+      "b": 69
     },
-    "aspectRatio": 1.3227
+    "aspectRatio": 1.3253
   },
   "1816208": {
     "id": "1816208",
@@ -1741,27 +2175,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1816208.jpg",
     "svgPath": "assets/vectors/1816208.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 168,
+      "y": 284,
+      "width": 540,
+      "height": 306
     },
     "background": {
-      "r": 101,
-      "g": 119,
-      "b": 87
+      "r": 254,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 108,
-      "g": 114,
-      "b": 116
+      "r": 97,
+      "g": 255,
+      "b": 88
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.7647
   },
   "1818626": {
     "id": "1818626",
@@ -1769,27 +2210,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1818626.jpg",
     "svgPath": "assets/vectors/1818626.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1661,
       "height": 1371
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1661,
       "height": 1371
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1656,
+      "height": 1366
+    },
     "background": {
-      "r": 174,
-      "g": 174,
-      "b": 174
+      "r": 168,
+      "g": 168,
+      "b": 168
     },
     "dominantForeground": {
-      "r": 157,
-      "g": 157,
-      "b": 157
+      "r": 164,
+      "g": 168,
+      "b": 164
     },
-    "aspectRatio": 1.2115
+    "aspectRatio": 1.2123
   },
   "1824819": {
     "id": "1824819",
@@ -1797,15 +2245,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1824819.jpg",
     "svgPath": "assets/vectors/1824819.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1777,
       "height": 1352
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1777,
+      "height": 1352
+    },
+    "logoBBox": {
       "x": 568,
-      "y": 456,
-      "width": 692,
-      "height": 440
+      "y": 458,
+      "width": 690,
+      "height": 436
     },
     "background": {
       "r": 255,
@@ -1813,11 +2268,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 38,
-      "g": 38,
-      "b": 38
+      "r": 40,
+      "g": 255,
+      "b": 40
     },
-    "aspectRatio": 1.5727
+    "aspectRatio": 1.5826
   },
   "1837697": {
     "id": "1837697",
@@ -1825,15 +2280,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1837697.jpg",
     "svgPath": "assets/vectors/1837697.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1790,
       "height": 1356
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1790,
       "height": 1356
+    },
+    "logoBBox": {
+      "x": 10,
+      "y": 4,
+      "width": 1774,
+      "height": 1338
     },
     "background": {
       "r": 0,
@@ -1841,11 +2303,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 99,
-      "g": 67,
+      "r": 100,
+      "g": 0,
       "b": 56
     },
-    "aspectRatio": 1.3201
+    "aspectRatio": 1.3259
   },
   "1863013": {
     "id": "1863013",
@@ -1853,15 +2315,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1863013.jpg",
     "svgPath": "assets/vectors/1863013.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1765,
       "height": 1438
     },
-    "bbox": {
-      "x": 500,
-      "y": 440,
-      "width": 764,
-      "height": 556
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1765,
+      "height": 1438
+    },
+    "logoBBox": {
+      "x": 502,
+      "y": 442,
+      "width": 762,
+      "height": 552
     },
     "background": {
       "r": 255,
@@ -1870,10 +2339,10 @@
     },
     "dominantForeground": {
       "r": 77,
-      "g": 81,
-      "b": 65
+      "g": 255,
+      "b": 64
     },
-    "aspectRatio": 1.3741
+    "aspectRatio": 1.3804
   },
   "1889321": {
     "id": "1889321",
@@ -1881,27 +2350,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1889321.jpg",
     "svgPath": "assets/vectors/1889321.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 200,
+      "y": 296,
+      "width": 478,
+      "height": 282
     },
     "background": {
-      "r": 15,
-      "g": 149,
-      "b": 190
+      "r": 254,
+      "g": 255,
+      "b": 251
     },
     "dominantForeground": {
-      "r": 85,
-      "g": 146,
-      "b": 176
+      "r": 42,
+      "g": 255,
+      "b": 171
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.695
   },
   "1891962": {
     "id": "1891962",
@@ -1909,15 +2385,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1891962.jpg",
     "svgPath": "assets/vectors/1891962.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1657,
       "height": 1376
     },
-    "bbox": {
-      "x": 484,
-      "y": 344,
-      "width": 688,
-      "height": 684
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1657,
+      "height": 1376
+    },
+    "logoBBox": {
+      "x": 486,
+      "y": 346,
+      "width": 684,
+      "height": 682
     },
     "background": {
       "r": 255,
@@ -1926,10 +2409,10 @@
     },
     "dominantForeground": {
       "r": 24,
-      "g": 24,
+      "g": 255,
       "b": 24
     },
-    "aspectRatio": 1.0058
+    "aspectRatio": 1.0029
   },
   "1892737": {
     "id": "1892737",
@@ -1937,27 +2420,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1892737.jpg",
     "svgPath": "assets/vectors/1892737.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1141,
       "height": 1880
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 248,
+      "y": 0,
       "width": 1141,
-      "height": 1600
+      "height": 940
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1136,
+      "height": 934
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 38,
-      "g": 38,
-      "b": 38
+      "r": 254,
+      "g": 0,
+      "b": 254
     },
-    "aspectRatio": 0.7131
+    "aspectRatio": 1.2163
   },
   "1897007": {
     "id": "1897007",
@@ -1965,27 +2455,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1897007.jpg",
     "svgPath": "assets/vectors/1897007.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 198,
+      "y": 266,
+      "width": 478,
+      "height": 346
     },
     "background": {
-      "r": 148,
-      "g": 2,
-      "b": 28
+      "r": 250,
+      "g": 254,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 123,
-      "g": 84,
-      "b": 87
+      "r": 120,
+      "g": 254,
+      "b": 57
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.3815
   },
   "1898510": {
     "id": "1898510",
@@ -1993,15 +2490,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1898510.jpg",
     "svgPath": "assets/vectors/1898510.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1887,
       "height": 1371
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1887,
+      "height": 1371
+    },
+    "logoBBox": {
       "x": 744,
-      "y": 496,
+      "y": 498,
       "width": 400,
-      "height": 376
+      "height": 374
     },
     "background": {
       "r": 255,
@@ -2010,10 +2514,10 @@
     },
     "dominantForeground": {
       "r": 69,
-      "g": 91,
-      "b": 150
+      "g": 255,
+      "b": 149
     },
-    "aspectRatio": 1.0638
+    "aspectRatio": 1.0695
   },
   "1921057": {
     "id": "1921057",
@@ -2021,27 +2525,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1921057.jpg",
     "svgPath": "assets/vectors/1921057.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1052,
       "height": 5462
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 408,
+      "y": 0,
       "width": 1052,
-      "height": 5054
+      "height": 5462
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1046,
+      "height": 5220
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 201,
+      "g": 10,
+      "b": 36
     },
     "dominantForeground": {
-      "r": 80,
+      "r": 128,
       "g": 10,
-      "b": 19
+      "b": 116
     },
-    "aspectRatio": 0.2082
+    "aspectRatio": 0.2004
   },
   "1929376": {
     "id": "1929376",
@@ -2049,27 +2560,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1929376.jpg",
     "svgPath": "assets/vectors/1929376.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1500
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 352,
+      "y": 0,
       "width": 2000,
-      "height": 1148
+      "height": 1500
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1994,
+      "height": 1112
     },
     "background": {
-      "r": 13,
-      "g": 1,
-      "b": 39
+      "r": 3,
+      "g": 0,
+      "b": 11
     },
     "dominantForeground": {
-      "r": 37,
-      "g": 35,
-      "b": 57
+      "r": 40,
+      "g": 0,
+      "b": 72
     },
-    "aspectRatio": 1.7422
+    "aspectRatio": 1.7932
   },
   "1929623": {
     "id": "1929623",
@@ -2077,15 +2595,22 @@
     "category": "wordmark",
     "originalImage": "crimadezignz-portfolio/images/1929623.jpg",
     "svgPath": "assets/vectors/1929623.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1920,
       "height": 1080
     },
-    "bbox": {
-      "x": 488,
-      "y": 72,
-      "width": 956,
-      "height": 896
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    "logoBBox": {
+      "x": 418,
+      "y": 2,
+      "width": 1102,
+      "height": 964
     },
     "background": {
       "r": 0,
@@ -2094,10 +2619,10 @@
     },
     "dominantForeground": {
       "r": 93,
-      "g": 23,
+      "g": 0,
       "b": 22
     },
-    "aspectRatio": 1.067
+    "aspectRatio": 1.1432
   },
   "1931674": {
     "id": "1931674",
@@ -2105,14 +2630,21 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1931674.jpg",
     "svgPath": "assets/vectors/1931674.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1221,
       "height": 4360
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 340,
+      "y": 0,
       "width": 1221,
+      "height": 4360
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 340,
+      "width": 1216,
       "height": 3712
     },
     "background": {
@@ -2121,11 +2653,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 87,
-      "g": 54,
+      "r": 86,
+      "g": 255,
       "b": 56
     },
-    "aspectRatio": 0.3289
+    "aspectRatio": 0.3276
   },
   "1941791": {
     "id": "1941791",
@@ -2133,15 +2665,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1941791.jpg",
     "svgPath": "assets/vectors/1941791.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1119,
       "height": 2950
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1119,
-      "height": 2804
+      "width": 559,
+      "height": 2950
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 142,
+      "width": 554,
+      "height": 2662
     },
     "background": {
       "r": 255,
@@ -2149,11 +2688,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 64,
-      "g": 69,
-      "b": 36
+      "r": 81,
+      "g": 255,
+      "b": 52
     },
-    "aspectRatio": 0.3991
+    "aspectRatio": 0.2081
   },
   "1947124": {
     "id": "1947124",
@@ -2161,15 +2700,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1947124.jpg",
     "svgPath": "assets/vectors/1947124.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1876,
       "height": 1326
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1876,
       "height": 1326
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1870,
+      "height": 1174
     },
     "background": {
       "r": 34,
@@ -2178,10 +2724,10 @@
     },
     "dominantForeground": {
       "r": 71,
-      "g": 71,
+      "g": 34,
       "b": 71
     },
-    "aspectRatio": 1.4148
+    "aspectRatio": 1.5928
   },
   "1947639": {
     "id": "1947639",
@@ -2189,15 +2735,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1947639.jpg",
     "svgPath": "assets/vectors/1947639.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1611,
       "height": 1361
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1611,
       "height": 1361
+    },
+    "logoBBox": {
+      "x": 706,
+      "y": 566,
+      "width": 198,
+      "height": 226
     },
     "background": {
       "r": 24,
@@ -2205,11 +2758,11 @@
       "b": 24
     },
     "dominantForeground": {
-      "r": 182,
-      "g": 182,
-      "b": 181
+      "r": 216,
+      "g": 24,
+      "b": 214
     },
-    "aspectRatio": 1.1837
+    "aspectRatio": 0.8761
   },
   "1948034": {
     "id": "1948034",
@@ -2217,15 +2770,197 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1948034.jpg",
     "svgPath": "assets/vectors/1948034.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1952,
       "height": 1413
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1952,
+      "height": 1413
+    },
+    "logoBBox": {
       "x": 472,
       "y": 620,
       "width": 1008,
-      "height": 172
+      "height": 170
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 51,
+      "g": 255,
+      "b": 67
+    },
+    "aspectRatio": 5.9294
+  },
+  "1950552": {
+    "id": "1950552",
+    "title": "No Man Down",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1950552.jpg",
+    "svgPath": "assets/vectors/1950552.svg",
+    "layout": "split-2x1",
+    "fullDimensions": {
+      "width": 1752,
+      "height": 3339
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 876,
+      "height": 3339
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 196,
+      "width": 870,
+      "height": 2936
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 107,
+      "g": 255,
+      "b": 57
+    },
+    "aspectRatio": 0.2963
+  },
+  "1963672": {
+    "id": "1963672",
+    "title": "CYMA - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1963672.jpg",
+    "svgPath": "assets/vectors/1963672.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1872,
+      "height": 1341
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1872,
+      "height": 1341
+    },
+    "logoBBox": {
+      "x": 598,
+      "y": 562,
+      "width": 676,
+      "height": 214
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 189,
+      "g": 11,
+      "b": 195
+    },
+    "aspectRatio": 3.1589
+  },
+  "1963720": {
+    "id": "1963720",
+    "title": "Slasher - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1963720.jpg",
+    "svgPath": "assets/vectors/1963720.svg",
+    "layout": "split-2x1",
+    "fullDimensions": {
+      "width": 1752,
+      "height": 2976
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 876,
+      "height": 2976
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 870,
+      "height": 2970
+    },
+    "background": {
+      "r": 64,
+      "g": 64,
+      "b": 64
+    },
+    "dominantForeground": {
+      "r": 127,
+      "g": 64,
+      "b": 132
+    },
+    "aspectRatio": 0.2929
+  },
+  "1974995": {
+    "id": "1974995",
+    "title": "BB Guns - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1974995.jpg",
+    "svgPath": "assets/vectors/1974995.svg",
+    "layout": "split-2x1",
+    "fullDimensions": {
+      "width": 1752,
+      "height": 4067
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 876,
+      "height": 4067
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 870,
+      "height": 4046
+    },
+    "background": {
+      "r": 3,
+      "g": 3,
+      "b": 3
+    },
+    "dominantForeground": {
+      "r": 173,
+      "g": 3,
+      "b": 165
+    },
+    "aspectRatio": 0.215
+  },
+  "1975060": {
+    "id": "1975060",
+    "title": "Semper Survival - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1975060.jpg",
+    "svgPath": "assets/vectors/1975060.svg",
+    "layout": "split-2x1",
+    "fullDimensions": {
+      "width": 1752,
+      "height": 4416
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 876,
+      "height": 4416
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 278,
+      "width": 870,
+      "height": 3878
     },
     "background": {
       "r": 255,
@@ -2234,150 +2969,10 @@
     },
     "dominantForeground": {
       "r": 49,
-      "g": 48,
-      "b": 66
-    },
-    "aspectRatio": 5.8605
-  },
-  "1950552": {
-    "id": "1950552",
-    "title": "No Man Down",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/1950552.jpg",
-    "svgPath": "assets/vectors/1950552.svg",
-    "dimensions": {
-      "width": 1752,
-      "height": 3339
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1752,
-      "height": 3136
-    },
-    "background": {
-      "r": 255,
       "g": 255,
-      "b": 255
+      "b": 64
     },
-    "dominantForeground": {
-      "r": 92,
-      "g": 37,
-      "b": 47
-    },
-    "aspectRatio": 0.5587
-  },
-  "1963672": {
-    "id": "1963672",
-    "title": "CYMA - Logo Design",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/1963672.jpg",
-    "svgPath": "assets/vectors/1963672.svg",
-    "dimensions": {
-      "width": 1872,
-      "height": 1341
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1872,
-      "height": 1341
-    },
-    "background": {
-      "r": 10,
-      "g": 11,
-      "b": 13
-    },
-    "dominantForeground": {
-      "r": 175,
-      "g": 179,
-      "b": 181
-    },
-    "aspectRatio": 1.396
-  },
-  "1963720": {
-    "id": "1963720",
-    "title": "Slasher - Logo Proposal",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/1963720.jpg",
-    "svgPath": "assets/vectors/1963720.svg",
-    "dimensions": {
-      "width": 1752,
-      "height": 2976
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1752,
-      "height": 2976
-    },
-    "background": {
-      "r": 143,
-      "g": 143,
-      "b": 143
-    },
-    "dominantForeground": {
-      "r": 96,
-      "g": 69,
-      "b": 74
-    },
-    "aspectRatio": 0.5887
-  },
-  "1974995": {
-    "id": "1974995",
-    "title": "BB Guns - Logo Design",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/1974995.jpg",
-    "svgPath": "assets/vectors/1974995.svg",
-    "dimensions": {
-      "width": 1752,
-      "height": 4067
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1752,
-      "height": 4067
-    },
-    "background": {
-      "r": 99,
-      "g": 2,
-      "b": 2
-    },
-    "dominantForeground": {
-      "r": 114,
-      "g": 108,
-      "b": 109
-    },
-    "aspectRatio": 0.4308
-  },
-  "1975060": {
-    "id": "1975060",
-    "title": "Semper Survival - Logo Proposal",
-    "category": "tactical",
-    "originalImage": "crimadezignz-portfolio/images/1975060.jpg",
-    "svgPath": "assets/vectors/1975060.svg",
-    "dimensions": {
-      "width": 1752,
-      "height": 4416
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1752,
-      "height": 4164
-    },
-    "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
-    },
-    "dominantForeground": {
-      "r": 36,
-      "g": 41,
-      "b": 43
-    },
-    "aspectRatio": 0.4207
+    "aspectRatio": 0.2243
   },
   "1986026": {
     "id": "1986026",
@@ -2385,27 +2980,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/1986026.jpg",
     "svgPath": "assets/vectors/1986026.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1752,
       "height": 4489
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
+      "width": 876,
       "height": 4489
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 870,
+      "height": 4484
+    },
     "background": {
-      "r": 45,
-      "g": 65,
-      "b": 105
+      "r": 47,
+      "g": 47,
+      "b": 47
     },
     "dominantForeground": {
-      "r": 46,
-      "g": 52,
-      "b": 58
+      "r": 78,
+      "g": 47,
+      "b": 86
     },
-    "aspectRatio": 0.3903
+    "aspectRatio": 0.194
   },
   "1991930": {
     "id": "1991930",
@@ -2413,15 +3015,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1991930.jpg",
     "svgPath": "assets/vectors/1991930.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1816,
       "height": 2773
     },
-    "bbox": {
-      "x": 596,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1816,
+      "height": 2773
+    },
+    "logoBBox": {
+      "x": 598,
       "y": 552,
-      "width": 624,
-      "height": 1712
+      "width": 620,
+      "height": 1710
     },
     "background": {
       "r": 255,
@@ -2429,11 +3038,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 54,
-      "g": 51,
+      "r": 53,
+      "g": 255,
       "b": 49
     },
-    "aspectRatio": 0.3645
+    "aspectRatio": 0.3626
   },
   "1999438": {
     "id": "1999438",
@@ -2441,15 +3050,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/1999438.jpg",
     "svgPath": "assets/vectors/1999438.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
-      "x": 692,
-      "y": 336,
-      "width": 604,
-      "height": 580
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
+      "x": 694,
+      "y": 330,
+      "width": 614,
+      "height": 586
     },
     "background": {
       "r": 0,
@@ -2458,10 +3074,10 @@
     },
     "dominantForeground": {
       "r": 92,
-      "g": 4,
+      "g": 0,
       "b": 5
     },
-    "aspectRatio": 1.0414
+    "aspectRatio": 1.0478
   },
   "2004307": {
     "id": "2004307",
@@ -2469,27 +3085,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2004307.jpg",
     "svgPath": "assets/vectors/2004307.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1948,
       "height": 1943
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1948,
       "height": 1943
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1942,
+      "height": 1938
+    },
     "background": {
-      "r": 155,
-      "g": 71,
-      "b": 155
+      "r": 98,
+      "g": 46,
+      "b": 138
     },
     "dominantForeground": {
-      "r": 149,
-      "g": 99,
-      "b": 143
+      "r": 152,
+      "g": 46,
+      "b": 144
     },
-    "aspectRatio": 1.0026
+    "aspectRatio": 1.0021
   },
   "2024673": {
     "id": "2024673",
@@ -2497,15 +3120,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2024673.jpg",
     "svgPath": "assets/vectors/2024673.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
-      "x": 424,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
+      "x": 426,
       "y": 220,
-      "width": 1148,
-      "height": 808
+      "width": 1146,
+      "height": 806
     },
     "background": {
       "r": 0,
@@ -2513,11 +3143,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 164,
-      "g": 161,
+      "r": 165,
+      "g": 0,
       "b": 160
     },
-    "aspectRatio": 1.4208
+    "aspectRatio": 1.4218
   },
   "2029777": {
     "id": "2029777",
@@ -2525,15 +3155,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2029777.jpg",
     "svgPath": "assets/vectors/2029777.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
       "x": 408,
-      "y": 160,
-      "width": 1184,
-      "height": 900
+      "y": 162,
+      "width": 1182,
+      "height": 898
     },
     "background": {
       "r": 0,
@@ -2541,11 +3178,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 146,
-      "g": 87,
+      "r": 145,
+      "g": 0,
       "b": 93
     },
-    "aspectRatio": 1.3156
+    "aspectRatio": 1.3163
   },
   "2033547": {
     "id": "2033547",
@@ -2553,15 +3190,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2033547.jpg",
     "svgPath": "assets/vectors/2033547.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1944,
       "height": 2949
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 456,
+      "y": 0,
       "width": 1944,
-      "height": 2072
+      "height": 2949
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 458,
+      "width": 1938,
+      "height": 2068
     },
     "background": {
       "r": 255,
@@ -2570,10 +3214,10 @@
     },
     "dominantForeground": {
       "r": 62,
-      "g": 149,
-      "b": 199
+      "g": 255,
+      "b": 198
     },
-    "aspectRatio": 0.9382
+    "aspectRatio": 0.9371
   },
   "2033933": {
     "id": "2033933",
@@ -2581,15 +3225,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2033933.jpg",
     "svgPath": "assets/vectors/2033933.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2003,
       "height": 1387
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1536,
+      "width": 2003,
       "height": 1387
+    },
+    "logoBBox": {
+      "x": 472,
+      "y": 454,
+      "width": 1062,
+      "height": 476
     },
     "background": {
       "r": 0,
@@ -2598,10 +3249,10 @@
     },
     "dominantForeground": {
       "r": 125,
-      "g": 127,
+      "g": 0,
       "b": 132
     },
-    "aspectRatio": 1.1074
+    "aspectRatio": 2.2311
   },
   "2035210": {
     "id": "2035210",
@@ -2609,27 +3260,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2035210.jpg",
     "svgPath": "assets/vectors/2035210.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 172,
+      "y": 392,
+      "width": 532,
+      "height": 90
     },
     "background": {
-      "r": 105,
-      "g": 103,
-      "b": 104
+      "r": 254,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 103,
-      "g": 108,
-      "b": 111
+      "r": 67,
+      "g": 255,
+      "b": 74
     },
-    "aspectRatio": 1
+    "aspectRatio": 5.9111
   },
   "2035521": {
     "id": "2035521",
@@ -2637,15 +3295,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2035521.jpg",
     "svgPath": "assets/vectors/2035521.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
-      "x": 204,
+    "targetCell": {
+      "x": 0,
       "y": 0,
-      "width": 1620,
+      "width": 2000,
       "height": 1250
+    },
+    "logoBBox": {
+      "x": 208,
+      "y": 2,
+      "width": 1622,
+      "height": 1244
     },
     "background": {
       "r": 0,
@@ -2654,10 +3319,10 @@
     },
     "dominantForeground": {
       "r": 46,
-      "g": 45,
+      "g": 0,
       "b": 38
     },
-    "aspectRatio": 1.296
+    "aspectRatio": 1.3039
   },
   "2045881": {
     "id": "2045881",
@@ -2665,15 +3330,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2045881.jpg",
     "svgPath": "assets/vectors/2045881.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
-      "x": 356,
+    "targetCell": {
+      "x": 0,
       "y": 0,
-      "width": 1468,
+      "width": 2000,
       "height": 1250
+    },
+    "logoBBox": {
+      "x": 356,
+      "y": 2,
+      "width": 1474,
+      "height": 1244
     },
     "background": {
       "r": 0,
@@ -2681,11 +3353,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 77,
-      "g": 37,
+      "r": 78,
+      "g": 0,
       "b": 18
     },
-    "aspectRatio": 1.1744
+    "aspectRatio": 1.1849
   },
   "2046940": {
     "id": "2046940",
@@ -2693,15 +3365,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2046940.jpg",
     "svgPath": "assets/vectors/2046940.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1695,
       "height": 1333
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1695,
       "height": 1333
+    },
+    "logoBBox": {
+      "x": 638,
+      "y": 492,
+      "width": 418,
+      "height": 346
     },
     "background": {
       "r": 0,
@@ -2709,11 +3388,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 117,
-      "g": 14,
-      "b": 14
+      "r": 128,
+      "g": 0,
+      "b": 4
     },
-    "aspectRatio": 1.2716
+    "aspectRatio": 1.2081
   },
   "2047244": {
     "id": "2047244",
@@ -2721,15 +3400,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2047244.jpg",
     "svgPath": "assets/vectors/2047244.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
       "x": 664,
       "y": 344,
-      "width": 672,
-      "height": 564
+      "width": 670,
+      "height": 562
     },
     "background": {
       "r": 0,
@@ -2737,11 +3423,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 141,
-      "g": 23,
+      "r": 140,
+      "g": 0,
       "b": 29
     },
-    "aspectRatio": 1.1915
+    "aspectRatio": 1.1922
   },
   "2051445": {
     "id": "2051445",
@@ -2749,15 +3435,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2051445.jpg",
     "svgPath": "assets/vectors/2051445.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
       "x": 856,
       "y": 540,
-      "width": 288,
-      "height": 172
+      "width": 286,
+      "height": 170
     },
     "background": {
       "r": 255,
@@ -2765,11 +3458,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 221,
-      "g": 9,
-      "b": 9
+      "r": 222,
+      "g": 255,
+      "b": 11
     },
-    "aspectRatio": 1.6744
+    "aspectRatio": 1.6824
   },
   "2052158": {
     "id": "2052158",
@@ -2777,27 +3470,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2052158.jpg",
     "svgPath": "assets/vectors/2052158.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1857,
       "height": 1393
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1857,
       "height": 1393
     },
+    "logoBBox": {
+      "x": 680,
+      "y": 434,
+      "width": 518,
+      "height": 488
+    },
     "background": {
-      "r": 2,
-      "g": 2,
-      "b": 2
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 141,
-      "g": 43,
-      "b": 47
+      "r": 142,
+      "g": 0,
+      "b": 26
     },
-    "aspectRatio": 1.3331
+    "aspectRatio": 1.0615
   },
   "2056976": {
     "id": "2056976",
@@ -2805,27 +3505,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2056976.jpg",
     "svgPath": "assets/vectors/2056976.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1518,
       "height": 4328
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 284,
+      "y": 0,
       "width": 1518,
-      "height": 4044
+      "height": 4328
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1512,
+      "height": 4322
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 24,
-      "g": 26,
-      "b": 9
+      "r": 139,
+      "g": 0,
+      "b": 113
     },
-    "aspectRatio": 0.3754
+    "aspectRatio": 0.3498
   },
   "2068805": {
     "id": "2068805",
@@ -2833,15 +3540,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2068805.jpg",
     "svgPath": "assets/vectors/2068805.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1801,
       "height": 1330
     },
-    "bbox": {
-      "x": 504,
-      "y": 388,
-      "width": 792,
-      "height": 764
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1801,
+      "height": 1330
+    },
+    "logoBBox": {
+      "x": 506,
+      "y": 390,
+      "width": 788,
+      "height": 760
     },
     "background": {
       "r": 255,
@@ -2849,11 +3563,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 131,
-      "g": 128,
-      "b": 128
+      "r": 130,
+      "g": 255,
+      "b": 127
     },
-    "aspectRatio": 1.0366
+    "aspectRatio": 1.0368
   },
   "2069575": {
     "id": "2069575",
@@ -2861,27 +3575,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2069575.jpg",
     "svgPath": "assets/vectors/2069575.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1509,
       "height": 1778
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1509,
+      "width": 754,
       "height": 1778
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 174,
+      "width": 748,
+      "height": 1600
+    },
     "background": {
-      "r": 255,
-      "g": 88,
-      "b": 13
+      "r": 14,
+      "g": 14,
+      "b": 14
     },
     "dominantForeground": {
-      "r": 122,
-      "g": 124,
-      "b": 125
+      "r": 92,
+      "g": 14,
+      "b": 101
     },
-    "aspectRatio": 0.8487
+    "aspectRatio": 0.4675
   },
   "2098394": {
     "id": "2098394",
@@ -2889,15 +3610,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2098394.jpg",
     "svgPath": "assets/vectors/2098394.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1469,
       "height": 2938
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1469,
       "height": 2938
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 76,
+      "width": 1464,
+      "height": 2786
     },
     "background": {
       "r": 35,
@@ -2905,11 +3633,11 @@
       "b": 35
     },
     "dominantForeground": {
-      "r": 192,
-      "g": 192,
-      "b": 190
+      "r": 206,
+      "g": 35,
+      "b": 204
     },
-    "aspectRatio": 0.5
+    "aspectRatio": 0.5255
   },
   "2114597": {
     "id": "2114597",
@@ -2917,15 +3645,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2114597.jpg",
     "svgPath": "assets/vectors/2114597.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1522,
       "height": 1522
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1522,
+      "height": 1522
+    },
+    "logoBBox": {
       "x": 76,
-      "y": 76,
+      "y": 78,
       "width": 1368,
-      "height": 1368
+      "height": 1366
     },
     "background": {
       "r": 255,
@@ -2934,10 +3669,10 @@
     },
     "dominantForeground": {
       "r": 19,
-      "g": 19,
+      "g": 255,
       "b": 19
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.0015
   },
   "2115125": {
     "id": "2115125",
@@ -2945,15 +3680,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2115125.jpg",
     "svgPath": "assets/vectors/2115125.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1758,
       "height": 2496
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1758,
-      "height": 2268
+      "width": 879,
+      "height": 2496
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 398,
+      "width": 874,
+      "height": 1862
     },
     "background": {
       "r": 255,
@@ -2961,11 +3703,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 105,
-      "g": 29,
-      "b": 31
+      "r": 64,
+      "g": 255,
+      "b": 86
     },
-    "aspectRatio": 0.7751
+    "aspectRatio": 0.4694
   },
   "2117651": {
     "id": "2117651",
@@ -2973,15 +3715,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2117651.jpg",
     "svgPath": "assets/vectors/2117651.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1522,
       "height": 1522
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1444,
+      "width": 1522,
       "height": 1522
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1368,
+      "height": 1366
     },
     "background": {
       "r": 0,
@@ -2989,11 +3738,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 147,
-      "g": 149,
-      "b": 91
+      "r": 153,
+      "g": 0,
+      "b": 88
     },
-    "aspectRatio": 0.9488
+    "aspectRatio": 1.0015
   },
   "2121526": {
     "id": "2121526",
@@ -3001,15 +3750,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2121526.jpg",
     "svgPath": "assets/vectors/2121526.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 2000,
       "height": 1250
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1994,
+      "height": 1244
     },
     "background": {
       "r": 2,
@@ -3018,10 +3774,10 @@
     },
     "dominantForeground": {
       "r": 52,
-      "g": 43,
+      "g": 1,
       "b": 58
     },
-    "aspectRatio": 1.6
+    "aspectRatio": 1.6029
   },
   "2122664": {
     "id": "2122664",
@@ -3029,15 +3785,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2122664.jpg",
     "svgPath": "assets/vectors/2122664.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
       "x": 708,
-      "y": 332,
-      "width": 584,
-      "height": 584
+      "y": 334,
+      "width": 582,
+      "height": 582
     },
     "background": {
       "r": 255,
@@ -3045,9 +3808,9 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 125,
-      "g": 124,
-      "b": 125
+      "r": 126,
+      "g": 255,
+      "b": 126
     },
     "aspectRatio": 1
   },
@@ -3057,27 +3820,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2125907.jpg",
     "svgPath": "assets/vectors/2125907.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1770,
       "height": 6620
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 456,
+      "y": 0,
       "width": 1770,
-      "height": 6164
+      "height": 6620
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1764,
+      "height": 6160
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 96,
-      "g": 66,
-      "b": 50
+      "r": 199,
+      "g": 0,
+      "b": 164
     },
-    "aspectRatio": 0.2872
+    "aspectRatio": 0.2864
   },
   "2128651": {
     "id": "2128651",
@@ -3085,27 +3855,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2128651.jpg",
     "svgPath": "assets/vectors/2128651.svg",
-    "dimensions": {
+    "layout": "grid-2x3",
+    "fullDimensions": {
       "width": 1752,
       "height": 2628
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 2324
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 264,
+      "y": 304,
+      "width": 348,
+      "height": 266
     },
     "background": {
-      "r": 255,
+      "r": 253,
       "g": 255,
       "b": 255
     },
     "dominantForeground": {
-      "r": 39,
-      "g": 64,
-      "b": 104
+      "r": 38,
+      "g": 255,
+      "b": 136
     },
-    "aspectRatio": 0.7539
+    "aspectRatio": 1.3083
   },
   "2132196": {
     "id": "2132196",
@@ -3113,15 +3890,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2132196.jpg",
     "svgPath": "assets/vectors/2132196.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1259,
       "height": 5021
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 64,
+      "y": 0,
       "width": 1259,
-      "height": 4957
+      "height": 2510
+    },
+    "logoBBox": {
+      "x": 62,
+      "y": 64,
+      "width": 1130,
+      "height": 2382
     },
     "background": {
       "r": 255,
@@ -3129,11 +3913,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 5,
-      "g": 3,
-      "b": 3
+      "r": 94,
+      "g": 255,
+      "b": 78
     },
-    "aspectRatio": 0.254
+    "aspectRatio": 0.4744
   },
   "2133116": {
     "id": "2133116",
@@ -3141,27 +3925,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2133116.jpg",
     "svgPath": "assets/vectors/2133116.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 1752,
       "height": 2394
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
+      "width": 876,
       "height": 2394
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 870,
+      "height": 2278
+    },
     "background": {
-      "r": 15,
-      "g": 15,
-      "b": 15
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 154,
-      "g": 162,
-      "b": 165
+      "r": 159,
+      "g": 0,
+      "b": 171
     },
-    "aspectRatio": 0.7318
+    "aspectRatio": 0.3819
   },
   "2138642": {
     "id": "2138642",
@@ -3169,27 +3960,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2138642.jpg",
     "svgPath": "assets/vectors/2138642.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1545,
       "height": 1602
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1545,
       "height": 1602
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1540,
+      "height": 1596
+    },
     "background": {
-      "r": 50,
-      "g": 12,
-      "b": 13
+      "r": 38,
+      "g": 11,
+      "b": 6
     },
     "dominantForeground": {
-      "r": 87,
-      "g": 74,
-      "b": 56
+      "r": 90,
+      "g": 11,
+      "b": 58
     },
-    "aspectRatio": 0.9644
+    "aspectRatio": 0.9649
   },
   "2141080": {
     "id": "2141080",
@@ -3197,27 +3995,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2141080.jpg",
     "svgPath": "assets/vectors/2141080.svg",
-    "dimensions": {
+    "layout": "grid-3x2",
+    "fullDimensions": {
       "width": 1602,
       "height": 1655
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1602,
-      "height": 1655
+      "width": 534,
+      "height": 827
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 528,
+      "height": 822
     },
     "background": {
-      "r": 20,
-      "g": 20,
-      "b": 20
+      "r": 13,
+      "g": 13,
+      "b": 13
     },
     "dominantForeground": {
-      "r": 135,
-      "g": 137,
-      "b": 140
+      "r": 142,
+      "g": 13,
+      "b": 147
     },
-    "aspectRatio": 0.968
+    "aspectRatio": 0.6423
   },
   "2142181": {
     "id": "2142181",
@@ -3225,27 +4030,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2142181.jpg",
     "svgPath": "assets/vectors/2142181.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1578,
       "height": 1578
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1578,
-      "height": 1578
+      "width": 789,
+      "height": 789
+    },
+    "logoBBox": {
+      "x": 36,
+      "y": 38,
+      "width": 714,
+      "height": 712
     },
     "background": {
-      "r": 112,
-      "g": 111,
-      "b": 109
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 119,
-      "g": 118,
-      "b": 118
+      "r": 48,
+      "g": 255,
+      "b": 41
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.0028
   },
   "2143356": {
     "id": "2143356",
@@ -3253,14 +4065,21 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2143356.jpg",
     "svgPath": "assets/vectors/2143356.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1521,
       "height": 3043
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 3043
+    },
+    "logoBBox": {
       "x": 76,
       "y": 76,
-      "width": 1368,
+      "width": 1366,
       "height": 2888
     },
     "background": {
@@ -3270,10 +4089,10 @@
     },
     "dominantForeground": {
       "r": 18,
-      "g": 89,
+      "g": 255,
       "b": 149
     },
-    "aspectRatio": 0.4737
+    "aspectRatio": 0.473
   },
   "2156030": {
     "id": "2156030",
@@ -3281,15 +4100,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2156030.jpg",
     "svgPath": "assets/vectors/2156030.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1521,
       "height": 1521
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 760
+    },
+    "logoBBox": {
       "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
+      "y": 78,
+      "width": 1366,
+      "height": 678
     },
     "background": {
       "r": 255,
@@ -3297,11 +4123,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 45,
-      "g": 45,
-      "b": 45
+      "r": 66,
+      "g": 255,
+      "b": 66
     },
-    "aspectRatio": 1
+    "aspectRatio": 2.0147
   },
   "2160167": {
     "id": "2160167",
@@ -3309,15 +4135,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2160167.jpg",
     "svgPath": "assets/vectors/2160167.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
-      "x": 280,
+    "targetCell": {
+      "x": 0,
       "y": 0,
-      "width": 1544,
+      "width": 2000,
       "height": 1250
+    },
+    "logoBBox": {
+      "x": 282,
+      "y": 2,
+      "width": 1548,
+      "height": 1244
     },
     "background": {
       "r": 0,
@@ -3326,10 +4159,10 @@
     },
     "dominantForeground": {
       "r": 64,
-      "g": 54,
+      "g": 0,
       "b": 41
     },
-    "aspectRatio": 1.2352
+    "aspectRatio": 1.2444
   },
   "2166996": {
     "id": "2166996",
@@ -3337,27 +4170,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2166996.jpg",
     "svgPath": "assets/vectors/2166996.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 2000,
-      "height": 1250
+      "height": 625
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1994,
+      "height": 620
     },
     "background": {
-      "r": 192,
-      "g": 192,
-      "b": 192
+      "r": 206,
+      "g": 206,
+      "b": 206
     },
     "dominantForeground": {
-      "r": 178,
-      "g": 178,
-      "b": 178
+      "r": 180,
+      "g": 206,
+      "b": 180
     },
-    "aspectRatio": 1.6
+    "aspectRatio": 3.2161
   },
   "2169259": {
     "id": "2169259",
@@ -3365,71 +4205,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2169259.jpg",
     "svgPath": "assets/vectors/2169259.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 876
     },
-    "background": {
-      "r": 95,
-      "g": 98,
-      "b": 103
-    },
-    "dominantForeground": {
-      "r": 100,
-      "g": 101,
-      "b": 104
-    },
-    "aspectRatio": 1
-  },
-  "2169386": {
-    "id": "2169386",
-    "title": "Car Supply",
-    "category": "symbolic",
-    "originalImage": "crimadezignz-portfolio/images/2169386.jpg",
-    "svgPath": "assets/vectors/2169386.svg",
-    "dimensions": {
-      "width": 1521,
-      "height": 3043
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1444,
-      "height": 3043
-    },
-    "background": {
-      "r": 31,
-      "g": 26,
-      "b": 23
-    },
-    "dominantForeground": {
-      "r": 239,
-      "g": 239,
-      "b": 238
-    },
-    "aspectRatio": 0.4745
-  },
-  "2171485": {
-    "id": "2171485",
-    "title": "Findelis Home Partners",
-    "category": "symbolic",
-    "originalImage": "crimadezignz-portfolio/images/2171485.jpg",
-    "svgPath": "assets/vectors/2171485.svg",
-    "dimensions": {
-      "width": 1521,
-      "height": 1521
-    },
-    "bbox": {
-      "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
+    "logoBBox": {
+      "x": 316,
+      "y": 290,
+      "width": 248,
+      "height": 294
     },
     "background": {
       "r": 255,
@@ -3437,11 +4228,81 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 80,
-      "g": 83,
-      "b": 67
+      "r": 42,
+      "g": 255,
+      "b": 42
     },
-    "aspectRatio": 1
+    "aspectRatio": 0.8435
+  },
+  "2169386": {
+    "id": "2169386",
+    "title": "Car Supply",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2169386.jpg",
+    "svgPath": "assets/vectors/2169386.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1521,
+      "height": 3043
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 3043
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 2538
+    },
+    "background": {
+      "r": 31,
+      "g": 26,
+      "b": 23
+    },
+    "dominantForeground": {
+      "r": 244,
+      "g": 26,
+      "b": 243
+    },
+    "aspectRatio": 0.5382
+  },
+  "2171485": {
+    "id": "2171485",
+    "title": "Findelis Home Partners",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2171485.jpg",
+    "svgPath": "assets/vectors/2171485.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 1364
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 82,
+      "g": 255,
+      "b": 68
+    },
+    "aspectRatio": 1.0015
   },
   "2178455": {
     "id": "2178455",
@@ -3449,15 +4310,302 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2178455.jpg",
     "svgPath": "assets/vectors/2178455.svg",
-    "dimensions": {
+    "layout": "grid-2x3",
+    "fullDimensions": {
       "width": 1298,
       "height": 1948
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1298,
-      "height": 1916
+      "width": 649,
+      "height": 649
+    },
+    "logoBBox": {
+      "x": 30,
+      "y": 30,
+      "width": 588,
+      "height": 588
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 171,
+      "g": 255,
+      "b": 69
+    },
+    "aspectRatio": 1
+  },
+  "2179676": {
+    "id": "2179676",
+    "title": "Kings and Priests",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2179676.jpg",
+    "svgPath": "assets/vectors/2179676.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1679,
+      "height": 1735
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1679,
+      "height": 1735
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1674,
+      "height": 1730
+    },
+    "background": {
+      "r": 3,
+      "g": 3,
+      "b": 3
+    },
+    "dominantForeground": {
+      "r": 183,
+      "g": 3,
+      "b": 183
+    },
+    "aspectRatio": 0.9676
+  },
+  "2185209": {
+    "id": "2185209",
+    "title": "Modalic Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2185209.jpg",
+    "svgPath": "assets/vectors/2185209.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 1364
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 23,
+      "g": 255,
+      "b": 25
+    },
+    "aspectRatio": 1.0015
+  },
+  "2196866": {
+    "id": "2196866",
+    "title": "Kalibershop ",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2196866.jpg",
+    "svgPath": "assets/vectors/2196866.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1508,
+      "height": 1558
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1508,
+      "height": 1558
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1502,
+      "height": 1552
+    },
+    "background": {
+      "r": 140,
+      "g": 97,
+      "b": 36
+    },
+    "dominantForeground": {
+      "r": 143,
+      "g": 97,
+      "b": 101
+    },
+    "aspectRatio": 0.9678
+  },
+  "2198352": {
+    "id": "2198352",
+    "title": "Titans Armory",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2198352.jpg",
+    "svgPath": "assets/vectors/2198352.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1521,
+      "height": 3043
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 3043
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 2886
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 41,
+      "g": 255,
+      "b": 34
+    },
+    "aspectRatio": 0.4733
+  },
+  "2199821": {
+    "id": "2199821",
+    "title": "DD-214 Shooters Classic",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2199821.jpg",
+    "svgPath": "assets/vectors/2199821.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
+      "x": 474,
+      "y": 274,
+      "width": 1482,
+      "height": 938
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 108,
+      "g": 0,
+      "b": 108
+    },
+    "aspectRatio": 1.58
+  },
+  "2206175": {
+    "id": "2206175",
+    "title": "Heimdall - Logo Proposal",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2206175.jpg",
+    "svgPath": "assets/vectors/2206175.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "logoBBox": {
+      "x": 88,
+      "y": 68,
+      "width": 1366,
+      "height": 1364
+    },
+    "background": {
+      "r": 45,
+      "g": 51,
+      "b": 99
+    },
+    "dominantForeground": {
+      "r": 233,
+      "g": 51,
+      "b": 238
+    },
+    "aspectRatio": 1.0015
+  },
+  "2214044": {
+    "id": "2214044",
+    "title": "Drone Trust",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2214044.jpg",
+    "svgPath": "assets/vectors/2214044.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 1364
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 72,
+      "g": 255,
+      "b": 53
+    },
+    "aspectRatio": 1.0015
+  },
+  "2217155": {
+    "id": "2217155",
+    "title": "NOOK Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2217155.jpg",
+    "svgPath": "assets/vectors/2217155.svg",
+    "layout": "split-1x2",
+    "fullDimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 760
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 678
     },
     "background": {
       "r": 255,
@@ -3466,234 +4614,10 @@
     },
     "dominantForeground": {
       "r": 27,
-      "g": 17,
-      "b": 18
-    },
-    "aspectRatio": 0.6775
-  },
-  "2179676": {
-    "id": "2179676",
-    "title": "Kings and Priests",
-    "category": "symbolic",
-    "originalImage": "crimadezignz-portfolio/images/2179676.jpg",
-    "svgPath": "assets/vectors/2179676.svg",
-    "dimensions": {
-      "width": 1679,
-      "height": 1735
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1679,
-      "height": 1735
-    },
-    "background": {
-      "r": 15,
-      "g": 15,
-      "b": 15
-    },
-    "dominantForeground": {
-      "r": 208,
-      "g": 208,
-      "b": 208
-    },
-    "aspectRatio": 0.9677
-  },
-  "2185209": {
-    "id": "2185209",
-    "title": "Modalic Logo Design",
-    "category": "tactical",
-    "originalImage": "crimadezignz-portfolio/images/2185209.jpg",
-    "svgPath": "assets/vectors/2185209.svg",
-    "dimensions": {
-      "width": 1521,
-      "height": 1521
-    },
-    "bbox": {
-      "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
-    },
-    "background": {
-      "r": 255,
       "g": 255,
-      "b": 255
+      "b": 27
     },
-    "dominantForeground": {
-      "r": 24,
-      "g": 25,
-      "b": 26
-    },
-    "aspectRatio": 1
-  },
-  "2196866": {
-    "id": "2196866",
-    "title": "Kalibershop ",
-    "category": "symbolic",
-    "originalImage": "crimadezignz-portfolio/images/2196866.jpg",
-    "svgPath": "assets/vectors/2196866.svg",
-    "dimensions": {
-      "width": 1508,
-      "height": 1558
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1508,
-      "height": 1558
-    },
-    "background": {
-      "r": 179,
-      "g": 122,
-      "b": 51
-    },
-    "dominantForeground": {
-      "r": 136,
-      "g": 122,
-      "b": 104
-    },
-    "aspectRatio": 0.9679
-  },
-  "2198352": {
-    "id": "2198352",
-    "title": "Titans Armory",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/2198352.jpg",
-    "svgPath": "assets/vectors/2198352.svg",
-    "dimensions": {
-      "width": 1521,
-      "height": 3043
-    },
-    "bbox": {
-      "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 2888
-    },
-    "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
-    },
-    "dominantForeground": {
-      "r": 40,
-      "g": 36,
-      "b": 33
-    },
-    "aspectRatio": 0.4737
-  },
-  "2199821": {
-    "id": "2199821",
-    "title": "DD-214 Shooters Classic",
-    "category": "symbolic",
-    "originalImage": "crimadezignz-portfolio/images/2199821.jpg",
-    "svgPath": "assets/vectors/2199821.svg",
-    "dimensions": {
-      "width": 2000,
-      "height": 1250
-    },
-    "bbox": {
-      "x": 472,
-      "y": 272,
-      "width": 1484,
-      "height": 940
-    },
-    "background": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "dominantForeground": {
-      "r": 109,
-      "g": 109,
-      "b": 109
-    },
-    "aspectRatio": 1.5787
-  },
-  "2206175": {
-    "id": "2206175",
-    "title": "Heimdall - Logo Proposal",
-    "category": "symbolic",
-    "originalImage": "crimadezignz-portfolio/images/2206175.jpg",
-    "svgPath": "assets/vectors/2206175.svg",
-    "dimensions": {
-      "width": 1521,
-      "height": 1521
-    },
-    "bbox": {
-      "x": 0,
-      "y": 0,
-      "width": 1521,
-      "height": 1521
-    },
-    "background": {
-      "r": 45,
-      "g": 51,
-      "b": 99
-    },
-    "dominantForeground": {
-      "r": 212,
-      "g": 214,
-      "b": 225
-    },
-    "aspectRatio": 1
-  },
-  "2214044": {
-    "id": "2214044",
-    "title": "Drone Trust",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/2214044.jpg",
-    "svgPath": "assets/vectors/2214044.svg",
-    "dimensions": {
-      "width": 1521,
-      "height": 1521
-    },
-    "bbox": {
-      "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
-    },
-    "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
-    },
-    "dominantForeground": {
-      "r": 74,
-      "g": 63,
-      "b": 54
-    },
-    "aspectRatio": 1
-  },
-  "2217155": {
-    "id": "2217155",
-    "title": "NOOK Logo Proposal",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/2217155.jpg",
-    "svgPath": "assets/vectors/2217155.svg",
-    "dimensions": {
-      "width": 1521,
-      "height": 1521
-    },
-    "bbox": {
-      "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
-    },
-    "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
-    },
-    "dominantForeground": {
-      "r": 25,
-      "g": 25,
-      "b": 25
-    },
-    "aspectRatio": 1
+    "aspectRatio": 2.0147
   },
   "2225150": {
     "id": "2225150",
@@ -3701,27 +4625,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2225150.jpg",
     "svgPath": "assets/vectors/2225150.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1733,
       "height": 1791
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1733,
       "height": 1791
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1728,
+      "height": 1786
+    },
     "background": {
-      "r": 135,
-      "g": 135,
-      "b": 135
+      "r": 54,
+      "g": 54,
+      "b": 56
     },
     "dominantForeground": {
-      "r": 130,
-      "g": 130,
-      "b": 130
+      "r": 138,
+      "g": 54,
+      "b": 138
     },
-    "aspectRatio": 0.9676
+    "aspectRatio": 0.9675
   },
   "2229275": {
     "id": "2229275",
@@ -3729,27 +4660,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2229275.jpg",
     "svgPath": "assets/vectors/2229275.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1521,
       "height": 2666
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 76,
+      "y": 0,
       "width": 1521,
-      "height": 2590
+      "height": 2666
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1516,
+      "height": 2626
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 119,
+      "g": 119,
+      "b": 119
     },
     "dominantForeground": {
-      "r": 105,
-      "g": 105,
-      "b": 105
+      "r": 222,
+      "g": 119,
+      "b": 222
     },
-    "aspectRatio": 0.5873
+    "aspectRatio": 0.5773
   },
   "2230471": {
     "id": "2230471",
@@ -3757,27 +4695,34 @@
     "category": "wordmark",
     "originalImage": "crimadezignz-portfolio/images/2230471.jpg",
     "svgPath": "assets/vectors/2230471.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1761,
       "height": 3125
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 448,
+      "y": 0,
       "width": 1761,
-      "height": 2677
+      "height": 3125
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1756,
+      "height": 3038
     },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 10,
-      "g": 9,
-      "b": 8
+      "r": 230,
+      "g": 0,
+      "b": 227
     },
-    "aspectRatio": 0.6578
+    "aspectRatio": 0.578
   },
   "2230475": {
     "id": "2230475",
@@ -3785,27 +4730,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2230475.jpg",
     "svgPath": "assets/vectors/2230475.svg",
-    "dimensions": {
+    "layout": "grid-3x2",
+    "fullDimensions": {
       "width": 1679,
       "height": 1735
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1679,
-      "height": 1735
+      "width": 559,
+      "height": 867
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 554,
+      "height": 862
     },
     "background": {
-      "r": 181,
-      "g": 181,
-      "b": 181
+      "r": 0,
+      "g": 0,
+      "b": 0
     },
     "dominantForeground": {
-      "r": 124,
-      "g": 124,
-      "b": 124
+      "r": 159,
+      "g": 0,
+      "b": 159
     },
-    "aspectRatio": 0.9677
+    "aspectRatio": 0.6427
   },
   "2230491": {
     "id": "2230491",
@@ -3813,15 +4765,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2230491.jpg",
     "svgPath": "assets/vectors/2230491.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1521,
       "height": 3043
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 3043
+    },
+    "logoBBox": {
       "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 2496
+      "y": 78,
+      "width": 1366,
+      "height": 2492
     },
     "background": {
       "r": 255,
@@ -3829,11 +4788,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 74,
-      "g": 68,
-      "b": 77
+      "r": 73,
+      "g": 255,
+      "b": 75
     },
-    "aspectRatio": 0.5481
+    "aspectRatio": 0.5482
   },
   "2234853": {
     "id": "2234853",
@@ -3841,27 +4800,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2234853.jpg",
     "svgPath": "assets/vectors/2234853.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 2012,
       "height": 2013
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 2012,
+      "width": 1006,
       "height": 2013
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 56,
+      "width": 1000,
+      "height": 1954
+    },
     "background": {
-      "r": 100,
-      "g": 105,
-      "b": 121
+      "r": 2,
+      "g": 2,
+      "b": 2
     },
     "dominantForeground": {
-      "r": 87,
-      "g": 75,
-      "b": 56
+      "r": 212,
+      "g": 2,
+      "b": 207
     },
-    "aspectRatio": 0.9995
+    "aspectRatio": 0.5118
   },
   "2235761": {
     "id": "2235761",
@@ -3869,14 +4835,21 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2235761.jpg",
     "svgPath": "assets/vectors/2235761.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
-      "x": 688,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
+      "x": 690,
       "y": 336,
-      "width": 616,
+      "width": 618,
       "height": 812
     },
     "background": {
@@ -3885,11 +4858,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 95,
-      "g": 95,
+      "r": 94,
+      "g": 0,
       "b": 97
     },
-    "aspectRatio": 0.7586
+    "aspectRatio": 0.7611
   },
   "2235822": {
     "id": "2235822",
@@ -3897,14 +4870,21 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2235822.jpg",
     "svgPath": "assets/vectors/2235822.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
-      "x": 652,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1000,
+      "height": 1250
+    },
+    "logoBBox": {
+      "x": 654,
       "y": 344,
-      "width": 736,
+      "width": 342,
       "height": 792
     },
     "background": {
@@ -3913,11 +4893,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 49,
-      "g": 49,
-      "b": 49
+      "r": 44,
+      "g": 255,
+      "b": 44
     },
-    "aspectRatio": 0.9293
+    "aspectRatio": 0.4318
   },
   "2236736": {
     "id": "2236736",
@@ -3925,27 +4905,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2236736.jpg",
     "svgPath": "assets/vectors/2236736.svg",
-    "dimensions": {
+    "layout": "grid-3x2",
+    "fullDimensions": {
       "width": 1978,
       "height": 1318
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1978,
-      "height": 1318
+      "width": 659,
+      "height": 659
+    },
+    "logoBBox": {
+      "x": 168,
+      "y": 268,
+      "width": 354,
+      "height": 120
     },
     "background": {
-      "r": 64,
-      "g": 81,
-      "b": 84
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 134,
-      "g": 109,
-      "b": 55
+      "r": 229,
+      "g": 255,
+      "b": 51
     },
-    "aspectRatio": 1.5008
+    "aspectRatio": 2.95
   },
   "2237865": {
     "id": "2237865",
@@ -3953,43 +4940,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2237865.jpg",
     "svgPath": "assets/vectors/2237865.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1521,
       "height": 1521
     },
-    "bbox": {
-      "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
-    },
-    "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
-    },
-    "dominantForeground": {
-      "r": 35,
-      "g": 35,
-      "b": 35
-    },
-    "aspectRatio": 1
-  },
-  "2242080": {
-    "id": "2242080",
-    "title": "Seth Bakke Films",
-    "category": "monogram",
-    "originalImage": "crimadezignz-portfolio/images/2242080.jpg",
-    "svgPath": "assets/vectors/2242080.svg",
-    "dimensions": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
       "width": 1521,
-      "height": 1521
+      "height": 760
     },
-    "bbox": {
+    "logoBBox": {
       "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
+      "y": 78,
+      "width": 1366,
+      "height": 678
     },
     "background": {
       "r": 255,
@@ -3998,10 +4964,45 @@
     },
     "dominantForeground": {
       "r": 53,
-      "g": 49,
-      "b": 46
+      "g": 255,
+      "b": 53
     },
-    "aspectRatio": 1
+    "aspectRatio": 2.0147
+  },
+  "2242080": {
+    "id": "2242080",
+    "title": "Seth Bakke Films",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2242080.jpg",
+    "svgPath": "assets/vectors/2242080.svg",
+    "layout": "single",
+    "fullDimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 1364
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 50,
+      "g": 255,
+      "b": 43
+    },
+    "aspectRatio": 1.0015
   },
   "2244626": {
     "id": "2244626",
@@ -4009,15 +5010,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2244626.jpg",
     "svgPath": "assets/vectors/2244626.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1521,
       "height": 1521
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1521,
       "height": 1521
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 1364
     },
     "background": {
       "r": 10,
@@ -4025,11 +5033,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 181,
-      "g": 181,
-      "b": 181
+      "r": 187,
+      "g": 11,
+      "b": 188
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.0015
   },
   "2251276": {
     "id": "2251276",
@@ -4037,15 +5045,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2251276.jpg",
     "svgPath": "assets/vectors/2251276.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 1521,
       "height": 3043
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 76,
+      "y": 0,
       "width": 1521,
-      "height": 2967
+      "height": 1521
+    },
+    "logoBBox": {
+      "x": 76,
+      "y": 78,
+      "width": 1366,
+      "height": 1364
     },
     "background": {
       "r": 255,
@@ -4053,11 +5068,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 252,
-      "g": 159,
-      "b": 201
+      "r": 220,
+      "g": 255,
+      "b": 169
     },
-    "aspectRatio": 0.5126
+    "aspectRatio": 1.0015
   },
   "2251277": {
     "id": "2251277",
@@ -4065,27 +5080,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2251277.jpg",
     "svgPath": "assets/vectors/2251277.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 2012,
       "height": 2013
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1952,
+      "width": 1006,
       "height": 2013
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1000,
+      "height": 2008
+    },
     "background": {
-      "r": 100,
-      "g": 100,
-      "b": 100
+      "r": 35,
+      "g": 35,
+      "b": 37
     },
     "dominantForeground": {
-      "r": 76,
-      "g": 57,
-      "b": 59
+      "r": 78,
+      "g": 35,
+      "b": 77
     },
-    "aspectRatio": 0.9697
+    "aspectRatio": 0.498
   },
   "2253331": {
     "id": "2253331",
@@ -4093,15 +5115,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2253331.jpg",
     "svgPath": "assets/vectors/2253331.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
       "x": 668,
       "y": 380,
       "width": 1276,
-      "height": 832
+      "height": 830
     },
     "background": {
       "r": 0,
@@ -4109,11 +5138,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 198,
-      "g": 185,
-      "b": 147
+      "r": 197,
+      "g": 0,
+      "b": 148
     },
-    "aspectRatio": 1.5337
+    "aspectRatio": 1.5373
   },
   "2259266": {
     "id": "2259266",
@@ -4121,15 +5150,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2259266.jpg",
     "svgPath": "assets/vectors/2259266.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1521,
       "height": 1521
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "logoBBox": {
       "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
+      "y": 78,
+      "width": 1366,
+      "height": 1364
     },
     "background": {
       "r": 255,
@@ -4137,11 +5173,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 81,
-      "g": 68,
-      "b": 67
+      "r": 83,
+      "g": 255,
+      "b": 70
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.0015
   },
   "2264262": {
     "id": "2264262",
@@ -4149,15 +5185,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2264262.jpg",
     "svgPath": "assets/vectors/2264262.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
       "x": 528,
-      "y": 296,
-      "width": 1424,
-      "height": 916
+      "y": 290,
+      "width": 1422,
+      "height": 922
     },
     "background": {
       "r": 0,
@@ -4166,10 +5209,10 @@
     },
     "dominantForeground": {
       "r": 64,
-      "g": 86,
-      "b": 93
+      "g": 0,
+      "b": 94
     },
-    "aspectRatio": 1.5546
+    "aspectRatio": 1.5423
   },
   "2267684": {
     "id": "2267684",
@@ -4177,27 +5220,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2267684.jpg",
     "svgPath": "assets/vectors/2267684.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 2012,
       "height": 2013
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 2012,
+      "width": 1006,
       "height": 2013
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1000,
+      "height": 2008
+    },
     "background": {
-      "r": 217,
-      "g": 217,
-      "b": 217
+      "r": 24,
+      "g": 24,
+      "b": 24
     },
     "dominantForeground": {
-      "r": 53,
-      "g": 75,
-      "b": 84
+      "r": 85,
+      "g": 24,
+      "b": 86
     },
-    "aspectRatio": 0.9995
+    "aspectRatio": 0.498
   },
   "2269929": {
     "id": "2269929",
@@ -4205,15 +5255,22 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2269929.jpg",
     "svgPath": "assets/vectors/2269929.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
-      "x": 696,
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
+      "x": 698,
       "y": 324,
-      "width": 1248,
-      "height": 888
+      "width": 1246,
+      "height": 886
     },
     "background": {
       "r": 255,
@@ -4221,11 +5278,11 @@
       "b": 255
     },
     "dominantForeground": {
-      "r": 45,
-      "g": 45,
-      "b": 45
+      "r": 46,
+      "g": 255,
+      "b": 46
     },
-    "aspectRatio": 1.4054
+    "aspectRatio": 1.4063
   },
   "2272934": {
     "id": "2272934",
@@ -4233,15 +5290,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2272934.jpg",
     "svgPath": "assets/vectors/2272934.svg",
-    "dimensions": {
+    "layout": "split-1x2",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 625
+    },
+    "logoBBox": {
       "x": 468,
-      "y": 508,
-      "width": 1064,
-      "height": 232
+      "y": 510,
+      "width": 1062,
+      "height": 112
     },
     "background": {
       "r": 0,
@@ -4249,11 +5313,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 191,
-      "g": 167,
-      "b": 153
+      "r": 199,
+      "g": 0,
+      "b": 176
     },
-    "aspectRatio": 4.5862
+    "aspectRatio": 9.4821
   },
   "2279856": {
     "id": "2279856",
@@ -4261,27 +5325,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2279856.jpg",
     "svgPath": "assets/vectors/2279856.svg",
-    "dimensions": {
+    "layout": "split-2x1",
+    "fullDimensions": {
       "width": 2012,
       "height": 2013
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1992,
+      "width": 1006,
       "height": 2013
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1000,
+      "height": 2008
+    },
     "background": {
-      "r": 255,
-      "g": 255,
-      "b": 255
+      "r": 35,
+      "g": 35,
+      "b": 37
     },
     "dominantForeground": {
-      "r": 60,
-      "g": 61,
-      "b": 62
+      "r": 80,
+      "g": 35,
+      "b": 81
     },
-    "aspectRatio": 0.9896
+    "aspectRatio": 0.498
   },
   "2306458": {
     "id": "2306458",
@@ -4289,15 +5360,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2306458.jpg",
     "svgPath": "assets/vectors/2306458.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1521,
       "height": 1521
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "logoBBox": {
       "x": 76,
-      "y": 76,
-      "width": 1368,
-      "height": 1368
+      "y": 78,
+      "width": 1366,
+      "height": 1364
     },
     "background": {
       "r": 255,
@@ -4306,10 +5384,10 @@
     },
     "dominantForeground": {
       "r": 55,
-      "g": 48,
+      "g": 255,
       "b": 82
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.0015
   },
   "2317158": {
     "id": "2317158",
@@ -4317,15 +5395,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2317158.jpg",
     "svgPath": "assets/vectors/2317158.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1000,
       "height": 1000
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 884,
+      "width": 1000,
       "height": 1000
+    },
+    "logoBBox": {
+      "x": 118,
+      "y": 166,
+      "width": 764,
+      "height": 666
     },
     "background": {
       "r": 10,
@@ -4333,11 +5418,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 151,
-      "g": 151,
-      "b": 152
+      "r": 152,
+      "g": 11,
+      "b": 153
     },
-    "aspectRatio": 0.884
+    "aspectRatio": 1.1471
   },
   "2345424": {
     "id": "2345424",
@@ -4345,15 +5430,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2345424.jpg",
     "svgPath": "assets/vectors/2345424.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 2000,
       "height": 1250
     },
-    "bbox": {
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "logoBBox": {
       "x": 664,
-      "y": 276,
-      "width": 1260,
-      "height": 932
+      "y": 272,
+      "width": 1266,
+      "height": 938
     },
     "background": {
       "r": 0,
@@ -4361,11 +5453,11 @@
       "b": 0
     },
     "dominantForeground": {
-      "r": 116,
-      "g": 117,
+      "r": 117,
+      "g": 0,
       "b": 118
     },
-    "aspectRatio": 1.3519
+    "aspectRatio": 1.3497
   },
   "2351828": {
     "id": "2351828",
@@ -4373,27 +5465,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2351828.jpg",
     "svgPath": "assets/vectors/2351828.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1624,
       "height": 1678
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1624,
       "height": 1678
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1618,
+      "height": 1672
+    },
     "background": {
-      "r": 180,
+      "r": 173,
       "g": 142,
-      "b": 126
+      "b": 121
     },
     "dominantForeground": {
       "r": 191,
-      "g": 188,
+      "g": 142,
       "b": 186
     },
-    "aspectRatio": 0.9678
+    "aspectRatio": 0.9677
   },
   "2355830": {
     "id": "2355830",
@@ -4401,15 +5500,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2355830.jpg",
     "svgPath": "assets/vectors/2355830.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1440,
       "height": 2880
     },
-    "bbox": {
-      "x": 72,
-      "y": 72,
-      "width": 1296,
-      "height": 2308
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 2880
+    },
+    "logoBBox": {
+      "x": 66,
+      "y": 74,
+      "width": 1300,
+      "height": 2306
     },
     "background": {
       "r": 255,
@@ -4418,10 +5524,10 @@
     },
     "dominantForeground": {
       "r": 40,
-      "g": 35,
+      "g": 255,
       "b": 33
     },
-    "aspectRatio": 0.5615
+    "aspectRatio": 0.5637
   },
   "2357946": {
     "id": "2357946",
@@ -4429,27 +5535,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2357946.jpg",
     "svgPath": "assets/vectors/2357946.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1400,
       "height": 3200
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
       "width": 1400,
       "height": 3200
     },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 1394,
+      "height": 3194
+    },
     "background": {
-      "r": 243,
-      "g": 97,
-      "b": 57
+      "r": 191,
+      "g": 89,
+      "b": 51
     },
     "dominantForeground": {
-      "r": 181,
-      "g": 177,
-      "b": 175
+      "r": 191,
+      "g": 89,
+      "b": 154
     },
-    "aspectRatio": 0.4375
+    "aspectRatio": 0.4364
   },
   "2358953": {
     "id": "2358953",
@@ -4457,15 +5570,22 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2358953.jpg",
     "svgPath": "assets/vectors/2358953.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1440,
       "height": 1440
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1368,
+      "width": 1440,
       "height": 1440
+    },
+    "logoBBox": {
+      "x": 72,
+      "y": 74,
+      "width": 1294,
+      "height": 1292
     },
     "background": {
       "r": 10,
@@ -4473,11 +5593,11 @@
       "b": 13
     },
     "dominantForeground": {
-      "r": 105,
-      "g": 150,
-      "b": 207
+      "r": 99,
+      "g": 11,
+      "b": 221
     },
-    "aspectRatio": 0.95
+    "aspectRatio": 1.0015
   },
   "2363572": {
     "id": "2363572",
@@ -4485,27 +5605,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2363572.jpg",
     "svgPath": "assets/vectors/2363572.svg",
-    "dimensions": {
+    "layout": "grid-2x3",
+    "fullDimensions": {
       "width": 1752,
       "height": 2628
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 2628
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 256,
+      "y": 332,
+      "width": 364,
+      "height": 212
     },
     "background": {
-      "r": 189,
-      "g": 161,
-      "b": 78
+      "r": 255,
+      "g": 255,
+      "b": 253
     },
     "dominantForeground": {
-      "r": 92,
-      "g": 93,
-      "b": 93
+      "r": 128,
+      "g": 255,
+      "b": 85
     },
-    "aspectRatio": 0.6667
+    "aspectRatio": 1.717
   },
   "2365552": {
     "id": "2365552",
@@ -4513,14 +5640,21 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2365552.jpg",
     "svgPath": "assets/vectors/2365552.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1913,
       "height": 2870
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
-      "y": 340,
+      "y": 0,
       "width": 1913,
+      "height": 2870
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 340,
+      "width": 1908,
       "height": 2188
     },
     "background": {
@@ -4530,10 +5664,10 @@
     },
     "dominantForeground": {
       "r": 5,
-      "g": 4,
+      "g": 255,
       "b": 127
     },
-    "aspectRatio": 0.8743
+    "aspectRatio": 0.872
   },
   "2369595": {
     "id": "2369595",
@@ -4541,27 +5675,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2369595.jpg",
     "svgPath": "assets/vectors/2369595.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1752,
       "height": 1752
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 1752
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 158,
+      "y": 382,
+      "width": 560,
+      "height": 110
     },
     "background": {
-      "r": 220,
-      "g": 220,
-      "b": 218
+      "r": 254,
+      "g": 254,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 155,
-      "g": 97,
-      "b": 106
+      "r": 117,
+      "g": 254,
+      "b": 60
     },
-    "aspectRatio": 1
+    "aspectRatio": 5.0909
   },
   "2370088": {
     "id": "2370088",
@@ -4569,25 +5710,32 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2370088.jpg",
     "svgPath": "assets/vectors/2370088.svg",
-    "dimensions": {
+    "layout": "grid-2x2",
+    "fullDimensions": {
       "width": 1379,
       "height": 1379
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1379,
-      "height": 1379
+      "width": 689,
+      "height": 689
+    },
+    "logoBBox": {
+      "x": 32,
+      "y": 32,
+      "width": 624,
+      "height": 624
     },
     "background": {
-      "r": 6,
-      "g": 6,
-      "b": 6
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 221,
-      "g": 221,
-      "b": 221
+      "r": 73,
+      "g": 255,
+      "b": 69
     },
     "aspectRatio": 1
   },
@@ -4597,27 +5745,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2371736.jpg",
     "svgPath": "assets/vectors/2371736.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1440,
       "height": 1440
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1368,
+      "width": 1440,
       "height": 1440
     },
+    "logoBBox": {
+      "x": 72,
+      "y": 74,
+      "width": 1294,
+      "height": 1292
+    },
     "background": {
-      "r": 181,
-      "g": 97,
-      "b": 63
+      "r": 184,
+      "g": 95,
+      "b": 61
     },
     "dominantForeground": {
-      "r": 242,
-      "g": 225,
-      "b": 215
+      "r": 243,
+      "g": 95,
+      "b": 221
     },
-    "aspectRatio": 0.95
+    "aspectRatio": 1.0015
   },
   "2372771": {
     "id": "2372771",
@@ -4625,27 +5780,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2372771.jpg",
     "svgPath": "assets/vectors/2372771.svg",
-    "dimensions": {
+    "layout": "grid-2x3",
+    "fullDimensions": {
       "width": 1752,
       "height": 2628
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1752,
-      "height": 2628
+      "width": 876,
+      "height": 876
+    },
+    "logoBBox": {
+      "x": 258,
+      "y": 330,
+      "width": 360,
+      "height": 214
     },
     "background": {
-      "r": 255,
+      "r": 254,
       "g": 255,
       "b": 255
     },
     "dominantForeground": {
-      "r": 70,
-      "g": 75,
-      "b": 78
+      "r": 50,
+      "g": 255,
+      "b": 52
     },
-    "aspectRatio": 0.6667
+    "aspectRatio": 1.6822
   },
   "2377284": {
     "id": "2377284",
@@ -4653,27 +5815,34 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2377284.jpg",
     "svgPath": "assets/vectors/2377284.svg",
-    "dimensions": {
+    "layout": "grid-3x2",
+    "fullDimensions": {
       "width": 1945,
       "height": 1296
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1945,
-      "height": 1296
+      "width": 648,
+      "height": 648
+    },
+    "logoBBox": {
+      "x": 196,
+      "y": 268,
+      "width": 256,
+      "height": 108
     },
     "background": {
-      "r": 58,
-      "g": 54,
-      "b": 53
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 93,
-      "g": 119,
-      "b": 104
+      "r": 41,
+      "g": 255,
+      "b": 50
     },
-    "aspectRatio": 1.5008
+    "aspectRatio": 2.3704
   },
   "2391685": {
     "id": "2391685",
@@ -4681,27 +5850,34 @@
     "category": "tactical",
     "originalImage": "crimadezignz-portfolio/images/2391685.jpg",
     "svgPath": "assets/vectors/2391685.svg",
-    "dimensions": {
+    "layout": "grid-3x2",
+    "fullDimensions": {
       "width": 1638,
       "height": 2185
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1638,
-      "height": 2185
+      "width": 546,
+      "height": 1092
+    },
+    "logoBBox": {
+      "x": 2,
+      "y": 2,
+      "width": 540,
+      "height": 1086
     },
     "background": {
-      "r": 222,
-      "g": 222,
-      "b": 220
+      "r": 10,
+      "g": 10,
+      "b": 10
     },
     "dominantForeground": {
-      "r": 134,
-      "g": 133,
-      "b": 133
+      "r": 205,
+      "g": 10,
+      "b": 204
     },
-    "aspectRatio": 0.7497
+    "aspectRatio": 0.4972
   },
   "2402858": {
     "id": "2402858",
@@ -4709,27 +5885,34 @@
     "category": "symbolic",
     "originalImage": "crimadezignz-portfolio/images/2402858.jpg",
     "svgPath": "assets/vectors/2402858.svg",
-    "dimensions": {
+    "layout": "grid-2x3",
+    "fullDimensions": {
       "width": 1364,
       "height": 2046
     },
-    "bbox": {
+    "targetCell": {
       "x": 0,
       "y": 0,
-      "width": 1364,
-      "height": 2046
+      "width": 682,
+      "height": 682
+    },
+    "logoBBox": {
+      "x": 32,
+      "y": 32,
+      "width": 618,
+      "height": 618
     },
     "background": {
-      "r": 254,
-      "g": 254,
-      "b": 254
+      "r": 255,
+      "g": 255,
+      "b": 255
     },
     "dominantForeground": {
-      "r": 94,
-      "g": 100,
-      "b": 98
+      "r": 95,
+      "g": 255,
+      "b": 104
     },
-    "aspectRatio": 0.6667
+    "aspectRatio": 1
   },
   "2403704": {
     "id": "2403704",
@@ -4737,15 +5920,22 @@
     "category": "monogram",
     "originalImage": "crimadezignz-portfolio/images/2403704.jpg",
     "svgPath": "assets/vectors/2403704.svg",
-    "dimensions": {
+    "layout": "single",
+    "fullDimensions": {
       "width": 1440,
       "height": 1440
     },
-    "bbox": {
-      "x": 72,
-      "y": 72,
-      "width": 1296,
-      "height": 1296
+    "targetCell": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1440
+    },
+    "logoBBox": {
+      "x": 66,
+      "y": 74,
+      "width": 1300,
+      "height": 1292
     },
     "background": {
       "r": 255,
@@ -4754,9 +5944,9 @@
     },
     "dominantForeground": {
       "r": 42,
-      "g": 38,
-      "b": 35
+      "g": 255,
+      "b": 34
     },
-    "aspectRatio": 1
+    "aspectRatio": 1.0062
   }
 }

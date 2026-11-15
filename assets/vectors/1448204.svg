@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 1752" width="1752" height="1752" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="204 326 468 224" width="468" height="224" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1448204" title="GelSport" archive="99designs-#1448204"/>
-    <originZero:geometry width="1752" height="1752" bbox="0,0,1752,1752"/>
-    <originZero:chroma background="rgb(18,97,29)" dominant="rgb(115,124,117)"/>
+    <originZero:layout type="grid-2x2" fullSize="1752x1752"/>
+    <originZero:geometry bbox="204,326,468,224" aspect="2.0893"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(70,255,83)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1448204">
-      <rect x="0" y="0" width="1752" height="1752"/>
+    <clipPath id="logoClip-1448204">
+      <rect x="204" y="326" width="468" height="224"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1448204.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#markClip-1448204)"/>
+  <image href="/crimadezignz-portfolio/images/1448204.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#logoClip-1448204)"/>
 </svg>

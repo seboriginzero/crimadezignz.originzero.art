@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1521 3043" width="1521" height="3043" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 2538" width="1366" height="2538" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2169386" title="Car%20Supply" archive="99designs-#2169386"/>
-    <originZero:geometry width="1521" height="3043" bbox="0,0,1444,3043"/>
-    <originZero:chroma background="rgb(31,26,23)" dominant="rgb(239,239,238)"/>
+    <originZero:layout type="single" fullSize="1521x3043"/>
+    <originZero:geometry bbox="76,78,1366,2538" aspect="0.5382"/>
+    <originZero:chroma background="rgb(31,26,23)" dominant="rgb(244,26,243)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2169386">
-      <rect x="0" y="0" width="1444" height="3043"/>
+    <clipPath id="logoClip-2169386">
+      <rect x="76" y="78" width="1366" height="2538"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2169386.jpg" x="0" y="0" width="1521" height="3043" clip-path="url(#markClip-2169386)"/>
+  <image href="/crimadezignz-portfolio/images/2169386.jpg" x="0" y="0" width="1521" height="3043" clip-path="url(#logoClip-2169386)"/>
 </svg>

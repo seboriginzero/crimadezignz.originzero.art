@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1521 3043" width="1521" height="3043" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 1364" width="1366" height="1364" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2251276" title="Dopamine" archive="99designs-#2251276"/>
-    <originZero:geometry width="1521" height="3043" bbox="0,76,1521,2967"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(252,159,201)"/>
+    <originZero:layout type="split-1x2" fullSize="1521x3043"/>
+    <originZero:geometry bbox="76,78,1366,1364" aspect="1.0015"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(220,255,169)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2251276">
-      <rect x="0" y="76" width="1521" height="2967"/>
+    <clipPath id="logoClip-2251276">
+      <rect x="76" y="78" width="1366" height="1364"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2251276.jpg" x="0" y="0" width="1521" height="3043" clip-path="url(#markClip-2251276)"/>
+  <image href="/crimadezignz-portfolio/images/2251276.jpg" x="0" y="0" width="1521" height="3043" clip-path="url(#logoClip-2251276)"/>
 </svg>

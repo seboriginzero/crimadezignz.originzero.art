@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="698 324 1246 886" width="1246" height="886" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2269929" title="Full%20Throttle%20Arms" archive="99designs-#2269929"/>
-    <originZero:geometry width="2000" height="1250" bbox="696,324,1248,888"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(45,45,45)"/>
+    <originZero:layout type="single" fullSize="2000x1250"/>
+    <originZero:geometry bbox="698,324,1246,886" aspect="1.4063"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(46,255,46)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2269929">
-      <rect x="696" y="324" width="1248" height="888"/>
+    <clipPath id="logoClip-2269929">
+      <rect x="698" y="324" width="1246" height="886"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2269929.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2269929)"/>
+  <image href="/crimadezignz-portfolio/images/2269929.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2269929)"/>
 </svg>

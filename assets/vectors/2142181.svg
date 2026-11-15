@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1578 1578" width="1578" height="1578" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="36 38 714 712" width="714" height="712" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2142181" title="BUDO%20Martial%20Arts%20-%20Logo%20Proposal" archive="99designs-#2142181"/>
-    <originZero:geometry width="1578" height="1578" bbox="0,0,1578,1578"/>
-    <originZero:chroma background="rgb(112,111,109)" dominant="rgb(119,118,118)"/>
+    <originZero:layout type="grid-2x2" fullSize="1578x1578"/>
+    <originZero:geometry bbox="36,38,714,712" aspect="1.0028"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(48,255,41)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2142181">
-      <rect x="0" y="0" width="1578" height="1578"/>
+    <clipPath id="logoClip-2142181">
+      <rect x="36" y="38" width="714" height="712"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2142181.jpg" x="0" y="0" width="1578" height="1578" clip-path="url(#markClip-2142181)"/>
+  <image href="/crimadezignz-portfolio/images/2142181.jpg" x="0" y="0" width="1578" height="1578" clip-path="url(#logoClip-2142181)"/>
 </svg>

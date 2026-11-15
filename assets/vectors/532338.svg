@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1794 1386" width="1794" height="1386" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="620 522 554 340" width="554" height="340" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="532338" title="Banshee%20Fitness" archive="99designs-#532338"/>
-    <originZero:geometry width="1794" height="1386" bbox="0,0,1176,1386"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(174,114,114)"/>
+    <originZero:layout type="single" fullSize="1794x1386"/>
+    <originZero:geometry bbox="620,522,554,340" aspect="1.6294"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(186,11,117)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-532338">
-      <rect x="0" y="0" width="1176" height="1386"/>
+    <clipPath id="logoClip-532338">
+      <rect x="620" y="522" width="554" height="340"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/532338.jpg" x="0" y="0" width="1794" height="1386" clip-path="url(#markClip-532338)"/>
+  <image href="/crimadezignz-portfolio/images/532338.jpg" x="0" y="0" width="1794" height="1386" clip-path="url(#logoClip-532338)"/>
 </svg>

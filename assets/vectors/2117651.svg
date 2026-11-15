@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1522 1522" width="1522" height="1522" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1368 1366" width="1368" height="1366" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2117651" title="The%20Tactical%20Pastor" archive="99designs-#2117651"/>
-    <originZero:geometry width="1522" height="1522" bbox="0,0,1444,1522"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(147,149,91)"/>
+    <originZero:layout type="single" fullSize="1522x1522"/>
+    <originZero:geometry bbox="76,78,1368,1366" aspect="1.0015"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(153,0,88)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2117651">
-      <rect x="0" y="0" width="1444" height="1522"/>
+    <clipPath id="logoClip-2117651">
+      <rect x="76" y="78" width="1368" height="1366"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2117651.jpg" x="0" y="0" width="1522" height="1522" clip-path="url(#markClip-2117651)"/>
+  <image href="/crimadezignz-portfolio/images/2117651.jpg" x="0" y="0" width="1522" height="1522" clip-path="url(#logoClip-2117651)"/>
 </svg>

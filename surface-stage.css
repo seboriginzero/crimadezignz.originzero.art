@@ -822,7 +822,8 @@
 }
 
 /* --------------------------------------------------------------------------
-   INTERACTIVE MASTER DOCK (LOWER WORKSTATION)
+   INTERACTIVE MASTER DOCK (2-TIER FIGMA-GRADE WORKSTATION)
+   Zero Chaos • High Information Density • Strict 0px Border-Radius
    -------------------------------------------------------------------------- */
 .stage-dock {
   background: #070709;
@@ -831,44 +832,20 @@
   flex-direction: column;
   gap: 0;
   z-index: 10;
+  border-radius: 0 !important;
 }
 
-/* Telemetry Status Bar */
-.stage-telemetry-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 6px 14px;
-  background: #040406;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  font-family: var(--font-mono, monospace);
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
-  color: #8c8c9a;
-}
-
-.telemetry-item strong {
-  color: #e5c07b;
-}
-
-.telemetry-wcag-badge {
-  background: #111a14;
-  color: #50fa7b;
-  border: 1px solid #1f3b25;
-  padding: 1px 5px;
-  font-weight: 700;
-}
-
-/* Surface Carousel Tabs */
+/* Tier 1: Surface Studio Navigator Ribbon */
 .stage-surface-ribbon {
   display: flex;
   align-items: center;
   overflow-x: auto;
   scrollbar-width: none;
-  background: #0a0a0e;
+  background: #090a0e;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 4px 8px;
-  gap: 4px;
+  padding: 3px 6px;
+  gap: 3px;
+  border-radius: 0 !important;
 }
 
 .stage-surface-ribbon::-webkit-scrollbar {
@@ -879,21 +856,24 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: transparent;
-  border: 1px solid transparent;
-  color: #7a7d8c;
+  background: #0e0f15;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #7b7e8d;
   font-family: var(--font-mono, monospace);
   font-size: 0.68rem;
-  padding: 6px 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 5px 10px;
   cursor: pointer;
   white-space: nowrap;
   border-radius: 0 !important;
-  transition: all 0.15s ease-out;
+  transition: all 0.14s ease-out;
 }
 
 .stage-surface-btn:hover {
   color: #f5f5f7;
-  background: rgba(255, 255, 255, 0.04);
+  background: #161722;
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .stage-surface-btn.active {
@@ -903,50 +883,65 @@
   font-weight: 700;
 }
 
-.surface-btn-num {
-  font-size: 0.62rem;
-  opacity: 0.75;
+.surface-btn-key {
+  font-size: 0.58rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 2px 4px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #c9a050;
+  border-radius: 0 !important;
 }
 
-/* Controls & Sliders Row */
+.stage-surface-btn.active .surface-btn-key {
+  background: #000000;
+  color: #ffd777;
+}
+
+/* Tier 2: Unified Inspector Row */
 .stage-controls-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 14px;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.stage-controls-group {
-  display: flex;
-  align-items: center;
+  padding: 6px 12px;
   gap: 12px;
+  background: #070709;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   flex-wrap: wrap;
+  border-radius: 0 !important;
 }
 
-/* Finish Chips */
+/* Cluster 1: Finishes */
 .stage-finish-selector {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
+}
+
+.stage-cluster-label {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #656778;
+  letter-spacing: 0.1em;
+  margin-right: 4px;
 }
 
 .stage-finish-btn {
   background: #111218;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   color: #8c8c9a;
   font-family: var(--font-mono, monospace);
   font-size: 0.65rem;
-  padding: 5px 10px;
+  padding: 4px 8px;
   cursor: pointer;
   border-radius: 0 !important;
-  transition: all 0.15s ease-out;
+  transition: all 0.14s ease-out;
 }
 
 .stage-finish-btn:hover {
   color: #f5f5f7;
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .stage-finish-btn.active {
@@ -956,87 +951,189 @@
   font-weight: 700;
 }
 
-/* Sliders */
+/* Cluster 2: Lighting, Scale & Variant */
+.stage-controls-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .stage-slider-wrap {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   font-family: var(--font-mono, monospace);
-  font-size: 0.65rem;
-  color: #8c8c9a;
+  font-size: 0.62rem;
+  color: #7b7e8d;
+}
+
+.stage-slider-wrap .slider-label {
+  color: #656778;
+  font-weight: 700;
+  letter-spacing: 0.06em;
 }
 
 .stage-slider-wrap input[type="range"] {
-  width: 90px;
+  width: 72px;
+  height: 4px;
+  background: #1b1c24;
   accent-color: #c9a050;
   cursor: pointer;
+  border-radius: 0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .stage-slider-val {
-  min-width: 32px;
+  min-width: 28px;
   color: #e5c07b;
   font-weight: 700;
 }
 
-/* Surface Variant Toggle Button */
 .stage-variant-btn {
-  background: #161720;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #14151e;
+  border: 1px solid rgba(201, 160, 80, 0.35);
   color: #e5c07b;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.14s ease-out;
+}
+
+.stage-variant-btn:hover {
+  background: #1e202c;
+  border-color: #dfba68;
+  color: #ffd777;
+}
+
+/* Cluster 3: Mark Selector & Export */
+.stage-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Segmented Mark Toggle (Isolated Logo vs Full Sheet) */
+.stage-mark-segmented {
+  display: inline-flex;
+  align-items: center;
+  background: #0e0f15;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0 !important;
+  padding: 1px;
+}
+
+.stage-mark-toggle-btn {
+  background: transparent;
+  border: none;
+  color: #7b7e8d;
   font-family: var(--font-mono, monospace);
   font-size: 0.65rem;
   font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 4px 9px;
+  cursor: pointer;
+  border-radius: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.14s ease-out;
+}
+
+.stage-mark-toggle-btn .mark-mode-icon {
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+.stage-mark-toggle-btn:hover {
+  color: #f5f5f7;
+}
+
+.stage-mark-toggle-btn.active[data-mode="isolated"] {
+  background: #142217;
+  color: #50fa7b;
+  font-weight: 700;
+  border-left: 1px solid #1f3b25;
+  border-right: 1px solid #1f3b25;
+}
+
+.stage-mark-toggle-btn.active[data-mode="full"] {
+  background: #252015;
+  color: #dfba68;
+  font-weight: 700;
+  border-left: 1px solid #4a3e20;
+  border-right: 1px solid #4a3e20;
+}
+
+/* Primary Action: Export 4K PNG */
+.stage-export-btn {
+  background: #c9a050;
+  border: 1px solid #dfba68;
+  color: #050507;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
   padding: 5px 12px;
   cursor: pointer;
   border-radius: 0 !important;
   display: inline-flex;
   align-items: center;
   gap: 6px;
-}
-
-.stage-variant-btn:hover {
-  background: #20222e;
-  border-color: #c9a050;
-}
-
-/* Knockout Toggle Button */
-.stage-knockout-btn {
-  background: #111218;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  color: #8c8c9a;
-  font-family: var(--font-mono, monospace);
-  font-size: 0.65rem;
-  padding: 5px 10px;
-  cursor: pointer;
-  border-radius: 0 !important;
-}
-
-.stage-knockout-btn.active {
-  background: #1a2a1e;
-  color: #50fa7b;
-  border-color: #2e5939;
-  font-weight: 700;
-}
-
-/* Export Button */
-.stage-export-btn {
-  background: #c9a050;
-  border: 1px solid #dfba68;
-  color: #050507;
-  font-family: var(--font-mono, monospace);
-  font-size: 0.7rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  padding: 6px 14px;
-  cursor: pointer;
-  border-radius: 0 !important;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .stage-export-btn:hover {
   background: #dfba68;
-  box-shadow: 0 0 15px rgba(229, 192, 123, 0.4);
+  box-shadow: 0 0 12px rgba(229, 192, 123, 0.35);
 }
+
+.key-hint {
+  font-size: 0.56rem;
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0.35);
+  color: inherit;
+  padding: 1px 4px;
+  line-height: 1;
+  border-radius: 0 !important;
+}
+
+/* Subtle Status Ribbon (Bottom of Dock) */
+.stage-telemetry-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 12px;
+  background: #040406;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: #656778;
+  border-radius: 0 !important;
+}
+
+.stage-telemetry-bar .telemetry-item strong {
+  color: #dfba68;
+}
+
+.stage-telemetry-bar .telemetry-wcag-badge {
+  background: #111a14;
+  color: #50fa7b;
+  border: 1px solid #1f3b25;
+  padding: 1px 4px;
+  font-weight: 800;
+  font-size: 0.58rem;
+  border-radius: 0 !important;
+}
+
+.stage-telemetry-bar .meta-tag-zero-ai {
+  color: #50fa7b;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1521 3043" width="1521" height="3043" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 2492" width="1366" height="2492" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2230491" title="Valor%20Real%20Estate%20" archive="99designs-#2230491"/>
-    <originZero:geometry width="1521" height="3043" bbox="76,76,1368,2496"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(74,68,77)"/>
+    <originZero:layout type="single" fullSize="1521x3043"/>
+    <originZero:geometry bbox="76,78,1366,2492" aspect="0.5482"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(73,255,75)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2230491">
-      <rect x="76" y="76" width="1368" height="2496"/>
+    <clipPath id="logoClip-2230491">
+      <rect x="76" y="78" width="1366" height="2492"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2230491.jpg" x="0" y="0" width="1521" height="3043" clip-path="url(#markClip-2230491)"/>
+  <image href="/crimadezignz-portfolio/images/2230491.jpg" x="0" y="0" width="1521" height="3043" clip-path="url(#logoClip-2230491)"/>
 </svg>

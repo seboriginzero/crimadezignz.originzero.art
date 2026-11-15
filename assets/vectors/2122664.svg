@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="708 334 582 582" width="582" height="582" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2122664" title="Currahee%20Armory" archive="99designs-#2122664"/>
-    <originZero:geometry width="2000" height="1250" bbox="708,332,584,584"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(125,124,125)"/>
+    <originZero:layout type="single" fullSize="2000x1250"/>
+    <originZero:geometry bbox="708,334,582,582" aspect="1"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(126,255,126)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2122664">
-      <rect x="708" y="332" width="584" height="584"/>
+    <clipPath id="logoClip-2122664">
+      <rect x="708" y="334" width="582" height="582"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2122664.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2122664)"/>
+  <image href="/crimadezignz-portfolio/images/2122664.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2122664)"/>
 </svg>

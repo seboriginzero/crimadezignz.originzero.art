@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1733 1791" width="1733" height="1791" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1728 1786" width="1728" height="1786" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2225150" title="Anders" archive="99designs-#2225150"/>
-    <originZero:geometry width="1733" height="1791" bbox="0,0,1733,1791"/>
-    <originZero:chroma background="rgb(135,135,135)" dominant="rgb(130,130,130)"/>
+    <originZero:layout type="single" fullSize="1733x1791"/>
+    <originZero:geometry bbox="2,2,1728,1786" aspect="0.9675"/>
+    <originZero:chroma background="rgb(54,54,56)" dominant="rgb(138,54,138)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2225150">
-      <rect x="0" y="0" width="1733" height="1791"/>
+    <clipPath id="logoClip-2225150">
+      <rect x="2" y="2" width="1728" height="1786"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2225150.jpg" x="0" y="0" width="1733" height="1791" clip-path="url(#markClip-2225150)"/>
+  <image href="/crimadezignz-portfolio/images/2225150.jpg" x="0" y="0" width="1733" height="1791" clip-path="url(#logoClip-2225150)"/>
 </svg>

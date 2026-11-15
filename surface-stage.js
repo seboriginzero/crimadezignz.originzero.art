@@ -3,6 +3,7 @@
  * Master 10-Surface Physical Mockup & Vector Inspection Engine
  * 
  * Strict Mathematical Reproducibility • Offline Execution • Zero External APIs
+ * Multi-Panel Presentation Sheet Detector & Isolated Primary Logo Extractor
  */
 
 class LiveSurfaceStageEngine {
@@ -13,7 +14,7 @@ class LiveSurfaceStageEngine {
     this.currentFinish = "original"; // original, spot_uv, gold_foil, silver_foil, blind_deboss, backlit_glow
     this.lightAngle = 125; // 0 to 360 degrees
     this.logoScale = 1.0; // 0.25 to 1.5
-    this.isIsolated = true; // Isolated Mark vs Original Card
+    this.isIsolated = true; // Isolated Logo Mark vs Full Presentation Sheet
     this.knockoutThreshold = 28; // 10 to 90
     this.surfaceVariants = {
       1: "black", // apparel: black or ecru
@@ -27,16 +28,16 @@ class LiveSurfaceStageEngine {
 
     // The 10 Calibrated Standard Surfaces
     this.surfaces = [
-      { id: "01", name: "Cotton Card 600gsm", category: "Stationery Plinth", hasVariant: false },
-      { id: "02", name: "Heavyweight Apparel 280gsm", category: "Textile / Jersey", hasVariant: true, variantLabel: "Obsidian / Ecru" },
-      { id: "03", name: "Matte Ceramic Cylinder", category: "Cylindrical Object", hasVariant: true, variantLabel: "Dark / White" },
-      { id: "04", name: "Frosted Glass Wall Sign", category: "Architectural Signage", hasVariant: false },
-      { id: "05", name: "Full-Grain Leather Folio", category: "Executive Goods", hasVariant: true, variantLabel: "Onyx / Cognac" },
-      { id: "06", name: "Brushed Anodized Metal", category: "Industrial Plaque", hasVariant: true, variantLabel: "Gunmetal / Silver" },
-      { id: "07", name: "Rigid Luxury Packaging", category: "Boutique Gift Box", hasVariant: false },
-      { id: "08", name: "Digital OS & Favicon Grid", category: "Technical Scale Test", hasVariant: true, variantLabel: "Dark / Light OS" },
-      { id: "09", name: "Illuminated Night Blade Sign", category: "Street Lightbox", hasVariant: true, variantLabel: "Stencil / Acrylic" },
-      { id: "10", name: "Storefront Window Vinyl", category: "Facade Cutter-Plotter", hasVariant: true, variantLabel: "Gloss / Etched" }
+      { id: "01", name: "Cotton Card 600gsm", shortName: "01 Card", category: "Stationery Plinth", hasVariant: false },
+      { id: "02", name: "Heavyweight Apparel 280gsm", shortName: "02 Apparel", category: "Textile / Jersey", hasVariant: true, variantLabel: "Obsidian / Ecru" },
+      { id: "03", name: "Matte Ceramic Cylinder", shortName: "03 Mug", category: "Cylindrical Object", hasVariant: true, variantLabel: "Dark / White" },
+      { id: "04", name: "Frosted Glass Wall Sign", shortName: "04 Glass", category: "Architectural Signage", hasVariant: false },
+      { id: "05", name: "Full-Grain Leather Folio", shortName: "05 Leather", category: "Executive Goods", hasVariant: true, variantLabel: "Onyx / Cognac" },
+      { id: "06", name: "Brushed Anodized Metal", shortName: "06 Metal", category: "Industrial Plaque", hasVariant: true, variantLabel: "Gunmetal / Silver" },
+      { id: "07", name: "Rigid Luxury Packaging", shortName: "07 Luxury Box", category: "Boutique Gift Box", hasVariant: false },
+      { id: "08", name: "Digital OS & Favicon Grid", shortName: "08 OS Grid", category: "Technical Scale Test", hasVariant: true, variantLabel: "Dark / Light OS" },
+      { id: "09", name: "Illuminated Night Blade Sign", shortName: "09 Blade Sign", category: "Street Lightbox", hasVariant: true, variantLabel: "Stencil / Acrylic" },
+      { id: "10", name: "Storefront Window Vinyl", shortName: "10 Vinyl", category: "Facade Cutter-Plotter", hasVariant: true, variantLabel: "Gloss / Etched" }
     ];
 
     // The 6 Physical Finishes
@@ -65,25 +66,27 @@ class LiveSurfaceStageEngine {
     }
 
     this.bindKeyboardShortcuts();
+    this.bindDomControls();
   }
 
   // ===========================================================================
-  // Mark Loading & Deterministic Knockout (Browser Fallback Engine)
+  // Mark Loading & Deterministic Knockout (Browser Engine + Manifest Bridge)
   // ===========================================================================
   async loadMark(item) {
     if (!item) return;
     this.currentMark = item;
 
-    // Check if we already have the processed canvas in memory
+    const meta = this.vectorManifest ? this.vectorManifest[item.id] : null;
     const cacheKey = `${item.id}_${this.knockoutThreshold}`;
+
     if (!this.cache.has(cacheKey)) {
-      await this.processMarkImage(item);
+      await this.processMarkImage(item, meta);
     }
 
     this.render();
   }
 
-  async processMarkImage(item) {
+  async processMarkImage(item, meta) {
     return new Promise((resolve) => {
       const img = new Image();
       img.crossOrigin = "anonymous";
@@ -91,133 +94,248 @@ class LiveSurfaceStageEngine {
         const w = img.naturalWidth || img.width;
         const h = img.naturalHeight || img.height;
 
-        const canvas = document.createElement("canvas");
-        canvas.width = w;
-        canvas.height = h;
-        const ctx = canvas.getContext("2d", { willReadFrequently: true });
-        ctx.drawImage(img, 0, 0);
+        // Path A: Use pre-compiled manifest coordinates if available
+        if (meta && meta.logoBBox && meta.background) {
+          const bbox = meta.logoBBox;
+          const bg = meta.background;
 
-        const imgData = ctx.getImageData(0, 0, w, h);
-        const data = imgData.data;
+          const canvas = document.createElement("canvas");
+          canvas.width = bbox.width;
+          canvas.height = bbox.height;
+          const ctx = canvas.getContext("2d", { willReadFrequently: true });
 
-        // Sample 4 corners (8x8 pixels each) to determine background color
-        const cornerSamples = [];
-        const sampleSize = Math.min(8, Math.floor(w / 4), Math.floor(h / 4));
+          // Extract ONLY the isolated primary logo region
+          ctx.drawImage(img, bbox.x, bbox.y, bbox.width, bbox.height, 0, 0, bbox.width, bbox.height);
 
-        for (let y = 0; y < sampleSize; y++) {
-          for (let x = 0; x < sampleSize; x++) {
-            // TL, TR, BL, BR
-            const getPix = (px, py) => {
-              const idx = (py * w + px) * 4;
-              return { r: data[idx], g: data[idx + 1], b: data[idx + 2] };
-            };
-            cornerSamples.push(getPix(x, y));
-            cornerSamples.push(getPix(w - 1 - x, y));
-            cornerSamples.push(getPix(x, h - 1 - y));
-            cornerSamples.push(getPix(w - 1 - x, h - 1 - y));
-          }
-        }
+          const imgData = ctx.getImageData(0, 0, bbox.width, bbox.height);
+          const data = imgData.data;
+          const threshold = this.knockoutThreshold;
+          const ramp = 12;
 
-        const rSort = cornerSamples.map(p => p.r).sort((a, b) => a - b);
-        const gSort = cornerSamples.map(p => p.g).sort((a, b) => a - b);
-        const bSort = cornerSamples.map(p => p.b).sort((a, b) => a - b);
-        const mid = Math.floor(cornerSamples.length / 2);
-        const bg = { r: rSort[mid], g: gSort[mid], b: bSort[mid] };
+          let fgR = 0, fgG = 0, fgB = 0, fgCount = 0;
 
-        // Mathematical Background Knockout + Smoothstep Alpha Ramp
-        const threshold = this.knockoutThreshold;
-        const ramp = 12; // Anti-aliasing boundary ramp
-        let minX = w, maxX = 0, minY = h, maxY = 0;
-        let fgR = 0, fgG = 0, fgB = 0, fgCount = 0;
-
-        for (let y = 0; y < h; y++) {
-          for (let x = 0; x < w; x++) {
-            const idx = (y * w + x) * 4;
-            const r = data[idx];
-            const g = data[idx + 1];
-            const b = data[idx + 2];
+          for (let i = 0; i < data.length; i += 4) {
+            const r = data[i];
+            const g = data[i + 1];
+            const b = data[i + 2];
 
             const dist = Math.sqrt((r - bg.r) ** 2 + (g - bg.g) ** 2 + (b - bg.b) ** 2);
 
             if (dist <= threshold - ramp) {
-              // Exact background
-              data[idx + 3] = 0;
+              data[i + 3] = 0; // Pure transparent background
             } else if (dist >= threshold + ramp) {
-              // Solid foreground
-              data[idx + 3] = 255;
-              if (x < minX) minX = x;
-              if (x > maxX) maxX = x;
-              if (y < minY) minY = y;
-              if (y > maxY) maxY = y;
+              data[i + 3] = 255; // Solid foreground mark
               fgR += r; fgG += g; fgB += b; fgCount++;
             } else {
               // Smoothstep anti-aliasing ramp
               const t = (dist - (threshold - ramp)) / (ramp * 2);
               const alpha = Math.round(255 * (t * t * (3 - 2 * t)));
-              data[idx + 3] = alpha;
+              data[i + 3] = alpha;
 
-              // Color decontamination: remove background contamination
               const aNorm = alpha / 255;
               if (aNorm > 0.05) {
-                data[idx] = Math.min(255, Math.max(0, Math.round((r - bg.r * (1 - aNorm)) / aNorm)));
-                data[idx + 1] = Math.min(255, Math.max(0, Math.round((g - bg.g * (1 - aNorm)) / aNorm)));
-                data[idx + 2] = Math.min(255, Math.max(0, Math.round((b - bg.b * (1 - aNorm)) / aNorm)));
+                data[i] = Math.min(255, Math.max(0, Math.round((r - bg.r * (1 - aNorm)) / aNorm)));
+                data[i + 1] = Math.min(255, Math.max(0, Math.round((g - bg.g * (1 - aNorm)) / aNorm)));
+                data[i + 2] = Math.min(255, Math.max(0, Math.round((b - bg.b * (1 - aNorm)) / aNorm)));
               }
-
-              if (alpha > 20) {
-                if (x < minX) minX = x;
-                if (x > maxX) maxX = x;
-                if (y < minY) minY = y;
-                if (y > maxY) maxY = y;
+              if (alpha > 40) {
+                fgR += r; fgG += g; fgB += b; fgCount++;
               }
             }
           }
-        }
 
-        ctx.putImageData(imgData, 0, 0);
+          ctx.putImageData(imgData, 0, 0);
 
-        // Trim bounding box to create an unpadded isolated graphic
-        if (maxX > minX && maxY > minY) {
-          const cropW = maxX - minX;
-          const cropH = maxY - minY;
-          const trimmedCanvas = document.createElement("canvas");
-          trimmedCanvas.width = cropW;
-          trimmedCanvas.height = cropH;
-          const tCtx = trimmedCanvas.getContext("2d");
-          tCtx.drawImage(canvas, minX, minY, cropW, cropH, 0, 0, cropW, cropH);
-
-          const dominantFg = fgCount > 0 ? {
+          const dominantFg = meta.dominantForeground || (fgCount > 0 ? {
             r: Math.round(fgR / fgCount),
             g: Math.round(fgG / fgCount),
-            b: Math.round(fgBSum / fgCount)
-          } : { r: 229, g: 192, b: 123 };
+            b: Math.round(fgB / fgCount)
+          } : { r: 229, g: 192, b: 123 });
 
           const result = {
-            trimmedDataUrl: trimmedCanvas.toDataURL("image/png"),
-            rawCanvas: trimmedCanvas,
+            trimmedDataUrl: canvas.toDataURL("image/png"),
             originalDataUrl: item.image,
-            width: cropW,
-            height: cropH,
-            aspectRatio: +(cropW / cropH).toFixed(4),
+            svgUrl: meta.svgPath || `assets/vectors/${item.id}.svg`,
+            width: bbox.width,
+            height: bbox.height,
+            aspectRatio: meta.aspectRatio || +(bbox.width / bbox.height).toFixed(4),
             bg,
-            dominantFg
+            dominantFg,
+            layout: meta.layout || "single"
           };
 
           this.cache.set(`${item.id}_${this.knockoutThreshold}`, result);
           resolve(result);
-        } else {
-          // Fallback if image was empty
-          this.cache.set(`${item.id}_${this.knockoutThreshold}`, {
-            trimmedDataUrl: item.image,
-            originalDataUrl: item.image,
-            width: w,
-            height: h,
-            aspectRatio: 1,
-            bg,
-            dominantFg: { r: 229, g: 192, b: 123 }
-          });
-          resolve();
+          return;
         }
+
+        // Path B: Dynamic in-browser seam & panel detection fallback
+        const fullCanvas = document.createElement("canvas");
+        fullCanvas.width = w;
+        fullCanvas.height = h;
+        const fCtx = fullCanvas.getContext("2d", { willReadFrequently: true });
+        fCtx.drawImage(img, 0, 0);
+
+        const fullImgData = fCtx.getImageData(0, 0, w, h);
+        const fData = fullImgData.data;
+
+        const getPix = (px, py) => {
+          const idx = (py * w + px) * 4;
+          return { r: fData[idx], g: fData[idx + 1], b: fData[idx + 2] };
+        };
+
+        // Mathematical Seam Analysis
+        const midY = Math.floor(h / 2);
+        const midX = Math.floor(w / 2);
+        const y3_1 = Math.floor(h / 3);
+        const y3_2 = Math.floor(h * 2 / 3);
+        const x3_1 = Math.floor(w / 3);
+        const x3_2 = Math.floor(w * 2 / 3);
+
+        let hSeam2 = 0, vSeam2 = 0, hSeam3 = 0, vSeam3 = 0;
+
+        for (let x = 40; x < w - 40; x += 10) {
+          const pA = getPix(x, midY - 20);
+          const pB = getPix(x, midY + 20);
+          hSeam2 += Math.abs(pA.r - pB.r) + Math.abs(pA.g - pB.g) + Math.abs(pA.b - pB.b);
+        }
+        const hasH2 = (hSeam2 / ((w - 80) / 10)) > 70;
+
+        for (let y = 40; y < h - 40; y += 10) {
+          const pA = getPix(midX - 20, y);
+          const pB = getPix(midX + 20, y);
+          vSeam2 += Math.abs(pA.r - pB.r) + Math.abs(pA.g - pB.g) + Math.abs(pA.b - pB.b);
+        }
+        const hasV2 = (vSeam2 / ((h - 80) / 10)) > 70;
+
+        for (let y = 40; y < h - 40; y += 10) {
+          const pA1 = getPix(x3_1 - 20, y);
+          const pB1 = getPix(x3_1 + 20, y);
+          const pA2 = getPix(x3_2 - 20, y);
+          const pB2 = getPix(x3_2 + 20, y);
+          vSeam3 += Math.abs(pA1.r - pB1.r) + Math.abs(pA1.g - pB1.g) + Math.abs(pA1.b - pB1.b);
+          vSeam3 += Math.abs(pA2.r - pB2.r) + Math.abs(pA2.g - pB2.g) + Math.abs(pA2.b - pB2.b);
+        }
+        const hasV3 = (vSeam3 / ((h - 80) / 10)) > 140;
+
+        for (let x = 40; x < w - 40; x += 10) {
+          const pA1 = getPix(x, y3_1 - 20);
+          const pB1 = getPix(x, y3_1 + 20);
+          const pA2 = getPix(x, y3_2 - 20);
+          const pB2 = getPix(x, y3_2 + 20);
+          hSeam3 += Math.abs(pA1.r - pB1.r) + Math.abs(pA1.g - pB1.g) + Math.abs(pA1.b - pB1.b);
+          hSeam3 += Math.abs(pA2.r - pB2.r) + Math.abs(pA2.g - pB2.g) + Math.abs(pA2.b - pB2.b);
+        }
+        const hasH3 = (hSeam3 / ((w - 80) / 10)) > 140;
+
+        let layoutType = "single";
+        let targetBox = { x: 0, y: 0, width: w, height: h };
+
+        if (hasH2 && hasV3) {
+          layoutType = "grid-3x2";
+          targetBox = { x: 0, y: 0, width: Math.floor(w / 3), height: Math.floor(h / 2) };
+        } else if (hasH3 && hasV2) {
+          layoutType = "grid-2x3";
+          targetBox = { x: 0, y: 0, width: Math.floor(w / 2), height: Math.floor(h / 3) };
+        } else if (hasH2 && hasV2) {
+          layoutType = "grid-2x2";
+          targetBox = { x: 0, y: 0, width: Math.floor(w / 2), height: Math.floor(h / 2) };
+        } else if (hasH2) {
+          layoutType = "split-1x2";
+          targetBox = { x: 0, y: 0, width: w, height: Math.floor(h / 2) };
+        } else if (hasV2) {
+          layoutType = "split-2x1";
+          targetBox = { x: 0, y: 0, width: Math.floor(w / 2), height: h };
+        }
+
+        // Sample corners of the primary target box
+        const cornerSamplePoints = [
+          getPix(targetBox.x + 12, targetBox.y + 12),
+          getPix(targetBox.x + targetBox.width - 12, targetBox.y + 12),
+          getPix(targetBox.x + 12, targetBox.y + targetBox.height - 12),
+          getPix(targetBox.x + targetBox.width - 12, targetBox.y + targetBox.height - 12)
+        ];
+        const rSort = cornerSamplePoints.map(p => p.r).sort((a, b) => a - b);
+        const gSort = cornerSamplePoints.map(p => p.g).sort((a, b) => a - b);
+        const bSort = cornerSamplePoints.map(p => p.b).sort((a, b) => a - b);
+        const bg = { r: rSort[1], g: gSort[1], b: bSort[1] };
+
+        // Find foreground bounding box
+        let minX = targetBox.x + targetBox.width, maxX = targetBox.x;
+        let minY = targetBox.y + targetBox.height, maxY = targetBox.y;
+        let fgR = 0, fgG = 0, fgB = 0, fgCount = 0;
+        const threshold = this.knockoutThreshold;
+
+        for (let y = targetBox.y + 8; y < targetBox.y + targetBox.height - 8; y += 2) {
+          for (let x = targetBox.x + 8; x < targetBox.x + targetBox.width - 8; x += 2) {
+            const p = getPix(x, y);
+            const dist = Math.sqrt((p.r - bg.r) ** 2 + (p.g - bg.g) ** 2 + (p.b - bg.b) ** 2);
+            if (dist > threshold) {
+              if (x < minX) minX = x;
+              if (x > maxX) maxX = x;
+              if (y < minY) minY = y;
+              if (y > maxY) maxY = y;
+              fgR += p.r; fgG += p.g; fgB += p.b; fgCount++;
+            }
+          }
+        }
+
+        if (maxX <= minX || maxY <= minY) {
+          minX = targetBox.x; minY = targetBox.y;
+          maxX = targetBox.x + targetBox.width; maxY = targetBox.y + targetBox.height;
+        }
+
+        const pad = 12;
+        const cropX = Math.max(targetBox.x, minX - pad);
+        const cropY = Math.max(targetBox.y, minY - pad);
+        const cropW = Math.min(targetBox.width - (cropX - targetBox.x), (maxX - minX) + pad * 2);
+        const cropH = Math.min(targetBox.height - (cropY - targetBox.y), (maxY - minY) + pad * 2);
+
+        const cropCanvas = document.createElement("canvas");
+        cropCanvas.width = cropW;
+        cropCanvas.height = cropH;
+        const cCtx = cropCanvas.getContext("2d");
+        cCtx.drawImage(img, cropX, cropY, cropW, cropH, 0, 0, cropW, cropH);
+
+        const cropData = cCtx.getImageData(0, 0, cropW, cropH);
+        const d = cropData.data;
+        const ramp = 12;
+
+        for (let i = 0; i < d.length; i += 4) {
+          const r = d[i], g = d[i + 1], b = d[i + 2];
+          const dist = Math.sqrt((r - bg.r) ** 2 + (g - bg.g) ** 2 + (b - bg.b) ** 2);
+          if (dist <= threshold - ramp) {
+            d[i + 3] = 0;
+          } else if (dist >= threshold + ramp) {
+            d[i + 3] = 255;
+          } else {
+            const t = (dist - (threshold - ramp)) / (ramp * 2);
+            d[i + 3] = Math.round(255 * (t * t * (3 - 2 * t)));
+          }
+        }
+
+        cCtx.putImageData(cropData, 0, 0);
+
+        const dominantFg = fgCount > 0 ? {
+          r: Math.round(fgR / fgCount),
+          g: Math.round(fgG / fgCount),
+          b: Math.round(fgB / fgCount)
+        } : { r: 229, g: 192, b: 123 };
+
+        const result = {
+          trimmedDataUrl: cropCanvas.toDataURL("image/png"),
+          originalDataUrl: item.image,
+          svgUrl: `assets/vectors/${item.id}.svg`,
+          width: cropW,
+          height: cropH,
+          aspectRatio: +(cropW / cropH).toFixed(4),
+          bg,
+          dominantFg,
+          layout: layoutType
+        };
+
+        this.cache.set(`${item.id}_${this.knockoutThreshold}`, result);
+        resolve(result);
       };
 
       img.onerror = () => {
@@ -235,7 +353,8 @@ class LiveSurfaceStageEngine {
       trimmedDataUrl: this.currentMark.image,
       originalDataUrl: this.currentMark.image,
       aspectRatio: 1,
-      dominantFg: { r: 229, g: 192, b: 123 }
+      dominantFg: { r: 229, g: 192, b: 123 },
+      layout: "single"
     };
   }
 
@@ -498,7 +617,7 @@ class LiveSurfaceStageEngine {
   }
 
   // ===========================================================================
-  // Dock Telemetry & Controls Synchronization
+  // Dock Telemetry & Controls Synchronization (2-Tier Figma Workstation)
   // ===========================================================================
   updateDockUI() {
     const s = this.surfaces[this.currentSurfaceIndex];
@@ -510,6 +629,7 @@ class LiveSurfaceStageEngine {
     const finishNameEl = document.getElementById("dockFinishName");
     const contrastValEl = document.getElementById("dockContrastVal");
     const wcagBadgeEl = document.getElementById("dockWcagBadge");
+    const markStatusEl = document.getElementById("dockMarkStatus");
 
     if (surfaceNameEl) surfaceNameEl.textContent = `${s.id} ${s.name.toUpperCase()}`;
     if (finishNameEl) finishNameEl.textContent = f.name.toUpperCase();
@@ -528,6 +648,15 @@ class LiveSurfaceStageEngine {
       } else {
         wcagBadgeEl.textContent = "FAIL";
         wcagBadgeEl.style.color = "#ff5555";
+      }
+    }
+
+    if (markStatusEl && data) {
+      if (this.isIsolated) {
+        const layoutDesc = data.layout && data.layout !== "single" ? ` (${data.layout.toUpperCase()} HERO CELL)` : "";
+        markStatusEl.textContent = `ISOLATED LOGO${layoutDesc}`;
+      } else {
+        markStatusEl.textContent = "FULL PRESENTATION SHEET";
       }
     }
 
@@ -550,16 +679,27 @@ class LiveSurfaceStageEngine {
 
     // Variant Button Visibility & Label
     const variantBtn = document.getElementById("stageVariantBtn");
+    const variantText = document.getElementById("stageVariantText");
     if (variantBtn) {
       if (s.hasVariant) {
         variantBtn.style.display = "inline-flex";
-        variantBtn.textContent = `VARIANT: ${s.variantLabel.toUpperCase()}`;
+        if (variantText) {
+          variantText.textContent = `V: ${s.variantLabel.toUpperCase()}`;
+        } else {
+          variantBtn.textContent = `VARIANT: ${s.variantLabel.toUpperCase()}`;
+        }
       } else {
         variantBtn.style.display = "none";
       }
     }
 
-    // Knockout Toggle Button
+    // Segmented Mark Toggle Buttons
+    const isoBtn = document.getElementById("markModeIsolatedBtn");
+    const fullBtn = document.getElementById("markModeFullBtn");
+    if (isoBtn) isoBtn.classList.toggle("active", this.isIsolated);
+    if (fullBtn) fullBtn.classList.toggle("active", !this.isIsolated);
+
+    // Backward-compatible knockout button
     const knockoutBtn = document.getElementById("stageKnockoutBtn");
     if (knockoutBtn) {
       knockoutBtn.textContent = this.isIsolated ? "ISOLATED MARK [ON]" : "ORIGINAL CARD [OFF]";
@@ -588,6 +728,11 @@ class LiveSurfaceStageEngine {
 
   setLogoScale(scale) {
     this.logoScale = parseFloat(scale);
+    this.render();
+  }
+
+  setMarkMode(mode) {
+    this.isIsolated = (mode === "isolated");
     this.render();
   }
 
@@ -667,7 +812,8 @@ class LiveSurfaceStageEngine {
 
       ctx.fillStyle = "#8c8c9a";
       ctx.font = "18px monospace";
-      ctx.fillText(`MARK: #${this.currentMark.id} - ${this.currentMark.title} | 100% DETERMINISTIC ZERO-AI`, 80, 115);
+      const modeLabel = this.isIsolated ? "ISOLATED VECTOR MARK" : "FULL PRESENTATION SHEET";
+      ctx.fillText(`MARK: #${this.currentMark.id} - ${this.currentMark.title} | ${modeLabel} | 100% DETERMINISTIC ZERO-AI`, 80, 115);
 
       // Trigger Instant Download
       const link = document.createElement("a");
@@ -681,7 +827,22 @@ class LiveSurfaceStageEngine {
   }
 
   // ===========================================================================
-  // Keyboard Shortcuts (1-0 for Surfaces, S for Stage Toggle, E for Export)
+  // DOM Controls Binding
+  // ===========================================================================
+  bindDomControls() {
+    const isoBtn = document.getElementById("markModeIsolatedBtn");
+    if (isoBtn) {
+      isoBtn.addEventListener("click", () => this.setMarkMode("isolated"));
+    }
+
+    const fullBtn = document.getElementById("markModeFullBtn");
+    if (fullBtn) {
+      fullBtn.addEventListener("click", () => this.setMarkMode("full"));
+    }
+  }
+
+  // ===========================================================================
+  // Keyboard Shortcuts (1-0 for Surfaces, S for Stage Toggle, O for Mark, E for Export)
   // ===========================================================================
   bindKeyboardShortcuts() {
     window.addEventListener("keydown", (e) => {

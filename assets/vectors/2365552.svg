@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1913 2870" width="1913" height="2870" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 340 1908 2188" width="1908" height="2188" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2365552" title="DC" archive="99designs-#2365552"/>
-    <originZero:geometry width="1913" height="2870" bbox="0,340,1913,2188"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(5,4,127)"/>
+    <originZero:layout type="single" fullSize="1913x2870"/>
+    <originZero:geometry bbox="2,340,1908,2188" aspect="0.872"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(5,255,127)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2365552">
-      <rect x="0" y="340" width="1913" height="2188"/>
+    <clipPath id="logoClip-2365552">
+      <rect x="2" y="340" width="1908" height="2188"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2365552.jpg" x="0" y="0" width="1913" height="2870" clip-path="url(#markClip-2365552)"/>
+  <image href="/crimadezignz-portfolio/images/2365552.jpg" x="0" y="0" width="1913" height="2870" clip-path="url(#logoClip-2365552)"/>
 </svg>

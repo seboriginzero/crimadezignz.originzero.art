@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 2976" width="1752" height="2976" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 870 2970" width="870" height="2970" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1963720" title="Slasher%20-%20Logo%20Proposal" archive="99designs-#1963720"/>
-    <originZero:geometry width="1752" height="2976" bbox="0,0,1752,2976"/>
-    <originZero:chroma background="rgb(143,143,143)" dominant="rgb(96,69,74)"/>
+    <originZero:layout type="split-2x1" fullSize="1752x2976"/>
+    <originZero:geometry bbox="2,2,870,2970" aspect="0.2929"/>
+    <originZero:chroma background="rgb(64,64,64)" dominant="rgb(127,64,132)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1963720">
-      <rect x="0" y="0" width="1752" height="2976"/>
+    <clipPath id="logoClip-1963720">
+      <rect x="2" y="2" width="870" height="2970"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1963720.jpg" x="0" y="0" width="1752" height="2976" clip-path="url(#markClip-1963720)"/>
+  <image href="/crimadezignz-portfolio/images/1963720.jpg" x="0" y="0" width="1752" height="2976" clip-path="url(#logoClip-1963720)"/>
 </svg>

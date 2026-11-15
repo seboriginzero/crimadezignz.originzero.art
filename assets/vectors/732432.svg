@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1739 1379" width="1739" height="1379" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="718 562 302 254" width="302" height="254" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="732432" title="Artist%20House%20-%20Logo%20Design" archive="99designs-#732432"/>
-    <originZero:geometry width="1739" height="1379" bbox="0,0,1020,1379"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(181,182,183)"/>
+    <originZero:layout type="single" fullSize="1739x1379"/>
+    <originZero:geometry bbox="718,562,302,254" aspect="1.189"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(219,11,220)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-732432">
-      <rect x="0" y="0" width="1020" height="1379"/>
+    <clipPath id="logoClip-732432">
+      <rect x="718" y="562" width="302" height="254"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/732432.jpg" x="0" y="0" width="1739" height="1379" clip-path="url(#markClip-732432)"/>
+  <image href="/crimadezignz-portfolio/images/732432.jpg" x="0" y="0" width="1739" height="1379" clip-path="url(#logoClip-732432)"/>
 </svg>

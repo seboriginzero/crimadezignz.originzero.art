@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1521 1521" width="1521" height="1521" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 1364" width="1366" height="1364" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2214044" title="Drone%20Trust" archive="99designs-#2214044"/>
-    <originZero:geometry width="1521" height="1521" bbox="76,76,1368,1368"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(74,63,54)"/>
+    <originZero:layout type="single" fullSize="1521x1521"/>
+    <originZero:geometry bbox="76,78,1366,1364" aspect="1.0015"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(72,255,53)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2214044">
-      <rect x="76" y="76" width="1368" height="1368"/>
+    <clipPath id="logoClip-2214044">
+      <rect x="76" y="78" width="1366" height="1364"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2214044.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#markClip-2214044)"/>
+  <image href="/crimadezignz-portfolio/images/2214044.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#logoClip-2214044)"/>
 </svg>

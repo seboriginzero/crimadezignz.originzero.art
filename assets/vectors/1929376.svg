@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1500" width="2000" height="1500" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1994 1112" width="1994" height="1112" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1929376" title="EOHN%20-%20Logo%20Design" archive="99designs-#1929376"/>
-    <originZero:geometry width="2000" height="1500" bbox="0,352,2000,1148"/>
-    <originZero:chroma background="rgb(13,1,39)" dominant="rgb(37,35,57)"/>
+    <originZero:layout type="single" fullSize="2000x1500"/>
+    <originZero:geometry bbox="2,2,1994,1112" aspect="1.7932"/>
+    <originZero:chroma background="rgb(3,0,11)" dominant="rgb(40,0,72)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1929376">
-      <rect x="0" y="352" width="2000" height="1148"/>
+    <clipPath id="logoClip-1929376">
+      <rect x="2" y="2" width="1994" height="1112"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1929376.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#markClip-1929376)"/>
+  <image href="/crimadezignz-portfolio/images/1929376.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#logoClip-1929376)"/>
 </svg>

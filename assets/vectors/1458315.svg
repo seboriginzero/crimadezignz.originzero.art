@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 1332" width="1460" height="1332" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="584 574 292 310" width="292" height="310" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1458315" title="West%20Group%20" archive="99designs-#1458315"/>
-    <originZero:geometry width="1460" height="1332" bbox="584,572,288,312"/>
-    <originZero:chroma background="rgb(246,248,247)" dominant="rgb(62,120,166)"/>
+    <originZero:layout type="single" fullSize="1460x1332"/>
+    <originZero:geometry bbox="584,574,292,310" aspect="0.9419"/>
+    <originZero:chroma background="rgb(246,248,247)" dominant="rgb(65,248,169)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1458315">
-      <rect x="584" y="572" width="288" height="312"/>
+    <clipPath id="logoClip-1458315">
+      <rect x="584" y="574" width="292" height="310"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1458315.jpg" x="0" y="0" width="1460" height="1332" clip-path="url(#markClip-1458315)"/>
+  <image href="/crimadezignz-portfolio/images/1458315.jpg" x="0" y="0" width="1460" height="1332" clip-path="url(#logoClip-1458315)"/>
 </svg>

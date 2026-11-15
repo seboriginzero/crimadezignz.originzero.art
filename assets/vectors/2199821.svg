@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="474 274 1482 938" width="1482" height="938" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2199821" title="DD-214%20Shooters%20Classic" archive="99designs-#2199821"/>
-    <originZero:geometry width="2000" height="1250" bbox="472,272,1484,940"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(109,109,109)"/>
+    <originZero:layout type="single" fullSize="2000x1250"/>
+    <originZero:geometry bbox="474,274,1482,938" aspect="1.58"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(108,0,108)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2199821">
-      <rect x="472" y="272" width="1484" height="940"/>
+    <clipPath id="logoClip-2199821">
+      <rect x="474" y="274" width="1482" height="938"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2199821.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2199821)"/>
+  <image href="/crimadezignz-portfolio/images/2199821.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2199821)"/>
 </svg>

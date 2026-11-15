@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 3200" width="1400" height="3200" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1394 3194" width="1394" height="3194" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2357946" title="Skout" archive="99designs-#2357946"/>
-    <originZero:geometry width="1400" height="3200" bbox="0,0,1400,3200"/>
-    <originZero:chroma background="rgb(243,97,57)" dominant="rgb(181,177,175)"/>
+    <originZero:layout type="single" fullSize="1400x3200"/>
+    <originZero:geometry bbox="2,2,1394,3194" aspect="0.4364"/>
+    <originZero:chroma background="rgb(191,89,51)" dominant="rgb(191,89,154)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2357946">
-      <rect x="0" y="0" width="1400" height="3200"/>
+    <clipPath id="logoClip-2357946">
+      <rect x="2" y="2" width="1394" height="3194"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2357946.jpg" x="0" y="0" width="1400" height="3200" clip-path="url(#markClip-2357946)"/>
+  <image href="/crimadezignz-portfolio/images/2357946.jpg" x="0" y="0" width="1400" height="3200" clip-path="url(#logoClip-2357946)"/>
 </svg>

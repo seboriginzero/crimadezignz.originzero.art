@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1872 1341" width="1872" height="1341" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="598 562 676 214" width="676" height="214" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1963672" title="CYMA%20-%20Logo%20Design" archive="99designs-#1963672"/>
-    <originZero:geometry width="1872" height="1341" bbox="0,0,1872,1341"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(175,179,181)"/>
+    <originZero:layout type="single" fullSize="1872x1341"/>
+    <originZero:geometry bbox="598,562,676,214" aspect="3.1589"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(189,11,195)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1963672">
-      <rect x="0" y="0" width="1872" height="1341"/>
+    <clipPath id="logoClip-1963672">
+      <rect x="598" y="562" width="676" height="214"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1963672.jpg" x="0" y="0" width="1872" height="1341" clip-path="url(#markClip-1963672)"/>
+  <image href="/crimadezignz-portfolio/images/1963672.jpg" x="0" y="0" width="1872" height="1341" clip-path="url(#logoClip-1963672)"/>
 </svg>

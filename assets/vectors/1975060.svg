@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 4416" width="1752" height="4416" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 278 870 3878" width="870" height="3878" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1975060" title="Semper%20Survival%20-%20Logo%20Proposal" archive="99designs-#1975060"/>
-    <originZero:geometry width="1752" height="4416" bbox="0,0,1752,4164"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(36,41,43)"/>
+    <originZero:layout type="split-2x1" fullSize="1752x4416"/>
+    <originZero:geometry bbox="2,278,870,3878" aspect="0.2243"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(49,255,64)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1975060">
-      <rect x="0" y="0" width="1752" height="4164"/>
+    <clipPath id="logoClip-1975060">
+      <rect x="2" y="278" width="870" height="3878"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1975060.jpg" x="0" y="0" width="1752" height="4416" clip-path="url(#markClip-1975060)"/>
+  <image href="/crimadezignz-portfolio/images/1975060.jpg" x="0" y="0" width="1752" height="4416" clip-path="url(#logoClip-1975060)"/>
 </svg>

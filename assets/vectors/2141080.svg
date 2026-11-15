@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1602 1655" width="1602" height="1655" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 528 822" width="528" height="822" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2141080" title="Argus%20Gear" archive="99designs-#2141080"/>
-    <originZero:geometry width="1602" height="1655" bbox="0,0,1602,1655"/>
-    <originZero:chroma background="rgb(20,20,20)" dominant="rgb(135,137,140)"/>
+    <originZero:layout type="grid-3x2" fullSize="1602x1655"/>
+    <originZero:geometry bbox="2,2,528,822" aspect="0.6423"/>
+    <originZero:chroma background="rgb(13,13,13)" dominant="rgb(142,13,147)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2141080">
-      <rect x="0" y="0" width="1602" height="1655"/>
+    <clipPath id="logoClip-2141080">
+      <rect x="2" y="2" width="528" height="822"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2141080.jpg" x="0" y="0" width="1602" height="1655" clip-path="url(#markClip-2141080)"/>
+  <image href="/crimadezignz-portfolio/images/2141080.jpg" x="0" y="0" width="1602" height="1655" clip-path="url(#logoClip-2141080)"/>
 </svg>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1521 1521" width="1521" height="1521" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1366 1364" width="1366" height="1364" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2244626" title="Bridger" archive="99designs-#2244626"/>
-    <originZero:geometry width="1521" height="1521" bbox="0,0,1521,1521"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(181,181,181)"/>
+    <originZero:layout type="single" fullSize="1521x1521"/>
+    <originZero:geometry bbox="76,78,1366,1364" aspect="1.0015"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(187,11,188)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2244626">
-      <rect x="0" y="0" width="1521" height="1521"/>
+    <clipPath id="logoClip-2244626">
+      <rect x="76" y="78" width="1366" height="1364"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2244626.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#markClip-2244626)"/>
+  <image href="/crimadezignz-portfolio/images/2244626.jpg" x="0" y="0" width="1521" height="1521" clip-path="url(#logoClip-2244626)"/>
 </svg>

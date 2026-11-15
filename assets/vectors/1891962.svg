@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1657 1376" width="1657" height="1376" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="486 346 684 682" width="684" height="682" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1891962" title="Muscle%20Burger%20-%20Logo%20Design" archive="99designs-#1891962"/>
-    <originZero:geometry width="1657" height="1376" bbox="484,344,688,684"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(24,24,24)"/>
+    <originZero:layout type="single" fullSize="1657x1376"/>
+    <originZero:geometry bbox="486,346,684,682" aspect="1.0029"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(24,255,24)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1891962">
-      <rect x="484" y="344" width="688" height="684"/>
+    <clipPath id="logoClip-1891962">
+      <rect x="486" y="346" width="684" height="682"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1891962.jpg" x="0" y="0" width="1657" height="1376" clip-path="url(#markClip-1891962)"/>
+  <image href="/crimadezignz-portfolio/images/1891962.jpg" x="0" y="0" width="1657" height="1376" clip-path="url(#logoClip-1891962)"/>
 </svg>

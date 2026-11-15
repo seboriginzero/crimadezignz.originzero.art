@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1298 1948" width="1298" height="1948" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 30 588 588" width="588" height="588" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2178455" title="Vengeance%20Paintball" archive="99designs-#2178455"/>
-    <originZero:geometry width="1298" height="1948" bbox="0,0,1298,1916"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(27,17,18)"/>
+    <originZero:layout type="grid-2x3" fullSize="1298x1948"/>
+    <originZero:geometry bbox="30,30,588,588" aspect="1"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(171,255,69)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2178455">
-      <rect x="0" y="0" width="1298" height="1916"/>
+    <clipPath id="logoClip-2178455">
+      <rect x="30" y="30" width="588" height="588"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2178455.jpg" x="0" y="0" width="1298" height="1948" clip-path="url(#markClip-2178455)"/>
+  <image href="/crimadezignz-portfolio/images/2178455.jpg" x="0" y="0" width="1298" height="1948" clip-path="url(#logoClip-2178455)"/>
 </svg>

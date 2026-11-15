@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1541 4134" width="1541" height="4134" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 298 1536 3710" width="1536" height="3710" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1011653" title="Foundation%20Stainless%20Steel%20-%20Logo%20Design" archive="99designs-#1011653"/>
-    <originZero:geometry width="1541" height="4134" bbox="0,0,1541,4134"/>
-    <originZero:chroma background="rgb(52,56,61)" dominant="rgb(175,194,141)"/>
+    <originZero:layout type="single" fullSize="1541x4134"/>
+    <originZero:geometry bbox="2,298,1536,3710" aspect="0.414"/>
+    <originZero:chroma background="rgb(38,45,55)" dominant="rgb(175,45,140)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1011653">
-      <rect x="0" y="0" width="1541" height="4134"/>
+    <clipPath id="logoClip-1011653">
+      <rect x="2" y="298" width="1536" height="3710"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1011653.jpg" x="0" y="0" width="1541" height="4134" clip-path="url(#markClip-1011653)"/>
+  <image href="/crimadezignz-portfolio/images/1011653.jpg" x="0" y="0" width="1541" height="4134" clip-path="url(#logoClip-1011653)"/>
 </svg>

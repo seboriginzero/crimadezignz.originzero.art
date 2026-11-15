@@ -1202,6 +1202,22 @@ class AvantGardeAtelierApp {
       });
     }
 
+    const isoBtn = document.getElementById("markModeIsolatedBtn");
+    if (isoBtn) {
+      isoBtn.addEventListener("click", () => {
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.setMarkMode("isolated");
+        this.playMicroTone(620, 0.03);
+      });
+    }
+
+    const fullBtn = document.getElementById("markModeFullBtn");
+    if (fullBtn) {
+      fullBtn.addEventListener("click", () => {
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.setMarkMode("full");
+        this.playMicroTone(540, 0.03);
+      });
+    }
+
     const knockoutBtn = document.getElementById("stageKnockoutBtn");
     if (knockoutBtn) {
       knockoutBtn.addEventListener("click", () => {

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1171 2880" width="1171" height="2880" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1166 1434" width="1166" height="1434" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="902150" title="Monadnock%20Firearms%20LLC%20-%20Logo%20Design" archive="99designs-#902150"/>
-    <originZero:geometry width="1171" height="2880" bbox="0,136,1171,2744"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(47,28,29)"/>
+    <originZero:layout type="split-1x2" fullSize="1171x2880"/>
+    <originZero:geometry bbox="2,2,1166,1434" aspect="0.8131"/>
+    <originZero:chroma background="rgb(163,4,6)" dominant="rgb(116,4,111)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-902150">
-      <rect x="0" y="136" width="1171" height="2744"/>
+    <clipPath id="logoClip-902150">
+      <rect x="2" y="2" width="1166" height="1434"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/902150.jpg" x="0" y="0" width="1171" height="2880" clip-path="url(#markClip-902150)"/>
+  <image href="/crimadezignz-portfolio/images/902150.jpg" x="0" y="0" width="1171" height="2880" clip-path="url(#logoClip-902150)"/>
 </svg>

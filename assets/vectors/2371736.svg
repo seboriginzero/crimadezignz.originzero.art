@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1440" width="1440" height="1440" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="72 74 1294 1292" width="1294" height="1292" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2371736" title="Wren%20" archive="99designs-#2371736"/>
-    <originZero:geometry width="1440" height="1440" bbox="0,0,1368,1440"/>
-    <originZero:chroma background="rgb(181,97,63)" dominant="rgb(242,225,215)"/>
+    <originZero:layout type="single" fullSize="1440x1440"/>
+    <originZero:geometry bbox="72,74,1294,1292" aspect="1.0015"/>
+    <originZero:chroma background="rgb(184,95,61)" dominant="rgb(243,95,221)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2371736">
-      <rect x="0" y="0" width="1368" height="1440"/>
+    <clipPath id="logoClip-2371736">
+      <rect x="72" y="74" width="1294" height="1292"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2371736.jpg" x="0" y="0" width="1440" height="1440" clip-path="url(#markClip-2371736)"/>
+  <image href="/crimadezignz-portfolio/images/2371736.jpg" x="0" y="0" width="1440" height="1440" clip-path="url(#logoClip-2371736)"/>
 </svg>

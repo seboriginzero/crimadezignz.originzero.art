@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1679 1735" width="1679" height="1735" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1674 1730" width="1674" height="1730" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2179676" title="Kings%20and%20Priests" archive="99designs-#2179676"/>
-    <originZero:geometry width="1679" height="1735" bbox="0,0,1679,1735"/>
-    <originZero:chroma background="rgb(15,15,15)" dominant="rgb(208,208,208)"/>
+    <originZero:layout type="single" fullSize="1679x1735"/>
+    <originZero:geometry bbox="2,2,1674,1730" aspect="0.9676"/>
+    <originZero:chroma background="rgb(3,3,3)" dominant="rgb(183,3,183)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2179676">
-      <rect x="0" y="0" width="1679" height="1735"/>
+    <clipPath id="logoClip-2179676">
+      <rect x="2" y="2" width="1674" height="1730"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2179676.jpg" x="0" y="0" width="1679" height="1735" clip-path="url(#markClip-2179676)"/>
+  <image href="/crimadezignz-portfolio/images/2179676.jpg" x="0" y="0" width="1679" height="1735" clip-path="url(#logoClip-2179676)"/>
 </svg>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="408 162 1182 898" width="1182" height="898" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2029777" title="Diablo%20Ammunition%20-%20Logo%20Design" archive="99designs-#2029777"/>
-    <originZero:geometry width="2000" height="1250" bbox="408,160,1184,900"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(146,87,93)"/>
+    <originZero:layout type="single" fullSize="2000x1250"/>
+    <originZero:geometry bbox="408,162,1182,898" aspect="1.3163"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(145,0,93)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2029777">
-      <rect x="408" y="160" width="1184" height="900"/>
+    <clipPath id="logoClip-2029777">
+      <rect x="408" y="162" width="1182" height="898"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2029777.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2029777)"/>
+  <image href="/crimadezignz-portfolio/images/2029777.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2029777)"/>
 </svg>

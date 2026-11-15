@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1887 1371" width="1887" height="1371" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="744 498 400 374" width="400" height="374" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1898510" title="Parcel%20-%20Logo%20Design" archive="99designs-#1898510"/>
-    <originZero:geometry width="1887" height="1371" bbox="744,496,400,376"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(69,91,150)"/>
+    <originZero:layout type="single" fullSize="1887x1371"/>
+    <originZero:geometry bbox="744,498,400,374" aspect="1.0695"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(69,255,149)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1898510">
-      <rect x="744" y="496" width="400" height="376"/>
+    <clipPath id="logoClip-1898510">
+      <rect x="744" y="498" width="400" height="374"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1898510.jpg" x="0" y="0" width="1887" height="1371" clip-path="url(#markClip-1898510)"/>
+  <image href="/crimadezignz-portfolio/images/1898510.jpg" x="0" y="0" width="1887" height="1371" clip-path="url(#logoClip-1898510)"/>
 </svg>

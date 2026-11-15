@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1500" width="2000" height="1500" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 2 1964 1494" width="1964" height="1494" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1437958" title="Ragnarok%20Customs%20-%20Logo%20Design" archive="99designs-#1437958"/>
-    <originZero:geometry width="2000" height="1500" bbox="28,0,1968,1500"/>
-    <originZero:chroma background="rgb(1,1,1)" dominant="rgb(57,57,58)"/>
+    <originZero:layout type="single" fullSize="2000x1500"/>
+    <originZero:geometry bbox="30,2,1964,1494" aspect="1.3146"/>
+    <originZero:chroma background="rgb(1,1,1)" dominant="rgb(56,1,57)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1437958">
-      <rect x="28" y="0" width="1968" height="1500"/>
+    <clipPath id="logoClip-1437958">
+      <rect x="30" y="2" width="1964" height="1494"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1437958.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#markClip-1437958)"/>
+  <image href="/crimadezignz-portfolio/images/1437958.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#logoClip-1437958)"/>
 </svg>

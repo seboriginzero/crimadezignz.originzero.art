@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1052 5462" width="1052" height="5462" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1046 5220" width="1046" height="5220" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1921057" title="Bruntor%20-%20Logo%20Design" archive="99designs-#1921057"/>
-    <originZero:geometry width="1052" height="5462" bbox="0,408,1052,5054"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(80,10,19)"/>
+    <originZero:layout type="single" fullSize="1052x5462"/>
+    <originZero:geometry bbox="2,2,1046,5220" aspect="0.2004"/>
+    <originZero:chroma background="rgb(201,10,36)" dominant="rgb(128,10,116)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1921057">
-      <rect x="0" y="408" width="1052" height="5054"/>
+    <clipPath id="logoClip-1921057">
+      <rect x="2" y="2" width="1046" height="5220"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1921057.jpg" x="0" y="0" width="1052" height="5462" clip-path="url(#markClip-1921057)"/>
+  <image href="/crimadezignz-portfolio/images/1921057.jpg" x="0" y="0" width="1052" height="5462" clip-path="url(#logoClip-1921057)"/>
 </svg>

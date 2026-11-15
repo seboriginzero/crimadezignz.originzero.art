@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 1332" width="1460" height="1332" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="610 570 240 190" width="240" height="190" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1477934" title="Property%20Masters%20-%20Logo%20Design" archive="99designs-#1477934"/>
-    <originZero:geometry width="1460" height="1332" bbox="608,568,244,192"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(66,41,41)"/>
+    <originZero:layout type="single" fullSize="1460x1332"/>
+    <originZero:geometry bbox="610,570,240,190" aspect="1.2632"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(67,255,41)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1477934">
-      <rect x="608" y="568" width="244" height="192"/>
+    <clipPath id="logoClip-1477934">
+      <rect x="610" y="570" width="240" height="190"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1477934.jpg" x="0" y="0" width="1460" height="1332" clip-path="url(#markClip-1477934)"/>
+  <image href="/crimadezignz-portfolio/images/1477934.jpg" x="0" y="0" width="1460" height="1332" clip-path="url(#logoClip-1477934)"/>
 </svg>

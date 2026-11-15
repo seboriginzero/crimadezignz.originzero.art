@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1638 2185" width="1638" height="2185" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 540 1086" width="540" height="1086" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2391685" title="Overwatch%20Roof%20Systems" archive="99designs-#2391685"/>
-    <originZero:geometry width="1638" height="2185" bbox="0,0,1638,2185"/>
-    <originZero:chroma background="rgb(222,222,220)" dominant="rgb(134,133,133)"/>
+    <originZero:layout type="grid-3x2" fullSize="1638x2185"/>
+    <originZero:geometry bbox="2,2,540,1086" aspect="0.4972"/>
+    <originZero:chroma background="rgb(10,10,10)" dominant="rgb(205,10,204)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2391685">
-      <rect x="0" y="0" width="1638" height="2185"/>
+    <clipPath id="logoClip-2391685">
+      <rect x="2" y="2" width="540" height="1086"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2391685.jpg" x="0" y="0" width="1638" height="2185" clip-path="url(#markClip-2391685)"/>
+  <image href="/crimadezignz-portfolio/images/2391685.jpg" x="0" y="0" width="1638" height="2185" clip-path="url(#logoClip-2391685)"/>
 </svg>

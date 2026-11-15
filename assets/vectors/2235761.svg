@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="690 336 618 812" width="618" height="812" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2235761" title="Ferox" archive="99designs-#2235761"/>
-    <originZero:geometry width="2000" height="1250" bbox="688,336,616,812"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(95,95,97)"/>
+    <originZero:layout type="single" fullSize="2000x1250"/>
+    <originZero:geometry bbox="690,336,618,812" aspect="0.7611"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(94,0,97)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2235761">
-      <rect x="688" y="336" width="616" height="812"/>
+    <clipPath id="logoClip-2235761">
+      <rect x="690" y="336" width="618" height="812"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2235761.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2235761)"/>
+  <image href="/crimadezignz-portfolio/images/2235761.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2235761)"/>
 </svg>

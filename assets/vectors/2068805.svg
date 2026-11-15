@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1801 1330" width="1801" height="1330" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="506 390 788 760" width="788" height="760" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2068805" title="Idaho%20Mountain%20-%20Logo%20Proposal" archive="99designs-#2068805"/>
-    <originZero:geometry width="1801" height="1330" bbox="504,388,792,764"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(131,128,128)"/>
+    <originZero:layout type="single" fullSize="1801x1330"/>
+    <originZero:geometry bbox="506,390,788,760" aspect="1.0368"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(130,255,127)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2068805">
-      <rect x="504" y="388" width="792" height="764"/>
+    <clipPath id="logoClip-2068805">
+      <rect x="506" y="390" width="788" height="760"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2068805.jpg" x="0" y="0" width="1801" height="1330" clip-path="url(#markClip-2068805)"/>
+  <image href="/crimadezignz-portfolio/images/2068805.jpg" x="0" y="0" width="1801" height="1330" clip-path="url(#logoClip-2068805)"/>
 </svg>

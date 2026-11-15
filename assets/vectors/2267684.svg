@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2012 2013" width="2012" height="2013" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1000 2008" width="1000" height="2008" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2267684" title="Shooting%20Foundation" archive="99designs-#2267684"/>
-    <originZero:geometry width="2012" height="2013" bbox="0,0,2012,2013"/>
-    <originZero:chroma background="rgb(217,217,217)" dominant="rgb(53,75,84)"/>
+    <originZero:layout type="split-2x1" fullSize="2012x2013"/>
+    <originZero:geometry bbox="2,2,1000,2008" aspect="0.498"/>
+    <originZero:chroma background="rgb(24,24,24)" dominant="rgb(85,24,86)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2267684">
-      <rect x="0" y="0" width="2012" height="2013"/>
+    <clipPath id="logoClip-2267684">
+      <rect x="2" y="2" width="1000" height="2008"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2267684.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#markClip-2267684)"/>
+  <image href="/crimadezignz-portfolio/images/2267684.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#logoClip-2267684)"/>
 </svg>

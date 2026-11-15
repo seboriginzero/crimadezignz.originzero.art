@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1854 1420" width="1854" height="1420" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="704 556 446 676" width="446" height="676" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="874325" title="Curbside%20Autocare%20-%20Logo%20Design" archive="99designs-#874325"/>
-    <originZero:geometry width="1854" height="1420" bbox="0,0,1152,1420"/>
-    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(157,120,83)"/>
+    <originZero:layout type="single" fullSize="1854x1420"/>
+    <originZero:geometry bbox="704,556,446,676" aspect="0.6598"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(160,11,75)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-874325">
-      <rect x="0" y="0" width="1152" height="1420"/>
+    <clipPath id="logoClip-874325">
+      <rect x="704" y="556" width="446" height="676"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/874325.jpg" x="0" y="0" width="1854" height="1420" clip-path="url(#markClip-874325)"/>
+  <image href="/crimadezignz-portfolio/images/874325.jpg" x="0" y="0" width="1854" height="1420" clip-path="url(#logoClip-874325)"/>
 </svg>

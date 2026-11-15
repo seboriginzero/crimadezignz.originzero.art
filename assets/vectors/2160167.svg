@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="282 2 1548 1244" width="1548" height="1244" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2160167" title="Liberty%20Legion%20" archive="99designs-#2160167"/>
-    <originZero:geometry width="2000" height="1250" bbox="280,0,1544,1250"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(64,54,41)"/>
+    <originZero:layout type="single" fullSize="2000x1250"/>
+    <originZero:geometry bbox="282,2,1548,1244" aspect="1.2444"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(64,0,41)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2160167">
-      <rect x="280" y="0" width="1544" height="1250"/>
+    <clipPath id="logoClip-2160167">
+      <rect x="282" y="2" width="1548" height="1244"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2160167.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2160167)"/>
+  <image href="/crimadezignz-portfolio/images/2160167.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#logoClip-2160167)"/>
 </svg>

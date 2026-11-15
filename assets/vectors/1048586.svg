@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1817 1380" width="1817" height="1380" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="634 442 550 488" width="550" height="488" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1048586" title="Rival%20Tactical%20-%20Logo%20Design" archive="99designs-#1048586"/>
-    <originZero:geometry width="1817" height="1380" bbox="0,0,1184,1380"/>
-    <originZero:chroma background="rgb(10,10,10)" dominant="rgb(136,55,56)"/>
+    <originZero:layout type="single" fullSize="1817x1380"/>
+    <originZero:geometry bbox="634,442,550,488" aspect="1.127"/>
+    <originZero:chroma background="rgb(10,10,10)" dominant="rgb(140,10,51)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1048586">
-      <rect x="0" y="0" width="1184" height="1380"/>
+    <clipPath id="logoClip-1048586">
+      <rect x="634" y="442" width="550" height="488"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1048586.jpg" x="0" y="0" width="1817" height="1380" clip-path="url(#markClip-1048586)"/>
+  <image href="/crimadezignz-portfolio/images/1048586.jpg" x="0" y="0" width="1817" height="1380" clip-path="url(#logoClip-1048586)"/>
 </svg>

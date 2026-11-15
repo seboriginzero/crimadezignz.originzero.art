@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 1752" width="1752" height="1752" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="198 266 478 346" width="478" height="346" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1897007" title="Crimson%20Fitness%20-%20Logo%20Design" archive="99designs-#1897007"/>
-    <originZero:geometry width="1752" height="1752" bbox="0,0,1752,1752"/>
-    <originZero:chroma background="rgb(148,2,28)" dominant="rgb(123,84,87)"/>
+    <originZero:layout type="grid-2x2" fullSize="1752x1752"/>
+    <originZero:geometry bbox="198,266,478,346" aspect="1.3815"/>
+    <originZero:chroma background="rgb(250,254,255)" dominant="rgb(120,254,57)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1897007">
-      <rect x="0" y="0" width="1752" height="1752"/>
+    <clipPath id="logoClip-1897007">
+      <rect x="198" y="266" width="478" height="346"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1897007.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#markClip-1897007)"/>
+  <image href="/crimadezignz-portfolio/images/1897007.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#logoClip-1897007)"/>
 </svg>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1876 1326" width="1876" height="1326" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 1870 1174" width="1870" height="1174" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1947124" title="Alienish%20-%20Logo%20Design" archive="99designs-#1947124"/>
-    <originZero:geometry width="1876" height="1326" bbox="0,0,1876,1326"/>
-    <originZero:chroma background="rgb(34,34,34)" dominant="rgb(71,71,71)"/>
+    <originZero:layout type="single" fullSize="1876x1326"/>
+    <originZero:geometry bbox="2,2,1870,1174" aspect="1.5928"/>
+    <originZero:chroma background="rgb(34,34,34)" dominant="rgb(71,34,71)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1947124">
-      <rect x="0" y="0" width="1876" height="1326"/>
+    <clipPath id="logoClip-1947124">
+      <rect x="2" y="2" width="1870" height="1174"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1947124.jpg" x="0" y="0" width="1876" height="1326" clip-path="url(#markClip-1947124)"/>
+  <image href="/crimadezignz-portfolio/images/1947124.jpg" x="0" y="0" width="1876" height="1326" clip-path="url(#logoClip-1947124)"/>
 </svg>

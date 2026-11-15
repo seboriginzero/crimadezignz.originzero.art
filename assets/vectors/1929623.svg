@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="418 2 1102 964" width="1102" height="964" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1929623" title="Demonika%20-%20%20Icon%20Design" archive="99designs-#1929623"/>
-    <originZero:geometry width="1920" height="1080" bbox="488,72,956,896"/>
-    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(93,23,22)"/>
+    <originZero:layout type="single" fullSize="1920x1080"/>
+    <originZero:geometry bbox="418,2,1102,964" aspect="1.1432"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(93,0,22)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1929623">
-      <rect x="488" y="72" width="956" height="896"/>
+    <clipPath id="logoClip-1929623">
+      <rect x="418" y="2" width="1102" height="964"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1929623.jpg" x="0" y="0" width="1920" height="1080" clip-path="url(#markClip-1929623)"/>
+  <image href="/crimadezignz-portfolio/images/1929623.jpg" x="0" y="0" width="1920" height="1080" clip-path="url(#logoClip-1929623)"/>
 </svg>

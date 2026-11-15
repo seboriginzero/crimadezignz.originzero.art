@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1500" width="2000" height="1500" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="548 442 902 616" width="902" height="616" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="1812972" title="Revive%20Outdoors%20-%20Logo%20Design" archive="99designs-#1812972"/>
-    <originZero:geometry width="2000" height="1500" bbox="548,440,904,620"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(106,95,69)"/>
+    <originZero:layout type="single" fullSize="2000x1500"/>
+    <originZero:geometry bbox="548,442,902,616" aspect="1.4643"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(107,255,70)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-1812972">
-      <rect x="548" y="440" width="904" height="620"/>
+    <clipPath id="logoClip-1812972">
+      <rect x="548" y="442" width="902" height="616"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/1812972.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#markClip-1812972)"/>
+  <image href="/crimadezignz-portfolio/images/1812972.jpg" x="0" y="0" width="2000" height="1500" clip-path="url(#logoClip-1812972)"/>
 </svg>

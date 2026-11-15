@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1522 1522" width="1522" height="1522" data-origin="originzero-deterministic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 78 1368 1366" width="1368" height="1366" data-origin="originzero-deterministic">
   <metadata>
     <originZero:mark id="2114597" title="Pulse%20" archive="99designs-#2114597"/>
-    <originZero:geometry width="1522" height="1522" bbox="76,76,1368,1368"/>
-    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(19,19,19)"/>
+    <originZero:layout type="single" fullSize="1522x1522"/>
+    <originZero:geometry bbox="76,78,1368,1366" aspect="1.0015"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(19,255,19)"/>
   </metadata>
   <defs>
-    <clipPath id="markClip-2114597">
-      <rect x="76" y="76" width="1368" height="1368"/>
+    <clipPath id="logoClip-2114597">
+      <rect x="76" y="78" width="1368" height="1366"/>
     </clipPath>
   </defs>
-  <image href="/crimadezignz-portfolio/images/2114597.jpg" x="0" y="0" width="1522" height="1522" clip-path="url(#markClip-2114597)"/>
+  <image href="/crimadezignz-portfolio/images/2114597.jpg" x="0" y="0" width="1522" height="1522" clip-path="url(#logoClip-2114597)"/>
 </svg>
