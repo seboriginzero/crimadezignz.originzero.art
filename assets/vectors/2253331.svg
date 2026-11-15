@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="2253331" title="Pamir%20Hunt" archive="99designs-#2253331"/>
+    <originZero:geometry width="2000" height="1250" bbox="668,380,1276,832"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(198,185,147)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-2253331">
+      <rect x="668" y="380" width="1276" height="832"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/2253331.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2253331)"/>
+</svg>

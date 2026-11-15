@@ -1,0 +1,4762 @@
+{
+  "304362": {
+    "id": "304362",
+    "title": "Orion - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/304362.jpg",
+    "svgPath": "assets/vectors/304362.svg",
+    "dimensions": {
+      "width": 1500,
+      "height": 1113
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1500,
+      "height": 1113
+    },
+    "background": {
+      "r": 20,
+      "g": 21,
+      "b": 25
+    },
+    "dominantForeground": {
+      "r": 176,
+      "g": 177,
+      "b": 178
+    },
+    "aspectRatio": 1.3477
+  },
+  "307180": {
+    "id": "307180",
+    "title": "Kick ass! Can you design an elite logo for a martial arts group?",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/307180.jpg",
+    "svgPath": "assets/vectors/307180.svg",
+    "dimensions": {
+      "width": 1506,
+      "height": 1754
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1088,
+      "height": 1754
+    },
+    "background": {
+      "r": 19,
+      "g": 20,
+      "b": 24
+    },
+    "dominantForeground": {
+      "r": 219,
+      "g": 169,
+      "b": 166
+    },
+    "aspectRatio": 0.6203
+  },
+  "345639": {
+    "id": "345639",
+    "title": "Music On Boat - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/345639.jpg",
+    "svgPath": "assets/vectors/345639.svg",
+    "dimensions": {
+      "width": 1884,
+      "height": 1481
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1884,
+      "height": 1481
+    },
+    "background": {
+      "r": 221,
+      "g": 221,
+      "b": 221
+    },
+    "dominantForeground": {
+      "r": 32,
+      "g": 33,
+      "b": 36
+    },
+    "aspectRatio": 1.2721
+  },
+  "377718": {
+    "id": "377718",
+    "title": "MONOLITHICLIFE",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/377718.jpg",
+    "svgPath": "assets/vectors/377718.svg",
+    "dimensions": {
+      "width": 1819,
+      "height": 1406
+    },
+    "bbox": {
+      "x": 0,
+      "y": 164,
+      "width": 1819,
+      "height": 1242
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 22,
+      "g": 23,
+      "b": 27
+    },
+    "aspectRatio": 1.4646
+  },
+  "382202": {
+    "id": "382202",
+    "title": "Adamant Arms - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/382202.jpg",
+    "svgPath": "assets/vectors/382202.svg",
+    "dimensions": {
+      "width": 1000,
+      "height": 791
+    },
+    "bbox": {
+      "x": 0,
+      "y": 20,
+      "width": 976,
+      "height": 771
+    },
+    "background": {
+      "r": 36,
+      "g": 36,
+      "b": 36
+    },
+    "dominantForeground": {
+      "r": 112,
+      "g": 113,
+      "b": 115
+    },
+    "aspectRatio": 1.2659
+  },
+  "502075": {
+    "id": "502075",
+    "title": "Broken Bow - Logo Design",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/502075.jpg",
+    "svgPath": "assets/vectors/502075.svg",
+    "dimensions": {
+      "width": 1485,
+      "height": 1147
+    },
+    "bbox": {
+      "x": 376,
+      "y": 272,
+      "width": 732,
+      "height": 604
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 52,
+      "g": 48,
+      "b": 46
+    },
+    "aspectRatio": 1.2119
+  },
+  "532338": {
+    "id": "532338",
+    "title": "Banshee Fitness",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/532338.jpg",
+    "svgPath": "assets/vectors/532338.svg",
+    "dimensions": {
+      "width": 1794,
+      "height": 1386
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1176,
+      "height": 1386
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 174,
+      "g": 114,
+      "b": 114
+    },
+    "aspectRatio": 0.8485
+  },
+  "534847": {
+    "id": "534847",
+    "title": "CrossfitGP - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/534847.jpg",
+    "svgPath": "assets/vectors/534847.svg",
+    "dimensions": {
+      "width": 1837,
+      "height": 1420
+    },
+    "bbox": {
+      "x": 372,
+      "y": 584,
+      "width": 1092,
+      "height": 724
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 183,
+      "g": 114,
+      "b": 53
+    },
+    "aspectRatio": 1.5083
+  },
+  "581196": {
+    "id": "581196",
+    "title": "Caracter logo of DAB Cananbis Oil wizzard",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/581196.jpg",
+    "svgPath": "assets/vectors/581196.svg",
+    "dimensions": {
+      "width": 1807,
+      "height": 1420
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1464,
+      "height": 1420
+    },
+    "background": {
+      "r": 31,
+      "g": 26,
+      "b": 23
+    },
+    "dominantForeground": {
+      "r": 211,
+      "g": 180,
+      "b": 69
+    },
+    "aspectRatio": 1.031
+  },
+  "583927": {
+    "id": "583927",
+    "title": "Armored - Strength & Nutrition - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/583927.jpg",
+    "svgPath": "assets/vectors/583927.svg",
+    "dimensions": {
+      "width": 1869,
+      "height": 1362
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1368,
+      "height": 1362
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 46,
+      "g": 76,
+      "b": 76
+    },
+    "aspectRatio": 1.0044
+  },
+  "610166": {
+    "id": "610166",
+    "title": "Unlike Noise - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/610166.jpg",
+    "svgPath": "assets/vectors/610166.svg",
+    "dimensions": {
+      "width": 1687,
+      "height": 1402
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1687,
+      "height": 1402
+    },
+    "background": {
+      "r": 1,
+      "g": 1,
+      "b": 2
+    },
+    "dominantForeground": {
+      "r": 6,
+      "g": 30,
+      "b": 75
+    },
+    "aspectRatio": 1.2033
+  },
+  "624213": {
+    "id": "624213",
+    "title": "Shadow Gunworks - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/624213.jpg",
+    "svgPath": "assets/vectors/624213.svg",
+    "dimensions": {
+      "width": 1863,
+      "height": 1468
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1863,
+      "height": 1468
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 79,
+      "g": 80,
+      "b": 79
+    },
+    "aspectRatio": 1.2691
+  },
+  "636036": {
+    "id": "636036",
+    "title": "Roosvelt - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/636036.jpg",
+    "svgPath": "assets/vectors/636036.svg",
+    "dimensions": {
+      "width": 1737,
+      "height": 1398
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1737,
+      "height": 1398
+    },
+    "background": {
+      "r": 20,
+      "g": 21,
+      "b": 23
+    },
+    "dominantForeground": {
+      "r": 71,
+      "g": 73,
+      "b": 72
+    },
+    "aspectRatio": 1.2425
+  },
+  "636843": {
+    "id": "636843",
+    "title": "Perfect - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/636843.jpg",
+    "svgPath": "assets/vectors/636843.svg",
+    "dimensions": {
+      "width": 1398,
+      "height": 2062
+    },
+    "bbox": {
+      "x": 0,
+      "y": 112,
+      "width": 1398,
+      "height": 1950
+    },
+    "background": {
+      "r": 244,
+      "g": 244,
+      "b": 244
+    },
+    "dominantForeground": {
+      "r": 69,
+      "g": 71,
+      "b": 73
+    },
+    "aspectRatio": 0.7169
+  },
+  "666464": {
+    "id": "666464",
+    "title": "Untamed Fitness - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/666464.jpg",
+    "svgPath": "assets/vectors/666464.svg",
+    "dimensions": {
+      "width": 1962,
+      "height": 1845
+    },
+    "bbox": {
+      "x": 0,
+      "y": 268,
+      "width": 1962,
+      "height": 1577
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 28,
+      "g": 27,
+      "b": 26
+    },
+    "aspectRatio": 1.2441
+  },
+  "727471": {
+    "id": "727471",
+    "title": "London Cryo - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/727471.jpg",
+    "svgPath": "assets/vectors/727471.svg",
+    "dimensions": {
+      "width": 1845,
+      "height": 1845
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1845,
+      "height": 1845
+    },
+    "background": {
+      "r": 91,
+      "g": 204,
+      "b": 223
+    },
+    "dominantForeground": {
+      "r": 118,
+      "g": 157,
+      "b": 164
+    },
+    "aspectRatio": 1
+  },
+  "730705": {
+    "id": "730705",
+    "title": "Gestalt Performance",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/730705.jpg",
+    "svgPath": "assets/vectors/730705.svg",
+    "dimensions": {
+      "width": 1898,
+      "height": 1440
+    },
+    "bbox": {
+      "x": 604,
+      "y": 552,
+      "width": 692,
+      "height": 336
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 99,
+      "g": 99,
+      "b": 100
+    },
+    "aspectRatio": 2.0595
+  },
+  "732432": {
+    "id": "732432",
+    "title": "Artist House - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/732432.jpg",
+    "svgPath": "assets/vectors/732432.svg",
+    "dimensions": {
+      "width": 1739,
+      "height": 1379
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1020,
+      "height": 1379
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 181,
+      "g": 182,
+      "b": 183
+    },
+    "aspectRatio": 0.7397
+  },
+  "740479": {
+    "id": "740479",
+    "title": "Qlash Team - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/740479.jpg",
+    "svgPath": "assets/vectors/740479.svg",
+    "dimensions": {
+      "width": 1480,
+      "height": 7477
+    },
+    "bbox": {
+      "x": 0,
+      "y": 164,
+      "width": 1480,
+      "height": 7313
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 55,
+      "g": 71,
+      "b": 72
+    },
+    "aspectRatio": 0.2024
+  },
+  "790772": {
+    "id": "790772",
+    "title": "Jack Troy - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/790772.jpg",
+    "svgPath": "assets/vectors/790772.svg",
+    "dimensions": {
+      "width": 1717,
+      "height": 1350
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 1350
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 189,
+      "g": 189,
+      "b": 190
+    },
+    "aspectRatio": 0.7585
+  },
+  "791275": {
+    "id": "791275",
+    "title": "Sport Nation",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/791275.jpg",
+    "svgPath": "assets/vectors/791275.svg",
+    "dimensions": {
+      "width": 1845,
+      "height": 1845
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1845,
+      "height": 1845
+    },
+    "background": {
+      "r": 254,
+      "g": 72,
+      "b": 77
+    },
+    "dominantForeground": {
+      "r": 154,
+      "g": 93,
+      "b": 95
+    },
+    "aspectRatio": 1
+  },
+  "794655": {
+    "id": "794655",
+    "title": "Magnum Sports - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/794655.jpg",
+    "svgPath": "assets/vectors/794655.svg",
+    "dimensions": {
+      "width": 1845,
+      "height": 1845
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1845,
+      "height": 1845
+    },
+    "background": {
+      "r": 118,
+      "g": 124,
+      "b": 78
+    },
+    "dominantForeground": {
+      "r": 116,
+      "g": 116,
+      "b": 104
+    },
+    "aspectRatio": 1
+  },
+  "813880": {
+    "id": "813880",
+    "title": "Exorcist - Logo Design",
+    "category": "wordmark",
+    "originalImage": "crimadezignz-portfolio/images/813880.jpg",
+    "svgPath": "assets/vectors/813880.svg",
+    "dimensions": {
+      "width": 1897,
+      "height": 1362
+    },
+    "bbox": {
+      "x": 628,
+      "y": 624,
+      "width": 640,
+      "height": 112
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 60,
+      "g": 55,
+      "b": 53
+    },
+    "aspectRatio": 5.7143
+  },
+  "815721": {
+    "id": "815721",
+    "title": "Roamm - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/815721.jpg",
+    "svgPath": "assets/vectors/815721.svg",
+    "dimensions": {
+      "width": 1845,
+      "height": 3987
+    },
+    "bbox": {
+      "x": 0,
+      "y": 88,
+      "width": 1845,
+      "height": 3899
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 43,
+      "g": 43,
+      "b": 46
+    },
+    "aspectRatio": 0.4732
+  },
+  "818849": {
+    "id": "818849",
+    "title": "Ridgid Holsters - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/818849.jpg",
+    "svgPath": "assets/vectors/818849.svg",
+    "dimensions": {
+      "width": 1683,
+      "height": 1336
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1132,
+      "height": 1336
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 119,
+      "g": 143,
+      "b": 170
+    },
+    "aspectRatio": 0.8473
+  },
+  "852260": {
+    "id": "852260",
+    "title": "Armor Built - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/852260.jpg",
+    "svgPath": "assets/vectors/852260.svg",
+    "dimensions": {
+      "width": 1851,
+      "height": 1504
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1308,
+      "height": 1504
+    },
+    "background": {
+      "r": 11,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 24,
+      "g": 44,
+      "b": 64
+    },
+    "aspectRatio": 0.8697
+  },
+  "874325": {
+    "id": "874325",
+    "title": "Curbside Autocare - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/874325.jpg",
+    "svgPath": "assets/vectors/874325.svg",
+    "dimensions": {
+      "width": 1854,
+      "height": 1420
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1152,
+      "height": 1420
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 157,
+      "g": 120,
+      "b": 83
+    },
+    "aspectRatio": 0.8113
+  },
+  "902150": {
+    "id": "902150",
+    "title": "Monadnock Firearms LLC - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/902150.jpg",
+    "svgPath": "assets/vectors/902150.svg",
+    "dimensions": {
+      "width": 1171,
+      "height": 2880
+    },
+    "bbox": {
+      "x": 0,
+      "y": 136,
+      "width": 1171,
+      "height": 2744
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 47,
+      "g": 28,
+      "b": 29
+    },
+    "aspectRatio": 0.4267
+  },
+  "935434": {
+    "id": "935434",
+    "title": "Corinthians - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/935434.jpg",
+    "svgPath": "assets/vectors/935434.svg",
+    "dimensions": {
+      "width": 1623,
+      "height": 3236
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1623,
+      "height": 3236
+    },
+    "background": {
+      "r": 160,
+      "g": 163,
+      "b": 172
+    },
+    "dominantForeground": {
+      "r": 80,
+      "g": 94,
+      "b": 109
+    },
+    "aspectRatio": 0.5015
+  },
+  "985522": {
+    "id": "985522",
+    "title": "IronClad",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/985522.jpg",
+    "svgPath": "assets/vectors/985522.svg",
+    "dimensions": {
+      "width": 1821,
+      "height": 1500
+    },
+    "bbox": {
+      "x": 712,
+      "y": 580,
+      "width": 396,
+      "height": 340
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 124,
+      "g": 65,
+      "b": 71
+    },
+    "aspectRatio": 1.1647
+  },
+  "1005386": {
+    "id": "1005386",
+    "title": "Military Technical - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1005386.jpg",
+    "svgPath": "assets/vectors/1005386.svg",
+    "dimensions": {
+      "width": 1757,
+      "height": 1310
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1052,
+      "height": 1310
+    },
+    "background": {
+      "r": 9,
+      "g": 10,
+      "b": 10
+    },
+    "dominantForeground": {
+      "r": 128,
+      "g": 128,
+      "b": 128
+    },
+    "aspectRatio": 0.8031
+  },
+  "1011653": {
+    "id": "1011653",
+    "title": "Foundation Stainless Steel - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1011653.jpg",
+    "svgPath": "assets/vectors/1011653.svg",
+    "dimensions": {
+      "width": 1541,
+      "height": 4134
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1541,
+      "height": 4134
+    },
+    "background": {
+      "r": 52,
+      "g": 56,
+      "b": 61
+    },
+    "dominantForeground": {
+      "r": 175,
+      "g": 194,
+      "b": 141
+    },
+    "aspectRatio": 0.3728
+  },
+  "1044279": {
+    "id": "1044279",
+    "title": "JP Capital - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1044279.jpg",
+    "svgPath": "assets/vectors/1044279.svg",
+    "dimensions": {
+      "width": 1530,
+      "height": 1329
+    },
+    "bbox": {
+      "x": 636,
+      "y": 580,
+      "width": 260,
+      "height": 168
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 69,
+      "g": 65,
+      "b": 63
+    },
+    "aspectRatio": 1.5476
+  },
+  "1048586": {
+    "id": "1048586",
+    "title": "Rival Tactical - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1048586.jpg",
+    "svgPath": "assets/vectors/1048586.svg",
+    "dimensions": {
+      "width": 1817,
+      "height": 1380
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1184,
+      "height": 1380
+    },
+    "background": {
+      "r": 10,
+      "g": 10,
+      "b": 10
+    },
+    "dominantForeground": {
+      "r": 136,
+      "g": 55,
+      "b": 56
+    },
+    "aspectRatio": 0.858
+  },
+  "1179666": {
+    "id": "1179666",
+    "title": "Iron Nomad Logo design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1179666.jpg",
+    "svgPath": "assets/vectors/1179666.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1628,
+      "height": 1752
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 193,
+      "g": 186,
+      "b": 181
+    },
+    "aspectRatio": 0.9292
+  },
+  "1195469": {
+    "id": "1195469",
+    "title": "Hobby Strike - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1195469.jpg",
+    "svgPath": "assets/vectors/1195469.svg",
+    "dimensions": {
+      "width": 1806,
+      "height": 1369
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1806,
+      "height": 1369
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 165,
+      "g": 102,
+      "b": 67
+    },
+    "aspectRatio": 1.3192
+  },
+  "1218104": {
+    "id": "1218104",
+    "title": "Red Cloud - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1218104.jpg",
+    "svgPath": "assets/vectors/1218104.svg",
+    "dimensions": {
+      "width": 1775,
+      "height": 2549
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1775,
+      "height": 2549
+    },
+    "background": {
+      "r": 149,
+      "g": 148,
+      "b": 146
+    },
+    "dominantForeground": {
+      "r": 91,
+      "g": 92,
+      "b": 93
+    },
+    "aspectRatio": 0.6964
+  },
+  "1308370": {
+    "id": "1308370",
+    "title": "Phenom - Logo design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1308370.jpg",
+    "svgPath": "assets/vectors/1308370.svg",
+    "dimensions": {
+      "width": 1731,
+      "height": 1298
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1731,
+      "height": 1298
+    },
+    "background": {
+      "r": 4,
+      "g": 8,
+      "b": 2
+    },
+    "dominantForeground": {
+      "r": 89,
+      "g": 150,
+      "b": 76
+    },
+    "aspectRatio": 1.3336
+  },
+  "1336886": {
+    "id": "1336886",
+    "title": "Gun Pros - Logo Design ",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1336886.jpg",
+    "svgPath": "assets/vectors/1336886.svg",
+    "dimensions": {
+      "width": 1658,
+      "height": 1372
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1288,
+      "height": 1372
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 193,
+      "g": 174,
+      "b": 110
+    },
+    "aspectRatio": 0.9388
+  },
+  "1413231": {
+    "id": "1413231",
+    "title": "Bourbon Gear - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1413231.jpg",
+    "svgPath": "assets/vectors/1413231.svg",
+    "dimensions": {
+      "width": 1724,
+      "height": 1388
+    },
+    "bbox": {
+      "x": 588,
+      "y": 528,
+      "width": 548,
+      "height": 332
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 23,
+      "g": 23,
+      "b": 23
+    },
+    "aspectRatio": 1.6506
+  },
+  "1429607": {
+    "id": "1429607",
+    "title": "Polarcat - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1429607.jpg",
+    "svgPath": "assets/vectors/1429607.svg",
+    "dimensions": {
+      "width": 1697,
+      "height": 1322
+    },
+    "bbox": {
+      "x": 464,
+      "y": 564,
+      "width": 768,
+      "height": 188
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 94,
+      "g": 39,
+      "b": 57
+    },
+    "aspectRatio": 4.0851
+  },
+  "1437958": {
+    "id": "1437958",
+    "title": "Ragnarok Customs - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1437958.jpg",
+    "svgPath": "assets/vectors/1437958.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1500
+    },
+    "bbox": {
+      "x": 28,
+      "y": 0,
+      "width": 1968,
+      "height": 1500
+    },
+    "background": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "dominantForeground": {
+      "r": 57,
+      "g": 57,
+      "b": 58
+    },
+    "aspectRatio": 1.312
+  },
+  "1442567": {
+    "id": "1442567",
+    "title": "Viking Decoy Company - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1442567.jpg",
+    "svgPath": "assets/vectors/1442567.svg",
+    "dimensions": {
+      "width": 1736,
+      "height": 1357
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1736,
+      "height": 1357
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 175,
+      "g": 175,
+      "b": 175
+    },
+    "aspectRatio": 1.2793
+  },
+  "1448204": {
+    "id": "1448204",
+    "title": "GelSport",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1448204.jpg",
+    "svgPath": "assets/vectors/1448204.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 18,
+      "g": 97,
+      "b": 29
+    },
+    "dominantForeground": {
+      "r": 115,
+      "g": 124,
+      "b": 117
+    },
+    "aspectRatio": 1
+  },
+  "1458315": {
+    "id": "1458315",
+    "title": "West Group ",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1458315.jpg",
+    "svgPath": "assets/vectors/1458315.svg",
+    "dimensions": {
+      "width": 1460,
+      "height": 1332
+    },
+    "bbox": {
+      "x": 584,
+      "y": 572,
+      "width": 288,
+      "height": 312
+    },
+    "background": {
+      "r": 246,
+      "g": 248,
+      "b": 247
+    },
+    "dominantForeground": {
+      "r": 62,
+      "g": 120,
+      "b": 166
+    },
+    "aspectRatio": 0.9231
+  },
+  "1477934": {
+    "id": "1477934",
+    "title": "Property Masters - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1477934.jpg",
+    "svgPath": "assets/vectors/1477934.svg",
+    "dimensions": {
+      "width": 1460,
+      "height": 1332
+    },
+    "bbox": {
+      "x": 608,
+      "y": 568,
+      "width": 244,
+      "height": 192
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 66,
+      "g": 41,
+      "b": 41
+    },
+    "aspectRatio": 1.2708
+  },
+  "1503899": {
+    "id": "1503899",
+    "title": "Reading Capital - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1503899.jpg",
+    "svgPath": "assets/vectors/1503899.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 2106
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 2106
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 49,
+      "g": 50,
+      "b": 52
+    },
+    "aspectRatio": 0.8319
+  },
+  "1519965": {
+    "id": "1519965",
+    "title": "Beans Bullets Bandages - Logo Design",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/1519965.jpg",
+    "svgPath": "assets/vectors/1519965.svg",
+    "dimensions": {
+      "width": 1744,
+      "height": 1345
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1744,
+      "height": 1345
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 209,
+      "g": 191,
+      "b": 119
+    },
+    "aspectRatio": 1.2967
+  },
+  "1530323": {
+    "id": "1530323",
+    "title": "Skill At Arms - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1530323.jpg",
+    "svgPath": "assets/vectors/1530323.svg",
+    "dimensions": {
+      "width": 1724,
+      "height": 1400
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1256,
+      "height": 1400
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 210,
+      "g": 210,
+      "b": 210
+    },
+    "aspectRatio": 0.8971
+  },
+  "1561814": {
+    "id": "1561814",
+    "title": "Tactical Warrior - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1561814.jpg",
+    "svgPath": "assets/vectors/1561814.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1332
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1192,
+      "height": 1332
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 183,
+      "g": 183,
+      "b": 183
+    },
+    "aspectRatio": 0.8949
+  },
+  "1571296": {
+    "id": "1571296",
+    "title": "Murphy Racing - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1571296.jpg",
+    "svgPath": "assets/vectors/1571296.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 4272
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 4272
+    },
+    "background": {
+      "r": 18,
+      "g": 18,
+      "b": 19
+    },
+    "dominantForeground": {
+      "r": 80,
+      "g": 83,
+      "b": 85
+    },
+    "aspectRatio": 0.4101
+  },
+  "1586261": {
+    "id": "1586261",
+    "title": "Texas Plinking - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1586261.jpg",
+    "svgPath": "assets/vectors/1586261.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 65,
+      "g": 80,
+      "b": 87
+    },
+    "dominantForeground": {
+      "r": 103,
+      "g": 103,
+      "b": 103
+    },
+    "aspectRatio": 1
+  },
+  "1600632": {
+    "id": "1600632",
+    "title": "Tac Force - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1600632.jpg",
+    "svgPath": "assets/vectors/1600632.svg",
+    "dimensions": {
+      "width": 1947,
+      "height": 1404
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1532,
+      "height": 1404
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 163,
+      "g": 79,
+      "b": 79
+    },
+    "aspectRatio": 1.0912
+  },
+  "1724130": {
+    "id": "1724130",
+    "title": "Reed Shooting Supplies - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1724130.jpg",
+    "svgPath": "assets/vectors/1724130.svg",
+    "dimensions": {
+      "width": 1822,
+      "height": 1366
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1432,
+      "height": 1366
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 207,
+      "g": 196,
+      "b": 134
+    },
+    "aspectRatio": 1.0483
+  },
+  "1759357": {
+    "id": "1759357",
+    "title": "Bad Guy Targets - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1759357.jpg",
+    "svgPath": "assets/vectors/1759357.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1500
+    },
+    "bbox": {
+      "x": 548,
+      "y": 296,
+      "width": 900,
+      "height": 908
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 87,
+      "g": 25,
+      "b": 26
+    },
+    "aspectRatio": 0.9912
+  },
+  "1784931": {
+    "id": "1784931",
+    "title": "Aim Arms - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1784931.jpg",
+    "svgPath": "assets/vectors/1784931.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 65,
+      "g": 80,
+      "b": 87
+    },
+    "dominantForeground": {
+      "r": 121,
+      "g": 126,
+      "b": 128
+    },
+    "aspectRatio": 1
+  },
+  "1785900": {
+    "id": "1785900",
+    "title": "Lunar Arms Gunsmithing - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1785900.jpg",
+    "svgPath": "assets/vectors/1785900.svg",
+    "dimensions": {
+      "width": 1687,
+      "height": 4763
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1687,
+      "height": 4763
+    },
+    "background": {
+      "r": 48,
+      "g": 1,
+      "b": 1
+    },
+    "dominantForeground": {
+      "r": 128,
+      "g": 97,
+      "b": 97
+    },
+    "aspectRatio": 0.3542
+  },
+  "1791837": {
+    "id": "1791837",
+    "title": "Gordon - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1791837.jpg",
+    "svgPath": "assets/vectors/1791837.svg",
+    "dimensions": {
+      "width": 1839,
+      "height": 1320
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1236,
+      "height": 1320
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 201,
+      "g": 131,
+      "b": 132
+    },
+    "aspectRatio": 0.9364
+  },
+  "1800985": {
+    "id": "1800985",
+    "title": "R&S Retrievers - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1800985.jpg",
+    "svgPath": "assets/vectors/1800985.svg",
+    "dimensions": {
+      "width": 1853,
+      "height": 1341
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1853,
+      "height": 1341
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 192,
+      "g": 148,
+      "b": 96
+    },
+    "aspectRatio": 1.3818
+  },
+  "1812972": {
+    "id": "1812972",
+    "title": "Revive Outdoors - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1812972.jpg",
+    "svgPath": "assets/vectors/1812972.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1500
+    },
+    "bbox": {
+      "x": 548,
+      "y": 440,
+      "width": 904,
+      "height": 620
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 106,
+      "g": 95,
+      "b": 69
+    },
+    "aspectRatio": 1.4581
+  },
+  "1813842": {
+    "id": "1813842",
+    "title": "Density Ammunition - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1813842.jpg",
+    "svgPath": "assets/vectors/1813842.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 2346
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 2248
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 103,
+      "g": 75,
+      "b": 48
+    },
+    "aspectRatio": 0.7794
+  },
+  "1813922": {
+    "id": "1813922",
+    "title": "Iron Sight Gym - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1813922.jpg",
+    "svgPath": "assets/vectors/1813922.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1500
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1984,
+      "height": 1500
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 78,
+      "g": 80,
+      "b": 68
+    },
+    "aspectRatio": 1.3227
+  },
+  "1816208": {
+    "id": "1816208",
+    "title": "Comrey FFL Services LLC - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1816208.jpg",
+    "svgPath": "assets/vectors/1816208.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 101,
+      "g": 119,
+      "b": 87
+    },
+    "dominantForeground": {
+      "r": 108,
+      "g": 114,
+      "b": 116
+    },
+    "aspectRatio": 1
+  },
+  "1818626": {
+    "id": "1818626",
+    "title": "Blackjack Tactical - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1818626.jpg",
+    "svgPath": "assets/vectors/1818626.svg",
+    "dimensions": {
+      "width": 1661,
+      "height": 1371
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1661,
+      "height": 1371
+    },
+    "background": {
+      "r": 174,
+      "g": 174,
+      "b": 174
+    },
+    "dominantForeground": {
+      "r": 157,
+      "g": 157,
+      "b": 157
+    },
+    "aspectRatio": 1.2115
+  },
+  "1824819": {
+    "id": "1824819",
+    "title": "Veteran Hawk - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1824819.jpg",
+    "svgPath": "assets/vectors/1824819.svg",
+    "dimensions": {
+      "width": 1777,
+      "height": 1352
+    },
+    "bbox": {
+      "x": 568,
+      "y": 456,
+      "width": 692,
+      "height": 440
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 38,
+      "g": 38,
+      "b": 38
+    },
+    "aspectRatio": 1.5727
+  },
+  "1837697": {
+    "id": "1837697",
+    "title": "No Respawn Tactical - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1837697.jpg",
+    "svgPath": "assets/vectors/1837697.svg",
+    "dimensions": {
+      "width": 1790,
+      "height": 1356
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1790,
+      "height": 1356
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 99,
+      "g": 67,
+      "b": 56
+    },
+    "aspectRatio": 1.3201
+  },
+  "1863013": {
+    "id": "1863013",
+    "title": "Hawkeye PSD - Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1863013.jpg",
+    "svgPath": "assets/vectors/1863013.svg",
+    "dimensions": {
+      "width": 1765,
+      "height": 1438
+    },
+    "bbox": {
+      "x": 500,
+      "y": 440,
+      "width": 764,
+      "height": 556
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 77,
+      "g": 81,
+      "b": 65
+    },
+    "aspectRatio": 1.3741
+  },
+  "1889321": {
+    "id": "1889321",
+    "title": "VB Data Solutions - Logo proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1889321.jpg",
+    "svgPath": "assets/vectors/1889321.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 15,
+      "g": 149,
+      "b": 190
+    },
+    "dominantForeground": {
+      "r": 85,
+      "g": 146,
+      "b": 176
+    },
+    "aspectRatio": 1
+  },
+  "1891962": {
+    "id": "1891962",
+    "title": "Muscle Burger - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1891962.jpg",
+    "svgPath": "assets/vectors/1891962.svg",
+    "dimensions": {
+      "width": 1657,
+      "height": 1376
+    },
+    "bbox": {
+      "x": 484,
+      "y": 344,
+      "width": 688,
+      "height": 684
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 24,
+      "g": 24,
+      "b": 24
+    },
+    "aspectRatio": 1.0058
+  },
+  "1892737": {
+    "id": "1892737",
+    "title": "Spear - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1892737.jpg",
+    "svgPath": "assets/vectors/1892737.svg",
+    "dimensions": {
+      "width": 1141,
+      "height": 1880
+    },
+    "bbox": {
+      "x": 0,
+      "y": 248,
+      "width": 1141,
+      "height": 1600
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 38,
+      "g": 38,
+      "b": 38
+    },
+    "aspectRatio": 0.7131
+  },
+  "1897007": {
+    "id": "1897007",
+    "title": "Crimson Fitness - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1897007.jpg",
+    "svgPath": "assets/vectors/1897007.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 148,
+      "g": 2,
+      "b": 28
+    },
+    "dominantForeground": {
+      "r": 123,
+      "g": 84,
+      "b": 87
+    },
+    "aspectRatio": 1
+  },
+  "1898510": {
+    "id": "1898510",
+    "title": "Parcel - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1898510.jpg",
+    "svgPath": "assets/vectors/1898510.svg",
+    "dimensions": {
+      "width": 1887,
+      "height": 1371
+    },
+    "bbox": {
+      "x": 744,
+      "y": 496,
+      "width": 400,
+      "height": 376
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 69,
+      "g": 91,
+      "b": 150
+    },
+    "aspectRatio": 1.0638
+  },
+  "1921057": {
+    "id": "1921057",
+    "title": "Bruntor - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1921057.jpg",
+    "svgPath": "assets/vectors/1921057.svg",
+    "dimensions": {
+      "width": 1052,
+      "height": 5462
+    },
+    "bbox": {
+      "x": 0,
+      "y": 408,
+      "width": 1052,
+      "height": 5054
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 80,
+      "g": 10,
+      "b": 19
+    },
+    "aspectRatio": 0.2082
+  },
+  "1929376": {
+    "id": "1929376",
+    "title": "EOHN - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1929376.jpg",
+    "svgPath": "assets/vectors/1929376.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1500
+    },
+    "bbox": {
+      "x": 0,
+      "y": 352,
+      "width": 2000,
+      "height": 1148
+    },
+    "background": {
+      "r": 13,
+      "g": 1,
+      "b": 39
+    },
+    "dominantForeground": {
+      "r": 37,
+      "g": 35,
+      "b": 57
+    },
+    "aspectRatio": 1.7422
+  },
+  "1929623": {
+    "id": "1929623",
+    "title": "Demonika -  Icon Design",
+    "category": "wordmark",
+    "originalImage": "crimadezignz-portfolio/images/1929623.jpg",
+    "svgPath": "assets/vectors/1929623.svg",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080
+    },
+    "bbox": {
+      "x": 488,
+      "y": 72,
+      "width": 956,
+      "height": 896
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 93,
+      "g": 23,
+      "b": 22
+    },
+    "aspectRatio": 1.067
+  },
+  "1931674": {
+    "id": "1931674",
+    "title": "Bravo Zulu Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1931674.jpg",
+    "svgPath": "assets/vectors/1931674.svg",
+    "dimensions": {
+      "width": 1221,
+      "height": 4360
+    },
+    "bbox": {
+      "x": 0,
+      "y": 340,
+      "width": 1221,
+      "height": 3712
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 87,
+      "g": 54,
+      "b": 56
+    },
+    "aspectRatio": 0.3289
+  },
+  "1941791": {
+    "id": "1941791",
+    "title": "Alligator Arms - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1941791.jpg",
+    "svgPath": "assets/vectors/1941791.svg",
+    "dimensions": {
+      "width": 1119,
+      "height": 2950
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1119,
+      "height": 2804
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 64,
+      "g": 69,
+      "b": 36
+    },
+    "aspectRatio": 0.3991
+  },
+  "1947124": {
+    "id": "1947124",
+    "title": "Alienish - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1947124.jpg",
+    "svgPath": "assets/vectors/1947124.svg",
+    "dimensions": {
+      "width": 1876,
+      "height": 1326
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1876,
+      "height": 1326
+    },
+    "background": {
+      "r": 34,
+      "g": 34,
+      "b": 34
+    },
+    "dominantForeground": {
+      "r": 71,
+      "g": 71,
+      "b": 71
+    },
+    "aspectRatio": 1.4148
+  },
+  "1947639": {
+    "id": "1947639",
+    "title": "Monolithic - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1947639.jpg",
+    "svgPath": "assets/vectors/1947639.svg",
+    "dimensions": {
+      "width": 1611,
+      "height": 1361
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1611,
+      "height": 1361
+    },
+    "background": {
+      "r": 24,
+      "g": 24,
+      "b": 24
+    },
+    "dominantForeground": {
+      "r": 182,
+      "g": 182,
+      "b": 181
+    },
+    "aspectRatio": 1.1837
+  },
+  "1948034": {
+    "id": "1948034",
+    "title": "Orbit - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1948034.jpg",
+    "svgPath": "assets/vectors/1948034.svg",
+    "dimensions": {
+      "width": 1952,
+      "height": 1413
+    },
+    "bbox": {
+      "x": 472,
+      "y": 620,
+      "width": 1008,
+      "height": 172
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 49,
+      "g": 48,
+      "b": 66
+    },
+    "aspectRatio": 5.8605
+  },
+  "1950552": {
+    "id": "1950552",
+    "title": "No Man Down",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1950552.jpg",
+    "svgPath": "assets/vectors/1950552.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 3339
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 3136
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 92,
+      "g": 37,
+      "b": 47
+    },
+    "aspectRatio": 0.5587
+  },
+  "1963672": {
+    "id": "1963672",
+    "title": "CYMA - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1963672.jpg",
+    "svgPath": "assets/vectors/1963672.svg",
+    "dimensions": {
+      "width": 1872,
+      "height": 1341
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1872,
+      "height": 1341
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 175,
+      "g": 179,
+      "b": 181
+    },
+    "aspectRatio": 1.396
+  },
+  "1963720": {
+    "id": "1963720",
+    "title": "Slasher - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1963720.jpg",
+    "svgPath": "assets/vectors/1963720.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 2976
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 2976
+    },
+    "background": {
+      "r": 143,
+      "g": 143,
+      "b": 143
+    },
+    "dominantForeground": {
+      "r": 96,
+      "g": 69,
+      "b": 74
+    },
+    "aspectRatio": 0.5887
+  },
+  "1974995": {
+    "id": "1974995",
+    "title": "BB Guns - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1974995.jpg",
+    "svgPath": "assets/vectors/1974995.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 4067
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 4067
+    },
+    "background": {
+      "r": 99,
+      "g": 2,
+      "b": 2
+    },
+    "dominantForeground": {
+      "r": 114,
+      "g": 108,
+      "b": 109
+    },
+    "aspectRatio": 0.4308
+  },
+  "1975060": {
+    "id": "1975060",
+    "title": "Semper Survival - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1975060.jpg",
+    "svgPath": "assets/vectors/1975060.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 4416
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 4164
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 36,
+      "g": 41,
+      "b": 43
+    },
+    "aspectRatio": 0.4207
+  },
+  "1986026": {
+    "id": "1986026",
+    "title": "Variant Innovation",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/1986026.jpg",
+    "svgPath": "assets/vectors/1986026.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 4489
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 4489
+    },
+    "background": {
+      "r": 45,
+      "g": 65,
+      "b": 105
+    },
+    "dominantForeground": {
+      "r": 46,
+      "g": 52,
+      "b": 58
+    },
+    "aspectRatio": 0.3903
+  },
+  "1991930": {
+    "id": "1991930",
+    "title": "Alexandra Crum - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1991930.jpg",
+    "svgPath": "assets/vectors/1991930.svg",
+    "dimensions": {
+      "width": 1816,
+      "height": 2773
+    },
+    "bbox": {
+      "x": 596,
+      "y": 552,
+      "width": 624,
+      "height": 1712
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 54,
+      "g": 51,
+      "b": 49
+    },
+    "aspectRatio": 0.3645
+  },
+  "1999438": {
+    "id": "1999438",
+    "title": "ZSGO - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/1999438.jpg",
+    "svgPath": "assets/vectors/1999438.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 692,
+      "y": 336,
+      "width": 604,
+      "height": 580
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 92,
+      "g": 4,
+      "b": 5
+    },
+    "aspectRatio": 1.0414
+  },
+  "2004307": {
+    "id": "2004307",
+    "title": "Ecruit Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2004307.jpg",
+    "svgPath": "assets/vectors/2004307.svg",
+    "dimensions": {
+      "width": 1948,
+      "height": 1943
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1948,
+      "height": 1943
+    },
+    "background": {
+      "r": 155,
+      "g": 71,
+      "b": 155
+    },
+    "dominantForeground": {
+      "r": 149,
+      "g": 99,
+      "b": 143
+    },
+    "aspectRatio": 1.0026
+  },
+  "2024673": {
+    "id": "2024673",
+    "title": "Combat Labs  - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2024673.jpg",
+    "svgPath": "assets/vectors/2024673.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 424,
+      "y": 220,
+      "width": 1148,
+      "height": 808
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 164,
+      "g": 161,
+      "b": 160
+    },
+    "aspectRatio": 1.4208
+  },
+  "2029777": {
+    "id": "2029777",
+    "title": "Diablo Ammunition - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2029777.jpg",
+    "svgPath": "assets/vectors/2029777.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 408,
+      "y": 160,
+      "width": 1184,
+      "height": 900
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 146,
+      "g": 87,
+      "b": 93
+    },
+    "aspectRatio": 1.3156
+  },
+  "2033547": {
+    "id": "2033547",
+    "title": "Southern Current - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2033547.jpg",
+    "svgPath": "assets/vectors/2033547.svg",
+    "dimensions": {
+      "width": 1944,
+      "height": 2949
+    },
+    "bbox": {
+      "x": 0,
+      "y": 456,
+      "width": 1944,
+      "height": 2072
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 62,
+      "g": 149,
+      "b": 199
+    },
+    "aspectRatio": 0.9382
+  },
+  "2033933": {
+    "id": "2033933",
+    "title": "Raven - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2033933.jpg",
+    "svgPath": "assets/vectors/2033933.svg",
+    "dimensions": {
+      "width": 2003,
+      "height": 1387
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 1387
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 125,
+      "g": 127,
+      "b": 132
+    },
+    "aspectRatio": 1.1074
+  },
+  "2035210": {
+    "id": "2035210",
+    "title": "North West Defense Academy",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2035210.jpg",
+    "svgPath": "assets/vectors/2035210.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 105,
+      "g": 103,
+      "b": 104
+    },
+    "dominantForeground": {
+      "r": 103,
+      "g": 108,
+      "b": 111
+    },
+    "aspectRatio": 1
+  },
+  "2035521": {
+    "id": "2035521",
+    "title": "210 TacLabs - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2035521.jpg",
+    "svgPath": "assets/vectors/2035521.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 204,
+      "y": 0,
+      "width": 1620,
+      "height": 1250
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 46,
+      "g": 45,
+      "b": 38
+    },
+    "aspectRatio": 1.296
+  },
+  "2045881": {
+    "id": "2045881",
+    "title": "Fotia Arms - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2045881.jpg",
+    "svgPath": "assets/vectors/2045881.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 356,
+      "y": 0,
+      "width": 1468,
+      "height": 1250
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 77,
+      "g": 37,
+      "b": 18
+    },
+    "aspectRatio": 1.1744
+  },
+  "2046940": {
+    "id": "2046940",
+    "title": "Assault Forward Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2046940.jpg",
+    "svgPath": "assets/vectors/2046940.svg",
+    "dimensions": {
+      "width": 1695,
+      "height": 1333
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1695,
+      "height": 1333
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 117,
+      "g": 14,
+      "b": 14
+    },
+    "aspectRatio": 1.2716
+  },
+  "2047244": {
+    "id": "2047244",
+    "title": "Savage Army - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2047244.jpg",
+    "svgPath": "assets/vectors/2047244.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 664,
+      "y": 344,
+      "width": 672,
+      "height": 564
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 141,
+      "g": 23,
+      "b": 29
+    },
+    "aspectRatio": 1.1915
+  },
+  "2051445": {
+    "id": "2051445",
+    "title": "Eagle Eye Protection - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2051445.jpg",
+    "svgPath": "assets/vectors/2051445.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 856,
+      "y": 540,
+      "width": 288,
+      "height": 172
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 221,
+      "g": 9,
+      "b": 9
+    },
+    "aspectRatio": 1.6744
+  },
+  "2052158": {
+    "id": "2052158",
+    "title": "Orion Tactical Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2052158.jpg",
+    "svgPath": "assets/vectors/2052158.svg",
+    "dimensions": {
+      "width": 1857,
+      "height": 1393
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1857,
+      "height": 1393
+    },
+    "background": {
+      "r": 2,
+      "g": 2,
+      "b": 2
+    },
+    "dominantForeground": {
+      "r": 141,
+      "g": 43,
+      "b": 47
+    },
+    "aspectRatio": 1.3331
+  },
+  "2056976": {
+    "id": "2056976",
+    "title": "TACTIGYM - Logo Proposal",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2056976.jpg",
+    "svgPath": "assets/vectors/2056976.svg",
+    "dimensions": {
+      "width": 1518,
+      "height": 4328
+    },
+    "bbox": {
+      "x": 0,
+      "y": 284,
+      "width": 1518,
+      "height": 4044
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 24,
+      "g": 26,
+      "b": 9
+    },
+    "aspectRatio": 0.3754
+  },
+  "2068805": {
+    "id": "2068805",
+    "title": "Idaho Mountain - Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2068805.jpg",
+    "svgPath": "assets/vectors/2068805.svg",
+    "dimensions": {
+      "width": 1801,
+      "height": 1330
+    },
+    "bbox": {
+      "x": 504,
+      "y": 388,
+      "width": 792,
+      "height": 764
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 131,
+      "g": 128,
+      "b": 128
+    },
+    "aspectRatio": 1.0366
+  },
+  "2069575": {
+    "id": "2069575",
+    "title": "Simple RA Automation - Logo Design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2069575.jpg",
+    "svgPath": "assets/vectors/2069575.svg",
+    "dimensions": {
+      "width": 1509,
+      "height": 1778
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1509,
+      "height": 1778
+    },
+    "background": {
+      "r": 255,
+      "g": 88,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 122,
+      "g": 124,
+      "b": 125
+    },
+    "aspectRatio": 0.8487
+  },
+  "2098394": {
+    "id": "2098394",
+    "title": "5Three Logo Proposal",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2098394.jpg",
+    "svgPath": "assets/vectors/2098394.svg",
+    "dimensions": {
+      "width": 1469,
+      "height": 2938
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1469,
+      "height": 2938
+    },
+    "background": {
+      "r": 35,
+      "g": 35,
+      "b": 35
+    },
+    "dominantForeground": {
+      "r": 192,
+      "g": 192,
+      "b": 190
+    },
+    "aspectRatio": 0.5
+  },
+  "2114597": {
+    "id": "2114597",
+    "title": "Pulse ",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2114597.jpg",
+    "svgPath": "assets/vectors/2114597.svg",
+    "dimensions": {
+      "width": 1522,
+      "height": 1522
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 19,
+      "g": 19,
+      "b": 19
+    },
+    "aspectRatio": 1
+  },
+  "2115125": {
+    "id": "2115125",
+    "title": "Optio",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2115125.jpg",
+    "svgPath": "assets/vectors/2115125.svg",
+    "dimensions": {
+      "width": 1758,
+      "height": 2496
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1758,
+      "height": 2268
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 105,
+      "g": 29,
+      "b": 31
+    },
+    "aspectRatio": 0.7751
+  },
+  "2117651": {
+    "id": "2117651",
+    "title": "The Tactical Pastor",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2117651.jpg",
+    "svgPath": "assets/vectors/2117651.svg",
+    "dimensions": {
+      "width": 1522,
+      "height": 1522
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1444,
+      "height": 1522
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 147,
+      "g": 149,
+      "b": 91
+    },
+    "aspectRatio": 0.9488
+  },
+  "2121526": {
+    "id": "2121526",
+    "title": "Star Lore ",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2121526.jpg",
+    "svgPath": "assets/vectors/2121526.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "background": {
+      "r": 2,
+      "g": 1,
+      "b": 7
+    },
+    "dominantForeground": {
+      "r": 52,
+      "g": 43,
+      "b": 58
+    },
+    "aspectRatio": 1.6
+  },
+  "2122664": {
+    "id": "2122664",
+    "title": "Currahee Armory",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2122664.jpg",
+    "svgPath": "assets/vectors/2122664.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 708,
+      "y": 332,
+      "width": 584,
+      "height": 584
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 125,
+      "g": 124,
+      "b": 125
+    },
+    "aspectRatio": 1
+  },
+  "2125907": {
+    "id": "2125907",
+    "title": "Otter - Leather Works",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2125907.jpg",
+    "svgPath": "assets/vectors/2125907.svg",
+    "dimensions": {
+      "width": 1770,
+      "height": 6620
+    },
+    "bbox": {
+      "x": 0,
+      "y": 456,
+      "width": 1770,
+      "height": 6164
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 96,
+      "g": 66,
+      "b": 50
+    },
+    "aspectRatio": 0.2872
+  },
+  "2128651": {
+    "id": "2128651",
+    "title": "Dash Services",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2128651.jpg",
+    "svgPath": "assets/vectors/2128651.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 2628
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 2324
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 39,
+      "g": 64,
+      "b": 104
+    },
+    "aspectRatio": 0.7539
+  },
+  "2132196": {
+    "id": "2132196",
+    "title": "Weather Tough Flags ",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2132196.jpg",
+    "svgPath": "assets/vectors/2132196.svg",
+    "dimensions": {
+      "width": 1259,
+      "height": 5021
+    },
+    "bbox": {
+      "x": 0,
+      "y": 64,
+      "width": 1259,
+      "height": 4957
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 5,
+      "g": 3,
+      "b": 3
+    },
+    "aspectRatio": 0.254
+  },
+  "2133116": {
+    "id": "2133116",
+    "title": "Cyclops Composites",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2133116.jpg",
+    "svgPath": "assets/vectors/2133116.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 2394
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 2394
+    },
+    "background": {
+      "r": 15,
+      "g": 15,
+      "b": 15
+    },
+    "dominantForeground": {
+      "r": 154,
+      "g": 162,
+      "b": 165
+    },
+    "aspectRatio": 0.7318
+  },
+  "2138642": {
+    "id": "2138642",
+    "title": "True Ronin",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2138642.jpg",
+    "svgPath": "assets/vectors/2138642.svg",
+    "dimensions": {
+      "width": 1545,
+      "height": 1602
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1545,
+      "height": 1602
+    },
+    "background": {
+      "r": 50,
+      "g": 12,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 87,
+      "g": 74,
+      "b": 56
+    },
+    "aspectRatio": 0.9644
+  },
+  "2141080": {
+    "id": "2141080",
+    "title": "Argus Gear",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2141080.jpg",
+    "svgPath": "assets/vectors/2141080.svg",
+    "dimensions": {
+      "width": 1602,
+      "height": 1655
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1602,
+      "height": 1655
+    },
+    "background": {
+      "r": 20,
+      "g": 20,
+      "b": 20
+    },
+    "dominantForeground": {
+      "r": 135,
+      "g": 137,
+      "b": 140
+    },
+    "aspectRatio": 0.968
+  },
+  "2142181": {
+    "id": "2142181",
+    "title": "BUDO Martial Arts - Logo Proposal",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2142181.jpg",
+    "svgPath": "assets/vectors/2142181.svg",
+    "dimensions": {
+      "width": 1578,
+      "height": 1578
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1578,
+      "height": 1578
+    },
+    "background": {
+      "r": 112,
+      "g": 111,
+      "b": 109
+    },
+    "dominantForeground": {
+      "r": 119,
+      "g": 118,
+      "b": 118
+    },
+    "aspectRatio": 1
+  },
+  "2143356": {
+    "id": "2143356",
+    "title": "S4 Energy Services",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2143356.jpg",
+    "svgPath": "assets/vectors/2143356.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 3043
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 2888
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 18,
+      "g": 89,
+      "b": 149
+    },
+    "aspectRatio": 0.4737
+  },
+  "2156030": {
+    "id": "2156030",
+    "title": "MIGUNCO Logo Proposal",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2156030.jpg",
+    "svgPath": "assets/vectors/2156030.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 45,
+      "g": 45,
+      "b": 45
+    },
+    "aspectRatio": 1
+  },
+  "2160167": {
+    "id": "2160167",
+    "title": "Liberty Legion ",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2160167.jpg",
+    "svgPath": "assets/vectors/2160167.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 280,
+      "y": 0,
+      "width": 1544,
+      "height": 1250
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 64,
+      "g": 54,
+      "b": 41
+    },
+    "aspectRatio": 1.2352
+  },
+  "2166996": {
+    "id": "2166996",
+    "title": "GET'EM LEAKIN'",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2166996.jpg",
+    "svgPath": "assets/vectors/2166996.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 1250
+    },
+    "background": {
+      "r": 192,
+      "g": 192,
+      "b": 192
+    },
+    "dominantForeground": {
+      "r": 178,
+      "g": 178,
+      "b": 178
+    },
+    "aspectRatio": 1.6
+  },
+  "2169259": {
+    "id": "2169259",
+    "title": "MOAB",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2169259.jpg",
+    "svgPath": "assets/vectors/2169259.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 95,
+      "g": 98,
+      "b": 103
+    },
+    "dominantForeground": {
+      "r": 100,
+      "g": 101,
+      "b": 104
+    },
+    "aspectRatio": 1
+  },
+  "2169386": {
+    "id": "2169386",
+    "title": "Car Supply",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2169386.jpg",
+    "svgPath": "assets/vectors/2169386.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 3043
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1444,
+      "height": 3043
+    },
+    "background": {
+      "r": 31,
+      "g": 26,
+      "b": 23
+    },
+    "dominantForeground": {
+      "r": 239,
+      "g": 239,
+      "b": 238
+    },
+    "aspectRatio": 0.4745
+  },
+  "2171485": {
+    "id": "2171485",
+    "title": "Findelis Home Partners",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2171485.jpg",
+    "svgPath": "assets/vectors/2171485.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 80,
+      "g": 83,
+      "b": 67
+    },
+    "aspectRatio": 1
+  },
+  "2178455": {
+    "id": "2178455",
+    "title": "Vengeance Paintball",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2178455.jpg",
+    "svgPath": "assets/vectors/2178455.svg",
+    "dimensions": {
+      "width": 1298,
+      "height": 1948
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1298,
+      "height": 1916
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 27,
+      "g": 17,
+      "b": 18
+    },
+    "aspectRatio": 0.6775
+  },
+  "2179676": {
+    "id": "2179676",
+    "title": "Kings and Priests",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2179676.jpg",
+    "svgPath": "assets/vectors/2179676.svg",
+    "dimensions": {
+      "width": 1679,
+      "height": 1735
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1679,
+      "height": 1735
+    },
+    "background": {
+      "r": 15,
+      "g": 15,
+      "b": 15
+    },
+    "dominantForeground": {
+      "r": 208,
+      "g": 208,
+      "b": 208
+    },
+    "aspectRatio": 0.9677
+  },
+  "2185209": {
+    "id": "2185209",
+    "title": "Modalic Logo Design",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2185209.jpg",
+    "svgPath": "assets/vectors/2185209.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 24,
+      "g": 25,
+      "b": 26
+    },
+    "aspectRatio": 1
+  },
+  "2196866": {
+    "id": "2196866",
+    "title": "Kalibershop ",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2196866.jpg",
+    "svgPath": "assets/vectors/2196866.svg",
+    "dimensions": {
+      "width": 1508,
+      "height": 1558
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1508,
+      "height": 1558
+    },
+    "background": {
+      "r": 179,
+      "g": 122,
+      "b": 51
+    },
+    "dominantForeground": {
+      "r": 136,
+      "g": 122,
+      "b": 104
+    },
+    "aspectRatio": 0.9679
+  },
+  "2198352": {
+    "id": "2198352",
+    "title": "Titans Armory",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2198352.jpg",
+    "svgPath": "assets/vectors/2198352.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 3043
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 2888
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 40,
+      "g": 36,
+      "b": 33
+    },
+    "aspectRatio": 0.4737
+  },
+  "2199821": {
+    "id": "2199821",
+    "title": "DD-214 Shooters Classic",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2199821.jpg",
+    "svgPath": "assets/vectors/2199821.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 472,
+      "y": 272,
+      "width": 1484,
+      "height": 940
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 109,
+      "g": 109,
+      "b": 109
+    },
+    "aspectRatio": 1.5787
+  },
+  "2206175": {
+    "id": "2206175",
+    "title": "Heimdall - Logo Proposal",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2206175.jpg",
+    "svgPath": "assets/vectors/2206175.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "background": {
+      "r": 45,
+      "g": 51,
+      "b": 99
+    },
+    "dominantForeground": {
+      "r": 212,
+      "g": 214,
+      "b": 225
+    },
+    "aspectRatio": 1
+  },
+  "2214044": {
+    "id": "2214044",
+    "title": "Drone Trust",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2214044.jpg",
+    "svgPath": "assets/vectors/2214044.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 74,
+      "g": 63,
+      "b": 54
+    },
+    "aspectRatio": 1
+  },
+  "2217155": {
+    "id": "2217155",
+    "title": "NOOK Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2217155.jpg",
+    "svgPath": "assets/vectors/2217155.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 25,
+      "g": 25,
+      "b": 25
+    },
+    "aspectRatio": 1
+  },
+  "2225150": {
+    "id": "2225150",
+    "title": "Anders",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2225150.jpg",
+    "svgPath": "assets/vectors/2225150.svg",
+    "dimensions": {
+      "width": 1733,
+      "height": 1791
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1733,
+      "height": 1791
+    },
+    "background": {
+      "r": 135,
+      "g": 135,
+      "b": 135
+    },
+    "dominantForeground": {
+      "r": 130,
+      "g": 130,
+      "b": 130
+    },
+    "aspectRatio": 0.9676
+  },
+  "2229275": {
+    "id": "2229275",
+    "title": "Grams Fitness",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2229275.jpg",
+    "svgPath": "assets/vectors/2229275.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 2666
+    },
+    "bbox": {
+      "x": 0,
+      "y": 76,
+      "width": 1521,
+      "height": 2590
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 105,
+      "g": 105,
+      "b": 105
+    },
+    "aspectRatio": 0.5873
+  },
+  "2230471": {
+    "id": "2230471",
+    "title": "Sonak Logo Proposal",
+    "category": "wordmark",
+    "originalImage": "crimadezignz-portfolio/images/2230471.jpg",
+    "svgPath": "assets/vectors/2230471.svg",
+    "dimensions": {
+      "width": 1761,
+      "height": 3125
+    },
+    "bbox": {
+      "x": 0,
+      "y": 448,
+      "width": 1761,
+      "height": 2677
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 10,
+      "g": 9,
+      "b": 8
+    },
+    "aspectRatio": 0.6578
+  },
+  "2230475": {
+    "id": "2230475",
+    "title": "Drip Gear ",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2230475.jpg",
+    "svgPath": "assets/vectors/2230475.svg",
+    "dimensions": {
+      "width": 1679,
+      "height": 1735
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1679,
+      "height": 1735
+    },
+    "background": {
+      "r": 181,
+      "g": 181,
+      "b": 181
+    },
+    "dominantForeground": {
+      "r": 124,
+      "g": 124,
+      "b": 124
+    },
+    "aspectRatio": 0.9677
+  },
+  "2230491": {
+    "id": "2230491",
+    "title": "Valor Real Estate ",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2230491.jpg",
+    "svgPath": "assets/vectors/2230491.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 3043
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 2496
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 74,
+      "g": 68,
+      "b": 77
+    },
+    "aspectRatio": 0.5481
+  },
+  "2234853": {
+    "id": "2234853",
+    "title": "Kestrel Logo Proposal",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2234853.jpg",
+    "svgPath": "assets/vectors/2234853.svg",
+    "dimensions": {
+      "width": 2012,
+      "height": 2013
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 2012,
+      "height": 2013
+    },
+    "background": {
+      "r": 100,
+      "g": 105,
+      "b": 121
+    },
+    "dominantForeground": {
+      "r": 87,
+      "g": 75,
+      "b": 56
+    },
+    "aspectRatio": 0.9995
+  },
+  "2235761": {
+    "id": "2235761",
+    "title": "Ferox",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2235761.jpg",
+    "svgPath": "assets/vectors/2235761.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 688,
+      "y": 336,
+      "width": 616,
+      "height": 812
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 95,
+      "g": 95,
+      "b": 97
+    },
+    "aspectRatio": 0.7586
+  },
+  "2235822": {
+    "id": "2235822",
+    "title": "Raw Dog",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2235822.jpg",
+    "svgPath": "assets/vectors/2235822.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 652,
+      "y": 344,
+      "width": 736,
+      "height": 792
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 49,
+      "g": 49,
+      "b": 49
+    },
+    "aspectRatio": 0.9293
+  },
+  "2236736": {
+    "id": "2236736",
+    "title": "GSG - Golden State Garage",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2236736.jpg",
+    "svgPath": "assets/vectors/2236736.svg",
+    "dimensions": {
+      "width": 1978,
+      "height": 1318
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1978,
+      "height": 1318
+    },
+    "background": {
+      "r": 64,
+      "g": 81,
+      "b": 84
+    },
+    "dominantForeground": {
+      "r": 134,
+      "g": 109,
+      "b": 55
+    },
+    "aspectRatio": 1.5008
+  },
+  "2237865": {
+    "id": "2237865",
+    "title": "Praetorian Blade",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2237865.jpg",
+    "svgPath": "assets/vectors/2237865.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 35,
+      "g": 35,
+      "b": 35
+    },
+    "aspectRatio": 1
+  },
+  "2242080": {
+    "id": "2242080",
+    "title": "Seth Bakke Films",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2242080.jpg",
+    "svgPath": "assets/vectors/2242080.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 53,
+      "g": 49,
+      "b": 46
+    },
+    "aspectRatio": 1
+  },
+  "2244626": {
+    "id": "2244626",
+    "title": "Bridger",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2244626.jpg",
+    "svgPath": "assets/vectors/2244626.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1521,
+      "height": 1521
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 181,
+      "g": 181,
+      "b": 181
+    },
+    "aspectRatio": 1
+  },
+  "2251276": {
+    "id": "2251276",
+    "title": "Dopamine",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2251276.jpg",
+    "svgPath": "assets/vectors/2251276.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 3043
+    },
+    "bbox": {
+      "x": 0,
+      "y": 76,
+      "width": 1521,
+      "height": 2967
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 252,
+      "g": 159,
+      "b": 201
+    },
+    "aspectRatio": 0.5126
+  },
+  "2251277": {
+    "id": "2251277",
+    "title": "SENDERO Shooting Techonlogies",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2251277.jpg",
+    "svgPath": "assets/vectors/2251277.svg",
+    "dimensions": {
+      "width": 2012,
+      "height": 2013
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1952,
+      "height": 2013
+    },
+    "background": {
+      "r": 100,
+      "g": 100,
+      "b": 100
+    },
+    "dominantForeground": {
+      "r": 76,
+      "g": 57,
+      "b": 59
+    },
+    "aspectRatio": 0.9697
+  },
+  "2253331": {
+    "id": "2253331",
+    "title": "Pamir Hunt",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2253331.jpg",
+    "svgPath": "assets/vectors/2253331.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 668,
+      "y": 380,
+      "width": 1276,
+      "height": 832
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 198,
+      "g": 185,
+      "b": 147
+    },
+    "aspectRatio": 1.5337
+  },
+  "2259266": {
+    "id": "2259266",
+    "title": "STNM Ventures",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2259266.jpg",
+    "svgPath": "assets/vectors/2259266.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 81,
+      "g": 68,
+      "b": 67
+    },
+    "aspectRatio": 1
+  },
+  "2264262": {
+    "id": "2264262",
+    "title": "GunSync",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2264262.jpg",
+    "svgPath": "assets/vectors/2264262.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 528,
+      "y": 296,
+      "width": 1424,
+      "height": 916
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 64,
+      "g": 86,
+      "b": 93
+    },
+    "aspectRatio": 1.5546
+  },
+  "2267684": {
+    "id": "2267684",
+    "title": "Shooting Foundation",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2267684.jpg",
+    "svgPath": "assets/vectors/2267684.svg",
+    "dimensions": {
+      "width": 2012,
+      "height": 2013
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 2012,
+      "height": 2013
+    },
+    "background": {
+      "r": 217,
+      "g": 217,
+      "b": 217
+    },
+    "dominantForeground": {
+      "r": 53,
+      "g": 75,
+      "b": 84
+    },
+    "aspectRatio": 0.9995
+  },
+  "2269929": {
+    "id": "2269929",
+    "title": "Full Throttle Arms",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2269929.jpg",
+    "svgPath": "assets/vectors/2269929.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 696,
+      "y": 324,
+      "width": 1248,
+      "height": 888
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 45,
+      "g": 45,
+      "b": 45
+    },
+    "aspectRatio": 1.4054
+  },
+  "2272934": {
+    "id": "2272934",
+    "title": "Dynamic Concepts",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2272934.jpg",
+    "svgPath": "assets/vectors/2272934.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 468,
+      "y": 508,
+      "width": 1064,
+      "height": 232
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 191,
+      "g": 167,
+      "b": 153
+    },
+    "aspectRatio": 4.5862
+  },
+  "2279856": {
+    "id": "2279856",
+    "title": "Sanspat",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2279856.jpg",
+    "svgPath": "assets/vectors/2279856.svg",
+    "dimensions": {
+      "width": 2012,
+      "height": 2013
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1992,
+      "height": 2013
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 60,
+      "g": 61,
+      "b": 62
+    },
+    "aspectRatio": 0.9896
+  },
+  "2306458": {
+    "id": "2306458",
+    "title": "Zeoli Army",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2306458.jpg",
+    "svgPath": "assets/vectors/2306458.svg",
+    "dimensions": {
+      "width": 1521,
+      "height": 1521
+    },
+    "bbox": {
+      "x": 76,
+      "y": 76,
+      "width": 1368,
+      "height": 1368
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 55,
+      "g": 48,
+      "b": 82
+    },
+    "aspectRatio": 1
+  },
+  "2317158": {
+    "id": "2317158",
+    "title": "Strategic Rise",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2317158.jpg",
+    "svgPath": "assets/vectors/2317158.svg",
+    "dimensions": {
+      "width": 1000,
+      "height": 1000
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 884,
+      "height": 1000
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 151,
+      "g": 151,
+      "b": 152
+    },
+    "aspectRatio": 0.884
+  },
+  "2345424": {
+    "id": "2345424",
+    "title": "Shield our Faith",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2345424.jpg",
+    "svgPath": "assets/vectors/2345424.svg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1250
+    },
+    "bbox": {
+      "x": 664,
+      "y": 276,
+      "width": 1260,
+      "height": 932
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "dominantForeground": {
+      "r": 116,
+      "g": 117,
+      "b": 118
+    },
+    "aspectRatio": 1.3519
+  },
+  "2351828": {
+    "id": "2351828",
+    "title": "Cabinet Installer Academy",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2351828.jpg",
+    "svgPath": "assets/vectors/2351828.svg",
+    "dimensions": {
+      "width": 1624,
+      "height": 1678
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1624,
+      "height": 1678
+    },
+    "background": {
+      "r": 180,
+      "g": 142,
+      "b": 126
+    },
+    "dominantForeground": {
+      "r": 191,
+      "g": 188,
+      "b": 186
+    },
+    "aspectRatio": 0.9678
+  },
+  "2355830": {
+    "id": "2355830",
+    "title": "Shogun Logo design",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2355830.jpg",
+    "svgPath": "assets/vectors/2355830.svg",
+    "dimensions": {
+      "width": 1440,
+      "height": 2880
+    },
+    "bbox": {
+      "x": 72,
+      "y": 72,
+      "width": 1296,
+      "height": 2308
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 40,
+      "g": 35,
+      "b": 33
+    },
+    "aspectRatio": 0.5615
+  },
+  "2357946": {
+    "id": "2357946",
+    "title": "Skout",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2357946.jpg",
+    "svgPath": "assets/vectors/2357946.svg",
+    "dimensions": {
+      "width": 1400,
+      "height": 3200
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 3200
+    },
+    "background": {
+      "r": 243,
+      "g": 97,
+      "b": 57
+    },
+    "dominantForeground": {
+      "r": 181,
+      "g": 177,
+      "b": 175
+    },
+    "aspectRatio": 0.4375
+  },
+  "2358953": {
+    "id": "2358953",
+    "title": "Cyse",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2358953.jpg",
+    "svgPath": "assets/vectors/2358953.svg",
+    "dimensions": {
+      "width": 1440,
+      "height": 1440
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1368,
+      "height": 1440
+    },
+    "background": {
+      "r": 10,
+      "g": 11,
+      "b": 13
+    },
+    "dominantForeground": {
+      "r": 105,
+      "g": 150,
+      "b": 207
+    },
+    "aspectRatio": 0.95
+  },
+  "2363572": {
+    "id": "2363572",
+    "title": "Virtus",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2363572.jpg",
+    "svgPath": "assets/vectors/2363572.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 2628
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 2628
+    },
+    "background": {
+      "r": 189,
+      "g": 161,
+      "b": 78
+    },
+    "dominantForeground": {
+      "r": 92,
+      "g": 93,
+      "b": 93
+    },
+    "aspectRatio": 0.6667
+  },
+  "2365552": {
+    "id": "2365552",
+    "title": "DC",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2365552.jpg",
+    "svgPath": "assets/vectors/2365552.svg",
+    "dimensions": {
+      "width": 1913,
+      "height": 2870
+    },
+    "bbox": {
+      "x": 0,
+      "y": 340,
+      "width": 1913,
+      "height": 2188
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 5,
+      "g": 4,
+      "b": 127
+    },
+    "aspectRatio": 0.8743
+  },
+  "2369595": {
+    "id": "2369595",
+    "title": "Fight Standard ",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2369595.jpg",
+    "svgPath": "assets/vectors/2369595.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 1752
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 1752
+    },
+    "background": {
+      "r": 220,
+      "g": 220,
+      "b": 218
+    },
+    "dominantForeground": {
+      "r": 155,
+      "g": 97,
+      "b": 106
+    },
+    "aspectRatio": 1
+  },
+  "2370088": {
+    "id": "2370088",
+    "title": "Noctis",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2370088.jpg",
+    "svgPath": "assets/vectors/2370088.svg",
+    "dimensions": {
+      "width": 1379,
+      "height": 1379
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1379,
+      "height": 1379
+    },
+    "background": {
+      "r": 6,
+      "g": 6,
+      "b": 6
+    },
+    "dominantForeground": {
+      "r": 221,
+      "g": 221,
+      "b": 221
+    },
+    "aspectRatio": 1
+  },
+  "2371736": {
+    "id": "2371736",
+    "title": "Wren ",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2371736.jpg",
+    "svgPath": "assets/vectors/2371736.svg",
+    "dimensions": {
+      "width": 1440,
+      "height": 1440
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1368,
+      "height": 1440
+    },
+    "background": {
+      "r": 181,
+      "g": 97,
+      "b": 63
+    },
+    "dominantForeground": {
+      "r": 242,
+      "g": 225,
+      "b": 215
+    },
+    "aspectRatio": 0.95
+  },
+  "2372771": {
+    "id": "2372771",
+    "title": "Feral",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2372771.jpg",
+    "svgPath": "assets/vectors/2372771.svg",
+    "dimensions": {
+      "width": 1752,
+      "height": 2628
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1752,
+      "height": 2628
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 70,
+      "g": 75,
+      "b": 78
+    },
+    "aspectRatio": 0.6667
+  },
+  "2377284": {
+    "id": "2377284",
+    "title": "ZeroDark30",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2377284.jpg",
+    "svgPath": "assets/vectors/2377284.svg",
+    "dimensions": {
+      "width": 1945,
+      "height": 1296
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1945,
+      "height": 1296
+    },
+    "background": {
+      "r": 58,
+      "g": 54,
+      "b": 53
+    },
+    "dominantForeground": {
+      "r": 93,
+      "g": 119,
+      "b": 104
+    },
+    "aspectRatio": 1.5008
+  },
+  "2391685": {
+    "id": "2391685",
+    "title": "Overwatch Roof Systems",
+    "category": "tactical",
+    "originalImage": "crimadezignz-portfolio/images/2391685.jpg",
+    "svgPath": "assets/vectors/2391685.svg",
+    "dimensions": {
+      "width": 1638,
+      "height": 2185
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1638,
+      "height": 2185
+    },
+    "background": {
+      "r": 222,
+      "g": 222,
+      "b": 220
+    },
+    "dominantForeground": {
+      "r": 134,
+      "g": 133,
+      "b": 133
+    },
+    "aspectRatio": 0.7497
+  },
+  "2402858": {
+    "id": "2402858",
+    "title": "Skandipaw",
+    "category": "symbolic",
+    "originalImage": "crimadezignz-portfolio/images/2402858.jpg",
+    "svgPath": "assets/vectors/2402858.svg",
+    "dimensions": {
+      "width": 1364,
+      "height": 2046
+    },
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1364,
+      "height": 2046
+    },
+    "background": {
+      "r": 254,
+      "g": 254,
+      "b": 254
+    },
+    "dominantForeground": {
+      "r": 94,
+      "g": 100,
+      "b": 98
+    },
+    "aspectRatio": 0.6667
+  },
+  "2403704": {
+    "id": "2403704",
+    "title": "The Agency Circle",
+    "category": "monogram",
+    "originalImage": "crimadezignz-portfolio/images/2403704.jpg",
+    "svgPath": "assets/vectors/2403704.svg",
+    "dimensions": {
+      "width": 1440,
+      "height": 1440
+    },
+    "bbox": {
+      "x": 72,
+      "y": 72,
+      "width": 1296,
+      "height": 1296
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "dominantForeground": {
+      "r": 42,
+      "g": 38,
+      "b": 35
+    },
+    "aspectRatio": 1
+  }
+}

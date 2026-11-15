@@ -9,7 +9,9 @@ RUN chown -R node:node /app
 # Copy application files
 COPY --chown=node:node index.html /app/
 COPY --chown=node:node styles.css /app/
+COPY --chown=node:node surface-stage.css /app/
 COPY --chown=node:node app.js /app/
+COPY --chown=node:node surface-stage.js /app/
 COPY --chown=node:node portfolio-data.js /app/
 COPY --chown=node:node server.js /app/
 COPY --chown=node:node robots.txt /app/
@@ -22,6 +24,7 @@ COPY --chown=node:node favicon-32x32.png /app/
 COPY --chown=node:node favicon-48x48.png /app/
 COPY --chown=node:node favicon-64x64.png /app/
 COPY --chown=node:node apple-touch-icon.png /app/
+COPY --chown=node:node assets /app/assets/
 COPY --chown=node:node crimadezignz-profile-assets /app/crimadezignz-profile-assets/
 COPY --chown=node:node crimadezignz-portfolio /app/crimadezignz-portfolio/
 

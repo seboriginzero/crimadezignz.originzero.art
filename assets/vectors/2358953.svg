@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1440" width="1440" height="1440" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="2358953" title="Cyse" archive="99designs-#2358953"/>
+    <originZero:geometry width="1440" height="1440" bbox="0,0,1368,1440"/>
+    <originZero:chroma background="rgb(10,11,13)" dominant="rgb(105,150,207)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-2358953">
+      <rect x="0" y="0" width="1368" height="1440"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/2358953.jpg" x="0" y="0" width="1440" height="1440" clip-path="url(#markClip-2358953)"/>
+</svg>

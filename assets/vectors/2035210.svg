@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1752 1752" width="1752" height="1752" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="2035210" title="North%20West%20Defense%20Academy" archive="99designs-#2035210"/>
+    <originZero:geometry width="1752" height="1752" bbox="0,0,1752,1752"/>
+    <originZero:chroma background="rgb(105,103,104)" dominant="rgb(103,108,111)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-2035210">
+      <rect x="0" y="0" width="1752" height="1752"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/2035210.jpg" x="0" y="0" width="1752" height="1752" clip-path="url(#markClip-2035210)"/>
+</svg>

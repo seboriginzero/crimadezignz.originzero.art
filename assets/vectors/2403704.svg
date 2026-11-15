@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1440" width="1440" height="1440" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="2403704" title="The%20Agency%20Circle" archive="99designs-#2403704"/>
+    <originZero:geometry width="1440" height="1440" bbox="72,72,1296,1296"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(42,38,35)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-2403704">
+      <rect x="72" y="72" width="1296" height="1296"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/2403704.jpg" x="0" y="0" width="1440" height="1440" clip-path="url(#markClip-2403704)"/>
+</svg>

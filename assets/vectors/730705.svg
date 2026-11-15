@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1898 1440" width="1898" height="1440" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="730705" title="Gestalt%20Performance" archive="99designs-#730705"/>
+    <originZero:geometry width="1898" height="1440" bbox="604,552,692,336"/>
+    <originZero:chroma background="rgb(255,255,255)" dominant="rgb(99,99,100)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-730705">
+      <rect x="604" y="552" width="692" height="336"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/730705.jpg" x="0" y="0" width="1898" height="1440" clip-path="url(#markClip-730705)"/>
+</svg>

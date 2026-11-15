@@ -1137,6 +1137,87 @@ class AvantGardeAtelierApp {
       });
     }
 
+    // Live Surface Stage (10-Surface Master Stage) Integration
+    const view2DBtn = document.getElementById("viewMode2DBtn");
+    const viewStageBtn = document.getElementById("viewModeStageBtn");
+    const viewport2D = document.getElementById("modal2DViewport");
+    const containerStage = document.getElementById("surfaceStageContainer");
+
+    const setViewMode = (mode) => {
+      if (mode === "stage") {
+        if (viewStageBtn) viewStageBtn.classList.add("active");
+        if (view2DBtn) view2DBtn.classList.remove("active");
+        if (viewport2D) viewport2D.style.display = "none";
+        if (containerStage) containerStage.classList.add("active");
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.render();
+        this.playMicroTone(640, 0.04);
+      } else {
+        if (view2DBtn) view2DBtn.classList.add("active");
+        if (viewStageBtn) viewStageBtn.classList.remove("active");
+        if (viewport2D) viewport2D.style.display = "flex";
+        if (containerStage) containerStage.classList.remove("active");
+        this.playMicroTone(480, 0.04);
+      }
+    };
+
+    if (view2DBtn) view2DBtn.addEventListener("click", () => setViewMode("2d"));
+    if (viewStageBtn) viewStageBtn.addEventListener("click", () => setViewMode("stage"));
+
+    // Surface Stage Dock Controls Binding
+    document.querySelectorAll(".stage-surface-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const idx = parseInt(btn.getAttribute("data-surface"), 10);
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.selectSurface(idx);
+        this.playMicroTone(560 + idx * 20, 0.02);
+      });
+    });
+
+    document.querySelectorAll(".stage-finish-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const finish = btn.getAttribute("data-finish");
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.selectFinish(finish);
+        this.playMicroTone(720, 0.02);
+      });
+    });
+
+    const angleSlider = document.getElementById("stageAngleSlider");
+    if (angleSlider) {
+      angleSlider.addEventListener("input", (e) => {
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.setLightAngle(e.target.value);
+      });
+    }
+
+    const scaleSlider = document.getElementById("stageScaleSlider");
+    if (scaleSlider) {
+      scaleSlider.addEventListener("input", (e) => {
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.setLogoScale(e.target.value / 100);
+      });
+    }
+
+    const variantBtn = document.getElementById("stageVariantBtn");
+    if (variantBtn) {
+      variantBtn.addEventListener("click", () => {
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.toggleVariant();
+        this.playMicroTone(680, 0.03);
+      });
+    }
+
+    const knockoutBtn = document.getElementById("stageKnockoutBtn");
+    if (knockoutBtn) {
+      knockoutBtn.addEventListener("click", () => {
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.toggleKnockout();
+        this.playMicroTone(600, 0.03);
+      });
+    }
+
+    const exportBtn = document.getElementById("stageExportBtn");
+    if (exportBtn) {
+      exportBtn.addEventListener("click", () => {
+        if (window.SURFACE_STAGE) window.SURFACE_STAGE.exportHighResPNG();
+        this.playMicroTone(880, 0.06);
+      });
+    }
+
     window.addEventListener("keydown", (e) => {
       if (!modal || !modal.classList.contains("open")) return;
       if (e.key === "Escape") {
@@ -1173,6 +1254,14 @@ class AvantGardeAtelierApp {
 
     const idEl = document.getElementById("modalId");
     if (idEl) idEl.textContent = `#${item.id}`;
+
+    const markIdLabel = document.getElementById("modalMarkIdLabel");
+    if (markIdLabel) markIdLabel.textContent = `#${item.id}`;
+
+    // Sync Live Surface Stage with active mark
+    if (window.SURFACE_STAGE) {
+      window.SURFACE_STAGE.loadMark(item);
+    }
 
     const dateEl = document.getElementById("modalDate");
     if (dateEl) dateEl.textContent = item.createdAt ? item.createdAt.slice(0, 10) : "Verified";

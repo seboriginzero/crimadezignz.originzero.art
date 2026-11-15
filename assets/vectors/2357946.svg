@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 3200" width="1400" height="3200" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="2357946" title="Skout" archive="99designs-#2357946"/>
+    <originZero:geometry width="1400" height="3200" bbox="0,0,1400,3200"/>
+    <originZero:chroma background="rgb(243,97,57)" dominant="rgb(181,177,175)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-2357946">
+      <rect x="0" y="0" width="1400" height="3200"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/2357946.jpg" x="0" y="0" width="1400" height="3200" clip-path="url(#markClip-2357946)"/>
+</svg>

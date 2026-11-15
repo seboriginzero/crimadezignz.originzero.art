@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2012 2013" width="2012" height="2013" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="2267684" title="Shooting%20Foundation" archive="99designs-#2267684"/>
+    <originZero:geometry width="2012" height="2013" bbox="0,0,2012,2013"/>
+    <originZero:chroma background="rgb(217,217,217)" dominant="rgb(53,75,84)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-2267684">
+      <rect x="0" y="0" width="2012" height="2013"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/2267684.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#markClip-2267684)"/>
+</svg>

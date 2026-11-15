@@ -30,6 +30,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="surface-stage.css">
 </head>
 <body class="darkroom-active">
   <!-- Custom Interactive Magnetic Cursor -->
@@ -216,12 +217,117 @@
       <button class="modal-nav-arrow modal-next-arrow magnetic-target" id="modalNextBtn" aria-label="Next Mark">▶</button>
       <button class="modal-close-btn magnetic-target" id="modalCloseBtn" aria-label="Close Dialog">✕</button>
       
+      <!-- Modal View Mode Switch: 2D Artwork vs Live Surface Stage (10) -->
+      <div class="modal-view-mode-bar">
+        <div class="view-mode-tabs">
+          <button class="view-mode-btn active magnetic-target" id="viewMode2DBtn" data-mode="2d">
+            <span>◻ 2D ARTWORK</span>
+          </button>
+          <button class="view-mode-btn magnetic-target" id="viewModeStageBtn" data-mode="stage">
+            <span>❖ SURFACE STAGE (10)</span>
+            <span class="stage-pill-badge">LIVE 3D</span>
+          </button>
+        </div>
+        <div class="stage-quick-meta">
+          <span class="meta-tag-zero-ai">● ZERO-AI DETERMINISTIC</span>
+          <span id="modalMarkIdLabel">#000000</span>
+        </div>
+      </div>
+      
       <div class="modal-image-wrapper">
-        <img src="" alt="" class="modal-image-display" id="modalImage">
-        <button class="modal-zoom-btn magnetic-target" id="modalZoomBtn" aria-label="Toggle Image Zoom">
-          <span class="zoom-icon">⚲</span>
-          <span id="zoomBtnText">ZOOM 2X</span>
-        </button>
+        <!-- 1. Classic 2D Artwork View -->
+        <div class="modal-2d-viewport" id="modal2DViewport">
+          <img src="" alt="" class="modal-image-display" id="modalImage">
+          <button class="modal-zoom-btn magnetic-target" id="modalZoomBtn" aria-label="Toggle Image Zoom">
+            <span class="zoom-icon">⚲</span>
+            <span id="zoomBtnText">ZOOM 2X</span>
+          </button>
+        </div>
+
+        <!-- 2. Live Surface Stage (10-Surface Master Stage) -->
+        <div class="surface-stage-container" id="surfaceStageContainer">
+          <!-- 3D Viewport for active surface plinth -->
+          <div class="surface-stage-viewport" id="surfaceStageViewport"></div>
+
+          <!-- Master Interactive Dock -->
+          <div class="stage-dock" id="stageDock">
+            <!-- Telemetry Bar -->
+            <div class="stage-telemetry-bar">
+              <div class="telemetry-item">
+                <span>MODE: </span><strong>DETERMINISTIC VECTOR</strong>
+              </div>
+              <div class="telemetry-item">
+                <span>SURFACE: </span><strong id="dockSurfaceName">01 COTTON CARD 600GSM</strong>
+              </div>
+              <div class="telemetry-item">
+                <span>FINISH: </span><strong id="dockFinishName">ORIGINAL BRAND</strong>
+              </div>
+              <div class="telemetry-item">
+                <span>CONTRAST: </span><strong id="dockContrastVal">14.8:1</strong>
+                <span class="telemetry-wcag-badge" id="dockWcagBadge">AAA</span>
+              </div>
+            </div>
+
+            <!-- Surface Ribbon Selector (01 - 10) -->
+            <div class="stage-surface-ribbon" id="stageSurfaceRibbon">
+              <button class="stage-surface-btn active magnetic-target" data-surface="0"><span class="surface-btn-num">[1]</span> 01 Cotton Card</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="1"><span class="surface-btn-num">[2]</span> 02 Apparel 280g</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="2"><span class="surface-btn-num">[3]</span> 03 Ceramic Mug</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="3"><span class="surface-btn-num">[4]</span> 04 Frosted Glass</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="4"><span class="surface-btn-num">[5]</span> 05 Leather Folio</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="5"><span class="surface-btn-num">[6]</span> 06 Anodized Metal</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="6"><span class="surface-btn-num">[7]</span> 07 Luxury Box</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="7"><span class="surface-btn-num">[8]</span> 08 OS & Favicon</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="8"><span class="surface-btn-num">[9]</span> 09 Blade Sign</button>
+              <button class="stage-surface-btn magnetic-target" data-surface="9"><span class="surface-btn-num">[0]</span> 10 Window Vinyl</button>
+            </div>
+
+            <!-- Controls & Sliders Row -->
+            <div class="stage-controls-row">
+              <!-- Physical Finishes -->
+              <div class="stage-finish-selector" id="stageFinishSelector">
+                <button class="stage-finish-btn active magnetic-target" data-finish="original">● Original</button>
+                <button class="stage-finish-btn magnetic-target" data-finish="spot_uv">✧ Spot UV</button>
+                <button class="stage-finish-btn magnetic-target" data-finish="gold_foil">★ 24K Gold</button>
+                <button class="stage-finish-btn magnetic-target" data-finish="silver_foil">✦ Silver</button>
+                <button class="stage-finish-btn magnetic-target" data-finish="blind_deboss">⌗ Deboss</button>
+                <button class="stage-finish-btn magnetic-target" data-finish="backlit_glow">☀ Glow</button>
+              </div>
+
+              <!-- Sliders & Interactive Adjustments -->
+              <div class="stage-controls-group">
+                <!-- Light Angle Slider -->
+                <div class="stage-slider-wrap">
+                  <span>LIGHT:</span>
+                  <input type="range" id="stageAngleSlider" min="0" max="360" value="125">
+                  <span class="stage-slider-val" id="stageAngleVal">125°</span>
+                </div>
+
+                <!-- Logo Scale Slider -->
+                <div class="stage-slider-wrap">
+                  <span>SCALE:</span>
+                  <input type="range" id="stageScaleSlider" min="25" max="150" value="100">
+                  <span class="stage-slider-val" id="stageScaleVal">100%</span>
+                </div>
+
+                <!-- Surface Variant Toggle (Contextual) -->
+                <button class="stage-variant-btn magnetic-target" id="stageVariantBtn" style="display: none;">
+                  VARIANT [V]
+                </button>
+
+                <!-- Knockout Mode Toggle -->
+                <button class="stage-knockout-btn active magnetic-target" id="stageKnockoutBtn" title="Toggle Isolated Mark vs Original Card [O]">
+                  ISOLATED MARK [ON]
+                </button>
+
+                <!-- High-Res PNG Export Button -->
+                <button class="stage-export-btn magnetic-target" id="stageExportBtn" title="Export High-Res PNG (2400x1800) [E]">
+                  <span>EXPORT PNG (2400x1800) ⤓</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="modal-header-row">
@@ -304,5 +410,6 @@
   <!-- Scripts -->
   <script src="portfolio-data.js"></script>
   <script src="app.js"></script>
+  <script src="surface-stage.js"></script>
 </body>
 </html>

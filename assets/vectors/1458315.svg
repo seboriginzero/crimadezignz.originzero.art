@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 1332" width="1460" height="1332" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="1458315" title="West%20Group%20" archive="99designs-#1458315"/>
+    <originZero:geometry width="1460" height="1332" bbox="584,572,288,312"/>
+    <originZero:chroma background="rgb(246,248,247)" dominant="rgb(62,120,166)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-1458315">
+      <rect x="584" y="572" width="288" height="312"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/1458315.jpg" x="0" y="0" width="1460" height="1332" clip-path="url(#markClip-1458315)"/>
+</svg>

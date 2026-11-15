@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2012 2013" width="2012" height="2013" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="2251277" title="SENDERO%20Shooting%20Techonlogies" archive="99designs-#2251277"/>
+    <originZero:geometry width="2012" height="2013" bbox="0,0,1952,2013"/>
+    <originZero:chroma background="rgb(100,100,100)" dominant="rgb(76,57,59)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-2251277">
+      <rect x="0" y="0" width="1952" height="2013"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/2251277.jpg" x="0" y="0" width="2012" height="2013" clip-path="url(#markClip-2251277)"/>
+</svg>

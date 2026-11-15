@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1250" width="2000" height="1250" data-origin="originzero-deterministic">
+  <metadata>
+    <originZero:mark id="2035521" title="210%20TacLabs%20-%20Logo%20Proposal" archive="99designs-#2035521"/>
+    <originZero:geometry width="2000" height="1250" bbox="204,0,1620,1250"/>
+    <originZero:chroma background="rgb(0,0,0)" dominant="rgb(46,45,38)"/>
+  </metadata>
+  <defs>
+    <clipPath id="markClip-2035521">
+      <rect x="204" y="0" width="1620" height="1250"/>
+    </clipPath>
+  </defs>
+  <image href="/crimadezignz-portfolio/images/2035521.jpg" x="0" y="0" width="2000" height="1250" clip-path="url(#markClip-2035521)"/>
+</svg>
